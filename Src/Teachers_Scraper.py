@@ -139,7 +139,7 @@ def scrape_teacher_data(teacher_url):
         # 暂停程序
         raise e
 
-def main():
+if __name__ == "__main__":
     # 创建保存数据的文件夹
     output_dir = "NUIST"
     if not os.path.exists(output_dir):
@@ -175,6 +175,3 @@ def main():
     
     print(f"爬取完成！共爬取了 {len(all_teachers_data)} 位教师的信息")
     print(f"数据已保存至 {output_dir} 文件夹")
-
-if __name__ == "__main__":
-    main()
