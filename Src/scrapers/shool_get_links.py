@@ -2,14 +2,14 @@ import requests
 from bs4 import BeautifulSoup
 import time
 import os
+import certifi
 
 class SchoolScraper:
     def __init__(self, school_name: str):
         """初始化爬虫"""
         self.school_name = school_name
-        # 清除可能导致问题的环境变量
-        if "SSL_CERT_FILE" in os.environ:
-            del os.environ["SSL_CERT_FILE"]
+        # 设置证书路径
+        self.cert_path = certifi.where()
     
     def get_all_teacher_links(self):
         """获取门户网页上所有教师的链接"""
@@ -25,12 +25,13 @@ class SchoolScraper:
         
         # 循环遍历所有页面
         for page in range(1, total_pages + 1):
-            list_url = list_url_template.format(page)
+            # 这里直接使用template，因为URL不需要格式化
+            list_url = list_url_template
             print(f"正在爬取第{page}页教师列表...")
             
             try:
-                # 获取页面内容
-                response = requests.get(list_url)
+                # 获取页面内容，使用证书路径
+                response = requests.get(list_url, verify=self.cert_path)
                 soup = BeautifulSoup(response.text, 'html.parser')
                 
                 # 查找所有教师链接 - 选择器需要根据实际网页结构调整

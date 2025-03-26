@@ -70,7 +70,7 @@ scrape_prompt = """
             "phd": "博士（同上）" 
         }
     },
-    "likes": （点赞数）
+    "likes": （点赞数，int数字）
     "academic": {
         "research_fields": ["研究领域1", "研究领域2", ……],
         "publications": [

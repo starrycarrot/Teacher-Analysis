@@ -4,7 +4,12 @@
 import json
 import os
 import time
+import certifi
 from playwright.sync_api import sync_playwright
+
+# 配置证书环境变量
+os.environ['SSL_CERT_FILE'] = certifi.where()
+os.environ['REQUESTS_CA_BUNDLE'] = certifi.where()
 
 class LoginManager:
     """
@@ -89,7 +94,12 @@ def search_teacher(teacher_name, teacher_org, headless=False):
             # 启动浏览器，优化启动参数
             browser = playwright.chromium.launch(
                 headless=headless,
-                slow_mo=50 if not headless else 0  # 无头模式下不需要减速
+                slow_mo=50 if not headless else 0,  # 无头模式下不需要减速
+                env={
+                    "SSL_CERT_FILE": certifi.where(),
+                    "REQUESTS_CA_BUNDLE": certifi.where()
+                },
+                ignore_default_args=["--disable-extensions"]
             )
             
             # 创建浏览器上下文，如果cookies存在则加载
@@ -247,5 +257,6 @@ def search_teacher(teacher_name, teacher_org, headless=False):
                 browser.close()
 
 if __name__ == "__main__":  
+    # 测试搜索；以我们的陈海山校长为例
     profile_url = search_teacher("陈海山", "南京信息工程大学", headless=False)
     print(f"找到的URL: {profile_url}")

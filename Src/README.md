@@ -23,9 +23,10 @@ Src/
 
 ### 1. 主模块 (main.py)
 - 系统的入口点，负责协调各个模块的工作流程
-- 包含两个主要函数：
+- 包含以下主要函数：
   - `process_single_teacher`: 处理单个教师的信息采集、质量评估和数据合并
-  - `process_all_teachers`: 处理整个学校的所有教师数据
+  - `process_all_teachers`: 处理整个学校的所有教师数据，支持测试模式限制教师数量
+  - `test_single_teacher`: 测试单个教师的处理流程，输出摘要信息
 
 ### 2. 爬虫模块 (scrapers/)
 
@@ -110,9 +111,23 @@ output_dir = "NUIST_teacher_data"
 python -m Src.main
 ```
 
-3. 数据将保存在指定的输出目录中，每个教师对应一个JSON文件
+3. 数据将保存在指定的输出目录中，每个教师对应一个JSON文件，文件名为教师姓名
 
-4. 单独使用AMiner搜索模块：
+4. 测试功能：
+```python
+# 启用测试模式，仅处理前3位教师
+process_all_teachers(school_name, output_dir, test_mode=True, test_limit=3)
+
+# 或者直接修改main.py中的测试标志
+test_mode = True  # 设置为True启用测试模式
+test_limit = 3    # 测试模式下处理的教师数量
+
+# 测试单个特定教师
+test_url = "http://example.com/teacher/profile"  # 替换为实际教师URL
+test_single_teacher(test_url, school_name)
+```
+
+5. 单独使用AMiner搜索模块：
 ```python
 from Src.scrapers.aminer_search import search_teacher
 
