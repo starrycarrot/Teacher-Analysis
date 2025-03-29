@@ -5,6 +5,7 @@ import json
 import os
 import time
 import certifi
+import logging
 from playwright.sync_api import sync_playwright
 
 # 配置证书环境变量
@@ -26,7 +27,7 @@ class LoginManager:
         
     def manual_login(self):
         """处理扫码登录流程"""
-        print("请打开浏览器扫码登录，登录完成后返回控制台按回车继续...")
+        logging.info("请打开浏览器扫码登录，登录完成后返回控制台按回车继续...")
         self.page.goto("https://www.aminer.cn/login", wait_until="domcontentloaded")
         input("登录完成后按回车键继续执行爬取...")
         
@@ -36,9 +37,9 @@ class LoginManager:
         
         # 保存登录状态
         if self.check_login():
-            print("登录成功，保存cookies...")
+            logging.info("登录成功，保存cookies...")
         else:
-            print("未检测到成功登录，但仍保存当前状态")
+            logging.warning("未检测到成功登录，但仍保存当前状态")
         self._save_cookies()
 
     def check_login(self):
@@ -48,16 +49,16 @@ class LoginManager:
             logout_elements = self.page.locator("text=退出登录").count()
             return logout_elements > 0
         except Exception as e:
-            print(f"检查登录状态时出错: {e}")
+            logging.error(f"检查登录状态时出错: {e}")
             return False
 
     def _save_cookies(self):
         """保存登录cookies和浏览器状态"""
         try:
             self.page.context.storage_state(path=self.cookies_file)
-            print(f"已保存浏览器状态: {self.cookies_file}")
+            logging.info(f"已保存浏览器状态: {self.cookies_file}")
         except Exception as e:
-            print(f"保存cookies时出错: {e}")
+            logging.error(f"保存cookies时出错: {e}")
 
 
 def search_teacher(teacher_name, teacher_org, headless=False):
@@ -80,7 +81,7 @@ def search_teacher(teacher_name, teacher_org, headless=False):
         with open(org_mapping_path, 'r', encoding='utf-8') as f:
             org_mapping = json.load(f)
     except Exception as e:
-        print(f"加载机构映射文件失败: {e}")
+        logging.error(f"加载机构映射文件失败: {e}")
         org_mapping = {teacher_org: [teacher_org]}
     
     with sync_playwright() as playwright:
@@ -113,7 +114,7 @@ def search_teacher(teacher_name, teacher_org, headless=False):
                 try:
                     browser_context_params["storage_state"] = cookies_path
                     context = browser.new_context(**browser_context_params)
-                    print("已加载登录状态")
+                    logging.info("已加载登录状态")
                 except Exception:
                     context = browser.new_context(**browser_context_params)
             else:
@@ -139,12 +140,12 @@ def search_teacher(teacher_name, teacher_org, headless=False):
             
             # 检查登录状态
             if not login_manager.check_login():
-                print("需要手动登录...")
+                logging.info("需要手动登录...")
                 login_manager.manual_login()
             else:
-                print("已成功登录")
+                logging.info("已成功登录")
                 
-            print(f"开始搜索 {teacher_name}...")
+            logging.info(f"开始搜索 {teacher_name}...")
             page.goto(f"https://www.aminer.cn/search/person?q={teacher_name}", 
                      wait_until="domcontentloaded", timeout=20000)
             
@@ -153,7 +154,7 @@ def search_teacher(teacher_name, teacher_org, headless=False):
             
             # 检查搜索结果是否存在
             if not page.wait_for_selector(result_selector, state="attached", timeout=15000):
-                print("未找到搜索结果")
+                logging.warning("未找到搜索结果")
                 return ""
             
             # 使用更高效的方式获取最大页码
@@ -176,7 +177,7 @@ def search_teacher(teacher_name, teacher_org, headless=False):
             
             # 遍历所有页面 - 使用更高效的方法
             while current_page <= max_pages:
-                print(f"检查第 {current_page} 页")
+                logging.info(f"检查第 {current_page} 页")
                 
                 # 使用JavaScript直接在页面中查找匹配结果，提高效率
                 found = page.evaluate("""
@@ -225,7 +226,7 @@ def search_teacher(teacher_name, teacher_org, headless=False):
                     if not profile_url.startswith("http"):
                         profile_url = "https://www.aminer.cn" + profile_url
                     
-                    print(f"找到匹配: {found.get('name', '未知')}")
+                    logging.info(f"找到匹配: {found.get('name', '未知')}")
                     return profile_url
                 
                 # 检查是否有下一页
@@ -243,17 +244,14 @@ def search_teacher(teacher_name, teacher_org, headless=False):
                 else:
                     break
             
-            print("未找到匹配的教师")
+            logging.warning("未找到匹配的教师")
             return ""
         except Exception as e:
-            print(f"搜索过程中发生错误: {e}")
+            logging.error(f"搜索过程中发生错误: {e}")
             return ""
         finally:
-            # 保存最终的浏览器状态
-            if login_manager and page:
-                login_manager._save_cookies()
-            
-            if browser:
+            # 关闭资源
+            if browser is not None:
                 browser.close()
 
 if __name__ == "__main__":  

@@ -1,6 +1,7 @@
 from scrapegraphai.graphs import SmartScraperGraph
 import os
 import certifi
+import logging
 
 
 # 环境变量设置
@@ -11,7 +12,7 @@ def scrape_profile(profile_url):
     """使用SmartScraperGraph爬取Aminer个人主页的详细信息"""
     # 使用智能爬虫爬取
     try:
-        print(f"开始使用SmartScraperGraph爬取个人主页: {profile_url}")
+        logging.info(f"开始使用SmartScraperGraph爬取个人主页: {profile_url}")
         
         # 创建智能爬虫实例
         smart_scraper = SmartScraperGraph(
@@ -21,19 +22,19 @@ def scrape_profile(profile_url):
         )
         
         # 执行爬取
-        print("执行SmartScraperGraph.run()...")
+        logging.info("执行SmartScraperGraph.run()...")
         result = smart_scraper.run()
         
         # 检查结果
         if result is None:
-            print("爬取结果为None")
+            logging.warning("爬取结果为None")
             return {}
             
-        print(f"爬取成功，获取到数据: {type(result)}")
+        logging.info(f"爬取成功，获取到数据: {type(result)}")
         return result
     except Exception as e:
         import traceback
-        print(f"爬取个人主页 {profile_url} 失败:")
+        logging.error(f"爬取个人主页 {profile_url} 失败:")
         raise e
 
 # 爬虫的图配置
@@ -68,6 +69,11 @@ scrape_prompt = """
             "undergrad": "本科（格式：1995-1999 学校全称 所学专业）",
             "master": "硕士（同上）",
             "phd": "博士（同上）" 
+        },
+        "work_experience": {
+            "experience1": "工作经历（格式：2010-2015 单位 职业）",
+            "experience2": "工作经历（格式：2015-2020 同上）",
+            "experience3": "工作经历（格式：2020-至今 同上）",
         }
     },
     "likes": （点赞数，int数字）

@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import time
 import os
 import certifi
+import logging
 from typing import List, Dict, Tuple
 
 class SchoolScraper:
@@ -11,6 +12,10 @@ class SchoolScraper:
         self.school_name = school_name
         # 设置证书路径
         self.cert_path = certifi.where()
+        # 添加请求头模拟浏览器
+        self.headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+        }
     
     def get_all_teacher_links(self) -> List[Dict]:
         """获取门户网页上所有教师的链接和姓名
@@ -34,11 +39,11 @@ class SchoolScraper:
             for page in range(1, total_pages + 1):
                 # 根据页码构建URL
                 list_url = f"https://faculty.nuist.edu.cn/dwlistjs.jsp?urltype=tsites.CollegeTeacherList&wbtreeid=1021&st=0&id=1103&page={page}&lang=zh_CN#collegeteacher"
-                print(f"正在爬取第{page}页教师列表...")
+                logging.info(f"正在爬取第{page}页教师列表...")
                 
                 try:
-                    # 获取页面内容，使用证书路径
-                    response = requests.get(list_url, verify=self.cert_path)
+                    # 获取页面内容，使用证书路径和请求头
+                    response = requests.get(list_url, verify=self.cert_path, headers=self.headers, timeout=30)
                     soup = BeautifulSoup(response.text, 'html.parser')
                     
                     # 南信大的HTML结构是独特的，我们需要直接查找包含教师信息的<li>元素
@@ -66,16 +71,16 @@ class SchoolScraper:
                             teacher_info_list.append(teacher_info)
                             page_teacher_count += 1
                     
-                    print(f"第{page}页找到{page_teacher_count}位教师")
+                    logging.info(f"第{page}页找到{page_teacher_count}位教师")
                     
                     # 添加延迟，避免请求过快
                     time.sleep(1)
                     
                 except Exception as e:
-                    print(f"爬取第{page}页教师列表出错: {str(e)}")
+                    logging.error(f"爬取第{page}页教师列表出错: {str(e)}")
                     continue
         
-        print(f"总共找到{len(teacher_info_list)}位教师")
+        logging.info(f"总共找到{len(teacher_info_list)}位教师")
         return teacher_info_list
     
 if __name__ == "__main__":
