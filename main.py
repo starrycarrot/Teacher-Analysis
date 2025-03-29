@@ -18,13 +18,13 @@ os.environ['SSL_CERT_FILE'] = certifi.where()
 os.environ['REQUESTS_CA_BUNDLE'] = certifi.where()
 
 # 导入爬虫模块
-from Src.scrapers.shool_get_links import SchoolScraper
-from Src.scrapers.smart_scraper import scrape_profile
-from Src.scrapers.aminer_search import search_teacher
+from scrapers.shool_get_links import SchoolScraper
+from scrapers.smart_scraper import scrape_profile
+from scrapers.aminer_search import search_teacher
 
 # 导入工具模块
-from Src.utils import check_data_quality
-from Src.utils.merge_data import merge_data
+from utils import check_data_quality
+from utils.merge_data import merge_data
 
 class SimpleFormatter(logging.Formatter):
     """自定义格式化器，只在WARNING和ERROR级别显示级别前缀"""

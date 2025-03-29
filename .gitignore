@@ -1,0 +1,110 @@
+# 教师信息爬取系统 .gitignore 文件
+
+# ===== 项目特定忽略文件 =====
+# 忽略教师数据输出目录
+NUIST_teacher_data/
+
+# 忽略包含个人凭证的配置文件
+config/aminer_cookies.json
+
+# 忽略废弃的尝试目录
+废弃的尝试/
+
+# ===== Python相关 =====
+# 字节编译/优化文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 分发/打包
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虚拟环境
+venv/
+env/
+ENV/
+.env
+.venv
+env.bak/
+venv.bak/
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ===== IDE相关 =====
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Cursor编辑器
+.cursor/
+
+# ===== 系统文件 =====
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===== 日志文件 =====
+*.log
+logs/
+log/
+
+# ===== 数据文件 =====
+*.csv
+*.json
+!config/org_mapping.json
+
+# ===== 临时文件 =====
+*.bak
+*.tmp
+*.temp
+.*.swp 
