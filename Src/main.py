@@ -97,10 +97,11 @@ def process_single_teacher(teacher_info: Dict, force_aminer: bool = False) -> Op
     teacher_name = teacher_info["name"]
     school_name = "南京信息工程大学"  # 在这个例子中是硬编码的
     
-    logging.info(f"正在处理教师: {teacher_name}")
-    logging.info(f"网页URL: {teacher_url}")
+    logging.info(f"【信息】正在处理教师: {teacher_name}")
+    logging.info(f"【信息】网页URL: {teacher_url}")
     
     # 1. 学校数据采集
+    logging.info(f"【步骤1】开始爬取学校个人网页...")
     school_data = scrape_profile(teacher_url)
     # 把字典从爬虫原始输出的content里提取出来,得到真正的字典
     school_data = school_data["content"]
@@ -117,29 +118,29 @@ def process_single_teacher(teacher_info: Dict, force_aminer: bool = False) -> Op
         "school_url": teacher_url
     }
     
-    logging.info(f"已获取 {teacher_name} 的学校网页数据")
+    logging.info(f"【步骤1完成】已获取 {teacher_name} 的学校网页数据")
 
     # 2. 数据质量评估
-    logging.info("评估数据质量...")
+    logging.info(f"【步骤2】评估数据质量...")
     is_qualified = check_data_quality.check_data(school_data)
     if is_qualified and not force_aminer:  # 增加force_aminer的判断
         # 6. 如果数据合格且不强制使用AMiner，直接返回学校数据
-        logging.info(f"{teacher_name} 的学校数据质量合格，无需补充")
+        logging.info(f"【步骤2完成】{teacher_name} 的学校数据质量合格，无需补充")
         return school_data
     
     else:
         reason = "数据不完整" if not is_qualified else "强制使用AMiner"
-        logging.info(f"{teacher_name} 的学校数据{reason}，尝试从AMiner获取补充数据")
+        logging.info(f"【步骤2完成】{teacher_name} 的学校数据{reason}，尝试从AMiner获取补充数据")
         # 3. 先进行搜索得到教师的AMiner主页
-        logging.info(f"在AMiner搜索 {teacher_name}...")
+        logging.info(f"【步骤3】在AMiner搜索 {teacher_name}...")
         aminer_url = search_teacher(teacher_name, school_name)
         
         if not aminer_url:
-            logging.warning(f"未找到 {teacher_name} 的AMiner主页，返回原始数据")
+            logging.warning(f"【步骤3失败】未找到 {teacher_name} 的AMiner主页，返回原始数据")
             return school_data
 
         # 4. 爬取Aminer个人主页
-        logging.info(f"爬取 {teacher_name} 的AMiner主页数据...")
+        logging.info(f"【步骤4】爬取 {teacher_name} 的AMiner主页数据...")
         aminer_data = scrape_profile(aminer_url)
         # 把字典从爬虫原始输出的content里提取出来,得到真正的字典
         aminer_data = aminer_data["content"]
@@ -148,9 +149,10 @@ def process_single_teacher(teacher_info: Dict, force_aminer: bool = False) -> Op
         aminer_data["data_sources"] = {
             "aminer_url": aminer_url
         }
+        logging.info(f"【步骤4完成】已获取AMiner数据")
         
         # 5. 合并数据
-        logging.info("合并学校数据和AMiner数据...")
+        logging.info(f"【步骤5】合并学校数据和AMiner数据...")
         merged_data = merge_data(school_data, aminer_data)
         
         # 确保合并后的数据包含所有数据来源
@@ -160,7 +162,7 @@ def process_single_teacher(teacher_info: Dict, force_aminer: bool = False) -> Op
         }
         
         # 6. 返回合并数据
-        logging.info(f"{teacher_name} 的数据处理完成")
+        logging.info(f"【步骤6完成】{teacher_name} 的数据处理完成")
         return merged_data
     
 
@@ -198,14 +200,20 @@ def process_all_teachers(school_name: str, output_dir: str, test_mode: bool = Fa
             if filename.endswith('.json'):
                 teacher_name = os.path.splitext(filename)[0]
                 existing_teachers.append(teacher_name)
+        logging.info(f"===============================================")
         logging.info(f"发现已有 {len(existing_teachers)} 位教师的数据文件")
+        logging.info(f"===============================================")
 
     # 1. 获取所有教师链接和基本信息
+    logging.info(f"")
+    logging.info(f"【阶段1：获取教师列表】")
     logging.info(f"开始从 {school_name} 获取教师信息...")
     start_time = time.time()
     teacher_info_list = SchoolScraper(school_name).get_all_teacher_links()
     end_time = time.time()
     logging.info(f"获取到 {len(teacher_info_list)} 个教师信息，耗时 {end_time - start_time:.2f} 秒")
+    logging.info(f"【阶段1完成】")
+    logging.info(f"")
 
     # 测试模式下，只处理前几个教师
     if test_mode:
@@ -213,12 +221,14 @@ def process_all_teachers(school_name: str, output_dir: str, test_mode: bool = Fa
         teacher_info_list = teacher_info_list[:test_limit]
 
     # 2. 处理每个教师信息
+    logging.info(f"【阶段2：处理教师信息】")
     logging.info(f"开始处理教师信息... {'(强制使用AMiner)' if force_aminer else ''}")
     processed_count = 0
     skipped_count = 0
     
     for i, teacher_info in enumerate(teacher_info_list):
-        logging.info(f"处理第 {i+1}/{len(teacher_info_list)} 位教师...")
+        logging.info(f"")
+        logging.info(f"------ 处理第 {i+1}/{len(teacher_info_list)} 位教师 ------")
         
         # 获取教师姓名
         teacher_name = teacher_info["name"]
@@ -251,7 +261,10 @@ def process_all_teachers(school_name: str, output_dir: str, test_mode: bool = Fa
             logging.error(f"处理教师 {teacher_name} 数据时出错: {str(e)}")
             continue
     
+    logging.info(f"")
+    logging.info(f"===============================================")
     logging.info(f"✅ 所有任务完成！共处理 {processed_count} 位教师数据，跳过 {skipped_count} 位已有数据的教师")
+    logging.info(f"===============================================")
 
 if __name__ == "__main__":
     school_name = "南京信息工程大学"
