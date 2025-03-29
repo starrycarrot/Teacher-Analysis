@@ -25,17 +25,17 @@ from Src.scrapers.aminer_search import search_teacher
 from Src.utils import check_data_quality
 from Src.utils.merge_data import merge_data
 
-def process_single_teacher(teacher_url: str, school_name: str) -> Optional[Dict]:
+def process_single_teacher(teacher_info: Dict, force_aminer: bool = False) -> Optional[Dict]:
     """
     处理单个教师信息的完整流程
     
     输入：
-    teacher_url: 教师学校网页URL
-    school_name: 教师所属学校名称
+    teacher_info: 包含教师基本信息的字典，包括url和name
+    force_aminer: 是否强制使用AMiner搜索，默认为False
     
     流程：
     1. 学校个人网页数据采集
-    2. 数据质量评估（若合格，跳过3、4、5步骤）
+    2. 数据质量评估（若合格且不强制使用AMiner，跳过3、4、5步骤）
     3. 在Aminer搜索教师
     4. 爬取Aminer个人主页
     5. 合并数据
@@ -44,27 +44,43 @@ def process_single_teacher(teacher_url: str, school_name: str) -> Optional[Dict]
     输出：
     教师数据json字典
     """
-    print(f"正在处理教师网页: {teacher_url}")
+    teacher_url = teacher_info["url"]
+    teacher_name = teacher_info["name"]
+    school_name = "南京信息工程大学"  # 在这个例子中是硬编码的
+    
+    print(f"正在处理教师: {teacher_name}")
+    print(f"网页URL: {teacher_url}")
     
     # 1. 学校数据采集
     school_data = scrape_profile(teacher_url)
     # 把字典从爬虫原始输出的content里提取出来,得到真正的字典
     school_data = school_data["content"]
     
-    # 提取教师基本信息
-    teacher_name = school_data["basic_info"]["name"]
+    # 确保基本信息中包含从列表页获取的姓名信息
+    if "basic_info" not in school_data:
+        school_data["basic_info"] = {}
+    
+    # 使用从列表页获取的姓名信息填充或更新基本信息
+    school_data["basic_info"]["name"] = teacher_name
+    
+    # 添加数据来源信息
+    school_data["data_sources"] = {
+        "school_url": teacher_url
+    }
+    
     print(f"已获取 {teacher_name} 的学校网页数据")
 
     # 2. 数据质量评估
     print("评估数据质量...")
     is_qualified = check_data_quality.check_data(school_data)
-    if is_qualified:
-        # 6. 如果数据合格，直接返回学校数据，跳过3、4、5步骤
+    if is_qualified and not force_aminer:  # 增加force_aminer的判断
+        # 6. 如果数据合格且不强制使用AMiner，直接返回学校数据
         print(f"{teacher_name} 的学校数据质量合格，无需补充")
         return school_data
     
     else:
-        print(f"{teacher_name} 的学校数据不完整，尝试从AMiner获取补充数据")
+        reason = "数据不完整" if not is_qualified else "强制使用AMiner"
+        print(f"{teacher_name} 的学校数据{reason}，尝试从AMiner获取补充数据")
         # 3. 先进行搜索得到教师的AMiner主页
         print(f"在AMiner搜索 {teacher_name}...")
         aminer_url = search_teacher(teacher_name, school_name)
@@ -79,16 +95,27 @@ def process_single_teacher(teacher_url: str, school_name: str) -> Optional[Dict]
         # 把字典从爬虫原始输出的content里提取出来,得到真正的字典
         aminer_data = aminer_data["content"]
         
+        # 添加AMiner数据来源
+        aminer_data["data_sources"] = {
+            "aminer_url": aminer_url
+        }
+        
         # 5. 合并数据
         print("合并学校数据和AMiner数据...")
         merged_data = merge_data(school_data, aminer_data)
+        
+        # 确保合并后的数据包含所有数据来源
+        merged_data["data_sources"] = {
+            "school_url": teacher_url,
+            "aminer_url": aminer_url
+        }
         
         # 6. 返回合并数据
         print(f"{teacher_name} 的数据处理完成")
         return merged_data
     
 
-def process_all_teachers(school_name: str, output_dir: str, test_mode: bool = False, test_limit: int = 3) -> None:
+def process_all_teachers(school_name: str, output_dir: str, test_mode: bool = False, test_limit: int = 3, force_aminer: bool = False) -> None:
     """
     处理所有教师信息的完整流程
     
@@ -97,6 +124,7 @@ def process_all_teachers(school_name: str, output_dir: str, test_mode: bool = Fa
     output_dir: json数据输出目录
     test_mode: 是否为测试模式，默认为False
     test_limit: 测试模式下处理的教师数量，默认为3
+    force_aminer: 是否强制使用AMiner搜索，默认为False
 
     流程：
     1. 获取所有教师链接
@@ -111,38 +139,67 @@ def process_all_teachers(school_name: str, output_dir: str, test_mode: bool = Fa
         os.makedirs(output_dir)
         print(f"创建输出目录: {output_dir}")
 
-    # 1. 获取所有教师链接
-    print(f"开始从 {school_name} 获取教师链接...")
+    # 获取已处理的教师列表（从现有JSON文件中提取）
+    existing_teachers = []
+    if os.path.exists(output_dir):
+        for filename in os.listdir(output_dir):
+            if filename.endswith('.json'):
+                teacher_name = os.path.splitext(filename)[0]
+                existing_teachers.append(teacher_name)
+        print(f"发现已有 {len(existing_teachers)} 位教师的数据文件")
+
+    # 1. 获取所有教师链接和基本信息
+    print(f"开始从 {school_name} 获取教师信息...")
     start_time = time.time()
-    teacher_urls = SchoolScraper(school_name).get_all_teacher_links()
+    teacher_info_list = SchoolScraper(school_name).get_all_teacher_links()
     end_time = time.time()
-    print(f"获取到 {len(teacher_urls)} 个教师链接，耗时 {end_time - start_time:.2f} 秒")
+    print(f"获取到 {len(teacher_info_list)} 个教师信息，耗时 {end_time - start_time:.2f} 秒")
 
     # 测试模式下，只处理前几个教师
     if test_mode:
         print(f"⚠️ 测试模式已启用，仅处理前 {test_limit} 位教师")
-        teacher_urls = teacher_urls[:test_limit]
+        teacher_info_list = teacher_info_list[:test_limit]
 
     # 2. 处理每个教师信息
-    print(f"开始处理教师信息...")
+    print(f"开始处理教师信息... {'(强制使用AMiner)' if force_aminer else ''}")
     processed_count = 0
-    for i, teacher_url in enumerate(teacher_urls):
-        print(f"处理第 {i+1}/{len(teacher_urls)} 位教师...")
-        start_time = time.time()
-        teacher_data = process_single_teacher(teacher_url, school_name)
-        end_time = time.time()
-        
-        # 提取教师姓名用于文件命名
-        teacher_name = teacher_data["basic_info"]["name"]
-        # 存储单个教师数据为json文件
-        output_path = f"{output_dir}/{teacher_name}.json"
-        with open(output_path, "w", encoding="utf-8") as f:
-            json.dump(teacher_data, f, ensure_ascii=False, indent=2)
-        
-        processed_count += 1
-        print(f"已保存 {teacher_name} 的数据到 {output_path}，耗时 {end_time - start_time:.2f} 秒")
+    skipped_count = 0
     
-    print(f"✅ 所有任务完成！共处理 {processed_count} 位教师数据")
+    for i, teacher_info in enumerate(teacher_info_list):
+        print(f"处理第 {i+1}/{len(teacher_info_list)} 位教师...")
+        
+        # 获取教师姓名
+        teacher_name = teacher_info["name"]
+        
+        # 检查是否已存在该教师的数据
+        if teacher_name in existing_teachers:
+            print(f"跳过 {teacher_name} - 数据已存在")
+            skipped_count += 1
+            continue
+        
+        try:
+            # 完整处理教师信息
+            start_time = time.time()
+            teacher_data = process_single_teacher(teacher_info, force_aminer)
+            end_time = time.time()
+            
+            if not teacher_data:
+                print(f"处理 {teacher_name} 的数据失败，跳过")
+                continue
+            
+            # 存储单个教师数据为json文件
+            output_path = f"{output_dir}/{teacher_name}.json"
+            with open(output_path, "w", encoding="utf-8") as f:
+                json.dump(teacher_data, f, ensure_ascii=False, indent=2)
+            
+            processed_count += 1
+            print(f"已保存 {teacher_name} 的数据到 {output_path}，耗时 {end_time - start_time:.2f} 秒")
+        
+        except Exception as e:
+            print(f"处理教师 {teacher_name} 数据时出错: {str(e)}")
+            continue
+    
+    print(f"✅ 所有任务完成！共处理 {processed_count} 位教师数据，跳过 {skipped_count} 位已有数据的教师")
 
 if __name__ == "__main__":
     school_name = "南京信息工程大学"
@@ -150,11 +207,12 @@ if __name__ == "__main__":
     
     # 运行模式选择
     test_mode = True  # 设置为True启用测试模式，仅处理少量教师
-    test_limit = 3    # 测试模式下处理的教师数量
+    test_limit = 5    # 测试模式下处理的教师数量
+    force_aminer = False  # 设置是否强制使用AMiner搜索
     
     if test_mode:
-        process_all_teachers(school_name, output_dir, test_mode=True, test_limit=test_limit)
+        process_all_teachers(school_name, output_dir, test_mode=True, test_limit=test_limit, force_aminer=force_aminer)
     else:
-        process_all_teachers(school_name, output_dir)
+        process_all_teachers(school_name, output_dir, force_aminer=force_aminer)
 
     
