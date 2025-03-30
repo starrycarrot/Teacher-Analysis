@@ -274,7 +274,7 @@ if __name__ == "__main__":
     # 运行模式选择
     test_limit = 7    # 测试模式下处理的教师数量，设为0表示处理全部
     force_aminer = False  # 设置是否强制使用AMiner搜索
-    headless = False  # 设置是否使用无头模式
+    headless = True  # 设置是否使用无头模式
     
     process_all_teachers(
         school_name=school_name, 

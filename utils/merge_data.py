@@ -124,38 +124,37 @@ def merge_bio_details(school_bio: Dict, aminer_bio: Dict) -> Dict:
     return merged_bio
 
 
-def merge_work_experience(school_experience: List[Dict], aminer_experience: List[Dict]) -> List[Dict]:
-    """合并工作经历信息"""
-    # 如果学校数据中没有工作经历，则使用AMiner的
+def merge_work_experience(school_experience: List, aminer_experience: List) -> List:
+    """
+    合并工作经历信息 - 处理字符串数组
+    
+    例如: ["2010-至今 南京信息工程大学 教师", ...]
+    """
+    # 处理空列表情况
     if not school_experience:
         return aminer_experience
     
-    # 如果AMiner数据中没有工作经历，则使用学校的
     if not aminer_experience:
         return school_experience
     
-    # 合并两个来源的工作经历
-    all_experience = school_experience.copy()
+    # 简单地合并去重
+    unique_experiences = set(school_experience)
     
-    # 添加AMiner中不重复的工作经历
-    for aminer_exp in aminer_experience:
-        # 检查是否重复
-        is_duplicate = False
-        for school_exp in school_experience:
-            # 简单比较时间段和单位是否相同来判断是否重复
-            if (aminer_exp.get('period', '') == school_exp.get('period', '') and
-                aminer_exp.get('institution', '') == school_exp.get('institution', '')):
-                is_duplicate = True
-                break
-        
-        # 如果不是重复记录，则添加
-        if not is_duplicate:
-            all_experience.append(aminer_exp)
+    # 添加AMiner中的记录
+    for exp in aminer_experience:
+        if isinstance(exp, str):
+            unique_experiences.add(exp)
     
-    # 按时间段排序
-    all_experience.sort(key=lambda x: x.get('period', '').split('-')[0] if '-' in x.get('period', '') else '9999')
+    # 转回列表
+    result = list(unique_experiences)
     
-    return all_experience
+    # 尝试按时间段排序
+    try:
+        result.sort(key=lambda x: x.split('-')[0] if '-' in x else '9999')
+    except Exception as e:
+        logging.warning(f"工作经历排序失败: {e}")
+    
+    return result
 
 
 def merge_likes(school_likes: str, aminer_likes: str) -> str:

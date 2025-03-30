@@ -7,11 +7,11 @@
 
 一开始我尝试用传统爬虫，但很快就遇到一个问题：每位老师的个人网页结构和内容格式都不一样，传统爬虫的CSS选择器和正则表达式写了一大堆效果还是很差，而且这还没考虑后续麻烦的**数据清洗**呢！正好这时突然看到了[Scrapegraphai](https://github.com/ScrapeGraphAI/Scrapegraph-ai)这个AI爬虫库（24年发布的一个比较火的开源项目），刚好解决了我的问题。
 
-但很快我又遇到第二个问题：很多老师在学校官网上的信息很少（尤其是南大大气院的教师网页），我只好尝试借助外部数据源补充信息，然而知网这方面做得很一般，老师们也不太可能都有百科词条，不过世上无难事，只怕有心人，我最终还是找到了[AMiner](https://aminer.cn/)这个宝藏网站，上面的学术信息非常丰富（推荐教师详情信息去这上面参考），可以很好地作为补充数据源。
+但很快我又遇到第二个问题：很多老师在学校官网上的信息很少（尤其是南京大学大气院的教师网页），我只好尝试借助外部数据源补充信息，然而知网这方面做得很一般，老师们也不太可能都有百科词条，不过世上无难事，只怕有心人，我最终还是找到了[AMiner](https://aminer.cn/)这个宝藏网站，上面的学术信息非常丰富（推荐教师详情信息去这上面参考），可以很好地作为补充数据源。
 
-技术路线完善了，只欠东风，我就以南信大大气院的教师门户为例，开发了这个程序（断断续续花了一个多月）。其中只有教师列表页用到了传统爬虫（BeautifulSoup和requests），具体的教师详情页全都用AI爬虫处理。这里还要感谢[Deepseek](https://platform.deepseek.com/usage)提供了高性价比的API（其实有API白嫖方案，但我想保证输出数据的质量），方便我测试开发（要是用GPT或Claude的API，我估计要破产了💸，自然也不会尝试推进这个项目了）。
+技术路线完善了，只欠东风，我就以南信大大气院的[教师门户网站](https://faculty.nuist.edu.cn/dwlistjs.jsp?totalpage=15&PAGENUM=1&urltype=tsites.CollegeTeacherList&wbtreeid=1021&st=0&id=1103&lang=zh_CN)为例，开发了这个程序（断断续续花了一个多月）。其中只有教师列表页用到了传统爬虫（BeautifulSoup和requests），具体的教师详情页全都用AI爬虫处理。这里还要感谢[Deepseek](https://platform.deepseek.com/usage)提供了高性价比的API（其实有API白嫖方案，但我想保证输出数据的质量），方便我测试开发（要是用GPT或Claude的API，我估计要破费了💸，自然也不会尝试推进这个项目了）。
 
-正因为使用了AI爬虫，这个项目有很好的可扩展性，只要改一下school_get_links.py里的传统爬虫代码，就能适配其他学院甚至其他学校了。我下一步打算做南大大气院的详情页url获取，同时开发一些统计分析功能，算是小修小补了。
+正因为使用了AI爬虫，这个项目有很好的可扩展性，只要改一下school_get_links.py里的传统爬虫代码，就能适配其他学院甚至其他学校了。我下一步打算做南大大气院教师门户网站的url获取，同时开发一些统计分析功能，算是小修小补了。
 
 ## 📁 项目结构
 
@@ -100,49 +100,55 @@ flowchart TD
 
 系统会在`NUIST_teacher_data/`目录下为每位教师生成一个JSON文件，数据格式如下（源格式是由提示词决定的，可以在smart_scraper.py的scrape_prompt中查看和修改）：
 
-**以我们的陈海山校长为例**
+**以实际输出为例**
 ```json
 {
     "basic_info": {
-        "name": "陈海山",
-        "title": ["教授"],
-        "mentor_qualification": ["博导"],
-        "honors": ["国家杰出青年基金获得者"]
+        "name": "蔡佳熙",
+        "title": ["副教授"],
+        "admin_role": [""],
+        "mentor_qualification": [""],
+        "honors": [""]
     },
     "bio_details": {
-        "birth_year": "1985",
+        "birth_year": "1982",
         "education": {
-            "undergrad": "2003-2007 南京大学 大气科学",
-            "master": "2007-2010 北京大学 气象学",
-            "phd": "2010-2015 清华大学 环境科学"
-        }
-    },
-    "work_experience": [
-        {
-            "period": "2015-2020",
-            "institution": "南京大学",
-            "position": "副教授"
+            "undergrad": "",
+            "master": "2004-2007 南京信息工程大学 气象学",
+            "phd": "2007-2010 南京信息工程大学 气象学"
         },
-        {
-            "period": "2020-至今",
-            "institution": "南京信息工程大学",
-            "position": "教授"
-        }
-    ],
+        "work_experience": [
+            "2010-至今 南京信息工程大学大气科学学院 教师",
+            "2013-2014 美国乔治梅森大学 访问学者"
+        ]
+    },
+    "likes": 97,
     "academic": {
-        "research_fields": ["大气物理", "气候变化"],
+        "research_fields": [
+            "极赤温差的变化规律及其对中国气候的影响",
+            "海温异常及其与季风区气候的联系",
+            "气温变化规律及其异常特征的形成机理研究"
+        ],
         "publications": [
             {
-                "title_cn": "某某研究",
-                "journal": "某某期刊",
-                "year": 2020
+                "title_cn": "中亚冬季积雪对次年春季东北冷涡的影响",
+                "title_en": "The Impacts of Winter Snow Cover of Central Asia on the Northeastern China Cold Vortex in Succeeding Spring",
+                "year": 2024,
+                "journal": "CLIMATE DYNAMICS",
+                "DOI": "10.1007/s00382-023-07075-0"
             }
         ]
+    },
+    "data_sources": {
+        "school_url": "https://faculty.nuist.edu.cn/caijiaxi/zh_CN/index.htm",
+        "aminer_url": "https://www.aminer.cn/profile/jiaxi-cai/53f456dbdabfaee4dc813a3e"
     }
 }
 ```
 
 这个结构化数据可以直接用Python的json库读取，然后就能做各种分析了。
+
+⚠️ 注意：在`bio_details`中的`work_experience`是字符串数组，表示工作经历。由于爬虫解析结果的不同，可能会包含格式不统一的数据。
 
 ## 💡 小贴士
 
