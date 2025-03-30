@@ -46,7 +46,7 @@ graph_config = {
     "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
     },
-    "storage_state": "Src/config/aminer_cookies.json",
+    "storage_state": "config/aminer_cookies.json",
     "verbose": True,
     "headless": False
 }
@@ -70,13 +70,13 @@ scrape_prompt = """
             "master": "硕士（同上）",
             "phd": "博士（同上）" 
         },
-        "work_experience": {
-            "experience1": "工作经历（格式：2010-2015 单位 职业）",
-            "experience2": "工作经历（格式：2015-2020 同上）",
-            "experience3": "工作经历（格式：2020-至今 同上）",
-        }
+        "work_experience": 
+        [
+        "工作经历1（格式：2010-2015 单位 职业）",
+        （以此类推下去，如果找不到，则为空）
+        ]
     },
-    "likes": （点赞数，int数字）
+    "likes": （点赞数，int数字，南信大专属）
     "academic": {
         "research_fields": ["研究领域1", "研究领域2", ……],
         "publications": [

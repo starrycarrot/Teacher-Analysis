@@ -97,8 +97,8 @@ def process_single_teacher(teacher_info: Dict, force_aminer: bool = False) -> Op
     teacher_name = teacher_info["name"]
     school_name = "南京信息工程大学"  # 在这个例子中是硬编码的
     
-    logging.info(f"【信息】正在处理教师: {teacher_name}")
-    logging.info(f"【信息】网页URL: {teacher_url}")
+    logging.info(f"正在处理教师: {teacher_name}")
+    logging.info(f"网页URL: {teacher_url}")
     
     # 1. 学校数据采集
     logging.info(f"【步骤1】开始爬取学校个人网页...")

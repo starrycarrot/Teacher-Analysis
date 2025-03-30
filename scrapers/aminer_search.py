@@ -20,7 +20,7 @@ class LoginManager:
     2. 检查是否已登录
     3. 保存登录cookies
     """
-    def __init__(self, page, cookies_path="Src/config/aminer_cookies.json"):
+    def __init__(self, page, cookies_path="config/aminer_cookies.json"):
         self.page = page
         self.cookies_file = cookies_path
         os.makedirs(os.path.dirname(cookies_path), exist_ok=True)
@@ -73,8 +73,8 @@ def search_teacher(teacher_name, teacher_org, headless=False):
     返回:
         str: 教师在Aminer的个人主页完整URL
     """
-    cookies_path = "Src/config/aminer_cookies.json"
-    org_mapping_path = "Src/config/org_mapping.json"
+    cookies_path = "config/aminer_cookies.json"
+    org_mapping_path = "config/org_mapping.json"
     
     # 加载机构映射
     try:

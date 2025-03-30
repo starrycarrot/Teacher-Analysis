@@ -37,6 +37,12 @@ def merge_data(school_data: Dict, aminer_data: Dict) -> Dict:
         aminer_data.get('bio_details', {})
     )
     
+    # 合并工作经历 (work_experience)
+    merged_data['work_experience'] = merge_work_experience(
+        school_data.get('work_experience', []),
+        aminer_data.get('work_experience', [])
+    )
+    
     # 合并点赞数信息
     merged_data['likes'] = merge_likes(
         school_data.get('likes', ''),
@@ -119,6 +125,40 @@ def merge_bio_details(school_bio: Dict, aminer_bio: Dict) -> Dict:
     return merged_bio
 
 
+def merge_work_experience(school_experience: List[Dict], aminer_experience: List[Dict]) -> List[Dict]:
+    """合并工作经历信息"""
+    # 如果学校数据中没有工作经历，则使用AMiner的
+    if not school_experience:
+        return aminer_experience
+    
+    # 如果AMiner数据中没有工作经历，则使用学校的
+    if not aminer_experience:
+        return school_experience
+    
+    # 合并两个来源的工作经历
+    all_experience = school_experience.copy()
+    
+    # 添加AMiner中不重复的工作经历
+    for aminer_exp in aminer_experience:
+        # 检查是否重复
+        is_duplicate = False
+        for school_exp in school_experience:
+            # 简单比较时间段和单位是否相同来判断是否重复
+            if (aminer_exp.get('period', '') == school_exp.get('period', '') and
+                aminer_exp.get('institution', '') == school_exp.get('institution', '')):
+                is_duplicate = True
+                break
+        
+        # 如果不是重复记录，则添加
+        if not is_duplicate:
+            all_experience.append(aminer_exp)
+    
+    # 按时间段排序
+    all_experience.sort(key=lambda x: x.get('period', '').split('-')[0] if '-' in x.get('period', '') else '9999')
+    
+    return all_experience
+
+
 def merge_likes(school_likes: str, aminer_likes: str) -> str:
     """合并点赞数信息"""
     # 如果学校数据的点赞数为空，则使用AMiner的
@@ -185,6 +225,13 @@ if __name__ == "__main__":
                 "phd": ""
             }
         },
+        "work_experience": [
+            {
+                "period": "2005-2010",
+                "institution": "浙江大学",
+                "position": "讲师"
+            }
+        ],
         "likes": "",
         "academic": {
             "research_fields": ["人工智能", "机器学习"],
@@ -231,6 +278,18 @@ if __name__ == "__main__":
                 "phd": "2002-2005 中国科学院 计算机应用"
             }
         },
+        "work_experience": [
+            {
+                "period": "2005-2010",
+                "institution": "浙江大学",
+                "position": "讲师"
+            },
+            {
+                "period": "2010-至今",
+                "institution": "北京大学",
+                "position": "副教授"
+            }
+        ],
         "likes": "56",
         "academic": {
             "research_fields": ["人工智能", "深度学习", "计算机视觉"],
