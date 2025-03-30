@@ -100,49 +100,84 @@ flowchart TD
 
 系统会在`NUIST_teacher_data/`目录下为每位教师生成一个JSON文件，数据格式如下（源格式是由提示词决定的，可以在smart_scraper.py的scrape_prompt中查看和修改）：
 
-**以实际输出为例**
+**以我们的陈海山校长为例**
 ```json
 {
-    "basic_info": {
-        "name": "蔡佳熙",
-        "title": ["副教授"],
-        "admin_role": [""],
-        "mentor_qualification": [""],
-        "honors": [""]
+  "basic_info": {
+    "name": "陈海山",
+    "title": [
+      "教授"
+    ],
+    "admin_role": [
+      "中国气象学会副理事长",
+      "江苏省气象学会副理事长"
+    ],
+    "mentor_qualification": [
+      "博导"
+    ],
+    "honors": [
+      "",
+      "享受国务院政府特殊津贴人员",
+      "教育部特聘教授",
+      "国家重大人才计划B类科技创新领军人才",
+      "国家杰出青年基金获得者"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1973*",
+    "education": {
+      "undergrad": "1991-1995 南京气象学院 天气动力学",
+      "master": "1995-1998 南京气象学院 天气动力学",
+      "phd": "1999-2002 南京气象学院 气象学"
     },
-    "bio_details": {
-        "birth_year": "1982",
-        "education": {
-            "undergrad": "",
-            "master": "2004-2007 南京信息工程大学 气象学",
-            "phd": "2007-2010 南京信息工程大学 气象学"
-        },
-        "work_experience": [
-            "2010-至今 南京信息工程大学大气科学学院 教师",
-            "2013-2014 美国乔治梅森大学 访问学者"
-        ]
-    },
-    "likes": 97,
-    "academic": {
-        "research_fields": [
-            "极赤温差的变化规律及其对中国气候的影响",
-            "海温异常及其与季风区气候的联系",
-            "气温变化规律及其异常特征的形成机理研究"
-        ],
-        "publications": [
-            {
-                "title_cn": "中亚冬季积雪对次年春季东北冷涡的影响",
-                "title_en": "The Impacts of Winter Snow Cover of Central Asia on the Northeastern China Cold Vortex in Succeeding Spring",
-                "year": 2024,
-                "journal": "CLIMATE DYNAMICS",
-                "DOI": "10.1007/s00382-023-07075-0"
-            }
-        ]
-    },
-    "data_sources": {
-        "school_url": "https://faculty.nuist.edu.cn/caijiaxi/zh_CN/index.htm",
-        "aminer_url": "https://www.aminer.cn/profile/jiaxi-cai/53f456dbdabfaee4dc813a3e"
-    }
+    "work_experience": [
+      "1998-2000 南京气象学院 助教",
+      "2000-2004 南京信息工程大学 讲师",
+      "2004-2005 南京信息工程大学 副教授",
+      "2005-2007 美国佐治亚理工学院 博士后",
+      "2007-至今 南京信息工程大学 教授",
+      "2011-2014 南京信息工程大学 副院长",
+      "2017-2022 南京信息工程大学 院长",
+      "2022-至今 南京信息工程大学 副校长"
+    ]
+  },
+  "likes": "无",
+  "academic": {
+    "research_fields": [
+      "中国气候",
+      "陆气相互作用",
+      "东亚季风",
+      "短期气候预测与气候变化",
+      "陆面过程与气候数值模拟"
+    ],
+    "publications": [
+      {
+        "title_cn": "基于机器学习的中国夏季降水延伸期预报及土壤湿度的可能贡献",
+        "title_en": "Machine Learning-Based Prediction of Summer Extended-Range Precipitation and Possible Contribution",
+        "year": 2024,
+        "journal": "Gaoyuan qixiang",
+        "DOI": "10.7522/j.issn.1000-0534.2023.00025"
+      },
+      {
+        "title_cn": "春季俄罗斯远东雪盖异常对中国东北夏季降水变化的影响",
+        "title_en": "Impact of Spring Snow Cover Anomaly over the Russian Far East on the Early Summer Precipitation Variability in Northeast China",
+        "year": 2025,
+        "journal": "JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES",
+        "DOI": "10.1029/2024jd042118"
+      },
+      {
+        "title_cn": "中国夏季降水与前季节海温的非线性关系：统计证明",
+        "title_en": "nonlinear relationship between summer precipitation in China and the sea surface temperature in preceding seasons: A statistical demonstration",
+        "year": 2015,
+        "journal": "J. Geophys. Res.-Atmos.",
+        "DOI": "10.1002/2015JD024030"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/chenhaishan/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/haishan-chen/54491420dabfae1e04143cba"
+  }
 }
 ```
 
