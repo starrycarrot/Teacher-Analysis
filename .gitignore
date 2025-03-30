@@ -10,6 +10,9 @@ config/aminer_cookies.json
 # 忽略废弃的尝试目录
 废弃的尝试/
 
+# 忽略.gitignore文件
+.gitignore
+
 # ===== Python相关 =====
 # 字节编译/优化文件
 __pycache__/
