@@ -192,4 +192,5 @@ flowchart TD
 - 已经爬取过的教师不会重复爬取，除非你删除对应的JSON文件
 
 希望这个工具能帮助到有需要的同学们！如有问题或建议，欢迎交流。👋
+<video src="https://github.com/starrycarrot/Teacher-Analysis/raw/main/bocchi.mp4" controls width="80%"></video>
 
