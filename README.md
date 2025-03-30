@@ -144,7 +144,6 @@ flowchart TD
 - **scrapegraphai**：大模型驱动的智能爬虫库，能根据提示词自动理解网页结构，爬取内容
 - **bs4 & requests**：传统爬虫两件套，用于解析静态网页
 - **playwright**：浏览器自动化工具，AI爬虫的依赖，同时也用于AMiner的登录和搜索（以取代selenium）
-   ```
 
 ## 🚀 使用方法
 
@@ -184,6 +183,7 @@ flowchart TD
    test_limit = 3       # 测试模式下爬取的教师数量（设为0则爬取全部数据）
    force_aminer = False # 是否强制使用AMiner搜索
    headless = False     # 是否使用无头模式（设为True可隐藏浏览器界面）
+   ```
 
 ## 💡 小贴士
 
@@ -192,5 +192,6 @@ flowchart TD
 - 已经爬取过的教师不会重复爬取，除非你删除对应的JSON文件
 
 希望这个工具能帮助到有需要的同学们！如有问题或建议，欢迎交流。👋
-![](./bocchi.gif)
+
+![Bocchi](./bocchi.gif){: style="display: block; margin: 0 auto" }
 
