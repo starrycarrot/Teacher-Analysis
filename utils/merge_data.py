@@ -37,12 +37,6 @@ def merge_data(school_data: Dict, aminer_data: Dict) -> Dict:
         aminer_data.get('bio_details', {})
     )
     
-    # 合并工作经历 (work_experience)
-    merged_data['work_experience'] = merge_work_experience(
-        school_data.get('work_experience', []),
-        aminer_data.get('work_experience', [])
-    )
-    
     # 合并点赞数信息
     merged_data['likes'] = merge_likes(
         school_data.get('likes', ''),
@@ -121,6 +115,11 @@ def merge_bio_details(school_bio: Dict, aminer_bio: Dict) -> Dict:
         merged_bio['education']['phd'] = aminer_education.get('phd', '')
     else:
         merged_bio['education']['phd'] = school_education.get('phd', '')
+    
+    # 合并工作经历
+    school_work_experience = merged_bio.get('work_experience', [])
+    aminer_work_experience = aminer_bio.get('work_experience', [])
+    merged_bio['work_experience'] = merge_work_experience(school_work_experience, aminer_work_experience)
     
     return merged_bio
 

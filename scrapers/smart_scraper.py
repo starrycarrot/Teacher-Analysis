@@ -48,7 +48,6 @@ graph_config = {
     },
     "storage_state": "config/aminer_cookies.json",
     "verbose": True,
-    "headless": False
 }
 
 # 智能爬虫的提示词（结构化数据提取）

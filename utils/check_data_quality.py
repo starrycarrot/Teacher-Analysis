@@ -34,8 +34,9 @@ def check_data(data: Dict) -> bool:
         logging.warning(f"数据质量检查问题：个人信息 - {bio_details_result[1]}")
         all_passed = False
     
-    # 检查工作经历字段
-    work_experience_result = check_work_experience(data.get('work_experience', []))
+    # 检查工作经历字段 - 注意：这里从bio_details中获取工作经历
+    bio_details = data.get('bio_details', {})
+    work_experience_result = check_work_experience(bio_details.get('work_experience', []))
     if not work_experience_result[0]:
         logging.warning(f"数据质量检查问题：工作经历 - {work_experience_result[1]}")
         all_passed = False

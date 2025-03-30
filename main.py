@@ -74,13 +74,14 @@ def setup_logging(output_dir: str) -> None:
     console_handler.setFormatter(formatter)
     logger.addHandler(console_handler)
 
-def process_single_teacher(teacher_info: Dict, force_aminer: bool = False) -> Optional[Dict]:
+def process_single_teacher(teacher_info: Dict, force_aminer: bool = False, headless: bool = False) -> Optional[Dict]:
     """
     处理单个教师信息的完整流程
     
     输入：
     teacher_info: 包含教师基本信息的字典，包括url和name
     force_aminer: 是否强制使用AMiner搜索，默认为False
+    headless: 是否使用无头模式，默认为False
     
     流程：
     1. 学校个人网页数据采集
@@ -133,7 +134,7 @@ def process_single_teacher(teacher_info: Dict, force_aminer: bool = False) -> Op
         logging.info(f"【步骤2完成】{teacher_name} 的学校数据{reason}，尝试从AMiner获取补充数据")
         # 3. 先进行搜索得到教师的AMiner主页
         logging.info(f"【步骤3】在AMiner搜索 {teacher_name}...")
-        aminer_url = search_teacher(teacher_name, school_name)
+        aminer_url = search_teacher(teacher_name, school_name, headless=headless)
         
         if not aminer_url:
             logging.warning(f"【步骤3失败】未找到 {teacher_name} 的AMiner主页，返回原始数据")
@@ -166,16 +167,16 @@ def process_single_teacher(teacher_info: Dict, force_aminer: bool = False) -> Op
         return merged_data
     
 
-def process_all_teachers(school_name: str, output_dir: str, test_mode: bool = False, test_limit: int = 3, force_aminer: bool = False) -> None:
+def process_all_teachers(school_name: str, output_dir: str, test_limit: int = 0, force_aminer: bool = False, headless: bool = False) -> None:
     """
     处理所有教师信息的完整流程
     
     输入：
     school_name: 学校名称
     output_dir: json数据输出目录
-    test_mode: 是否为测试模式，默认为False
-    test_limit: 测试模式下处理的教师数量，默认为3
+    test_limit: 测试模式下处理的教师数量，设为0表示处理全部教师
     force_aminer: 是否强制使用AMiner搜索，默认为False
+    headless: 是否使用无头模式，默认为False
 
     流程：
     1. 获取所有教师链接
@@ -215,14 +216,14 @@ def process_all_teachers(school_name: str, output_dir: str, test_mode: bool = Fa
     logging.info(f"【阶段1完成】")
     logging.info(f"")
 
-    # 测试模式下，只处理前几个教师
-    if test_mode:
+    # 测试模式下，只处理指定数量的教师
+    if test_limit > 0:
         logging.warning(f"⚠️ 测试模式已启用，仅处理前 {test_limit} 位教师")
         teacher_info_list = teacher_info_list[:test_limit]
 
     # 2. 处理每个教师信息
     logging.info(f"【阶段2：处理教师信息】")
-    logging.info(f"开始处理教师信息... {'(强制使用AMiner)' if force_aminer else ''}")
+    logging.info(f"开始处理教师信息... {'(强制使用AMiner)' if force_aminer else ''} {'(无头模式)' if headless else ''}")
     processed_count = 0
     skipped_count = 0
     
@@ -242,7 +243,7 @@ def process_all_teachers(school_name: str, output_dir: str, test_mode: bool = Fa
         try:
             # 完整处理教师信息
             start_time = time.time()
-            teacher_data = process_single_teacher(teacher_info, force_aminer)
+            teacher_data = process_single_teacher(teacher_info, force_aminer, headless)
             end_time = time.time()
             
             if not teacher_data:
@@ -271,13 +272,16 @@ if __name__ == "__main__":
     output_dir = "NUIST_teacher_data"
     
     # 运行模式选择
-    test_mode = True  # 设置为True启用测试模式，仅处理少量教师
-    test_limit = 3    # 测试模式下处理的教师数量
+    test_limit = 7    # 测试模式下处理的教师数量，设为0表示处理全部
     force_aminer = False  # 设置是否强制使用AMiner搜索
+    headless = False  # 设置是否使用无头模式
     
-    if test_mode:
-        process_all_teachers(school_name, output_dir, test_mode=True, test_limit=test_limit, force_aminer=force_aminer)
-    else:
-        process_all_teachers(school_name, output_dir, force_aminer=force_aminer)
+    process_all_teachers(
+        school_name=school_name, 
+        output_dir=output_dir, 
+        test_limit=test_limit, 
+        force_aminer=force_aminer, 
+        headless=headless
+    )
 
     
