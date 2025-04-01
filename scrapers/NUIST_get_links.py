@@ -6,7 +6,7 @@ import certifi
 import logging
 from typing import List, Dict, Tuple
 
-class SchoolScraper:
+class NUISTScraper:
     def __init__(self, school_name: str):
         """初始化爬虫"""
         self.school_name = school_name
@@ -32,13 +32,13 @@ class SchoolScraper:
             # 南信大教师列表页面
             base_url = "https://faculty.nuist.edu.cn"
             
-            # 获取总页数 - 实际项目中应该动态获取
-            total_pages = 2  # 默认值，可以通过页面内容动态获取
+            # 获取总页数 - 根据网页底部信息可知共15页
+            total_pages = 15
             
             # 循环遍历所有页面
             for page in range(1, total_pages + 1):
-                # 根据页码构建URL
-                list_url = f"https://faculty.nuist.edu.cn/dwlistjs.jsp?urltype=tsites.CollegeTeacherList&wbtreeid=1021&st=0&id=1103&page={page}&lang=zh_CN#collegeteacher"
+                # 根据页码构建URL - 使用正确的分页参数格式
+                list_url = f"https://faculty.nuist.edu.cn/dwlistjs.jsp?totalpage={total_pages}&PAGENUM={page}&urltype=tsites.CollegeTeacherList&wbtreeid=1021&st=0&id=1103&lang=zh_CN"
                 logging.info(f"正在爬取第{page}页教师列表...")
                 
                 try:
@@ -84,10 +84,13 @@ class SchoolScraper:
         return teacher_info_list
     
 if __name__ == "__main__":
-    scraper = SchoolScraper("南京信息工程大学")
+    # 设置日志格式
+    logging.basicConfig(level=logging.INFO, format='%(message)s')
+    
+    scraper = NUISTScraper("南京信息工程大学")
     teacher_info = scraper.get_all_teacher_links()
     
     # 打印结果用于调试
     print(f"共找到 {len(teacher_info)} 位教师")
-    for i, info in enumerate(teacher_info[:7]):
+    for i, info in enumerate(teacher_info[:20]):  # 只打印前5个进行验证
         print(f"教师{i+1}: {info['name']} - {info['url']}")

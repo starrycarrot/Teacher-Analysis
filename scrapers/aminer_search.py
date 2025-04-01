@@ -255,6 +255,7 @@ def search_teacher(teacher_name, teacher_org, headless=False):
                 browser.close()
 
 if __name__ == "__main__":  
+    # （建议一定要运行一次保存一下cookies）
     # 测试搜索；以我们的陈海山校长为例
     profile_url = search_teacher("陈海山", "南京信息工程大学", headless=False)
     print(f"找到的URL: {profile_url}")

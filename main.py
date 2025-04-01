@@ -18,7 +18,9 @@ os.environ['SSL_CERT_FILE'] = certifi.where()
 os.environ['REQUESTS_CA_BUNDLE'] = certifi.where()
 
 # 导入爬虫模块
-from scrapers.shool_get_links import SchoolScraper
+# from scrapers.school_get_links import SchoolScraper # 旧的导入
+from scrapers.NUIST_get_links import NUISTScraper # 南信大爬虫
+from scrapers.NJU_get_links import NJUScraper     # 南大爬虫
 from scrapers.smart_scraper import scrape_profile
 from scrapers.aminer_search import search_teacher
 
@@ -74,12 +76,13 @@ def setup_logging(output_dir: str) -> None:
     console_handler.setFormatter(formatter)
     logger.addHandler(console_handler)
 
-def process_single_teacher(teacher_info: Dict, force_aminer: bool = False, headless: bool = False) -> Optional[Dict]:
+def process_single_teacher(teacher_info: Dict, school_name: str, force_aminer: bool = False, headless: bool = False) -> Optional[Dict]:
     """
     处理单个教师信息的完整流程
     
     输入：
     teacher_info: 包含教师基本信息的字典，包括url和name
+    school_name: 学校名称 (用于AMiner搜索)
     force_aminer: 是否强制使用AMiner搜索，默认为False
     headless: 是否使用无头模式，默认为False
     
@@ -96,7 +99,6 @@ def process_single_teacher(teacher_info: Dict, force_aminer: bool = False, headl
     """
     teacher_url = teacher_info["url"]
     teacher_name = teacher_info["name"]
-    school_name = "南京信息工程大学"  # 在这个例子中是硬编码的
     
     logging.info(f"正在处理教师: {teacher_name}")
     logging.info(f"网页URL: {teacher_url}")
@@ -106,13 +108,6 @@ def process_single_teacher(teacher_info: Dict, force_aminer: bool = False, headl
     school_data = scrape_profile(teacher_url)
     # 把字典从爬虫原始输出的content里提取出来,得到真正的字典
     school_data = school_data["content"]
-    
-    # 确保基本信息中包含从列表页获取的姓名信息
-    if "basic_info" not in school_data:
-        school_data["basic_info"] = {}
-    
-    # 使用从列表页获取的姓名信息填充或更新基本信息
-    school_data["basic_info"]["name"] = teacher_name
     
     # 添加数据来源信息
     school_data["data_sources"] = {
@@ -126,14 +121,14 @@ def process_single_teacher(teacher_info: Dict, force_aminer: bool = False, headl
     is_qualified = check_data_quality.check_data(school_data)
     if is_qualified and not force_aminer:  # 增加force_aminer的判断
         # 6. 如果数据合格且不强制使用AMiner，直接返回学校数据
-        logging.info(f"【步骤2完成】{teacher_name} 的学校数据质量合格，无需补充")
+        logging.info(f"【步骤2完成】{teacher_name} 的学校网页数据质量合格，无需补充")
         return school_data
     
     else:
         reason = "数据不完整" if not is_qualified else "强制使用AMiner"
         logging.info(f"【步骤2完成】{teacher_name} 的学校数据{reason}，尝试从AMiner获取补充数据")
         # 3. 先进行搜索得到教师的AMiner主页
-        logging.info(f"【步骤3】在AMiner搜索 {teacher_name}...")
+        logging.info(f"【步骤3】在AMiner搜索 {teacher_name} ({school_name})...")
         aminer_url = search_teacher(teacher_name, school_name, headless=headless)
         
         if not aminer_url:
@@ -172,7 +167,7 @@ def process_all_teachers(school_name: str, output_dir: str, test_limit: int = 0,
     处理所有教师信息的完整流程
     
     输入：
-    school_name: 学校名称
+    school_name: 学校名称 ("南京信息工程大学" 或 "南京大学")
     output_dir: json数据输出目录
     test_limit: 测试模式下处理的教师数量，设为0表示处理全部教师
     force_aminer: 是否强制使用AMiner搜索，默认为False
@@ -210,7 +205,22 @@ def process_all_teachers(school_name: str, output_dir: str, test_limit: int = 0,
     logging.info(f"【阶段1：获取教师列表】")
     logging.info(f"开始从 {school_name} 获取教师信息...")
     start_time = time.time()
-    teacher_info_list = SchoolScraper(school_name).get_all_teacher_links()
+
+    # 根据 school_name 选择 Scraper
+    if school_name == "南京信息工程大学":
+        scraper = NUISTScraper(school_name)
+    elif school_name == "南京大学":
+        scraper = NJUScraper(school_name)
+    else:
+        logging.error(f"错误：不支持的学校名称 '{school_name}'。请在 main.py 中配置。")
+        return
+
+    try:
+        teacher_info_list = scraper.get_all_teacher_links()
+    except Exception as e:
+        logging.error(f"从 {school_name} 获取教师列表时出错: {e}")
+        return
+
     end_time = time.time()
     logging.info(f"获取到 {len(teacher_info_list)} 个教师信息，耗时 {end_time - start_time:.2f} 秒")
     logging.info(f"【阶段1完成】")
@@ -241,9 +251,9 @@ def process_all_teachers(school_name: str, output_dir: str, test_limit: int = 0,
             continue
         
         try:
-            # 完整处理教师信息
+            # 完整处理教师信息，传递 school_name
             start_time = time.time()
-            teacher_data = process_single_teacher(teacher_info, force_aminer, headless)
+            teacher_data = process_single_teacher(teacher_info, school_name, force_aminer, headless)
             end_time = time.time()
             
             if not teacher_data:
@@ -260,6 +270,9 @@ def process_all_teachers(school_name: str, output_dir: str, test_limit: int = 0,
         
         except Exception as e:
             logging.error(f"处理教师 {teacher_name} 数据时出错: {str(e)}")
+            # 考虑增加更详细的错误日志，例如 traceback
+            import traceback
+            logging.error(traceback.format_exc())
             continue
     
     logging.info(f"")
@@ -268,20 +281,32 @@ def process_all_teachers(school_name: str, output_dir: str, test_limit: int = 0,
     logging.info(f"===============================================")
 
 if __name__ == "__main__":
+    # --- 配置区 ---
+    # 选择要爬取的机构 ("南京信息工程大学" 或 "南京大学")
     school_name = "南京信息工程大学"
-    output_dir = "NUIST_teacher_data"
-    
+
+    # 根据学校名称自动设置输出目录
+    match school_name:
+        case "南京信息工程大学":
+            output_dir = "NUIST_teacher_data"
+        case "南京大学":
+            output_dir = "NJU_teacher_data"
+        case _:
+            logging.error(f"未知的学校名称: '{school_name}'。目前暂不支持。")
+            exit() # 直接退出
+
     # 运行模式选择
-    test_limit = 7    # 测试模式下处理的教师数量，设为0表示处理全部
+    test_limit = 0    # 测试模式下处理的教师数量，设为0表示处理全部
     force_aminer = False  # 设置是否强制使用AMiner搜索
-    headless = True  # 设置是否使用无头模式
-    
+    headless = True  # 设置是否使用无头模式 (True: 不显示浏览器界面, False: 显示)
+    # --- 配置区结束 ---
+
     process_all_teachers(
-        school_name=school_name, 
-        output_dir=output_dir, 
-        test_limit=test_limit, 
-        force_aminer=force_aminer, 
-        headless=headless
+        school_name=school_name, # 学校名称
+        output_dir=output_dir, # 输出json文件的目录
+        test_limit=test_limit, # 测试模式下处理的教师数量，设为0表示处理全部
+        force_aminer=force_aminer, # 是否强制使用AMiner补充
+        headless=headless # 是否使用无头模式 (True: 不显示浏览器界面, False: 显示)
     )
 
     

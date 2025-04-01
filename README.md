@@ -11,7 +11,12 @@
 
 技术路线完善了，只欠东风，我就以南信大大气院的[教师门户网站](https://faculty.nuist.edu.cn/dwlistjs.jsp?totalpage=15&PAGENUM=1&urltype=tsites.CollegeTeacherList&wbtreeid=1021&st=0&id=1103&lang=zh_CN)为例，开发了这个程序（断断续续花了一个多月）。其中只有教师列表页用到了传统爬虫（BeautifulSoup和requests），具体的教师详情页全都用AI爬虫处理。这里还要感谢[Deepseek](https://platform.deepseek.com/usage)提供了高性价比的API（其实有API白嫖方案，但我想保证输出数据的质量），方便我测试开发（要是用GPT或Claude的API，我估计要破费了💸，自然也不会尝试推进这个项目了）。
 
-正因为使用了AI爬虫，这个项目有很好的可扩展性，只要改一下school_get_links.py里的传统爬虫代码，就能适配其他学院甚至其他学校了。我下一步打算做南京大学的大气院教师门户网站的url获取[x]，同时开发一些统计分析功能[x]，算是小修小补了。
+正因为使用了AI爬虫，这个项目有很好的可扩展性，只要改一下school_get_links.py里的传统爬虫代码，就能适配其他学院甚至其他学校了。
+下一步的计划是：
+- [x] school_get_links.py适配南大
+- [ ] 开发一些统计分析功能
+
+算是小修小补了。
 
 ## 📁 项目结构
 
@@ -19,7 +24,8 @@
 Teacher-Analysis/
 ├── main.py                # 主程序入口
 ├── scrapers/              # 爬虫模块
-│   ├── shool_get_links.py # 学校教师列表爬虫
+│   ├── NUIST_get_links.py # 南信大教师列表爬虫
+│   ├── NJU_get_links.py   # 南京大学教师列表爬虫
 │   ├── smart_scraper.py   # 智能爬虫（基于LLM的通用爬虫）
 │   └── aminer_search.py   # AMiner搜索和爬取模块
 ├── utils/                 # 工具模块
@@ -29,6 +35,7 @@ Teacher-Analysis/
 │   ├── aminer_cookies.json   # AMiner网站的cookies
 │   └── org_mapping.json      # 机构名称映射配置
 └── NUIST_teacher_data/    # 输出数据目录（以NUIST为例）
+└── NJU_teacher_data/      # 输出数据目录（以NJU为例）
 ```
 
 ## ⚙️ 系统工作流程
@@ -51,6 +58,8 @@ flowchart TD
 **先爬学校网站→检查数据质量→不够完整的就去AMiner补充→合并数据→保存结果**
 
 整个过程全自动化，只需要看看日志输出就知道进度了。
+
+注意：Aminer需要登录才能查看完整教师信息，所以在运行程序时，系统会自动打开浏览器让你登录AMiner，登录后会自动保存cookies，后续运行就不需要再次登录了。
 
 ## 📊 数据格式
 
@@ -97,7 +106,7 @@ flowchart TD
       "2022-至今 南京信息工程大学 副校长"
     ]
   },
-  "likes": "无",
+  "likes": 1523,
   "academic": {
     "research_fields": [
       "中国气候",
@@ -169,7 +178,8 @@ flowchart TD
    编辑`config/org_mapping.json`，设置学校在AMiner上可能的名称形式，以正确匹配搜索对应组织的教师：
    ```json
    {
-       "南京信息工程大学": ["南京信息工程大学", "nuist", "Nanjing University of Information Science & Technology", "南信大"]
+       "南京信息工程大学": ["南京信息工程大学", "nuist", "Nanjing University of Information Science & Technology", "南信大"],
+       "南京大学": ["南京大学", "nju", "Nanjing University", "南大"]
    }
    ```
 
@@ -180,9 +190,12 @@ flowchart TD
    你还可以设置以下选项：
    ```python
    # 在main.py中设置
-   test_limit = 3       # 测试模式下爬取的教师数量（设为0则爬取全部数据）
+   # 选择要爬取的学校 ("南京信息工程大学" 或 "南京大学")
+   school_name = "南京信息工程大学"
+
+   test_limit = 0       # 测试模式下爬取的教师数量（设为0则爬取全部数据）
    force_aminer = False # 是否强制使用AMiner搜索
-   headless = False     # 是否使用无头模式（设为True可隐藏浏览器界面）
+   headless = True     # 是否使用无头模式（设为True可隐藏浏览器界面）
    ```
 
 ## 💡 小贴士
