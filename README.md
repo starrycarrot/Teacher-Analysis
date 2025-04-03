@@ -206,5 +206,5 @@ flowchart TD
 
 希望这个工具能帮助到有需要的同学们！如有问题或建议，欢迎交流。👋
 
-![Bocchi](./bocchi.gif)
+![Bocchi](./assets/bocchi.gif)
 

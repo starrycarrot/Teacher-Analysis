@@ -18,9 +18,7 @@ os.environ['SSL_CERT_FILE'] = certifi.where()
 os.environ['REQUESTS_CA_BUNDLE'] = certifi.where()
 
 # 导入爬虫模块
-# from scrapers.school_get_links import SchoolScraper # 旧的导入
 from scrapers.NUIST_get_links import NUISTScraper # 南信大爬虫
-from scrapers.NJU_get_links import NJUScraper     # 南大爬虫
 from scrapers.smart_scraper import scrape_profile
 from scrapers.aminer_search import search_teacher
 
@@ -209,8 +207,6 @@ def process_all_teachers(school_name: str, output_dir: str, test_limit: int = 0,
     # 根据 school_name 选择 Scraper
     if school_name == "南京信息工程大学":
         scraper = NUISTScraper(school_name)
-    elif school_name == "南京大学":
-        scraper = NJUScraper(school_name)
     else:
         logging.error(f"错误：不支持的学校名称 '{school_name}'。请在 main.py 中配置。")
         return
