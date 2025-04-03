@@ -41,7 +41,7 @@ def scrape_profile(profile_url):
 graph_config = {
     "llm": {
         "model": "deepseek/deepseek-chat",
-        "api_key": "sk-73062d5391b94e2e8465019ef399a35f",
+        "api_key": "", # 请自行申请Deepseek API
     },
     "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
