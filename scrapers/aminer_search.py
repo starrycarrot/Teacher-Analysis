@@ -120,9 +120,9 @@ def search_teacher(teacher_name, teacher_org, headless=False):
             else:
                 context = browser.new_context(**browser_context_params)
             
-            # 配置更快的导航设置
-            context.set_default_navigation_timeout(20000)
-            context.set_default_timeout(15000)
+            # 配置更长的导航超时时间
+            context.set_default_navigation_timeout(60000)  # 增加到60秒
+            context.set_default_timeout(30000)  # 增加到30秒
             
             # 禁用CSS，提高页面加载速度(仅在无头模式时)
             if headless:
@@ -135,8 +135,21 @@ def search_teacher(teacher_name, teacher_org, headless=False):
             # 创建登录管理器
             login_manager = LoginManager(page, cookies_path)
             
-            # 访问网站主页
-            page.goto("https://www.aminer.cn", wait_until="domcontentloaded")
+            # 访问网站主页 - 添加重试机制
+            max_retries = 3
+            retry_delay = 5  # 秒
+            
+            for retry in range(max_retries):
+                try:
+                    page.goto("https://www.aminer.cn", wait_until="domcontentloaded")
+                    break
+                except Exception as e:
+                    if retry < max_retries - 1:
+                        logging.warning(f"访问AMiner失败，{retry_delay}秒后重试 ({retry + 1}/{max_retries}): {e}")
+                        time.sleep(retry_delay)
+                        continue
+                    else:
+                        raise Exception(f"多次尝试访问AMiner失败: {e}")
             
             # 检查登录状态
             if not login_manager.check_login():
@@ -146,8 +159,20 @@ def search_teacher(teacher_name, teacher_org, headless=False):
                 logging.info("已成功登录")
                 
             logging.info(f"开始搜索 {teacher_name}...")
-            page.goto(f"https://www.aminer.cn/search/person?q={teacher_name}", 
-                     wait_until="domcontentloaded", timeout=20000)
+            
+            # 搜索页面访问也添加重试机制
+            for retry in range(max_retries):
+                try:
+                    page.goto(f"https://www.aminer.cn/search/person?q={teacher_name}", 
+                             wait_until="domcontentloaded", timeout=60000)
+                    break
+                except Exception as e:
+                    if retry < max_retries - 1:
+                        logging.warning(f"访问搜索页面失败，{retry_delay}秒后重试 ({retry + 1}/{max_retries}): {e}")
+                        time.sleep(retry_delay)
+                        continue
+                    else:
+                        raise Exception(f"多次尝试访问搜索页面失败: {e}")
             
             # 使用更高效的方法等待搜索结果
             result_selector = ".a-aminer-components-expert-c-person-item-personItem"
