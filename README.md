@@ -1,5 +1,5 @@
 ## 🔍 项目简介
-这是一个利用AI驱动的批量化爬取和整合高校教师信息的爬虫项目，使用了[Scrapegraphai](https://github.com/ScrapeGraphAI/Scrapegraph-ai)这个智能爬虫库（*需要自行配置LLM的API*），能批量爬取学校教师门户网页的教师信息，输出结构化的json数据，便于查看和分析。在学校官网信息不足时，程序会在[AMiner](https://aminer.cn/)平台（清华博士团队开发的信息挖掘的学术平台，信息质量很高）搜索补充数据，融合原有数据输出json。对选课、了解导师方向，或者通过后续分析了解学校教师队伍结构很有帮助！
+这是一个利用AI驱动的批量化爬取和整合高校教师信息的爬虫项目，使用了[Scrapegraphai](https://github.com/ScrapeGraphAI/Scrapegraph-ai)这个智能爬虫库（*需要自行配置LLM的API*），能批量爬取学校教师门户网页的教师信息，输出结构化的json数据，便于查看和分析。在学校官网信息不足时，程序会在[AMiner](https://aminer.cn/)平台（清华博士团队开发的信息挖掘的学术平台，信息质量很高）搜索补充数据，融合原有数据输出高度结构化的**json数据**。对选课、了解导师方向，或者通过后续分析了解学校教师队伍结构很有帮助！
 
 ## 🤔 我为什么要做这个小项目？
 
@@ -7,11 +7,11 @@
 
 一开始我尝试用传统爬虫，但很快就遇到一个问题：每位老师的个人网页结构和内容格式都不一样，传统爬虫的CSS选择器和正则表达式写了一大堆效果还是很差，而且这还没考虑后续麻烦的**数据清洗**呢！正好这时突然看到了[Scrapegraphai](https://github.com/ScrapeGraphAI/Scrapegraph-ai)这个AI爬虫库（24年发布的一个比较火的开源项目），恰好解决了我的问题。
 
-但很快我又遇到第二个问题：很多老师在学校官网上的信息很少（南信大还好，南京大学大气院的教师网页上信息量很低），我只好尝试借助外部数据源补充信息，然而知网这方面做得很一般，老师们也不太可能都有百科词条，不过世上无难事，只怕有心人，我看了一圈最终找到了[AMiner](https://aminer.cn/)这个宝藏网站，上面的学术信息非常丰富（推荐教师详情信息去这上面参考），可以很好地作为补充数据源。
+然而很快我又遇到第二个问题：很多老师在学校官网上的信息很少（南信大还好，南京大学大气院的教师网页上信息量很低），我只好尝试借助外部数据源补充信息，然而知网这方面做得很一般，老师们也不太可能都有百科词条，不过世上无难事，只怕有心人，我一番搜索过后最终找到了[AMiner](https://aminer.cn/)这个宝藏网站，上面的学术信息非常丰富（推荐教师详情信息去这上面参考），可以很好地作为补充数据源。
 
-有了完善的技术路线，就只欠东风了。于是我以南信大大气院的[教师门户网站](https://faculty.nuist.edu.cn/dwlistjs.jsp?totalpage=15&PAGENUM=1&urltype=tsites.CollegeTeacherList&wbtreeid=1021&st=0&id=1103&lang=zh_CN)为示例，开发了这个程序（初版前后断断续续花了一个多月）。其中只有教师列表页用到了传统爬虫来爬取和解析（BeautifulSoup和requests），具体的教师详情页全都用AI爬虫处理。这里还要感谢[Deepseek](https://platform.deepseek.com/usage)提供了高性价比的API（其实有API白嫖方案，但我想保证输出数据的质量），方便我测试开发（要是用GPT或Claude的API，我估计要破费了💸，自然也不会尝试推进这个项目了）。目前已经成功爬取了南信大大气大气院的教师信息，已上传至NUIST_teacher_data文件夹。
+技术路线完善了，就只欠东风了。于是我以南信大大气院的[教师门户网站](https://faculty.nuist.edu.cn/dwlistjs.jsp?totalpage=15&PAGENUM=1&urltype=tsites.CollegeTeacherList&wbtreeid=1021&st=0&id=1103&lang=zh_CN)为示例，开发了这个程序（初版前后断断续续花了一个多月）。其中只有教师列表页用到了传统爬虫来爬取和解析（BeautifulSoup和requests），具体的教师详情页全都用AI爬虫处理。这里还要感谢[Deepseek](https://platform.deepseek.com/usage)提供了高性价比的API（其实有API白嫖方案，但我想保证输出数据的质量），方便我测试开发（要是用GPT或Claude的API，我估计要破费了💸，自然也不会尝试推进这个项目了）。目前已经成功爬取了南信大大气大气院的教师信息（程序运行过程比较慢），已上传至NUIST_teacher_data文件夹。
 
-正因为使用了AI爬虫，这个项目有很好的可扩展性，只要加入对其他机构的传统爬虫代码，就能适配其他学院甚至其他学校了。
+正因为使用了AI爬虫，这个项目有很好的可扩展性，只要修改对教师列表页的爬取代码，就能适配信大其他学院甚至其他学校了。
 下一步计划：
 - [ ] 适配南京大学大气院网站（受挫，南大网站总是SSL握手协议错误，打算下载到本地来本地解析）
 - [ ] 开发一些统计分析功能（已开发 教师主页点赞数统计）
@@ -35,10 +35,10 @@ Teacher-Analysis/
 │   ├── check_data_quality.py # 数据质量检查
 │   └── merge_data.py         # 数据合并工具
 ├── config/                # 配置文件目录
-│   ├── aminer_cookies.json   # AMiner网站的cookies
+│   ├── aminer_cookies.json   # 存储AMiner网站的cookies
 │   └── org_mapping.json      # 机构名称映射配置
 └── NUIST_teacher_data/    # 输出数据目录（以NUIST为例）
-└── NJU_teacher_data/      # 输出数据目录（以NJU为例）
+└── NJU_teacher_data/      # 输出数据目录（以NJU为例，暂无）
 ```
 
 ## ⚙️ 系统工作流程
@@ -174,7 +174,7 @@ flowchart TD
 
 2. **配置AMiner的cookies** 🍪
 
-   AMiner平台需要登录才能查看完整教师信息。首次运行时，系统会打开浏览器让你登录AMiner，登录后会自动保存cookies，后续运行就不需要再次登录了。可以运行一下aminer_search.py的测试代码，初始化一下cookies。
+   AMiner平台需要登录才能查看完整教师信息。首次运行时，系统会打开浏览器让你登录AMiner，登录后会自动保存cookies，后续运行就不需要再次登录了。运行main.py之前可以手动运行一下aminer_search.py的测试代码，初始化一下cookies。
 
 3. **配置学校名称映射** 🏫
 
