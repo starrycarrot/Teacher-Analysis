@@ -9,200 +9,228 @@
 """
 from typing import Dict, List, Any
 import logging
+import re # 导入正则表达式模块
 
+# --- 辅助合并函数 ---
+
+def _get_value(data_dict: Dict, key: str, default: Any = None) -> Any:
+    """安全地从字典获取值，处理 None 的情况"""
+    return data_dict.get(key, default) if data_dict else default
+
+def _merge_single_field(school_val: Any, aminer_val: Any, default: Any = '') -> Any:
+    """合并单个字段，优先使用学校数据，为空时用AMiner补充"""
+    # 认为 None 或 空字符串 为空
+    if school_val is not None and school_val != '':
+        return school_val
+    elif aminer_val is not None and aminer_val != '':
+        return aminer_val
+    else:
+        return default
+
+def _merge_list_field(school_list: List, aminer_list: List) -> List:
+    """合并列表字段，去重并过滤空字符串"""
+    # 确保输入是列表，处理 None 的情况
+    s_list = school_list if isinstance(school_list, list) else []
+    a_list = aminer_list if isinstance(aminer_list, list) else []
+
+    # 合并并去重，同时过滤掉空字符串
+    merged_set = set(item for item in s_list if item)
+    merged_set.update(item for item in a_list if item)
+
+    return sorted(list(merged_set)) # 返回排序后的列表
+
+# --- 主要合并逻辑 ---
 
 def merge_data(school_data: Dict, aminer_data: Dict) -> Dict:
     """
-    合并来自学校网站和AMiner的教师数据
-    
+    合并来自学校网站和AMiner的教师数据 (优化版)
+
     参数:
-        school_data: 从学校网站获取的教师数据
-        aminer_data: 从AMiner获取的教师数据
-    
+        school_data: 从学校网站获取的教师数据 (可能为 None)
+        aminer_data: 从AMiner获取的教师数据 (可能为 None)
+
     返回:
         Dict: 合并后的教师数据
     """
-    # 创建一个新的结果字典，以学校数据为基础
-    merged_data = school_data.copy()
-    
-    # 合并基本信息 (basic_info)
-    merged_data['basic_info'] = merge_basic_info(
-        school_data.get('basic_info', {}), 
-        aminer_data.get('basic_info', {})
-    )
-    
-    # 合并生物信息 (bio_details)
-    merged_data['bio_details'] = merge_bio_details(
-        school_data.get('bio_details', {}),
-        aminer_data.get('bio_details', {})
-    )
-    
-    # 合并点赞数信息
-    merged_data['likes'] = merge_likes(
-        school_data.get('likes', ''),
-        aminer_data.get('likes', '')
-    )
-    
-    # 合并学术信息 (academic)
-    merged_data['academic'] = merge_academic(
-        school_data.get('academic', {}),
-        aminer_data.get('academic', {})
-    )
-    
+    # 处理输入可能为 None 的情况
+    sd = school_data or {}
+    ad = aminer_data or {}
+
+    merged_data = {}
+
+    # 合并基本信息
+    merged_data['basic_info'] = merge_basic_info(sd.get('basic_info'), ad.get('basic_info'))
+
+    # 合并生物信息
+    merged_data['bio_details'] = merge_bio_details(sd.get('bio_details'), ad.get('bio_details'))
+
+    # 仅使用学校数据，因为只有学校网页有
+    merged_data['likes'] = sd.get('likes', 0)  # 默认给 0
+    # 合并学术信息
+    merged_data['academic'] = merge_academic(sd.get('academic'), ad.get('academic'))
+
+    # 合并数据来源 (总是包含两者，如果存在的话)
+    merged_data['data_sources'] = {}
+    if sd.get('data_sources'):
+        merged_data['data_sources'].update(sd['data_sources'])
+    if ad.get('data_sources'):
+        merged_data['data_sources'].update(ad['data_sources'])
+
     return merged_data
 
 
 def merge_basic_info(school_basic: Dict, aminer_basic: Dict) -> Dict:
-    """合并基本信息"""
-    merged_basic = school_basic.copy()
-    
-    # 如果学校数据中没有姓名，则使用AMiner的
-    if not merged_basic.get('name'):
-        merged_basic['name'] = aminer_basic.get('name', '')
-    
-    # 合并职称信息（去重）
-    school_titles = set(merged_basic.get('title', []))
-    aminer_titles = set(aminer_basic.get('title', []))
-    merged_basic['title'] = list(school_titles.union(aminer_titles))
-    
-    # 合并行政职务
-    if not merged_basic.get('admin_role'):
-        merged_basic['admin_role'] = aminer_basic.get('admin_role', '')
-    
-    # 合并导师资格信息（去重）
-    school_qualifications = set(merged_basic.get('mentor_qualification', []))
-    aminer_qualifications = set(aminer_basic.get('mentor_qualification', []))
-    merged_basic['mentor_qualification'] = list(school_qualifications.union(aminer_qualifications))
-    
-    # 合并荣誉头衔（去重）
-    school_honors = set(merged_basic.get('honors', []))
-    aminer_honors = set(aminer_basic.get('honors', []))
-    merged_basic['honors'] = list(school_honors.union(aminer_honors))
-    
+    """合并基本信息 (优化版)"""
+    sb = school_basic or {}
+    ab = aminer_basic or {}
+    merged_basic = {}
+
+    # 使用辅助函数合并单个字段
+    merged_basic['name'] = _merge_single_field(sb.get('name'), ab.get('name'))
+    merged_basic['admin_role'] = _merge_single_field(sb.get('admin_role'), ab.get('admin_role'))
+
+    # 使用辅助函数合并列表字段
+    merged_basic['title'] = _merge_list_field(sb.get('title'), ab.get('title'))
+    merged_basic['mentor_qualification'] = _merge_list_field(sb.get('mentor_qualification'), ab.get('mentor_qualification'))
+    merged_basic['honors'] = _merge_list_field(sb.get('honors'), ab.get('honors'))
+
     return merged_basic
 
 
 def merge_bio_details(school_bio: Dict, aminer_bio: Dict) -> Dict:
-    """合并生物信息"""
-    merged_bio = school_bio.copy()
-    
-    # 合并出生年份
-    if not merged_bio.get('birth_year') or merged_bio.get('birth_year') == '':
-        merged_bio['birth_year'] = aminer_bio.get('birth_year', '')
-    
-    # 获取教育信息
-    school_education = merged_bio.get('education', {})
-    aminer_education = aminer_bio.get('education', {})
-    
-    # 初始化合并后的教育信息
-    if 'education' not in merged_bio:
-        merged_bio['education'] = {}
-    
-    # 合并本科信息
-    if not school_education.get('undergrad') or school_education.get('undergrad') == '':
-        merged_bio['education']['undergrad'] = aminer_education.get('undergrad', '')
-    else:
-        merged_bio['education']['undergrad'] = school_education.get('undergrad', '')
-    
-    # 合并硕士信息
-    if not school_education.get('master') or school_education.get('master') == '':
-        merged_bio['education']['master'] = aminer_education.get('master', '')
-    else:
-        merged_bio['education']['master'] = school_education.get('master', '')
-    
-    # 合并博士信息
-    if not school_education.get('phd') or school_education.get('phd') == '':
-        merged_bio['education']['phd'] = aminer_education.get('phd', '')
-    else:
-        merged_bio['education']['phd'] = school_education.get('phd', '')
-    
+    """合并生物信息 (优化版)"""
+    sb = school_bio or {}
+    ab = aminer_bio or {}
+    merged_bio = {}
+
+    merged_bio['birth_year'] = _merge_single_field(sb.get('birth_year'), ab.get('birth_year'))
+
+    # 合并教育经历 (保持逐字段补充逻辑)
+    merged_bio['education'] = merge_education(sb.get('education'), ab.get('education'))
+
     # 合并工作经历
-    school_work_experience = merged_bio.get('work_experience', [])
-    aminer_work_experience = aminer_bio.get('work_experience', [])
-    merged_bio['work_experience'] = merge_work_experience(school_work_experience, aminer_work_experience)
-    
+    merged_bio['work_experience'] = merge_work_experience(
+        sb.get('work_experience'),
+        ab.get('work_experience')
+    )
+
     return merged_bio
 
+def merge_education(school_edu: Dict, aminer_edu: Dict) -> Dict:
+    """合并教育经历，优先学校，为空时补充"""
+    se = school_edu or {}
+    ae = aminer_edu or {}
+    merged_edu = {}
+
+    merged_edu['undergrad'] = _merge_single_field(se.get('undergrad'), ae.get('undergrad'))
+    merged_edu['master'] = _merge_single_field(se.get('master'), ae.get('master'))
+    merged_edu['phd'] = _merge_single_field(se.get('phd'), ae.get('phd'))
+
+    # 如果所有字段都为空，则返回空字典，否则返回合并结果
+    return merged_edu if any(merged_edu.values()) else {}
+
+
+def _extract_year(experience_str: str) -> int:
+    """从工作经历字符串中提取起始年份用于排序"""
+    if not isinstance(experience_str, str):
+        return 9999 # 非字符串排最后
+    # 匹配 YYYY 或 YYYY年
+    match = re.search(r'^(\d{4})', experience_str)
+    if match:
+        return int(match.group(1))
+    # 匹配 YYYY.MM
+    match = re.search(r'^(\d{4})\.', experience_str)
+    if match:
+        return int(match.group(1))
+    return 9999 # 无法解析年份的排在后面
 
 def merge_work_experience(school_experience: List, aminer_experience: List) -> List:
-    """
-    合并工作经历信息 - 处理字符串数组
-    
-    例如: ["2010-至今 南京信息工程大学 教师", ...]
-    """
-    # 处理空列表情况
-    if not school_experience:
-        return aminer_experience
-    
-    if not aminer_experience:
-        return school_experience
-    
-    # 简单地合并去重
-    unique_experiences = set(school_experience)
-    
-    # 添加AMiner中的记录
-    for exp in aminer_experience:
-        if isinstance(exp, str):
-            unique_experiences.add(exp)
-    
-    # 转回列表
-    result = list(unique_experiences)
-    
-    # 尝试按时间段排序
+    """合并工作经历信息 (优化版)"""
+    # 使用辅助函数合并列表并去重过滤空值
+    merged_list = _merge_list_field(school_experience, aminer_experience)
+
+    # 按提取的年份排序
     try:
-        result.sort(key=lambda x: x.split('-')[0] if '-' in x else '9999')
+        # 对于无法解析年份的条目，让它们保持原有相对顺序或排在最后
+        merged_list.sort(key=_extract_year)
     except Exception as e:
-        logging.warning(f"工作经历排序失败: {e}")
-    
-    return result
+        logging.warning(f"工作经历排序时出现错误: {e}. 列表可能未完全排序.")
 
-
-def merge_likes(school_likes: str, aminer_likes: str) -> str:
-    """合并点赞数信息"""
-    # 如果学校数据的点赞数为空，则使用AMiner的
-    if not school_likes or school_likes == '':
-        return aminer_likes
-    return school_likes
+    return merged_list
 
 
 def merge_academic(school_academic: Dict, aminer_academic: Dict) -> Dict:
-    """合并学术信息,替换学校网页数据使用Aminer的数据"""
-    merged_academic = aminer_academic.copy()
-    
-    # 研究领域：合并去重，保留所有研究方向
-    school_fields = set(school_academic.get('research_fields', []))
-    aminer_fields = set(aminer_academic.get('research_fields', []))
-    merged_academic['research_fields'] = list(school_fields.union(aminer_fields))
-    
-    # 根据DOI去重，合并两个来源的数据
-    school_pubs = school_academic.get('publications', [])
-    aminer_pubs = aminer_academic.get('publications', [])
-    
-    # 初始化合并后的出版物列表
-    merged_pubs = []
-    
-    # 创建DOI集合用于去重
-    processed_dois = set()
-    
-    # 优先处理AMiner的出版物（因为通常AMiner的数据更全面）
-    for pub in aminer_pubs:
-        doi = pub.get('DOI', '')
-        if doi and doi not in processed_dois:
-            merged_pubs.append(pub)
-            processed_dois.add(doi)
-    
-    # 添加学校数据中AMiner没有的出版物
-    for pub in school_pubs:
-        doi = pub.get('DOI', '')
-        if doi and doi not in processed_dois:
-            merged_pubs.append(pub)
-            processed_dois.add(doi)
-    
-    # 更新合并后的出版物列表
-    merged_academic['publications'] = merged_pubs
-    
+    """合并学术信息, AMiner数据优先 (优化版)"""
+    sa = school_academic or {}
+    aa = aminer_academic or {}
+    merged_academic = {}
+
+    # 研究领域：合并去重
+    merged_academic['research_fields'] = _merge_list_field(
+        sa.get('research_fields'),
+        aa.get('research_fields')
+    )
+
+    # 出版物：优先AMiner，基于DOI或标题+年份去重
+    merged_academic['publications'] = merge_publications(
+        sa.get('publications'),
+        aa.get('publications')
+    )
+
     return merged_academic
 
+def merge_publications(school_pubs: List, aminer_pubs: List) -> List:
+    """合并出版物列表，优先AMiner，基于DOI或标题+年份去重 (优化版)"""
+    sp = school_pubs if isinstance(school_pubs, list) else []
+    ap = aminer_pubs if isinstance(aminer_pubs, list) else []
+
+    merged_pubs_dict = {}
+
+    # 优先处理AMiner的出版物
+    for pub in ap:
+        if not isinstance(pub, dict):
+            logging.debug(f"跳过格式错误的AMiner出版物条目: {type(pub)} - {pub}")
+            continue
+        # 使用 DOI 或 标题+年份 作为键
+        key = pub.get('DOI') or f"{pub.get('title_en', pub.get('title_cn', 'NoTitle'))}_{pub.get('year', 'NoYear')}"
+        # 简单的规范化键，去除空白符
+        key = "".join(str(key).split()).lower()
+        if key not in merged_pubs_dict:
+             # 检查数据有效性
+             if pub.get('title_en') or pub.get('title_cn') or pub.get('DOI'):
+                 merged_pubs_dict[key] = pub
+
+    # 添加学校数据中AMiner没有的出版物
+    for pub in sp:
+        if not isinstance(pub, dict):
+            logging.debug(f"跳过格式错误的学校出版物条目: {type(pub)} - {pub}")
+            continue
+        key = pub.get('DOI') or f"{pub.get('title_en', pub.get('title_cn', 'NoTitle'))}_{pub.get('year', 'NoYear')}"
+        key = "".join(str(key).split()).lower()
+        if key not in merged_pubs_dict:
+             if pub.get('title_en') or pub.get('title_cn') or pub.get('DOI'):
+                 merged_pubs_dict[key] = pub
+
+    # 转为列表并按年份降序排序
+    final_pubs = list(merged_pubs_dict.values())
+    try:
+        # 提取年份进行排序，处理非数字年份
+        def get_pub_year(p):
+            year = p.get('year')
+            if isinstance(year, (int, float)):
+                return int(year)
+            if isinstance(year, str) and year.isdigit():
+                return int(year)
+            return 0 # 无法解析年份的排在前面（降序）
+
+        final_pubs.sort(key=get_pub_year, reverse=True)
+    except Exception as e:
+        logging.warning(f"出版物按年份排序时出现错误: {e}. 列表可能未完全排序.")
+
+    return final_pubs
+
+
+# --- 测试代码保持不变 (移除之前的函数) ---
 
 # 单元测试代码
 if __name__ == "__main__":
@@ -210,10 +238,10 @@ if __name__ == "__main__":
     school_data = {
         "basic_info": {
             "name": "张三",
-            "title": ["副教授"],
-            "admin_role": "系主任",
+            "title": [""],
+            "admin_role": "",
             "mentor_qualification": ["硕导"],
-            "honors": ["优秀教师"]
+            "honors": ["优秀教师", ""]
         },
         "bio_details": {
             "birth_year": "",
@@ -221,18 +249,15 @@ if __name__ == "__main__":
                 "undergrad": "1995-1999 北京大学 计算机科学",
                 "master": "",
                 "phd": ""
-            }
+            },
+            "work_experience": [
+                "2005-2010 浙江大学 讲师",
+                "2000-2005 清华大学 助教"
+            ]
         },
-        "work_experience": [
-            {
-                "period": "2005-2010",
-                "institution": "浙江大学",
-                "position": "讲师"
-            }
-        ],
-        "likes": "",
+        "likes": None,
         "academic": {
-            "research_fields": ["人工智能", "机器学习"],
+            "research_fields": ["人工智能", "机器学习", ""],
             "publications": [
                 {
                     "title_cn": "深度学习研究",
@@ -241,92 +266,84 @@ if __name__ == "__main__":
                     "journal": "计算机研究",
                     "DOI": "10.1234/dl2020"
                 },
-                {
-                    "title_cn": "机器学习应用",
-                    "title_en": "Machine Learning Applications",
-                    "year": 2019,
-                    "journal": "计算机科学",
-                    "DOI": "10.1234/ml2019"
-                },
-                {
-                    "title_cn": "无DOI论文",
-                    "title_en": "Paper Without DOI",
-                    "year": 2018,
-                    "journal": "信息系统",
-                    "DOI": ""
+                 {
+                    "title_cn": "重复条目",
+                    "title_en": "Duplicate Entry",
+                    "year": 2021,
+                    "journal": "测试期刊",
+                    "DOI": "10.dup/test"
                 }
             ]
-        }
+        },
+        "data_sources": {"school_url": "http://school.edu/zhangsan"}
     }
-    
+
     # AMiner数据示例
     aminer_data = {
         "basic_info": {
-            "name": "张三",
-            "title": ["副教授", "研究员"],
-            "admin_role": "",
-            "mentor_qualification": ["硕导", "博导"],
-            "honors": ["优秀教师", "杰出人才"]
+            "name": "Zhang San", # 不同的名字
+            "title": ["副教授"], # 有新增
+            "admin_role": "副院长", # 有补充
+            "mentor_qualification": ["博导"],
+            "honors": ["杰出青年", "优秀教师"] # 有新增和重复
         },
         "bio_details": {
-            "birth_year": "1975",
+            "birth_year": "1975*", # 有补充
             "education": {
-                "undergrad": "1995-1999 北京大学 计算机科学",
-                "master": "1999-2002 清华大学 人工智能",
-                "phd": "2002-2005 中国科学院 计算机应用"
-            }
-        },
-        "work_experience": [
-            {
-                "period": "2005-2010",
-                "institution": "浙江大学",
-                "position": "讲师"
+                "undergrad": "", # 学校有，这里没有
+                "master": "2000-2003 清华大学 计算机科学", # 有补充
+                "phd": "2003-2007 麻省理工学院 AI" # 有补充
             },
-            {
-                "period": "2010-至今",
-                "institution": "北京大学",
-                "position": "副教授"
-            }
-        ],
-        "likes": "56",
+            "work_experience": [
+                "2010-至今 XX大学 教授", # 新增
+                "2005-2010 浙江大学 讲师", # 重复
+                None # 无效条目
+            ]
+        },
+        "likes": 100,
         "academic": {
-            "research_fields": ["人工智能", "深度学习", "计算机视觉"],
+            "research_fields": ["人工智能", "自然语言处理"], # 有新增和重复
             "publications": [
                 {
-                    "title_cn": "深度学习研究（修订版）",
-                    "title_en": "Research on Deep Learning (Revised)",
-                    "year": 2020,
-                    "journal": "计算机研究与发展",
-                    "DOI": "10.1234/dl2020"
-                },
-                {
-                    "title_cn": "计算机视觉新方法",
-                    "title_en": "New Method for Computer Vision",
-                    "year": 2021,
-                    "journal": "人工智能学报",
-                    "DOI": "10.1234/cv2021"
-                },
-                {
                     "title_cn": "自然语言处理进展",
-                    "title_en": "Progress in Natural Language Processing",
-                    "year": 2022,
-                    "journal": "计算机学报",
-                    "DOI": "10.1234/nlp2022"
+                    "title_en": "NLP Advances",
+                    "year": "2022", # 字符串年份
+                    "journal": "AI期刊",
+                    "DOI": "10.5678/nlp2022"
                 },
                 {
-                    "title_cn": "另一篇无DOI论文",
-                    "title_en": "Another Paper Without DOI",
+                    "title_cn": "深度学习研究",
+                    "title_en": "Research on Deep Learning", # 无DOI，但标题年份与学校重复
+                    "year": 2020,
+                    "journal": "IEEE TPAMI"
+                },
+                 {
+                    "title_cn": "重复条目",
+                    "title_en": "Duplicate Entry", # DOI与学校重复
                     "year": 2021,
-                    "journal": "软件学报",
-                    "DOI": ""
-                }
+                    "journal": "AMiner期刊",
+                    "DOI": "10.dup/test"
+                },
+                "Invalid Pub Entry" # 无效条目
             ]
-        }
+        },
+        "data_sources": {"aminer_url": "http://aminer.org/zhangsan"}
     }
-    
-    # 测试合并
+
     merged_result = merge_data(school_data, aminer_data)
-    
-    # 打印结果
     import json
-    print(json.dumps(merged_result, ensure_ascii=False, indent=2)) 
+    print(json.dumps(merged_result, ensure_ascii=False, indent=2))
+
+    print("\n--- 测试 None 输入 ---")
+    merged_none_school = merge_data(None, aminer_data)
+    print(json.dumps(merged_none_school, ensure_ascii=False, indent=2))
+
+    merged_none_aminer = merge_data(school_data, None)
+    print(json.dumps(merged_none_aminer, ensure_ascii=False, indent=2))
+
+    merged_both_none = merge_data(None, None)
+    print(json.dumps(merged_both_none, ensure_ascii=False, indent=2))
+
+    print("\n--- 测试空字典输入 ---")
+    merged_empty_dicts = merge_data({}, {})
+    print(json.dumps(merged_empty_dicts, ensure_ascii=False, indent=2))
