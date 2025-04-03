@@ -1,0 +1,58 @@
+{
+  "basic_info": {
+    "name": "钟珊珊",
+    "title": [
+      "教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1975",
+    "education": {
+      "undergrad": "1993-1997 南京气象学院 气象学",
+      "master": "1999-2002 南京气象学院 气象学",
+      "phd": "2008-2011 南京信息工程大学 气象学"
+    },
+    "work_experience": [
+      "2002-至今 南京信息工程大学大气科学学院 教师",
+      "2014-2015 澳大利亚CSIRO 访问学者",
+      "2012-2013 英国雷丁大学气象学系 访问学者",
+      "1997-1999 湖南省株洲市气象局气象台 短期天气预报员"
+    ]
+  },
+  "likes": 361,
+  "academic": {
+    "research_fields": [
+      "青藏高原大气热源",
+      "中低纬海气相互作用",
+      "东亚季风"
+    ],
+    "publications": [
+      {
+        "title_cn": "评估和误差分析多源降水数据集在青藏高原夏季的表现",
+        "title_en": "Evaluation and Error Analysis of Multi-Source Precipitation Datasets during Summer over the Tibetan Plateau",
+        "year": 2024,
+        "journal": "Atmosphere",
+        "DOI": "10.3390/atmos15020165"
+      },
+      {
+        "title_cn": "不同类型拉尼娜发展对海洋大陆降水的影响",
+        "title_en": "Impact of different types of La Niña development on the precipitation in the Maritime Continent",
+        "year": 2024,
+        "journal": "Atmosphere-Ocean",
+        "DOI": "10.1080/07055900.2024.2326611"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/zhongshanshan/zh_CN/index.htm"
+  }
+}

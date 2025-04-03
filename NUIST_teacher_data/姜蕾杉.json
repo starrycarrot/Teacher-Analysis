@@ -1,0 +1,57 @@
+{
+  "basic_info": {
+    "name": "姜蕾杉",
+    "title": [
+      "讲师"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      "2020 Graduate Achievement Scholarships, University of Hawaii at Manoa",
+      "2020 Outstanding Student Presentation Award, American Geophysical Union (AGU) Fall Meeting",
+      "2019 《Journal of Meteorological Research》Reviewer Award"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1994",
+    "education": {
+      "undergrad": "2012-2016 南京信息工程大学 大气科学",
+      "master": "",
+      "phd": "2016-2021 夏威夷大学马诺分校 气象学"
+    },
+    "work_experience": [
+      "2022-至今 南京信息工程大学大气科学学院 讲师",
+      "2021-2022 夏威夷大学马诺分校IPRC 博士后"
+    ]
+  },
+  "likes": 336,
+  "academic": {
+    "research_fields": [
+      "热带气候动力学",
+      "跨洋盆相互作用的观测分析及数值模拟"
+    ],
+    "publications": [
+      {
+        "title_cn": "快速衰减厄尔尼诺在衰减夏季对西北太平洋反气旋的不同响应",
+        "title_en": "Diverse response of western North Pacific anticyclone to fast-decay El Niño during decaying summer",
+        "year": 2023,
+        "journal": "Geophysical Research Letters",
+        "DOI": "10.1029/2022GL102612"
+      },
+      {
+        "title_cn": "厄尔尼诺和拉尼娜对赤道大西洋变暖的不对称影响",
+        "title_en": "Asymmetric impacts of El Niño and La Niña on Equatorial Atlantic warming",
+        "year": 2022,
+        "journal": "Journal of Climate",
+        "DOI": "10.1175/JCLI-D-22-0158.1"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/jiangleishan/zh_CN/index.htm"
+  }
+}

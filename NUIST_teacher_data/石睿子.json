@@ -1,0 +1,57 @@
+{
+  "basic_info": {
+    "name": "石睿子",
+    "title": [
+      "副教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      ""
+    ],
+    "honors": [
+      "江苏省双创博士",
+      "清华大学李昌-冯兰瑞奖学金"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1996",
+    "education": {
+      "undergrad": "2014-2018 南京信息工程大学 大气科学",
+      "master": "",
+      "phd": "2018-2023 清华大学 大气科学"
+    },
+    "work_experience": [
+      "2023.11-2025.1 南京信息工程大学大气科学学院 讲师",
+      "2025.1-至今 南京信息工程大学大气科学学院 副教授"
+    ]
+  },
+  "likes": 19,
+  "academic": {
+    "research_fields": [
+      "海-气-浪全耦合数值气象模式研发",
+      "海浪相关耦合参数化方案研发",
+      "海洋对台风响应研究"
+    ],
+    "publications": [
+      {
+        "title_cn": "通过喷雾热通量和表面粗糙度改进热带气旋强度的全球预测",
+        "title_en": "Improvement of Global Forecast of Tropical Cyclone Intensity by Spray Heat Flux and Surface Roughness",
+        "year": 2024,
+        "journal": "Journal of Geophysical Research: Atmospheres",
+        "DOI": "e2023JD039624"
+      },
+      {
+        "title_cn": "近几十年来热带气旋引起的海洋变暖趋势下降",
+        "title_en": "Decreasing trend of tropical cyclone-induced ocean warming in recent decades",
+        "year": 2023,
+        "journal": "Environmental Research Letters",
+        "DOI": "064013"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/shiruizi/zh_CN/index.htm"
+  }
+}

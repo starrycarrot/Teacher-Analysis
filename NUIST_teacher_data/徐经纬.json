@@ -1,0 +1,88 @@
+{
+  "basic_info": {
+    "name": "徐经纬",
+    "admin_role": [
+      ""
+    ],
+    "title": [
+      "副教授",
+      "讲师"
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": []
+  },
+  "bio_details": {
+    "birth_year": "1982",
+    "education": {
+      "undergrad": "",
+      "master": "",
+      "phd": "2006-2009 南京信息工程大学 大气科学"
+    },
+    "work_experience": [
+      "2009-2021 南京信息工程大学 讲师",
+      "2021-至今 南京信息工程大学 副教授"
+    ]
+  },
+  "likes": 58,
+  "academic": {
+    "research_fields": [
+      "作物病害预测",
+      "农业气象",
+      "多源卫星遥感风、浪数据融合研究",
+      "气候变化",
+      "海洋气象",
+      "近海风能资源",
+      "高海况天气过程研究"
+    ],
+    "publications": [
+      {
+        "title_cn": "多源高度计有效波高测量在中国近海水域气候数据分析中的验证",
+        "title_en": "Validation of Multisource Altimeter SWH Measurements for Climate Data Analysis in China’s Offshore Waters",
+        "year": 2024,
+        "journal": "Remote Sensing",
+        "DOI": ""
+      },
+      {
+        "title_cn": "利用大气-海洋耦合预测中国南海沿岸边界层急流的可预测性",
+        "title_en": "Predictability of Coastal Boundary Layer Jets in South China Using Atmosphere–Ocean Coupling",
+        "year": 2023,
+        "journal": "Journal of Geophysical Research: Atmospheres",
+        "DOI": ""
+      },
+      {
+        "title_cn": "随机森林机器算法在江苏省小麦赤霉病病穗率预测中的应用",
+        "title_en": "Application of the random-forest machine algorithm in forecasting diseased panicle rate",
+        "year": 2020,
+        "journal": "气象学报",
+        "DOI": "10.11676/qxxb2020.007"
+      },
+      {
+        "title_cn": "基于气候适宜度的江苏水稻气候年景预测方法",
+        "title_en": "Long-term prediction method of rice annual agricultural climate status in Jiangsu",
+        "year": 2018,
+        "journal": "气象",
+        "DOI": "10.7519/j.issn.1000-0526.2018.09.008"
+      },
+      {
+        "title_cn": "基于大尺度因子的江苏稻区稻瘟病气象等级长期预测",
+        "title_en": "Long-term prediction models based on large-scale factors for meteorological grade",
+        "year": 2017,
+        "journal": "植物保护",
+        "DOI": "10.3969/j.issn.0529-1542.2017.04.006"
+      },
+      {
+        "title_cn": "区域气候模式REMO对中国气温和降水模拟能力的评估",
+        "title_en": "",
+        "year": 2016,
+        "journal": "气候变化研究进展",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/xujingwei/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/jingwei-xu/54335dcadabfaebb1c188742"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "basic_info": {
+    "name": "张大鹏",
+    "title": [
+      "未评职称(高校教师)"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      ""
+    ],
+    "honors": [
+      "中国气象学会大气科学优秀博士学位论文",
+      "南京信息工程大学优秀博士学位论文",
+      "江苏省卓越博士后",
+      "南京信息工程大学优秀毕业生",
+      "博士研究生国家奖学金"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1995*",
+    "education": {
+      "undergrad": "2013-2017 南京信息工程大学 大气科学专业",
+      "master": "2017-2022 南京信息工程大学 气象学",
+      "phd": "2017-2022 南京信息工程大学 气象学"
+    },
+    "work_experience": [
+      "2022-至今 南京信息工程大学大气科学学院 博士后"
+    ]
+  },
+  "likes": 23,
+  "academic": {
+    "research_fields": [
+      "气候变化",
+      "气候预测"
+    ],
+    "publications": [
+      {
+        "title_cn": "谁是2022年中国极端热浪的主要推手？西太平洋副热带高压还是南亚高压？",
+        "title_en": "Who is the major player for 2022 China Extreme heat wave? Western Pacific Subtropical High or South Asian High?",
+        "year": 2024,
+        "journal": "Weather and Climate Extremes",
+        "DOI": "100640"
+      },
+      {
+        "title_cn": "外部强迫对南亚高压年代际下降的贡献",
+        "title_en": "Contributions of External Forcing to the Decadal Decline of the South Asian High",
+        "year": 2022,
+        "journal": "Geophysical Research Letters",
+        "DOI": "e2022GL099384"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/zhangdapeng/zh_CN/index.htm"
+  }
+}

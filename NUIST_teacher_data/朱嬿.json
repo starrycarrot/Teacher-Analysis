@@ -1,0 +1,82 @@
+{
+  "basic_info": {
+    "name": "朱嬿",
+    "admin_role": [
+      ""
+    ],
+    "title": [
+      "讲师"
+    ],
+    "mentor_qualification": [],
+    "honors": []
+  },
+  "bio_details": {
+    "birth_year": "1994",
+    "education": {
+      "undergrad": "2012-2016 南京信息工程大学 大气科学专业",
+      "master": "",
+      "phd": "2016-2020 夏威夷大学 大气科学专业"
+    },
+    "work_experience": [
+      "2020-至今 南京信息工程大学 讲师"
+    ]
+  },
+  "likes": 185,
+  "academic": {
+    "research_fields": [
+      "MJO东传物理机制",
+      "Madden Julian Oscillation(MJO)与高频扰动的相互作用",
+      "气候动力学",
+      "热带大气季节内振荡机理",
+      "热带波动的传播与特征"
+    ],
+    "publications": [
+      {
+        "title_cn": "西太平洋Madden-Julian振荡对2023年6月初纽约市破纪录空气污染的影响",
+        "title_en": "Influence of Western Pacific Madden–Julian Oscillation on New York City's Record‐Breaking Air Pollution in Early June 2023",
+        "year": 2024,
+        "journal": "Geophysical Research Letters",
+        "DOI": "e2024GL109061"
+      },
+      {
+        "title_cn": "MJO东传期间西海洋大陆日凝结加热特征",
+        "title_en": "Characteristics of diurnal condensational heating at the Western Maritime Continent during MJO eastward propagation",
+        "year": 2023,
+        "journal": "Climate Dynamics",
+        "DOI": ""
+      },
+      {
+        "title_cn": "浮尘气溶胶对沙漠大气边界层结构作用的昼夜差异",
+        "title_en": "Different Diurnal Effects of Floating Dust on the Structures in the Atmospheric",
+        "year": 2022,
+        "journal": "Arid Zone Research",
+        "DOI": "10.13866/j.azr.2022.04.03"
+      },
+      {
+        "title_cn": "MJO对赤道波动的动态和热力学调制",
+        "title_en": "Dynamic and thermodynamic modulations of the convectively coupled equatorial waves by the MJO",
+        "year": 2021,
+        "journal": "Environmental Research Communications",
+        "DOI": "10.1088/2515-7620/abeafa"
+      },
+      {
+        "title_cn": "MJO与海洋大陆高频波在MJOTF/GASS模型中的双向相互作用",
+        "title_en": "Two-way interactions between MJO and high-frequency waves over the Maritime Continent in MJOTF/GASS models",
+        "year": 2020,
+        "journal": "Clim Dyn",
+        "DOI": "10.1007/s00382-019-05054-y"
+      },
+      {
+        "title_cn": "MJO与冬季海洋大陆高频波的相互作用",
+        "title_en": "Interaction between the MJO and High-Frequency Waves over the Maritime Continent in Boreal Winter",
+        "year": 2019,
+        "journal": "J. Climate",
+        "DOI": "10.1175/JCLI-D-18-0511.1"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/zhuyan/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/zhu-yan/63e725598def4c1ab7af44c8"
+  }
+}

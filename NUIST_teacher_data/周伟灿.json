@@ -1,0 +1,69 @@
+{
+  "basic_info": {
+    "name": "周伟灿",
+    "title": [
+      "教授"
+    ],
+    "admin_role": [
+      "南京信息工程大学副校长"
+    ],
+    "mentor_qualification": [
+      "博导",
+      "硕导"
+    ],
+    "honors": [
+      "教育部高等学校骨干教师",
+      "江苏省高等学校优秀党务工作者",
+      "江苏省教学成果一等奖"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1963*",
+    "education": {
+      "undergrad": "1981-1985 南京师范大学 数学专业",
+      "master": "1993-1996 南京气象学院 天气动力学专业",
+      "phd": "1996-1999 南京气象学院 气象学专业"
+    },
+    "work_experience": [
+      "1985-至今 南京气象学院（现南京信息工程大学） 教师",
+      "2001-2003 南京气象学院数学系 副系主任和党总支副书记",
+      "2003-2005 南京信息工程大学数学系 党总支书记",
+      "2005-2007 南京信息工程大学 人事处处长，机关第三党总支书记，教授，博士生导师",
+      "2007-2010 南京信息工程大学 校党委常委",
+      "2010-2013 无锡城市职业技术学院 院长、党委副书记",
+      "2013-至今 南京信息工程大学 副校长,党委常委"
+    ]
+  },
+  "likes": 39,
+  "academic": {
+    "research_fields": [
+      "微分方程在大气科学中的应用性研究"
+    ],
+    "publications": [
+      {
+        "title_cn": "非热成风平衡基流的对称不稳定",
+        "title_en": "Symmetric Instability of Non-thermal Wind Balance Basic Flow In Mesosystem",
+        "year": 2002,
+        "journal": "Proceedings of summer workshop on severe storms and torrential rain",
+        "DOI": ""
+      },
+      {
+        "title_cn": "正、斜压流场演变及相互转换所伴随的偶极型阻塞生命史",
+        "title_en": "",
+        "year": 2000,
+        "journal": "南京气象学院学报",
+        "DOI": ""
+      },
+      {
+        "title_cn": "非共振条件下 Liénard 型方程周期解的存在性",
+        "title_en": "",
+        "year": 2006,
+        "journal": "工程数学学报",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/zhouweican/zh_CN/index.htm"
+  }
+}

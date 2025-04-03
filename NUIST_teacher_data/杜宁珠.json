@@ -1,0 +1,75 @@
+{
+  "basic_info": {
+    "name": "杜宁珠",
+    "title": [
+      "讲师"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      ""
+    ],
+    "honors": [
+      "",
+      "2021年江苏省首届教师创新教学竞赛一等奖",
+      "2020年《天气学分析基础》获国家级线上线下混合一流本科课程（团队主要参与成员）"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1982",
+    "education": {
+      "undergrad": "2001-2005 南京信息工程大学 大气科学",
+      "master": "",
+      "phd": "2005-2014 南京信息工程大学 大气科学"
+    },
+    "work_experience": [
+      "2008-2013 CAPS, University of Oklahoma, USA. Visiting Fellow",
+      "2014-至今 南京信息工程大学大气科学学院天气学系 讲师",
+      "2014-至今 南京信息工程大学 讲师",
+      "2019-2020 CAPS, University of Oklahoma, USA. Visiting Scholar"
+    ]
+  },
+  "likes": 40,
+  "academic": {
+    "research_fields": [
+      "雷达资料同化",
+      "台风数值模拟",
+      "中小尺度资料同化"
+    ],
+    "publications": [
+      {
+        "title_cn": "WRF集合动力降尺度中国降水使用不同积云对流方案",
+        "title_en": "WRF Ensemble Dynamical Downscaling of Precipitation over China Using Different Cumulus Convective Schemes",
+        "year": 2022,
+        "journal": "Atmospheric research",
+        "DOI": "10.1016/j.atmosres.2022.106116"
+      },
+      {
+        "title_cn": "使用混合4denvar方法同化雷达数据对对流事件预测的影响",
+        "title_en": "Impact of Assimilating Radar Data Using a Hybrid 4denvar Approach on Prediction of Convective Events",
+        "year": 2021,
+        "journal": "TELLUS SERIES A-DYNAMIC METEOROLOGY AND OCEANOGRAPHY",
+        "DOI": "10.1080/16000870.2021.1903770"
+      },
+      {
+        "title_cn": "基于 Hybrid EnSRF-En3DVar 的雷达资料同化研究",
+        "title_en": "",
+        "year": 2015,
+        "journal": "大气科学学报",
+        "DOI": "10.13878/j.cnki.dqkxxb.20150104008"
+      },
+      {
+        "title_cn": "使用ARPS 3DVAR同化机载多普勒雷达速度数据对飓风Ike（2008）分析和预测的影响",
+        "title_en": "Impact of Assimilating Airborne Doppler Radar Velocity Data Using the ARPS 3DVAR on the Analysis and Prediction of Hurricane Ike (2008)",
+        "year": 2012,
+        "journal": "J. Geophys. Res.",
+        "DOI": "10.1029/2012JD017687"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/duningzhu/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/ningzhu-du/5620802145cedb3398280125"
+  }
+}

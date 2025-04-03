@@ -1,0 +1,67 @@
+{
+  "basic_info": {
+    "name": "苗峻峰",
+    "admin_role": [
+      ""
+    ],
+    "title": [
+      "教授",
+      "研究员",
+      "高级工程师"
+    ],
+    "mentor_qualification": [],
+    "honors": [
+      "中国气象学会涂长望青年气象科技奖二等奖"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "",
+    "education": {},
+    "work_experience": [
+      "现任南京信息工程大学大气科学学院天气学系教授"
+    ]
+  },
+  "likes": 191,
+  "academic": {
+    "research_fields": [
+      "中尺度气象学",
+      "数值天气预报模式评估方法与技术",
+      "数值模式评估与应用",
+      "边界层气象学"
+    ],
+    "publications": [
+      {
+        "title_cn": "海南岛沿海城镇化对海风锋推进影响的数值模拟",
+        "title_en": "",
+        "year": 2024,
+        "journal": "海洋学报",
+        "DOI": ""
+      },
+      {
+        "title_cn": "行星边界层参数化对海南岛山地环流结构和湍流特征模拟的影响",
+        "title_en": "Impact of Planetary Boundary Layer Parameterizations on Simulated Mountain Circulation Structure and Turbulence Characteristics over the Hainan Island",
+        "year": 2023,
+        "journal": "CHINESE JOURNAL OF GEOPHYSICS-CHINESE EDITION",
+        "DOI": "10.6038/cjg2022p0966"
+      },
+      {
+        "title_cn": "边界层参数化对海南岛山地环流结构和湍流特征模拟的影响",
+        "title_en": "",
+        "year": 2023,
+        "journal": "地球物理学报",
+        "DOI": ""
+      },
+      {
+        "title_cn": "海风锋的雷达观测分析研究进展",
+        "title_en": "An overview of radar-based observational study of sea breeze front",
+        "year": 2022,
+        "journal": "wf",
+        "DOI": "10.11737/j.issn.1003-0239.2022.05.011"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/miaojunfeng/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/junfeng-miao/53f4d499dabfaef349f80b27"
+  }
+}

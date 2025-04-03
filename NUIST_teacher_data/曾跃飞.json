@@ -1,0 +1,59 @@
+{
+  "basic_info": {
+    "name": "曾跃飞",
+    "title": [
+      "教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "博导"
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "",
+    "education": {
+      "undergrad": "2004-2009 德国海德堡大学 数学",
+      "master": "2004-2009 德国海德堡大学 数学",
+      "phd": "2010-2013 德国卡尔斯鲁厄理工学院 气象学"
+    },
+    "work_experience": [
+      "2023-2025 国家自然科学基金委中德科学中心 业务主管",
+      "2022- 南京信息工程大学大气科学学院 教授",
+      "2015-2021 德国慕尼黑大学气象系 博士后",
+      "2013-2014 德国国家气象局数值模式部门 助理研究员"
+    ]
+  },
+  "likes": 59,
+  "academic": {
+    "research_fields": [
+      "资料同化方法",
+      "雷达资料同化",
+      "古气候资料同化",
+      "人工智能与资料同化融合技术"
+    ],
+    "publications": [
+      {
+        "title_cn": "联合数据同化FY-4A/AGRI全天空可见光和红外辐射对中国真实降雨事件的影响",
+        "title_en": "Joint data assimilation of all-sky visible and infrared radiances from FY-4A/AGRI for a real-world rain event in China",
+        "year": 2024,
+        "journal": "Monthly Weather Review",
+        "DOI": ""
+      },
+      {
+        "title_cn": "使用ICON-KENDA系统研究冬季雷达数据同化",
+        "title_en": "Investigating radar data assimilation for winter cases using ICON-KENDA system",
+        "year": 2024,
+        "journal": "Atmospheric Research",
+        "DOI": "107732"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/cengyuefei/zh_CN/index.htm"
+  }
+}

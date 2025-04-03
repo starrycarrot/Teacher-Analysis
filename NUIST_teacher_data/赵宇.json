@@ -1,0 +1,65 @@
+{
+  "basic_info": {
+    "name": "赵宇",
+    "title": [
+      "副教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1968",
+    "education": {
+      "undergrad": "1987-1991 南京气象学院 天气动力学",
+      "master": "2000-2003 中国海洋大学 气象学",
+      "phd": "2005-2008 中国科学院大气物理研究所 气象学"
+    },
+    "work_experience": [
+      "2009.04–至今 南京信息工程大学 副教授",
+      "2010.11–2011.12 美国俄克拉荷马大学 访问学者",
+      "2004.04-2009.03 山东省气象台 高级工程师",
+      "1999.11-2004.03 山东省气象台 工程师",
+      "1991.12-1999.10 山东省气象台 助理工程师"
+    ]
+  },
+  "likes": 253,
+  "academic": {
+    "research_fields": [
+      "中小尺度天气动力学和数值模拟",
+      "中尺度灾害天气形成机理"
+    ],
+    "publications": [
+      {
+        "title_cn": "冷涡背景下东北地区短时强降水统计特征",
+        "title_en": "",
+        "year": 2021,
+        "journal": "高原气象",
+        "DOI": ""
+      },
+      {
+        "title_cn": "基于加密观测的一次1月极端雨雪过程积雪特征分析",
+        "title_en": "",
+        "year": 2021,
+        "journal": "高原气象",
+        "DOI": ""
+      },
+      {
+        "title_cn": "一次冬季江淮气旋逗点云区的雷达回波和气流结构分析",
+        "title_en": "",
+        "year": 2018,
+        "journal": "气象学报",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/zhaoyu/zh_CN/index.htm"
+  }
+}

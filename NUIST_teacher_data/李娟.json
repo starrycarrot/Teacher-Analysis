@@ -1,0 +1,76 @@
+{
+  "basic_info": {
+    "name": "李娟",
+    "admin_role": [
+      ""
+    ],
+    "title": [
+      "教授"
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      "江苏省重大人才工程B类特聘教授"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1985",
+    "education": {
+      "undergrad": "2003-2007 南京信息工程大学 大气科学专业",
+      "master": "",
+      "phd": "2007-2012 中科院大气物理研究所 气象学专业"
+    },
+    "work_experience": [
+      "2012-2017 美国夏威夷大学 博士后",
+      "2017-2019 南京信息工程大学 校聘教授",
+      "2019-至今 南京信息工程大学 教授"
+    ]
+  },
+  "likes": 673,
+  "academic": {
+    "research_fields": [
+      "多模式动力诊断评估",
+      "季风动力学",
+      "季风多尺度变率及其海气相互作用",
+      "极端天气气候事件机理",
+      "极端天气气候归因",
+      "次季节至年代际气候预测",
+      "气候预测"
+    ],
+    "publications": [
+      {
+        "title_cn": "西南地区夏季不同移动路径中尺度对流系统的特征",
+        "title_en": "The Characteristics of Summer Mesoscale Convective Systems with Different Moving Paths over Southwest China",
+        "year": 2025,
+        "journal": "Climate Dynamics",
+        "DOI": "10.1007/s00382-025-07586-y"
+      },
+      {
+        "title_cn": "FY-3E微波温度探测器的热带气旋暖核反演算法",
+        "title_en": "A Tropical Cyclone Warm-Core Retrieval Algorithm for the Microwave Temperature Sounder of FY-3E",
+        "year": 2025,
+        "journal": "IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING",
+        "DOI": "10.1109/tgrs.2024.3508795"
+      },
+      {
+        "title_cn": "印尼贯穿流促进马登-朱利安振荡的东向传播",
+        "title_en": "Indonesian Throughflow promoted eastward propagation of the Madden-Julian Oscillation",
+        "year": 2024,
+        "journal": "npj Clim Atmos Sci",
+        "DOI": "10.1038/s41612-024-00787-y"
+      },
+      {
+        "title_cn": "中国北方夏季极端高温日异常模式的可预测性",
+        "title_en": "Predictability of the anomaly pattern of summer extreme high temperature days over northern China",
+        "year": 2024,
+        "journal": "Clim Dyn",
+        "DOI": "10.1007/s00382-024-07301-3"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/lijuan/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/juan-li/5429b2fadabfaec7081a89d4"
+  }
+}

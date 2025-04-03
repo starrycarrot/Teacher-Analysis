@@ -1,0 +1,103 @@
+{
+  "basic_info": {
+    "name": "罗亚丽",
+    "admin_role": [
+      ""
+    ],
+    "title": [
+      "教授",
+      "研究员"
+    ],
+    "mentor_qualification": [
+      "博导",
+      "硕导"
+    ],
+    "honors": [
+      "中国气象局科技领军人才",
+      "国家级首席科学家称号",
+      "美国宇航局集体成就奖",
+      "邹竞蒙气象科技人才奖"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1975*",
+    "education": {
+      "undergrad": "1993-1996 南京气象学院 气象学",
+      "master": "1996-1999 中国气象科学研究院 气象学",
+      "phd": "1999-2003 美国犹他大学 气象学"
+    },
+    "work_experience": [
+      "1996-1999 国家气象中心/数值预报运控室 工程师",
+      "1999-2003 美国犹他大学气象系 助理研究员",
+      "2003-2004 美国犹他大学气象系 博士后",
+      "2004-2006 美国宇航局兰利研究中心 Research Scientist I",
+      "2004-2007 美国宇航局朗利研究中心 研究科学家",
+      "2006-2007 美国宇航局兰利研究中心 Research Scientist II",
+      "2007-2023 中国气象科学研究院 研究员",
+      "2007-2023 中国气象科学研究院灾害天气国家重点实验室 研究员",
+      "2023-present 南京信息工程大学 教授"
+    ]
+  },
+  "likes": 92,
+  "academic": {
+    "research_fields": [
+      "中尺度气象学",
+      "城市气象",
+      "城镇化关系",
+      "季风降水",
+      "强降水演变机理",
+      "数值模拟",
+      "极端天气",
+      "极端气候事件",
+      "极端降水和高温变化趋势"
+    ],
+    "publications": [
+      {
+        "title_cn": "关于弱风城市环境中深对流接力传播导致强降雨事件的研究",
+        "title_en": "On the Relay Propagation of Deep Convection Leading to a Heavy Rainfall Event in a Weak-Wind Urban Environment",
+        "year": 2025,
+        "journal": "QUARTERLY JOURNAL OF THE ROYAL METEOROLOGICAL SOCIETY",
+        "DOI": "10.1002/qj.4937"
+      },
+      {
+        "title_cn": "关于2016年7月北京及周边地区三次强降雨事件的多尺度过程研究",
+        "title_en": "On the Multiscale Processes Leading to Three Heavy Rainfall Episodes over Beijing and Its Periphery in July 2016",
+        "year": 2025,
+        "journal": "Meteorology and Atmospheric Physics",
+        "DOI": "10.1007/s00703-024-01051-x"
+      },
+      {
+        "title_cn": "揭示典型天气背景下珠三角城市群对中尺度对流系统降雨的城市影响",
+        "title_en": "Unveiling the Urban Impact on Mesoscale Convective System Rainfall in the Pearl River Delta Urban Agglomeration under Typical Synoptic Backgrounds",
+        "year": 2024,
+        "journal": "JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES",
+        "DOI": "10.1029/2024jd042409"
+      },
+      {
+        "title_cn": "城市区域极端降水模拟中的不确定性和相关对流过程分析：案例研究",
+        "title_en": "Analysis of uncertainties and associated convective processes in simulations of extreme precipitation over cities with a regional Earth system model: A case study",
+        "year": 2024,
+        "journal": "J. Geophys. Res. Atmos.",
+        "DOI": "e2023JD040606"
+      },
+      {
+        "title_cn": "季风海岸（华南）珠江三角洲极端小时降水的宏观和微观物理特征",
+        "title_en": "Macro- and microphysical characteristics of extreme hourly precipitation over the pearl river Delta on the monsoon coast (South China)",
+        "year": 2024,
+        "journal": "J. Geophys. Res. Atmos.",
+        "DOI": "e2023JD039929"
+      },
+      {
+        "title_cn": "苏沪城市群区域出梅后期对流初生客观识别方法及其时空分布特征",
+        "title_en": "",
+        "year": 2024,
+        "journal": "气象学报",
+        "DOI": "10.11676/qxxb2024.20230168"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/luoyali/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/yali-luo/542cf510dabfae4b91c2f78a"
+  }
+}

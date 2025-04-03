@@ -1,0 +1,64 @@
+{
+  "basic_info": {
+    "name": "李文铠",
+    "title": [
+      "副研究员"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1989*",
+    "education": {
+      "undergrad": "2007-2011 南京信息工程大学 大气科学专业",
+      "master": "2011-2014 南京信息工程大学 气象学专业",
+      "phd": "2014-2017 南京大学 大气科学专业"
+    },
+    "work_experience": [
+      "2015-10至2015-11 美国加州大学洛杉矶分校 访问研究生",
+      "2016-04至2017-01 美国加州大学洛杉矶分校 访问研究生、助研",
+      "2017-09至2021-06 南京信息工程大学 讲师",
+      "2021-07至今 南京信息工程大学 副研究员"
+    ]
+  },
+  "likes": 182,
+  "academic": {
+    "research_fields": [
+      "陆气相互作用",
+      "大气季节内振荡与延伸期预报"
+    ],
+    "publications": [
+      {
+        "title_cn": "极端青藏高原雪盖事件对大气的次季节反馈",
+        "title_en": "The subseasonal feedback of extreme anomalous Tibetan Plateau snow cover events on the atmosphere",
+        "year": 2024,
+        "journal": "Monthly Weather Review",
+        "DOI": "10.1175/MWR-D-23-0175.1"
+      },
+      {
+        "title_cn": "北半球冬季雪盖次季节预报技能评估",
+        "title_en": "Evaluation of subseasonal forecast skill for Northern Hemisphere winter snow cover",
+        "year": 2024,
+        "journal": "Journal of Hydrometeorology",
+        "DOI": "10.1175/JHM-D-23-0190.1"
+      },
+      {
+        "title_cn": "青藏高原雪盖的季节内变化及其影响",
+        "title_en": "Influence of Tibetan Plateau snow cover on East Asian atmospheric circulation at medium-range time scales",
+        "year": 2018,
+        "journal": "Nature Communications",
+        "DOI": "10.1038/s41467-018-06762-5"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/liwenkai/zh_CN/index.htm"
+  }
+}

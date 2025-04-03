@@ -1,0 +1,74 @@
+{
+  "basic_info": {
+    "name": "朱伟军",
+    "admin_role": [
+      ""
+    ],
+    "title": [
+      "教授"
+    ],
+    "mentor_qualification": [
+      "博导",
+      "硕导"
+    ],
+    "honors": [
+      "全国优秀青年气象科技工作者",
+      "全国第八届霍英东教育基金会青年教师奖三等奖",
+      "江苏省“333高层次人才培养工程”中青年科学技术带头人",
+      "江苏省高校“青蓝工程”中青年学术带头人培养人选",
+      "涂长望青年气象科技奖二等奖",
+      "霍英东教育基金会青年教师奖三等奖"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1973*",
+    "education": {
+      "undergrad": "1991-1995 南京气象学院 天气动力学",
+      "master": "1994-1997 南京气象学院 天气动力学",
+      "phd": "1996-1999 南京气象学院 气象学"
+    },
+    "work_experience": [
+      "1994-至今 南京信息工程大学 教授",
+      "2001-2003 美国夏威夷大学国际太平洋研究中心 博士后",
+      "2007-2008 美国夏威夷大学国际太平洋研究中心 高访"
+    ]
+  },
+  "likes": 1098,
+  "academic": {
+    "research_fields": [
+      "中纬度瞬变波",
+      "大气海洋相互作用",
+      "大气环流异常及短期气候预测",
+      "气候动力学",
+      "气候数值模拟与预测",
+      "海气相互作用"
+    ],
+    "publications": [
+      {
+        "title_cn": "卢旺达干旱特征时间波动的标准化降水蒸散指数与标准化降水指数评估",
+        "title_en": "Weighing Temporal Fluctuations of Drought Features in Rwanda Through the Implementation of the Standardized Precipitation Evapotranspiration Index and Standardized Precipitation Index",
+        "year": 2025,
+        "journal": "ENVIRONMENTAL RESEARCH COMMUNICATIONS",
+        "DOI": "10.1088/2515-7620/ada87a"
+      },
+      {
+        "title_cn": "埃塞俄比亚MAM降雨模式的变化：海表温度与大气环流的影响(1981-2022)",
+        "title_en": "Shifting Patterns of Ethiopian MAM Rainfall: Effects of Sea Surface Temperature and Atmospheric Circulation (1981-2022)",
+        "year": 2025,
+        "journal": "INTERNATIONAL JOURNAL OF CLIMATOLOGY",
+        "DOI": "10.1002/joc.8743"
+      },
+      {
+        "title_cn": "埃塞俄比亚MAM降雨模式的变化：海面温度和大气环流的影响（1981-2022）",
+        "title_en": "Shifting Patterns of Ethiopian MAM Rainfall: Effects of Sea Surface Temperature and Atmospheric Circulation (1981–2022)",
+        "year": 2025,
+        "journal": "International Journal of Climatology",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/zhuweijun/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/weijun-zhu/5622816445cedb33983d16d9"
+  }
+}

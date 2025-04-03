@@ -1,0 +1,55 @@
+{
+  "basic_info": {
+    "name": "杨春",
+    "title": [
+      "讲师"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      ""
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1987",
+    "education": {
+      "undergrad": "2004-2008 南京信息工程大学 海洋科学",
+      "master": "2008-2011 南京信息工程大学 气象学",
+      "phd": "2011-2017 南京信息工程大学 气象学"
+    },
+    "work_experience": [
+      "2014-2016 美国国家大气研究中心（NCAR） 访问学者",
+      "2017- 南京信息工程大学 讲师"
+    ]
+  },
+  "likes": 99,
+  "academic": {
+    "research_fields": [
+      "资料同化",
+      "微波成像仪资料直接同化及同化系统构建"
+    ],
+    "publications": [
+      {
+        "title_cn": "FY-4卫星产品在台风Saola海上预报中的组合应用",
+        "title_en": "The Combination Application of FY-4 Satellite Products on Typhoon Saola Forecast on the Sea",
+        "year": 2024,
+        "journal": "Remote Sens.",
+        "DOI": "4105"
+      },
+      {
+        "title_cn": "FY-3D SST数据对台风In-Fa模拟的评估",
+        "title_en": "Assessment of FY-3D SST Data on Typhoon In-Fa Simulation",
+        "year": 2023,
+        "journal": "Atmosphere",
+        "DOI": "101"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/yangchun/zh_CN/index.htm"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "basic_info": {
+    "name": "俞淼",
+    "title": [
+      "教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "博导",
+      "硕导"
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1984",
+    "education": {
+      "undergrad": "2001-2005 南京信息工程大学 大气科学",
+      "master": "2005-2010 南京信息工程大学 大气科学",
+      "phd": "2005-2010 南京信息工程大学 大气科学"
+    },
+    "work_experience": [
+      "2017.7至今 南京信息工程大学大气科学学院 教授",
+      "2010.12-2017.6 南京信息工程大学大气科学学院 讲师",
+      "2011.8-2014.7 University of Connecticut 博士后"
+    ]
+  },
+  "likes": 395,
+  "academic": {
+    "research_fields": [
+      "陆-气相互作用",
+      "植被生态系统-大气相互反馈过程",
+      "陆面过程及模拟",
+      "气候数值模拟与预测",
+      "动力降尺度"
+    ],
+    "publications": [
+      {
+        "title_cn": "欧亚中高纬度地区基于雪和土壤温度的净初级生产力预测",
+        "title_en": "Prediction of net primary productivity in the middle-to-high latitudes of Eurasia based on snow and soil temperature",
+        "year": 2024,
+        "journal": "Atmospheric and Oceanic Science Letters",
+        "DOI": "10.1016/j.aosl.2024.100535"
+      },
+      {
+        "title_cn": "复合干热事件对东亚北部植被生产力的影响",
+        "title_en": "Impacts of compound hot–dry events on vegetation productivity over northern East Asia",
+        "year": 2024,
+        "journal": "Forests",
+        "DOI": "10.3390/f15030549"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/yumiao/zh_CN/index.htm"
+  }
+}

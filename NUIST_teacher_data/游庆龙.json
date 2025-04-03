@@ -1,0 +1,28 @@
+{
+  "basic_info": {
+    "name": "游庆龙",
+    "title": [],
+    "admin_role": [],
+    "mentor_qualification": [
+      "博导"
+    ],
+    "honors": []
+  },
+  "bio_details": {
+    "birth_year": "",
+    "education": {
+      "undergrad": "",
+      "master": "",
+      "phd": ""
+    },
+    "work_experience": []
+  },
+  "likes": 5,
+  "academic": {
+    "research_fields": [],
+    "publications": []
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/youqinglong/zh_CN/index.htm"
+  }
+}

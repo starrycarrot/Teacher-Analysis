@@ -1,0 +1,45 @@
+{
+  "basic_info": {
+    "name": "李悦",
+    "admin_role": [],
+    "title": [],
+    "mentor_qualification": [],
+    "honors": []
+  },
+  "bio_details": {
+    "birth_year": "",
+    "education": {},
+    "work_experience": []
+  },
+  "likes": 1,
+  "academic": {
+    "research_fields": [],
+    "publications": [
+      {
+        "title_cn": "民国时期南京文学与“海派”文学的异同",
+        "title_en": "民国时期南京文学与“海派”文学的异同",
+        "year": 2014,
+        "journal": "Modern Chinese",
+        "DOI": ""
+      },
+      {
+        "title_cn": "民国时期南京文学与“京派”文学的异同",
+        "title_en": "民国时期南京文学与“京派”文学的异同",
+        "year": 2014,
+        "journal": "Modern Chinese",
+        "DOI": ""
+      },
+      {
+        "title_cn": "浅析晚清至民国时期中国电报事业的发展",
+        "title_en": "浅析晚清至民国时期中国电报事业的发展",
+        "year": 2012,
+        "journal": "生物技术世界",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/liyue/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/yue-li/62e38dafd9f2043704cf5b93"
+  }
+}

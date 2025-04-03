@@ -1,0 +1,87 @@
+{
+  "basic_info": {
+    "name": "陈耀登",
+    "title": [
+      "教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "博导",
+      "硕导"
+    ],
+    "honors": [
+      "江苏省“青蓝工程”优秀教学团队负责人",
+      "江苏省“333高层次人才培养工程”中青年科学技术带头人",
+      "江苏省优秀基层教学组织负责人",
+      "全国气象教学名师",
+      "江苏省“六大人才高峰”培养对象",
+      "江苏省第四期“333高层次人才培养工程”中青年科学技术带头人"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1980",
+    "education": {
+      "undergrad": "1998-2002 河海大学 应用数学专业",
+      "master": "",
+      "phd": "2002-2007 河海大学 海洋学院"
+    },
+    "work_experience": [
+      "2016.6-今 南京信息工程大学大气科学学院 教授",
+      "2016.4-2017.4 美国国家大气研究中心（NCAR） 访问学者",
+      "2014.6-2014.9 美国国家大气研究中心（NCAR） 访问学者",
+      "2013.7-2013.10 美国国家大气研究中心（NCAR） 访问学者",
+      "2010.5-2016.5 南京信息工程大学大气科学学院 副教授",
+      "2010.3-2011.2 美国国家大气研究中心（NCAR） 访问学者",
+      "2007.6-2010.5 南京信息工程大学大气科学学院 讲师"
+    ]
+  },
+  "likes": 347,
+  "academic": {
+    "research_fields": [
+      "数值天气预报",
+      "气象学",
+      "资料同化系统",
+      "雷达与卫星等资料同化技术",
+      "资料同化与数值天气预报",
+      "水文-气象耦合预报研究",
+      "中小尺度天气及数值模拟",
+      "数值天气预报模式及应用"
+    ],
+    "publications": [
+      {
+        "title_cn": "皮肤温度控制变量对区域数值天气预报中微波温度探测通道同化的影响",
+        "title_en": "Impact of Skin Temperature Control Variable on the Assimilation of Microwave Temperature-sounding Channels in Regional Numerical Weather Prediction",
+        "year": 2025,
+        "journal": "Advances in Atmospheric Sciences",
+        "DOI": "10.1007/s00376-024-4070-5"
+      },
+      {
+        "title_cn": "利用雷达同化方案改进“21·7”河南极端降雨事件的预报",
+        "title_en": "Improving Forecasts of the '21? 7' Henan Extreme Rainfall Event Using a Radar Assimilation Scheme That Considers Hydrometeor Background Error Covariance",
+        "year": 2024,
+        "journal": "MONTHLY WEATHER REVIEW",
+        "DOI": "10.1175/mwr-d-23-0190.1"
+      },
+      {
+        "title_cn": "考虑水凝物背景误差协方差的雷达同化方案对“21.7”河南极端降雨事件预报的改进",
+        "title_en": "Improving forecasts of the“21.7”Henan extreme rainfall event using a radar assimilation scheme that considers hydrometeor background error covariance",
+        "year": 2024,
+        "journal": "Mon. Wea. Rev.",
+        "DOI": "10.1175/MWR-D-23-0190.1"
+      },
+      {
+        "title_cn": "基于高斯变换的水凝物控制变量背景误差协方差统计",
+        "title_en": "Background error covariance statistics of hydrometeor control variables based on Gaussian transform",
+        "year": 2021,
+        "journal": "Advances in Atmospheric Sciences",
+        "DOI": "10.1007/s00376-021-0271-3"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/chenyaodeng/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/yaodeng-chen/5628b8ad45cedb33987e0867"
+  }
+}

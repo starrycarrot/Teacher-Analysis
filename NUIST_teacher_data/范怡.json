@@ -1,0 +1,91 @@
+{
+  "basic_info": {
+    "name": "范怡",
+    "admin_role": [
+      ""
+    ],
+    "title": [
+      "副教授",
+      "讲师"
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      "“十三五”江苏高校外国留学生英文授课省级精品课程“Advanced Synoptic Dynamics”团队成员",
+      "中国气象局首批全国气象教学团队天气学原理教学团队成员",
+      "中国科学院大学“三好学生标兵”",
+      "优秀班主任",
+      "南京信息工程大学“优秀毕业生”",
+      "博士研究生国家奖学金"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1992*",
+    "education": {
+      "undergrad": "2010-2014 南京信息工程大学 大气科学",
+      "master": "",
+      "phd": "2014-2019 中国科学院大气物理研究所 气象学"
+    },
+    "work_experience": [
+      "2019-2023 南京信息工程大学大气科学学院 讲师",
+      "2019.10-至今 南京信息工程大学大气科学学院 讲师",
+      "2023-至今 南京信息工程大学大气科学学院 副教授"
+    ]
+  },
+  "likes": 350,
+  "academic": {
+    "research_fields": [
+      "极端气候年代际变化成因",
+      "次季节尺度的动力预报及改进",
+      "气候动力学",
+      "气候变化预估",
+      "气候系统年际变率变化成因",
+      "气候预估",
+      "气候预测",
+      "深度学习",
+      "短期气候预测"
+    ],
+    "publications": [
+      {
+        "title_cn": "基于可预测性分析和机器学习的中国南方初夏周降水异常次季节预测",
+        "title_en": "Subseasonal Prediction of Weekly Precipitation Anomalies over Southern China During Early Summer Based on Predictability Analysis and Machine Learning",
+        "year": 2025,
+        "journal": "ATMOSPHERIC RESEARCH",
+        "DOI": "10.1016/j.atmosres.2025.107927"
+      },
+      {
+        "title_cn": "揭示东南亚区域热浪最有利的环流模式及其背后机制",
+        "title_en": "Revealing the Circulation Patterns Most Conducive to Regional Heatwave in Southeast Asia and the Mechanisms Behind",
+        "year": 2025,
+        "journal": "GEOPHYSICAL RESEARCH LETTERS",
+        "DOI": "10.1029/2024gl112190"
+      },
+      {
+        "title_cn": "基于深度学习方法的夏季极端降水月预测：长江中下游地区的实验",
+        "title_en": "Monthly prediction on summer extreme precipitation with a deep learning approach: Experiments over the mid‐to‐lower reaches of the Yangtze River",
+        "year": 2024,
+        "journal": "Earth and Space Science",
+        "DOI": "e2024EA003926"
+      },
+      {
+        "title_cn": "中南半岛夏季极端高温的变化：海洋系统的作用",
+        "title_en": "Variations of summer extreme high temperatures over the Indochina Peninsula: Roles of oceanic systems",
+        "year": 2024,
+        "journal": "Atmospheric Research",
+        "DOI": "107684"
+      },
+      {
+        "title_cn": "长江流域极端高温日的季节预测",
+        "title_en": "Seasonal prediction of extreme high-temperature days over the Yangtze River basin",
+        "year": 2024,
+        "journal": "Science China Earth Sciences",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/fanyi/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/yi-fan/615446b76750f8727fa8473e"
+  }
+}

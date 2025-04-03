@@ -1,0 +1,90 @@
+{
+  "basic_info": {
+    "name": "王会军",
+    "title": [
+      "研究员"
+    ],
+    "admin_role": [
+      "南京信息工程大学学术委员会主任、气候系统预测与变化应对全国重点实验室主任"
+    ],
+    "mentor_qualification": [
+      "博导",
+      "硕导"
+    ],
+    "honors": [
+      "中国科学院院士",
+      "挪威技术科学院院士",
+      "国家自然科学基金杰出青年基金",
+      "何梁何利科学与技术进步奖",
+      "国家自然科学奖二等奖两次",
+      "中国科学院自然科学奖一等奖",
+      "2010年度卢嘉锡优秀研究生导师奖",
+      "全国优秀科技工作者"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1964",
+    "education": {
+      "undergrad": "1982-1986 北京大学地球物理系 地球物理学",
+      "master": "NA",
+      "phd": "1986-1991 中科院大气物理研究所 大气物理学"
+    },
+    "work_experience": [
+      "1991-1994 中国科学院大气物理研究所 助理研究员",
+      "1994-1996 中国科学院大气物理研究所 副研究员",
+      "1996-2015 中国科学院大气物理研究所 研究员",
+      "2001-2005 中国科学院大气物理研究所 常务副所长",
+      "2005-2014 中国科学院大气物理研究所 所长",
+      "2015- 南京信息工程大学 全职教授、学术委员会主任"
+    ]
+  },
+  "likes":891,
+  "academic": {
+    "research_fields": [
+      "气候模拟与气候变化",
+      "东亚季风气候变异及其预测",
+      "极端气候事件",
+      "气候系统预测"
+    ],
+    "publications": [
+      {
+        "title_cn": "中国北方地区极端气候的变化及成因",
+        "title_en": "Changes and causes of extreme climate in northern China",
+        "year": 2022,
+        "journal": "气象出版社",
+        "DOI": "NA"
+      },
+      {
+        "title_cn": "“一带一路”区域气候变化灾害风险",
+        "title_en": "Climate change disaster risks in the 'Belt and Road' region",
+        "year": 2021,
+        "journal": "气象出版社",
+        "DOI": "NA"
+      },
+      {
+        "title_cn": "我国短期气候预测的新理论、新方法和新技术",
+        "title_en": "New theories, methods and technologies for short-term climate prediction in China",
+        "year": 2012,
+        "journal": "气象出版社",
+        "DOI": "NA"
+      },
+      {
+        "title_cn": "传统梅雨-白雨已被全球变暖暂停",
+        "title_en": "Traditional Meiyu-Baiu has been suspended by global warming",
+        "year": 2024,
+        "journal": "National Science Review",
+        "DOI": "nwae166"
+      },
+      {
+        "title_cn": "2022年中国极端热浪的主要推手是谁？西太平洋副热带高压还是南亚高压？",
+        "title_en": "Who is the major player for 2022 China Extreme heat wave? Western Pacific Subtropical high or South Asian high?",
+        "year": 2024,
+        "journal": "Weather and Climate Extremes",
+        "DOI": "100640"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/WangHuijun/zh_CN/index.htm"
+  }
+}

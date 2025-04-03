@@ -1,0 +1,67 @@
+{
+  "basic_info": {
+    "name": "孟德明",
+    "title": [
+      "未评职称(高校教师)"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      ""
+    ],
+    "honors": [
+      "首届中国气象学会大气科学优秀博士论文",
+      "首批江苏省卓越博士后计划"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1993*",
+    "education": {
+      "undergrad": "2011-2015 南京信息工程大学 大气科学专业",
+      "master": "",
+      "phd": "2015-2021 南京信息工程大学 气象学专业"
+    },
+    "work_experience": [
+      "2021-2024 南京大学 博士后",
+      "2024-至今 南京信息工程大学 教师"
+    ]
+  },
+  "likes": 35,
+  "academic": {
+    "research_fields": [
+      "气象资料同化",
+      "人工智能资料同化",
+      "中小尺度天气数值模拟与机理分析",
+      "云雨区卫星资料同化关键技术研发",
+      "多源气象卫星观测资料协同同化方案研究",
+      "基于人工智能的资料同化方法研究"
+    ],
+    "publications": [
+      {
+        "title_cn": "结合地球静止干涉红外测深仪三维水平风场对区域NWP模式台风预报的附加价值",
+        "title_en": "Added Value of Three‐Dimensional Horizontal Winds From Geostationary Interferometric Infrared Sounder for Typhoon Forecast in a Regional NWP Model",
+        "year": 2024,
+        "journal": "Journal of Geophysical Research: Atmospheres",
+        "DOI": "e2024JD040736"
+      },
+      {
+        "title_cn": "结合水凝物控制变量的MWHS-II全天空变分同化框架及其对台风个例分析和预报的影响",
+        "title_en": "Variational all-sky assimilation framework for MWHS-II with hydrometeors control variables and its impacts on analysis and forecast of typhoon cases",
+        "year": 2024,
+        "journal": "Journal of Advances in Modeling Earth Systems",
+        "DOI": "e2023MS004153"
+      },
+      {
+        "title_cn": "基于水凝物控制变量的雷达反射率同化及其对短期降水预报的影响",
+        "title_en": "Radar reflectivity assimilation based on hydrometeor control variables and its impact on short-term precipitation forecasting",
+        "year": 2023,
+        "journal": "Remote Sensing",
+        "DOI": "10.3390/rs15030672"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/mengdm/zh_CN/index.htm"
+  }
+}

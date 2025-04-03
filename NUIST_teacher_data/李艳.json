@@ -1,0 +1,86 @@
+{
+  "basic_info": {
+    "name": "李艳",
+    "admin_role": [
+      ""
+    ],
+    "title": [
+      "副教授",
+      "讲师"
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": []
+  },
+  "bio_details": {
+    "birth_year": "1976*",
+    "education": {
+      "undergrad": "1994-1998 南京信息工程大学 气象学专业",
+      "master": "2011-2014 中国科学院寒区旱区环境与工程研究所 地图学与地理信息系统",
+      "phd": "2002-2007 南京大学 气象学专业"
+    },
+    "work_experience": [
+      "1998-2002 山东省烟台市气象局 预报员",
+      "2007-至今 南京信息工程大学大气科学学院",
+      "2010-2011 甘肃省合水县气象局 观测员",
+      "2011-2012 夏威夷大学",
+      "2019-至今 南京信息工程大学地理科学学院 讲师"
+    ]
+  },
+  "likes": 286,
+  "academic": {
+    "research_fields": [
+      "TC高空外流特征以及TC强度变化的影响",
+      "低纬度TC的形成",
+      "北方暴雨的生成与预报",
+      "台风强度变化",
+      "台风生成",
+      "地形对暴雨的强迫作用",
+      "暴雨等中小尺度机理研究",
+      "水文遥感",
+      "陆面变化对区域气候的可能影响"
+    ],
+    "publications": [
+      {
+        "title_cn": "基于不确定性引导优先级优化的深度图像恢复",
+        "title_en": "Depth Image Restoration Based on Uncertainty-Guided Priority Optimization",
+        "year": 2025,
+        "journal": "J Electronic Imaging",
+        "DOI": "10.1117/1.jei.34.1.013022"
+      },
+      {
+        "title_cn": "评估中国长三角地区城市绿地覆盖的空间格局及其决定因素",
+        "title_en": "Assessing Spatial Pattern of Urban Green Space Coverage and Its Determining Factors: a Case Study in the Yangtze River Delta Region in China",
+        "year": 2024,
+        "journal": "Advances in Space Research",
+        "DOI": "10.1016/j.asr.2024.12.009"
+      },
+      {
+        "title_cn": "低空急流对太行山东麓地形性强降雨的影响",
+        "title_en": "Impact of low-level jets on orographic heavy rainfall along the eastern slope of Taihang mountains",
+        "year": 2024,
+        "journal": "Journal of Geophysical Research: Atmospheres",
+        "DOI": "10.1029/2024JD041179"
+      },
+      {
+        "title_cn": "上对流层冷异常对太行山东麓强降雨的影响",
+        "title_en": "Influence of upper-tropospheric cold anomalies on heavy rainfall along the Eastern Foothills of Taihang Mountains",
+        "year": 2024,
+        "journal": "Atmospheric Research",
+        "DOI": "10.1016/j.atmosres.2024.107264"
+      },
+      {
+        "title_cn": "双低空急流对“21·7”河南极端暴雨的影响",
+        "title_en": "",
+        "year": 2023,
+        "journal": "大气科学",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/liyan12/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/yan-li/542a9f2edabfae2b4e1236ae"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "basic_info": {
+    "name": "刘仁强",
+    "title": [
+      "研究员",
+      "教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1969",
+    "education": {
+      "undergrad": "1993-1995 华中师范大学 数学系",
+      "master": "1997-1999 中国科学院武汉物理与数学研究所 空间物理学",
+      "phd": "1999-2003 武汉大学 空间物理学"
+    },
+    "work_experience": [
+      "2011-至今 南京信息工程大学 研究员",
+      "2007-2011 南京信息工程大学 副研究员",
+      "2008-2010 德国莱比锡大学气象研究所 博士后",
+      "2004-2007 中国科学院大气物理研究所 博士后"
+    ]
+  },
+  "likes": 42,
+  "academic": {
+    "research_fields": [
+      "行星波与重力波",
+      "波动与辐射过程参数化",
+      "大气环流动力学",
+      "气候变化"
+    ],
+    "publications": [
+      {
+        "title_cn": "极区夏季中层顶区域大气波之间的共振非线性相互作用",
+        "title_en": "Resonant nonlinear interactions between atmospheric waves in the polar summer mesopause region",
+        "year": 2003,
+        "journal": "Science in China (G)",
+        "DOI": ""
+      },
+      {
+        "title_cn": "中纬度冬季低热层大气潮汐之间的二次非线性相互作用",
+        "title_en": "Quadratic nonlinear interactions between atmospheric tides in the mid-latitude winter lower thermosphere",
+        "year": 2006,
+        "journal": "J. Atmos. Sol.-Terr. Phys.",
+        "DOI": ""
+      },
+      {
+        "title_cn": "大气潮汐的经典理论及有关现代模式的发展",
+        "title_en": "",
+        "year": 2010,
+        "journal": "空间科学学报",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/liurenqiang/zh_CN/index.htm"
+  }
+}

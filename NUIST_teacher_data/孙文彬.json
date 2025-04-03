@@ -1,0 +1,61 @@
+{
+  "basic_info": {
+    "name": "孙文彬",
+    "title": [
+      "博士"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      ""
+    ],
+    "honors": [
+      "江苏省卓越博士后"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1994",
+    "education": {
+      "undergrad": "2012-2016 中国海洋大学 大气科学",
+      "master": "2016-2019 北京师范大学 全球环境变化",
+      "phd": "2019-2023 中山大学 大气科学"
+    },
+    "work_experience": [
+      "2023-08 至今 南京信息工程大学 博士后"
+    ]
+  },
+  "likes": 3,
+  "academic": {
+    "research_fields": [
+      "气候变化",
+      "极端气候事件"
+    ],
+    "publications": [
+      {
+        "title_cn": "1850年代以来全球地表温度变化的评估：C-LSAT2.0集合和CMST-Interim数据集",
+        "title_en": "The Assessment of Global Surface Temperature Change from 1850s: The C-LSAT2.0 Ensemble and the CMST-Interim Datasets",
+        "year": 2021,
+        "journal": "Advances in Atmospheric Sciences",
+        "DOI": ""
+      },
+      {
+        "title_cn": "中国全球合并地表温度版本2.0的描述",
+        "title_en": "Description of the China global Merged Surface Temperature version 2.0",
+        "year": 2022,
+        "journal": "Earth System Science Data",
+        "DOI": ""
+      },
+      {
+        "title_cn": "基于CLSAT和CMST的全球平均陆面气温和地表温度趋势的更新评估",
+        "title_en": "An updated evaluation of the global mean land surface air temperature and surface temperature trends based on CLSAT and CMST",
+        "year": 2021,
+        "journal": "Climate Dynamics",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/sunwenbin/zh_CN/index.htm"
+  }
+}

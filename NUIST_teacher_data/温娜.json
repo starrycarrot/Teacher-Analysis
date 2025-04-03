@@ -1,0 +1,65 @@
+{
+  "basic_info": {
+    "name": "温娜",
+    "title": [
+      "副教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1979",
+    "education": {
+      "undergrad": "1998-2002 成都信息工程学院 气象学",
+      "master": "2002-2006 中国海洋大学 气象学",
+      "phd": "2006-2009 中国海洋大学 物理海洋学"
+    },
+    "work_experience": [
+      "2009.06-至今 南京信息工程大学大气科学学院 教师",
+      "2013.10-2014.09 法国巴黎第六大学 访问学者",
+      "2006.07-2007.09 美国威斯康星大学 访问学者",
+      "2005.02-2006.02 美国威斯康星大学 访问学者"
+    ]
+  },
+  "likes": 36,
+  "academic": {
+    "research_fields": [
+      "大尺度海-气相互作用",
+      "气候诊断及预测",
+      "气候统计方法研究及资料分析"
+    ],
+    "publications": [
+      {
+        "title_cn": "厄尔尼诺衰减期间东亚夏季降水对中等海温异常的响应及事件类型的依赖性",
+        "title_en": "Response of East Asian Summer Precipitation to Intermediate SST Anomalies while El Niño Decays and Dependence on Type of Events",
+        "year": 2022,
+        "journal": "Journal of Climate",
+        "DOI": "10.1175/JCLI-D-21-0335.1"
+      },
+      {
+        "title_cn": "2020年长江流域夏季异常降水的动力和热力学效应诊断",
+        "title_en": "Diagnosing the Dynamic and Thermodynamic Effects for the Exceptional 2020 Summer Rainy Season in the Yangtze River Valley",
+        "year": 2022,
+        "journal": "Journal of Meteorological Research",
+        "DOI": "10.1007/s13351-022-1126-2"
+      },
+      {
+        "title_cn": "海洋反馈研究中存在问题及其统计方法讨论",
+        "title_en": "",
+        "year": 2013,
+        "journal": "大气科学学报",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/wenna/zh_CN/index.htm"
+  }
+}

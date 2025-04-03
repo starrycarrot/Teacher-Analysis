@@ -1,0 +1,71 @@
+{
+  "basic_info": {
+    "name": "张玲",
+    "admin_role": [
+      ""
+    ],
+    "title": [
+      "副教授"
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": []
+  },
+  "bio_details": {
+    "birth_year": "1982",
+    "education": {
+      "undergrad": "2001-2005 南京信息工程大学 大气科学",
+      "master": "",
+      "phd": "2005-2010 南京信息工程大学 大气科学"
+    },
+    "work_experience": [
+      "2010-2016 南京信息工程大学 讲师",
+      "2012-2012 德国汉堡大学气象系 访问学者",
+      "2012-2015 德国马普气象研究所 博士后",
+      "2016-至今 南京信息工程大学 副教授"
+    ]
+  },
+  "likes": 248,
+  "academic": {
+    "research_fields": [
+      "区域气候变化",
+      "强对流机理",
+      "短期气候预测"
+    ],
+    "publications": [
+      {
+        "title_cn": "蒙古高原局地温度异常对2023年7月华北强降雨事件的影响",
+        "title_en": "Impacts of the Local Temperature Anomalies over Mongolian Plateau on Heavy Rainfall Events in North China During July 2023",
+        "year": 2025,
+        "journal": "Weather and Climate Extremes",
+        "DOI": "10.2139/ssrn.4960185"
+      },
+      {
+        "title_cn": "南海北部沿海边界层急流的空间分布特征及物理机制",
+        "title_en": "The Distinct Spatial Patterns and Physical Mechanisms of Coastal Boundary Layer Jets over the Northern South China Sea",
+        "year": 2024,
+        "journal": "MONTHLY WEATHER REVIEW",
+        "DOI": "10.1175/mwr-d-23-0263.1"
+      },
+      {
+        "title_cn": "广东沿海一类暖区强降水前兆信号的分析与应用",
+        "title_en": "Analyses and applications of the precursor signals of a kind of warm sector heavy rainfall over the coast of Guangdong, China",
+        "year": 2022,
+        "journal": "Atmospheric Research",
+        "DOI": "10.1016/j.atmosres.2022.106425"
+      },
+      {
+        "title_cn": "1980年代后ENSO和IOD对中国东南部冬季降水的增强联合影响",
+        "title_en": "Enhanced joint effects of ENSO and IOD on Southeast China winter precipitation after 1980s",
+        "year": 2022,
+        "journal": "Climate Dynamics",
+        "DOI": "10.1007/s00382-021-05907-5"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/zhangling/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/ling-zhang/5429be72dabfaec7081af2f3"
+  }
+}

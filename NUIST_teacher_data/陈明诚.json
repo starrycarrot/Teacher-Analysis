@@ -1,0 +1,62 @@
+{
+  "basic_info": {
+    "name": "陈明诚",
+    "title": [
+      "讲师"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1986",
+    "education": {
+      "undergrad": "2005-2009 南京信息工程大学 大气科学",
+      "master": "2009-2012 南京信息工程大学 气象学",
+      "phd": "2012-2017 南京信息工程大学 气象学"
+    },
+    "work_experience": [
+      "2017-至今 南京信息工程大学大气科学学院 讲师"
+    ]
+  },
+  "likes": 66,
+  "academic": {
+    "research_fields": [
+      "海气相互作用",
+      "青藏高原气候动力学",
+      "气溶胶气候效应"
+    ],
+    "publications": [
+      {
+        "title_cn": "青藏高原夏季降水日变化特征及机制",
+        "title_en": "The characteristics and mechanisms on diurnal variation of summer precipitation over the Tibetan Plateau",
+        "year": 2022,
+        "journal": "Climate Dynamics",
+        "DOI": "10.1007/s00382-022-06423-w"
+      },
+      {
+        "title_cn": "ENSO演变不对称性：EP与CP厄尔尼诺",
+        "title_en": "ENSO evolution asymmetry: EP versus CP El Niño",
+        "year": 2021,
+        "journal": "Climate Dynamics",
+        "DOI": ""
+      },
+      {
+        "title_cn": "动态和热力学过程在导致厄尔尼诺和拉尼娜演变不对称性中的相对作用",
+        "title_en": "Relative Roles of Dynamic and Thermodynamic Processes in Causing Evolution Asymmetry between El Niño and La Niña",
+        "year": 2016,
+        "journal": "Journal of Climate",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/chenmingcheng/zh_CN/index.htm"
+  }
+}

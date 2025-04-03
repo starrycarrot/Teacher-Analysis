@@ -1,0 +1,57 @@
+{
+  "basic_info": {
+    "name": "钱伊恬",
+    "title": [
+      "副教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      "博士后创新人才支持计划",
+      "南京信息工程大学优秀博士学位论文"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1991",
+    "education": {
+      "undergrad": "2010-2014 南京信息工程大学 大气科学专业",
+      "master": "2014-2020 南京信息工程大学 气象学专业",
+      "phd": "2014-2020 南京信息工程大学 气象学专业"
+    },
+    "work_experience": [
+      "2018-2019 美国普林斯顿大学/地球物理流体动力学实验室GFDL 访问研究生",
+      "2021-2023 南京信息工程大学 博士后",
+      "2023-至今 南京信息工程大学 讲师"
+    ]
+  },
+  "likes": 38,
+  "academic": {
+    "research_fields": [
+      "极端天气事件的次季节变化机制和延伸期预报方法研究",
+      "热浪和热带气旋"
+    ],
+    "publications": [
+      {
+        "title_cn": "西伯利亚高压的季节内周期性受ENSO调节：马登-朱利安振荡的主导作用",
+        "title_en": "Distinct intraseasonal periodicity of Siberian high as modulated by ENSO: dominance of Madden-Julian oscillation",
+        "year": 2024,
+        "journal": "Environ. Res. Lett.",
+        "DOI": "10.1088/1748-9326/ad3b6a"
+      },
+      {
+        "title_cn": "西北太平洋热带气旋频次的延伸期动力-统计预报方法和评估",
+        "title_en": "A hybrid dynamical-statistical model for advancing subseasonal tropical cyclone prediction over the western North Pacific",
+        "year": 2020,
+        "journal": "Geophys. Res. Lett.",
+        "DOI": "10.1029/2020GL090095"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/qianyitian1/zh_CN/index.htm"
+  }
+}

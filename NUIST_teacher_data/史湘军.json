@@ -1,0 +1,68 @@
+{
+  "basic_info": {
+    "name": "史湘军",
+    "title": [
+      "教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1981",
+    "education": {
+      "undergrad": "2000-2004 南京气象学院 电子信息防雷方向",
+      "master": "2004-2007 南京信息工程大学 气象学",
+      "phd": "2007-2010 中科院大气物理研究所 地球流体力学"
+    },
+    "work_experience": [
+      "2016.08- 南京信息工程大学 校聘教授/副研究员/教授",
+      "2017.02-2018.11 美国夏威夷大学 访问学者",
+      "2016.03-2016.04 中科院大气物理研究所 访问学者",
+      "2015.05-2016.01 国家气象局气候中心 访问学者",
+      "2013.10-2014.10 美国怀俄明大学 博士后",
+      "2012.09-2012.12 国家气象局气候中心 交流预报员",
+      "2010.10-2016.07 河北省气候中心 工程师/高级工程师"
+    ]
+  },
+  "likes": 186,
+  "academic": {
+    "research_fields": [
+      "气象人工智能方法",
+      "气候模式研发",
+      "地球工程方法研究"
+    ],
+    "publications": [
+      {
+        "title_cn": "卷云稀疏化地表增亮效应的数值模拟研究",
+        "title_en": "A Numerical Modeling Study on the Earth's Surface Brightening Effect of Cirrus Thinning",
+        "year": 2024,
+        "journal": "Atmosphere",
+        "DOI": ""
+      },
+      {
+        "title_cn": "冰粒子尺寸分布形状参数对社区大气模式第6版(CAM6)气候模拟的影响",
+        "title_en": "Impacts of the ice-particle size distribution shape parameter on climate simulations with the Community Atmosphere Model Version 6 (CAM6)",
+        "year": 2022,
+        "journal": "Geoscientific Model Development",
+        "DOI": "10.5194/gmd-15-7751-2022"
+      },
+      {
+        "title_cn": "基于CMIP6强迫模拟分析人为气溶胶的气候效应（一）介绍NUIST模式评估结果",
+        "title_en": "",
+        "year": 2020,
+        "journal": "大气科学学报",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/shixiangjun/zh_CN/index.htm"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "basic_info": {
+    "name": "赵海坤",
+    "admin_role": [
+      ""
+    ],
+    "title": [
+      "教授"
+    ],
+    "mentor_qualification": [
+      "博导",
+      "硕导"
+    ],
+    "honors": [
+      "国家优青基金获得者",
+      "教育部霍英东基金青年教师奖",
+      "江苏省六大人才高峰高层次人才",
+      "谢义炳青年气象科技奖"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1982*",
+    "education": {
+      "undergrad": "2000-2004 上饶师范学院 应用数学",
+      "master": "2004-2007 南京信息工程大学 应用数学",
+      "phd": "2007-2012 南京信息工程大学 气象学"
+    },
+    "work_experience": [
+      "2010-2015 南京信息工程大学 讲师",
+      "2015-2019 南京信息工程大学 副教授",
+      "2019-至今 南京信息工程大学 教授"
+    ]
+  },
+  "likes": 442,
+  "academic": {
+    "research_fields": [
+      "台风气候动力学",
+      "台风气候学",
+      "台风预测技术研制",
+      "台风预测预报技术",
+      "热带波动"
+    ],
+    "publications": [
+      {
+        "title_cn": "北半球热带气旋频率年代际变化中IPO和AMO的可比影响",
+        "title_en": "Comparable Impacts of IPO and AMO on the Decadal Change of Northern Hemisphere Tropical Cyclone Frequency",
+        "year": 2025,
+        "journal": "CLIMATE DYNAMICS",
+        "DOI": "10.1007/s00382-024-07523-5"
+      },
+      {
+        "title_cn": "CMIP6历史模拟中全球热带气旋频率的减少",
+        "title_en": "Decreasing Global Tropical Cyclone Frequency in CMIP6 Historical Simulations",
+        "year": 2024,
+        "journal": "Science Advances",
+        "DOI": "10.1126/sciadv.adl2142"
+      },
+      {
+        "title_cn": "热带印度洋海表温度对快速增强的西北太平洋热带气旋比例的可能影响",
+        "title_en": "Possible Influence of Tropical Indian Ocean Sea Surface Temperature on the Proportion of Rapidly Intensifying Western North Pacific Tropical Cyclones during the Extended Boreal Summer",
+        "year": 2020,
+        "journal": "Journal of Climate",
+        "DOI": ""
+      },
+      {
+        "title_cn": "ENSO与西北太平洋热带气旋活动在夏季后期的关系",
+        "title_en": "On the relationship between ENSO and tropical cyclones in the western North Pacific during the boreal summer",
+        "year": 2019,
+        "journal": "Climate Dynamics",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/zhaohaikun/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/haikun-zhao/542ecb86dabfae3edd526786"
+  }
+}

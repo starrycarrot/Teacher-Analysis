@@ -1,0 +1,86 @@
+{
+  "basic_info": {
+    "name": "管兆勇",
+    "admin_role": [
+      "党委办公室、校长办公室、保密办公室"
+    ],
+    "title": [
+      "教授"
+    ],
+    "mentor_qualification": [
+      "博导"
+    ],
+    "honors": [
+      "中国气象学会青年科技奖涂长望奖",
+      "享受国务院政府特殊津贴",
+      "日本FY2002FRSGC杰出研究奖",
+      "江苏省有突出贡献的中青年专家"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "NA",
+    "education": {
+      "undergrad": "1980-1984 南京大学 气象学",
+      "master": "1984-1987 南京大学 大气科学",
+      "phd": "1987-1990 南京大学 大气科学"
+    },
+    "work_experience": [
+      "1990-至今 南京信息工程大学 教师",
+      "1995-1996 英国爱丁堡大学气象系 访问学者",
+      "1999-2001 日本FrontierResearchSystemForGlobalChange STAFellow",
+      "1999-2001 日本FrontierResearchSystemForGlobalChange（IGCR） STAFellow",
+      "2001-2003 日本FrontierResearchSystemForGlobalChange Researchscientist",
+      "2001-2003 日本FrontierResearchSystemForGlobalChange（IGCR） Researchscientist",
+      "2003-2014 南京信息工程大学 副校长",
+      "2014-至今 南京信息工程大学 副校长"
+    ]
+  },
+  "likes": 233,
+  "academic": {
+    "research_fields": [
+      "亚洲季风",
+      "大气环流与气候动力学",
+      "大气环流变化机理",
+      "季风动力学",
+      "极端天气气候事件",
+      "极端降水事件",
+      "气候动力学",
+      "海气相互作用",
+      "海气相互作用与季风动力学"
+    ],
+    "publications": [
+      {
+        "title_cn": "东亚极端寒冷事件持续时间延长受平流层极涡扩展影响",
+        "title_en": "Longer Duration of Extreme Cold Events over East Asia Affected by the Stratospheric Polar Vortex Extension",
+        "year": 2025,
+        "journal": "JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES",
+        "DOI": "10.1029/2024jd042299"
+      },
+      {
+        "title_cn": "改进的Transformer模型用于季节内振荡的延伸期预报",
+        "title_en": "A Modified Transformer Model for the Extended-Range Forecast of Intraseasonal Oscillation",
+        "year": 2025,
+        "journal": "npj Climate and Atmospheric Science",
+        "DOI": "10.1038/s41612-025-00902-7"
+      },
+      {
+        "title_cn": "近期北太平洋中部变暖对平流层北极涡旋响应的加强",
+        "title_en": "Recent strengthening of the stratospheric Arctic vortex response to warming in the central North Pacific",
+        "year": 2018,
+        "journal": "Nature Communications",
+        "DOI": "10.1038/s41467-018-04138-3"
+      },
+      {
+        "title_cn": "平流层北极涡旋与太平洋年代际振荡的年代际关系",
+        "title_en": "Decadal Relationship between the Stratospheric Arctic Vortex and Pacific Decadal Oscillation",
+        "year": 2018,
+        "journal": "J. Climate",
+        "DOI": "10.1175/JCLI-D-17-0266.1"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/guanzhaoyong/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/zhaoyong-guan/5628ceec45cedb33987f2a35"
+  }
+}

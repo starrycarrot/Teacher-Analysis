@@ -1,0 +1,78 @@
+{
+  "basic_info": {
+    "name": "Jae-Won Choi",
+    "title": [
+      "教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      ""
+    ],
+    "honors": [
+      "Marquis Who’s Who in Science and Engineering",
+      "Marquis Who’s Who in Asia",
+      "Award for young atmospheric scientist from Korean Meteorological Society",
+      "Award for best research paper from Korea Earth Science Society"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1975",
+    "education": {
+      "undergrad": "1994-2001 韩国釜庆国立大学 环境与大气科学系",
+      "master": "2001-2003 韩国釜庆国立大学 环境与大气科学系",
+      "phd": "2003-2009 韩国釜庆国立大学 环境与大气科学系"
+    },
+    "work_experience": [
+      "1995-1997 韩国空军 军事天气预报员",
+      "1998-2005 韩国釜庆国立大学气象灾害实验室 研究助理",
+      "2005-2007 韩国国家气象研究所 常任研究科学家/台风预报员",
+      "2007-2008 韩国国家气象研究所 常任研究科学家",
+      "2008-2008 韩国气象厅 常任研究科学家",
+      "2008-2009 韩国釜庆国立大学卫星信息科学研究所 研究员",
+      "2009-2010 国立台湾大学台风动力研究中心 博士后研究员",
+      "2010-2012 韩国气象厅国家台风中心 常任研究科学家/台风预报员",
+      "2011-2012 韩国济州国立大学 兼职教授",
+      "2012-2016 韩国气象厅国家气象科学研究所 常任研究科学家",
+      "2016-2017 中国科学院大气物理研究所 副教授",
+      "2017-2018 夏威夷大学马诺阿分校国际太平洋研究中心 博士后研究员",
+      "2018-至今 南京信息工程大学 全职教授"
+    ]
+  },
+  "likes": 11,
+  "academic": {
+    "research_fields": [
+      "热带气旋",
+      "热带和中纬度气候系统的相互作用",
+      "东亚和东南亚季风动力学",
+      "台风"
+    ],
+    "publications": [
+      {
+        "title_cn": "韩国登陆热带气旋频率的年代际变化及其与PDO的可能关联",
+        "title_en": "Interdecadal change of Korean landfalling tropical cyclone frequency and its possible association with PDO",
+        "year": 2018,
+        "journal": "Tropical Cyclone Research and Review",
+        "DOI": ""
+      },
+      {
+        "title_cn": "韩国釜山由极地低压引起的强降雪的天气学特征",
+        "title_en": "Synoptic characteristics of heavy snowfalls at Busan of Korea caused by polar lows over the East/Japan Sea",
+        "year": 2018,
+        "journal": "Theoretical and Applied Climatology",
+        "DOI": ""
+      },
+      {
+        "title_cn": "1990年代末期韩国秋季干旱强度的减弱",
+        "title_en": "The weakening of autumn drought intensity in Korea after late 1990s",
+        "year": 2018,
+        "journal": "Tellus A",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/jaewonchoi/zh_CN/index.htm"
+  }
+}

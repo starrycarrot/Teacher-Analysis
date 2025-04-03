@@ -9,11 +9,11 @@
 
 但很快我又遇到第二个问题：很多老师在学校官网上的信息很少（南信大还好，南京大学大气院的教师网页上信息量很低），我只好尝试借助外部数据源补充信息，然而知网这方面做得很一般，老师们也不太可能都有百科词条，不过世上无难事，只怕有心人，我看了一圈最终找到了[AMiner](https://aminer.cn/)这个宝藏网站，上面的学术信息非常丰富（推荐教师详情信息去这上面参考），可以很好地作为补充数据源。
 
-有了完善的技术路线，就只欠东风了。于是我以南信大大气院的[教师门户网站](https://faculty.nuist.edu.cn/dwlistjs.jsp?totalpage=15&PAGENUM=1&urltype=tsites.CollegeTeacherList&wbtreeid=1021&st=0&id=1103&lang=zh_CN)为示例，开发了这个程序（初版前后断断续续花了一个多月）。其中只有教师列表页用到了传统爬虫来爬取和解析（BeautifulSoup和requests），具体的教师详情页全都用AI爬虫处理。这里还要感谢[Deepseek](https://platform.deepseek.com/usage)提供了高性价比的API（其实有API白嫖方案，但我想保证输出数据的质量），方便我测试开发（要是用GPT或Claude的API，我估计要破费了💸，自然也不会尝试推进这个项目了）。
+有了完善的技术路线，就只欠东风了。于是我以南信大大气院的[教师门户网站](https://faculty.nuist.edu.cn/dwlistjs.jsp?totalpage=15&PAGENUM=1&urltype=tsites.CollegeTeacherList&wbtreeid=1021&st=0&id=1103&lang=zh_CN)为示例，开发了这个程序（初版前后断断续续花了一个多月）。其中只有教师列表页用到了传统爬虫来爬取和解析（BeautifulSoup和requests），具体的教师详情页全都用AI爬虫处理。这里还要感谢[Deepseek](https://platform.deepseek.com/usage)提供了高性价比的API（其实有API白嫖方案，但我想保证输出数据的质量），方便我测试开发（要是用GPT或Claude的API，我估计要破费了💸，自然也不会尝试推进这个项目了）。目前已经成功爬取了南信大大气大气院的教师信息，已上传至NUIST_teacher_data文件夹。
 
 正因为使用了AI爬虫，这个项目有很好的可扩展性，只要加入对其他机构的传统爬虫代码，就能适配其他学院甚至其他学校了。
 下一步计划：
-- [ ] 适配南京大学大气院网站（失败，总是SSL握手协议错误，下策是下载到本地来本地解析）
+- [ ] 适配南京大学大气院网站（受挫，南大网站总是SSL握手协议错误，打算下载到本地来本地解析）
 - [ ] 开发一些统计分析功能（已开发 教师主页点赞数统计）
 
 ![教师主页点赞数统计](./assets/点赞数前40名.png)

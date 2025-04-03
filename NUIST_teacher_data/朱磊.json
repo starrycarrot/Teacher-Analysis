@@ -1,0 +1,69 @@
+{
+  "basic_info": {
+    "name": "朱磊",
+    "title": [
+      "副教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      "江苏省双创博士",
+      "北京大学优秀毕业生"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1989*",
+    "education": {
+      "undergrad": "2007-2011 南京信息工程大学 应用气象学",
+      "master": "2011-2014 南京信息工程大学 气象学",
+      "phd": "2014-2018 北京大学 大气与海洋科学"
+    },
+    "work_experience": [
+      "2023-至今 南京信息工程大学 副教授",
+      "2018-2023 南京信息工程大学 讲师",
+      "2016-2016 瑞典哥德堡大学地球科学系 短期访问学者",
+      "2015-2017 美国宾夕法尼亚州立大学气象系 国家留学基金委访问学者",
+      "2012-2014 中国气象局广州热带海洋气象研究所 访问学生"
+    ]
+  },
+  "likes": 288,
+  "academic": {
+    "research_fields": [
+      "集合资料同化",
+      "热带气旋",
+      "降水日变化",
+      "可预报性",
+      "中尺度气象学与数值天气预报"
+    ],
+    "publications": [
+      {
+        "title_cn": "EnKF同化Himawari-8全天空红外辐射对暖区暴雨事件预报的影响",
+        "title_en": "Impact of EnKF assimilating Himawari-8 all-sky infrared radiance on the forecasting of a warm-sector rainstorm event",
+        "year": 2024,
+        "journal": "Science China Earth Sciences",
+        "DOI": ""
+      },
+      {
+        "title_cn": "四川省暖季降水时空分布特征及机理",
+        "title_en": "Spatiotemporal characteristics and mechanisms of warm-season precipitation in Sichuan Province",
+        "year": 2023,
+        "journal": "Journal of Tropical Meteorology",
+        "DOI": ""
+      },
+      {
+        "title_cn": "同化全天空地球静止卫星红外辐射对飓风Joaquin（2015）的对流允许初始化和预测",
+        "title_en": "Assimilation of All-sky Geostationary Satellite Infrared Radiances for Convection-Permitting Initialization and Prediction of Hurricane Joaquin (2015)",
+        "year": 2022,
+        "journal": "Advances in Atmospheric Sciences",
+        "DOI": "10.1007/s00376-022-2015-4"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/zhulei/zh_CN/index.htm"
+  }
+}

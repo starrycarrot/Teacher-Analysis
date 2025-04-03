@@ -1,0 +1,61 @@
+{
+  "basic_info": {
+    "name": "魏江峰",
+    "title": [
+      "教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "博导",
+      "硕导"
+    ],
+    "honors": [
+      "国家重大人才计划A类青年学者",
+      "江苏特聘教授"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "NA",
+    "education": {
+      "undergrad": "1995-1999 南京气象学院 气象学",
+      "master": "1999-2002 中国科学院大气物理研究所 气象学",
+      "phd": "2002-2007 美国佐治亚理工学院 气象学"
+    },
+    "work_experience": [
+      "2017.06至今 南京信息工程大学大气科学学院 教授",
+      "2012.09-2017.05 美国德州大学奥斯汀分校地球科学学院 Research Engineering/Scientist Associate IV",
+      "2010.01-2012.08 美国Center for Ocean-Land-Atmosphere Studies Research Scientist",
+      "2007.06-2009.12 美国Center for Ocean-Land-Atmosphere Studies 博士后"
+    ]
+  },
+  "likes": 196,
+  "academic": {
+    "research_fields": [
+      "陆气相互作用",
+      "水分循环",
+      "气溶胶-气候相互作用",
+      "气候变化"
+    ],
+    "publications": [
+      {
+        "title_cn": "印度夏季风对中东尘埃的积极响应",
+        "title_en": "Positive response of India summer rainfall to Middle East dust",
+        "year": 2014,
+        "journal": "Geophysical Research Letters",
+        "DOI": "10.1002/2014GL059980"
+      },
+      {
+        "title_cn": "运用观测、模拟、水汽追踪等方法研究地表和大气的相互作用及人类活动的影响",
+        "title_en": "Impact of aerosol radiative effect on the diurnal cycle of summer precipitation over North China: distinct results from simulations with parameterized versus explicit convection",
+        "year": 2022,
+        "journal": "Geophysical Research Letters",
+        "DOI": "10.1029/2022GL098795"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/weijiangfeng/zh_CN/index.htm"
+  }
+}

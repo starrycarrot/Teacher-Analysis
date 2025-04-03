@@ -1,0 +1,50 @@
+{
+  "basic_info": {
+    "name": "张伟",
+    "admin_role": [],
+    "title": [
+      "副教授"
+    ],
+    "mentor_qualification": [],
+    "honors": []
+  },
+  "bio_details": {
+    "birth_year": "1964*",
+    "education": {
+      "undergrad": "1982-1986 四川大学 哲学系",
+      "master": "",
+      "phd": ""
+    },
+    "work_experience": [
+      "1986-至今 南京信息工程大学马克思主义学院 副教授",
+      "1996-1997 中国人民大学马克思主义学院 进修"
+    ]
+  },
+  "likes": 0,
+  "academic": {
+    "research_fields": [
+      "思想政治教育",
+      "马克思主义"
+    ],
+    "publications": [
+      {
+        "title_cn": "“八个相统一”引领大学生思想政治教育融入就业指导课程教学的探索与实践",
+        "title_en": "",
+        "year": 2023,
+        "journal": "智库时代",
+        "DOI": ""
+      },
+      {
+        "title_cn": "供给侧改革视角下的中国医改探索",
+        "title_en": "Exploration of China's medical reform from the perspective of supply-side",
+        "year": 2017,
+        "journal": "解放军医院管理杂志",
+        "DOI": "https://doi.org/10.16770/J.cnki.1008-9985.2017.06.018"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/zhangwei1234/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/wei-zhang/615446879e795e7f16d37322"
+  }
+}

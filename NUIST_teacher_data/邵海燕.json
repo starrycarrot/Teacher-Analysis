@@ -1,0 +1,76 @@
+{
+  "basic_info": {
+    "name": "邵海燕",
+    "title": [
+      "讲师"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      ""
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1973",
+    "education": {
+      "undergrad": "1992-1996 南京气象学院 气候学专业",
+      "master": "1996-1999 南京气象学院 气候学专业",
+      "phd": "1999-2004 南京气象学院 气象学"
+    },
+    "work_experience": [
+      "2013-2014 美国北伊利诺伊州立大学 访问学者",
+      "2004-至今 南京信息工程大学 大气科学学院教师"
+    ]
+  },
+  "likes": 57,
+  "academic": {
+    "research_fields": [
+      "城市化气候",
+      "陆面模式"
+    ],
+    "publications": [
+      {
+        "title_cn": "广义非线性亚临界对称不稳定性",
+        "title_en": "Genaralized Nonlinear Subcritical Symmetric Instability",
+        "year": 2003,
+        "journal": "Adv. Atmos. Sci.",
+        "DOI": ""
+      },
+      {
+        "title_cn": "东亚夏季风环流和降水对理想化大规模城市扩张的敏感性",
+        "title_en": "Sensitivity of the East Asian Summer Monsoon Circulation and Precipitation to an Idealized Large-Scale Urban Expansion",
+        "year": 2013,
+        "journal": "J. Meteorol. Soc. Jpn.",
+        "DOI": ""
+      },
+      {
+        "title_cn": "NIM陆面过程模式的研究I: 模式建立与对比研究",
+        "title_en": "",
+        "year": 2000,
+        "journal": "南京气象学院学报",
+        "DOI": ""
+      },
+      {
+        "title_cn": "NIM陆面过程模式的研究II: 青藏高原夏季陆面过程模式的数值模拟",
+        "title_en": "",
+        "year": 2001,
+        "journal": "南京气象学院学报",
+        "DOI": ""
+      },
+      {
+        "title_cn": "东亚城市群发展对中国东部夏季风降水影响的模拟——以1994年和1998年为例",
+        "title_en": "",
+        "year": 2013,
+        "journal": "热带气象学报",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/shaohaiyan/zh_CN/index.htm"
+  }
+}

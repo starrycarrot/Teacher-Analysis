@@ -1,0 +1,68 @@
+{
+  "basic_info": {
+    "name": "张涛涛",
+    "admin_role": [
+      ""
+    ],
+    "title": [
+      "副教授"
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": []
+  },
+  "bio_details": {
+    "birth_year": "1992",
+    "education": {
+      "undergrad": "",
+      "master": "",
+      "phd": "2021 中国科学院大学 理学博士"
+    },
+    "work_experience": [
+      "2021.07-2024.06 南京信息工程大学 大气科学学院 讲师",
+      "2024.07- 南京信息工程大学 大气科学学院 副教授"
+    ]
+  },
+  "likes": 79,
+  "academic": {
+    "research_fields": [
+      "气候变化与预测",
+      "陆-气相互作用"
+    ],
+    "publications": [
+      {
+        "title_cn": "太平洋年代际振荡调节欧亚春季积雪的年代际变化",
+        "title_en": "Pacific decadal oscillation modulates the decadal variations of spring Eurasian snow cover",
+        "year": 2025,
+        "journal": "Atmospheric Research",
+        "DOI": "108102"
+      },
+      {
+        "title_cn": "俄罗斯远东春季积雪异常对中国东北初夏降水变率的影响",
+        "title_en": "Impact of spring snow cover anomaly over the Russian Far East on the early summer precipitation variability in Northeast China",
+        "year": 2025,
+        "journal": "Journal of Geophysical Research: Atmospheres",
+        "DOI": "e2024JD042118"
+      },
+      {
+        "title_cn": "基于Meanshift与卡尔曼滤波的多目标跟踪",
+        "title_en": "Multi-object tracking based on Meanshift and Kalman filter",
+        "year": 2016,
+        "journal": "信息技术",
+        "DOI": "10.13274/j.cnki.hdzj.2016.12.003"
+      },
+      {
+        "title_cn": "基于蒙特·卡罗方法的可靠性仿真过程模型研究",
+        "title_en": "Research on reliability simulation process model based on Monte Carlo method",
+        "year": 2008,
+        "journal": "系统工程与电子技术",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/zhangtaotao/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/yu-tao-zhang/6324ecb0a36d2225e1155999"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "basic_info": {
+    "name": "孙善磊",
+    "title": [
+      "教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "博导",
+      "硕导"
+    ],
+    "honors": [
+      "江苏省大气科学基础研究成果奖一等奖",
+      "江苏高校“青蓝工程”优秀青年骨干教师称号",
+      "江苏省第六期“333高层次人才培养工程”第三层次培养对象",
+      "江苏省大气科学基础研究成果奖二等奖",
+      "《干旱气象》优秀审稿专家"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1982*",
+    "education": {
+      "undergrad": "2001-2005 南京信息工程大学 资源环境科学系",
+      "master": "2005-2008 南京信息工程大学 大气科学学院",
+      "phd": "2008-2011 南京信息工程大学 大气科学学院"
+    },
+    "work_experience": [
+      "2011-2016 南京信息工程大学水文气象学院 讲师",
+      "2014-2015 美国北卡罗来纳州立大学海洋、地球与大气科学系 博士后",
+      "2016-2021 南京信息工程大学大气科学学院 副教授",
+      "2021-至今 南京信息工程大学大气科学学院 教授"
+    ]
+  },
+  "likes": 756,
+  "academic": {
+    "research_fields": [
+      "气候变化",
+      "陆气相互作用",
+      "陆面过程",
+      "气候变率与变化",
+      "干旱演变机制"
+    ],
+    "publications": [
+      {
+        "title_cn": "全球5公里潜在蒸散发数据集（1982-2015）的Shuttleworth-Wallace模型估计",
+        "title_en": "A global 5km potential evapotranspiration dataset (1982-2015) estimated by the Shuttleworth-Wallace model",
+        "year": 2023,
+        "journal": "Earth System Science Data",
+        "DOI": "10.11888/Terre.tpdc.300193"
+      },
+      {
+        "title_cn": "从表面阻力角度分析CO2效应对中国气象干旱影响的空间差异",
+        "title_en": "Spatial differences in impacts of CO2 effect on China’s meteorological droughts: analysis from surface resistance perspective",
+        "year": 2023,
+        "journal": "Journal of Hydrology",
+        "DOI": "10.1016/j.jhydrol.2023.129568"
+      },
+      {
+        "title_cn": "长江三角洲地区昼夜降水变化及其差异",
+        "title_en": "",
+        "year": 2023,
+        "journal": "科技通报",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/sunshanlei/zh_CN/index.htm"
+  }
+}

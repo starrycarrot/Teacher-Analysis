@@ -1,0 +1,50 @@
+{
+  "basic_info": {
+    "name": "李栋梁",
+    "admin_role": [
+      "副院长"
+    ],
+    "title": [
+      "教授"
+    ],
+    "mentor_qualification": [
+      "博导"
+    ],
+    "honors": []
+  },
+  "bio_details": {
+    "birth_year": "1957",
+    "education": {},
+    "work_experience": [
+      "2007-04-19 南京信息工程大学 教授"
+    ]
+  },
+  "likes": 15,
+  "academic": {
+    "research_fields": [
+      "大气科学",
+      "气候变化",
+      "青藏高原气候"
+    ],
+    "publications": [
+      {
+        "title_cn": "青藏高原地面加热场强度与ENSO循环的关系",
+        "title_en": "The relationship between the surface heating field intensity of the Qinghai-Tibet Plateau and the ENSO cycle",
+        "year": 2007,
+        "journal": "高原气象",
+        "DOI": ""
+      },
+      {
+        "title_cn": "中国西北现代气候变化事实与未来趋势展望",
+        "title_en": "Modern climate change facts and future trends in Northwest China",
+        "year": 2003,
+        "journal": "冰川冻土",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/lidongliang/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/dongliang-li/540678b0dabfae92b4208b11"
+  }
+}

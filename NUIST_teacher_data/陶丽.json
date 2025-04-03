@@ -1,0 +1,61 @@
+{
+  "basic_info": {
+    "name": "陶丽",
+    "title": [
+      "教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "博导"
+    ],
+    "honors": [
+      "江苏省高校“青蓝工程”优秀青年骨干教师培养对象"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1970",
+    "education": {
+      "undergrad": "1988-1992 南京气象学院 气象系",
+      "master": "1992-1995 南京气象学院 气象系",
+      "phd": "1997-2000 南京气象学院 气象系"
+    },
+    "work_experience": [
+      "2014-至今 南京信息工程大学 教授",
+      "2006-2014 南京信息工程大学 副教授",
+      "2004-2005 美国夏威夷大学 博士后",
+      "2003-2004 美国乔治梅森大学 访问学者",
+      "2003-2003 美国马里兰大学–巴尔的摩分校 访问学者",
+      "1997-2006 南京气象学院 讲师",
+      "1995-1997 南京气象学院 助教"
+    ]
+  },
+  "likes": 150,
+  "academic": {
+    "research_fields": [
+      "台风气候学",
+      "季节内振荡",
+      "气候变化"
+    ],
+    "publications": [
+      {
+        "title_cn": "太平洋经向模与厄尔尼诺-南方涛动在不同时间尺度上的关系",
+        "title_en": "Relationship between the Pacific meridional mode and El Niño–Southern Oscillation on different timescales",
+        "year": 2024,
+        "journal": "Atmospheric Research",
+        "DOI": "10.1016/j.atmosres.2024.107309"
+      },
+      {
+        "title_cn": "全球变暖、IPO和AMO对地表气温和陆地降水的相对重要性",
+        "title_en": "Relative importance of global warming, the IPO, and the AMO in surface air temperature and terrestrial precipitation",
+        "year": 2024,
+        "journal": "International Journal of Climatology",
+        "DOI": "10.1002/joc.8365"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/taoli/zh_CN/index.htm"
+  }
+}

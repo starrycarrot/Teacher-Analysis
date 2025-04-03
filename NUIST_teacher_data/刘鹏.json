@@ -1,0 +1,66 @@
+{
+  "basic_info": {
+    "name": "刘鹏",
+    "title": [
+      "副教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1980",
+    "education": {
+      "undergrad": "1998-2002 河北师范大学 物理学",
+      "master": "2002-2005 南京信息工程大学 气象学",
+      "phd": "2005-2008 南京大学 气象学"
+    },
+    "work_experience": [
+      "2015.7－至今 南京信息工程大学 副教授",
+      "2008.6－2015.6 南京信息工程大学 讲师",
+      "2017.2－2018.1 美国夏威夷大学 访问学者",
+      "2009.8－2011.1 台湾省国立中央大学、国立台湾大学 博士后"
+    ]
+  },
+  "likes": 121,
+  "academic": {
+    "research_fields": [
+      "东亚季风演变",
+      "全球尺度的年代际变化",
+      "东亚夏季风的年际变化",
+      "全球尺度的年代际变化"
+    ],
+    "publications": [
+      {
+        "title_cn": "中国过去38年近地面风速观测与再分析数据集的比较研究",
+        "title_en": "A Comparative Study of Near-Surface Wind Speed Observations and Reanalysis Datasets in China Over the Past 38 Years",
+        "year": 2025,
+        "journal": "International Journal of Climatology",
+        "DOI": ""
+      },
+      {
+        "title_cn": "不同区域海温对中国东部冬季雾日年际变化影响的对比研究",
+        "title_en": "",
+        "year": 2024,
+        "journal": "高原气象",
+        "DOI": ""
+      },
+      {
+        "title_cn": "CMIP5和CMIP6模式在历史试验下对AMO和PDO的模拟评估",
+        "title_en": "",
+        "year": 2021,
+        "journal": "地球科学进展",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/liupeng/zh_CN/index.htm"
+  }
+}

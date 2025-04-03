@@ -1,0 +1,31 @@
+{
+  "basic_info": {
+    "name": "张曼",
+    "admin_role": [],
+    "title": [],
+    "mentor_qualification": [],
+    "honors": []
+  },
+  "bio_details": {
+    "birth_year": "",
+    "education": {},
+    "work_experience": []
+  },
+  "likes": 0,
+  "academic": {
+    "research_fields": [],
+    "publications": [
+      {
+        "title_cn": "WRF中三种边界层参数化方案对新疆“2·28”大风过程模拟的对比分析",
+        "title_en": "",
+        "year": 2014,
+        "journal": "沙漠与绿洲气象",
+        "DOI": "10.3969/j.issn.1002-0799.2014.03.002"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/zhangman/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/man-zhang/65d6422fc136ef1331f98c95"
+  }
+}

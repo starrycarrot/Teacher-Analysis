@@ -1,0 +1,57 @@
+{
+  "basic_info": {
+    "name": "王元兵",
+    "title": [
+      "副教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      "大气科学学院科技工作突出贡献奖"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1990",
+    "education": {
+      "undergrad": "2008-2012 南京信息工程大学 大气科学专业",
+      "master": "2012-2015 南京信息工程大学 气象学专业",
+      "phd": "2015-2018 南京信息工程大学 气象学专业"
+    },
+    "work_experience": [
+      "2018-2023 南京信息工程大学 讲师",
+      "2023-至今 南京信息工程大学 副教授"
+    ]
+  },
+  "likes": 431,
+  "academic": {
+    "research_fields": [
+      "气象资料多元融合与同化",
+      "能源气象预测与评估",
+      "数值天气预报",
+      "中小尺度天气数值模拟与机理分析"
+    ],
+    "publications": [
+      {
+        "title_cn": "基于对流尺度集合样本的高原边坡对流系统和台风系统多元变量背景场误差特征研究",
+        "title_en": "NA",
+        "year": 2025,
+        "journal": "高原气象",
+        "DOI": ""
+      },
+      {
+        "title_cn": "快速更新同化全天空FY-4A/AGRI辐射率用于强对流天气分析和预测",
+        "title_en": "Rapid-update assimilation of all-sky FY-4A/AGRI radiances for the analysis and prediction of severe convective weather",
+        "year": 2025,
+        "journal": "Advances in Atmospheric Sciences",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/wangyuanbing/zh_CN/index.htm"
+  }
+}

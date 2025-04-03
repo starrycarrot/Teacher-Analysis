@@ -1,0 +1,87 @@
+{
+  "basic_info": {
+    "name": "胡定珠",
+    "admin_role": [
+      "系主任"
+    ],
+    "title": [
+      "教授"
+    ],
+    "mentor_qualification": [
+      "博导",
+      "硕导"
+    ],
+    "honors": [
+      "中共兰州大学大气科学学院优秀共产党员",
+      "南京信息工程大学优秀教工党员",
+      "南京信息工程大学优秀班主任",
+      "南京信息工程大学十佳优秀班主任",
+      "南京信息工程大学第二届“十大青年科技之星”",
+      "南京信息工程大学首届龙山学者",
+      "南京信息工程大学龙山学者第五层次",
+      "大气科学学院科技工作突出贡献奖",
+      "气候变化全国博士生学术论坛最佳表达奖",
+      "江苏省优秀青年基金",
+      "江苏省第七期”333高层次人才培养工程“第三层次",
+      "第31届中国气象学会年会优秀论文奖"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1988*",
+    "education": {
+      "undergrad": "2006-2010 兰州大学 大气科学类专业",
+      "master": "",
+      "phd": "2010-2015 兰州大学 大气物理学与大气环境专业"
+    },
+    "work_experience": [
+      "2015.09-2017.06 南京信息工程大学大气科学学院 博士后",
+      "2015.10-2020.06 南京信息工程大学大气科学学院 讲师",
+      "2018.08-2019.08 英国雷丁大学气象系 访问学者",
+      "2020.07至今 南京信息工程大学大气科学学院 教授"
+    ]
+  },
+  "likes": 536,
+  "academic": {
+    "research_fields": [
+      "平流层对流层相互作用",
+      "数值模拟",
+      "极端天气气候事件",
+      "气候动力学",
+      "臭氧"
+    ],
+    "publications": [
+      {
+        "title_cn": "巴伦支-喀拉海冰与东亚地表气温在2月关系中的年代际变化：平流层极涡的作用",
+        "title_en": "Interdecadal Changes in the Relationship Between Barents-Kara Sea Ice and East Asian Surface Air Temperature in February: the Role of Stratospheric Polar Vortex",
+        "year": 2025,
+        "journal": "CLIMATE DYNAMICS",
+        "DOI": "10.1007/s00382-024-07518-2"
+      },
+      {
+        "title_cn": "平流层极涡延伸对东亚极端寒冷事件持续时间的影响",
+        "title_en": "Longer Duration of Extreme Cold Events over East Asia Affected by the Stratospheric Polar Vortex Extension",
+        "year": 2025,
+        "journal": "JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES",
+        "DOI": "10.1029/2024jd042299"
+      },
+      {
+        "title_cn": "3月北极平流层臭氧对中国东部春季降水的影响",
+        "title_en": "Influence of Arctic Stratospheric Ozone in March on Precipitation in Eastern China During the Boreal Spring",
+        "year": 2024,
+        "journal": "Atmospheric Research",
+        "DOI": "10.1016/j.atmosres.2024.107321"
+      },
+      {
+        "title_cn": "北极平流层臭氧消耗驱动中国东部春季干旱",
+        "title_en": "Drying over eastern China driven by the depletion of Arctic stratospheric ozone during boreal spring",
+        "year": 2024,
+        "journal": "Geophysical Research Letters",
+        "DOI": "10.1029/2023GL108008"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/hudingzhu/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/dingzhu-hu/61013f0e6750f855fce491a3"
+  }
+}

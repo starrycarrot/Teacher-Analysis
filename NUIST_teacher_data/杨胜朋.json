@@ -1,0 +1,57 @@
+{
+  "basic_info": {
+    "name": "杨胜朋",
+    "title": [
+      "教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "博导"
+    ],
+    "honors": [
+      "江苏高校\"青蓝工程\"优秀青年骨干教师",
+      "南京信息工程大学\"十佳\"班主任"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1978*",
+    "education": {
+      "undergrad": "1996-2000 成都信息工程大学 学士",
+      "master": "2003-2008 中国科学院大学/中国科学院西北生态环境资源研究院 硕博连读",
+      "phd": "2003-2008 中国科学院大学/中国科学院西北生态环境资源研究院 硕博连读"
+    },
+    "work_experience": [
+      "2008-至今 南京信息工程大学 大气科学学院",
+      "2010-2012 美国佛罗里达州立大学 博士后",
+      "2015-2016 美国马里兰大学 访问学者",
+      "2018-2018 美国马里兰大学 访问学者"
+    ]
+  },
+  "likes": 129,
+  "academic": {
+    "research_fields": [
+      "GNSS掩星资料同化和应用"
+    ],
+    "publications": [
+      {
+        "title_cn": "热带地区GPS掩星观测传播路径上影响参数变化与水汽折射率局部强梯度的关系",
+        "title_en": "Relationships of along-the-track local variations of GPS RO impact parameter to strong local vertical gradient of wet refractivity in the tropics",
+        "year": 2021,
+        "journal": "Science China Earth Sciences",
+        "DOI": "10.1007/s11430-020-9795-2"
+      },
+      {
+        "title_cn": "Raytracing Simulated GPS Radio Wave Propagation Paths Experiencing Large Disturbances When Going through the Top of the Sub-Cloud Layer",
+        "title_en": "Raytracing Simulated GPS Radio Wave Propagation Paths Experiencing Large Disturbances When Going through the Top of the Sub-Cloud Layer",
+        "year": 2021,
+        "journal": "Remote Sens",
+        "DOI": "10.3390/rs13224693"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/yangshengpeng/zh_CN/index.htm"
+  }
+}

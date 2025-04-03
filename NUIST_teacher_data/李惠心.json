@@ -1,0 +1,93 @@
+{
+  "basic_info": {
+    "name": "李惠心",
+    "admin_role": [
+      ""
+    ],
+    "title": [
+      "副教授",
+      "讲师"
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      "中国科学院三好学生标兵",
+      "中国科学院优秀共青团员",
+      "中国科学院优秀博士学位论文",
+      "中国科学院北京分院优秀共青团员",
+      "中国科学院大学优秀毕业生",
+      "中国科学院院长奖学金",
+      "北京市优秀毕业生",
+      "南京大学优秀毕业生",
+      "博士研究生国家奖学金",
+      "国家奖学金",
+      "江苏省双创博士",
+      "江苏省第七期“333高层次人才”第三层次",
+      "海峡两岸青年学术研讨会优秀论文二等奖",
+      "硕士研究生国家奖学金"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1992",
+    "education": {
+      "undergrad": "2010-2014 南京大学 大气科学",
+      "master": "2014-2019 中科院大气物理研究所 气象学",
+      "phd": "2014-2019 中国科学院大气物理研究所 气象学"
+    },
+    "work_experience": [
+      "2019-至今 南京信息工程大学大气科学学院 副教授",
+      "2019.07-至今 南京信息工程大学大气科学学院 讲师"
+    ]
+  },
+  "likes": 387,
+  "academic": {
+    "research_fields": [
+      "极端气候",
+      "极端气候的变化、归因及机制",
+      "气候动力学",
+      "气候变化归因和预估"
+    ],
+    "publications": [
+      {
+        "title_cn": "热带印度洋海温与黄土高原春季干旱的不稳定关系受ENSO年代际变率的调节",
+        "title_en": "Unstable Relationship Between Tropical Indian Ocean SST and Spring Drought on the Loess Plateau Modulated by Interdecadal Variability of ENSO",
+        "year": 2025,
+        "journal": "Journal of Climate",
+        "DOI": "10.1175/jcli-d-24-0269.1"
+      },
+      {
+        "title_cn": "梅雨地区复合热旱事件：极地和热带地区的影响",
+        "title_en": "Compound Hot Drought Events in the Mei-yu Region: Influences from Polar and Tropical Regions",
+        "year": 2025,
+        "journal": "SCIENCE BULLETIN",
+        "DOI": "10.1016/j.scib.2024.09.043"
+      },
+      {
+        "title_cn": "中国夏季复合热浪和干旱事件：区域间和季节内特征及驱动因素",
+        "title_en": "Summertime Compound Heat Wave and Drought Events in China: Interregional and Subseasonal Characteristics, and the Associated Driving Factors",
+        "year": 2024,
+        "journal": "ENVIRONMENTAL RESEARCH LETTERS",
+        "DOI": "10.1088/1748-9326/ad5576"
+      },
+      {
+        "title_cn": "中国夏季复合高温干旱事件的区域间和季节内特征及其驱动因素",
+        "title_en": "Summertime compound heat wave and drought events in China: interregional and subseasonal characteristics, and the associated driving factors",
+        "year": 2024,
+        "journal": "Environmental Research Letters",
+        "DOI": ""
+      },
+      {
+        "title_cn": "北大西洋海温和巴伦支海海冰协同影响3月欧亚大陆温度分布机理研究",
+        "title_en": "Joint influence of the North Atlantic sea surface temperature and the Barents sea-ice concentration on the dipole pattern of Eurasian surface air temperature in March",
+        "year": 2024,
+        "journal": "Atmospheric Research",
+        "DOI": "10.1016/j.atmosres.2024.107446"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/lihuixin/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/huixin-li/615446b76750f8727fa8473f"
+  }
+}

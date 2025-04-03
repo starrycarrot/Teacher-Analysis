@@ -1,0 +1,63 @@
+{
+  "basic_info": {
+    "name": "韩婷婷",
+    "title": [
+      "副教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      "南京市中青年拔尖人才"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1989",
+    "education": {
+      "undergrad": "2008-2012 兰州大学 大气科学",
+      "master": "2012-2017 中科院大气物理研究所 气象学",
+      "phd": "2012-2017 中科院大气物理研究所 气象学"
+    },
+    "work_experience": [
+      "2017-2020 南京信息工程大学大气科学学院 讲师",
+      "2020-至今 南京信息工程大学大气科学学院 副教授",
+      "2019-2020 纽约州立大学石溪分校 访问学者"
+    ]
+  },
+  "likes": 249,
+  "academic": {
+    "research_fields": [
+      "东亚气候年际、年代际变化及机制",
+      "短期气候预测"
+    ],
+    "publications": [
+      {
+        "title_cn": "晚冬北极涛动对北亚和东北亚早春气温影响的增强",
+        "title_en": "Enhanced Influence of Late-winter Arctic Oscillation on Early-spring Temperature in North and Northeast Asia",
+        "year": 2025,
+        "journal": "Earth's Future",
+        "DOI": "2024EF004958"
+      },
+      {
+        "title_cn": "华北盛夏强降水频次的统计预报模型",
+        "title_en": "A robust statistical prediction model for late-summer heavy precipitation days in North China",
+        "year": 2025,
+        "journal": "SCIENCE CHINA Earth Sciences",
+        "DOI": ""
+      },
+      {
+        "title_cn": "秋季喀拉海冰对随后中国东北冬季最低温度的影响",
+        "title_en": "Influence of autumn Kara Sea ice on the subsequent winter minimum temperature over the Northeast China",
+        "year": 2024,
+        "journal": "International Journal of Climatology",
+        "DOI": "10.1002/joc.8461"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/hantingting/zh_CN/index.htm"
+  }
+}

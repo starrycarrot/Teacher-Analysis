@@ -1,0 +1,95 @@
+{
+  "basic_info": {
+    "name": "胡景高",
+    "admin_role": [
+      "天气学系副主任",
+      "继续教育学院 副院长（挂职）"
+    ],
+    "title": [
+      "副教授",
+      "副研究员"
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      "博士研究生国家奖学金",
+      "校优秀博士学位论文",
+      "校工会积极分子",
+      "校教学成果奖特等奖",
+      "校本科毕业论文优秀指导教师",
+      "校青年教师授课竞赛一等奖",
+      "江苏省气象学会科技成果奖二等奖"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1985*",
+    "education": {
+      "undergrad": "2007-2010 南京信息工程大学 气象学",
+      "master": "2010-2014 南京信息工程大学 气象学",
+      "phd": "2014-2017 南京信息工程大学 气象学"
+    },
+    "work_experience": [
+      "2014-2020 南京信息工程大学大气科学学院 讲师",
+      "2014年7月-2020年6月 南京信息工程大学大气科学学院 讲师",
+      "2015-2017 美国夏威夷大学国际太平洋研究中心IPRC 博士后",
+      "2015年11月-2017年11月 美国夏威夷大学国际太平洋研究中心 博士后",
+      "2019-至今 南京信息工程大学大气科学学院 天气学系副主任",
+      "2019年10月-至今 南京信息工程大学大气科学学院 天气学系副主任",
+      "2019年6月-至今 南京信息工程大学 硕士研究生指导教师",
+      "2020-至今 南京信息工程大学大气科学学院 副研究员",
+      "2020年7月-至今 南京信息工程大学大气科学学院 副研究员",
+      "2022-2022 南京信息工程大学继续教育学院 副院长（挂职）"
+    ]
+  },
+  "likes": 309,
+  "academic": {
+    "research_fields": [
+      "亚洲夏季风与中国降水",
+      "全球海温与平流层环流的相互作用",
+      "平流层-对流层相互作用",
+      "平流层动力学"
+    ],
+    "publications": [
+      {
+        "title_cn": "CRA-40再分析在南极冬季平流层环流中的表现：与ERA-5和MERRA-2的比较",
+        "title_en": "Performance of CRA-40 Reanalysis in Representing the Antarctic Winter Stratospheric Circulation: a Comparison with ERA-5 and MERRA-2",
+        "year": 2025,
+        "journal": "Earth and Planetary Physics",
+        "DOI": "10.26464/epp2025010"
+      },
+      {
+        "title_cn": "2023/2024年北半球冬季平流层异常活跃期间两次主要突然增温事件及其对中国地表影响的差异",
+        "title_en": "Two major sudden warming events in the unprecedentedly active stratosphere during the boreal winter of 2023/2024 and their distinct surface impacts over China",
+        "year": 2025,
+        "journal": "Atmospheric Research",
+        "DOI": "10.1016/j.atmosres.2025.108032"
+      },
+      {
+        "title_cn": "ERA5和CMIP6模型中北半球春季平流层最后增温对地表气温的影响",
+        "title_en": "The Impact of Boreal Spring Stratospheric Final Warming on Surface Air Temperature over Northern Hemisphere in ERA5 and CMIP6 Models",
+        "year": 2024,
+        "journal": "CLIMATE DYNAMICS",
+        "DOI": "10.1007/s00382-023-07060-7"
+      },
+      {
+        "title_cn": "平流层准两年振荡对印度夏季风早期阶段的影响",
+        "title_en": "Impact of the stratospheric quasi-biennial oscillation on the early stage of the Indian summer monsoon",
+        "year": 2024,
+        "journal": "Climate Dynamics",
+        "DOI": ""
+      },
+      {
+        "title_cn": "CMIP5和CMIP6气候模式中平流层极涡春季最后增温过程",
+        "title_en": "The spring stratospheric final warming process in CMIP5 and CMIP6 models",
+        "year": 2023,
+        "journal": "Science China Earth Sciences",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/hujinggao/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/jinggao-hu/61013f1a6750f855fce491a5"
+  }
+}

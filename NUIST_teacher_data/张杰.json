@@ -1,0 +1,87 @@
+{
+  "basic_info": {
+    "name": "张杰",
+    "admin_role": [
+      ""
+    ],
+    "title": [
+      "教授"
+    ],
+    "mentor_qualification": [
+      "博导",
+      "硕导"
+    ],
+    "honors": [
+      "南京信息工程大学优秀研究生导师",
+      "江苏省青蓝工程\"中青年学术带头人\"",
+      "江苏省青蓝工程中青年学术带头人",
+      "第七届全国优秀青年气象科技工作者",
+      "青海省昆仑英才-领军人才（柔性引进）"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1978*",
+    "education": {
+      "undergrad": "1996-2000 中国农业大学 应用气象学",
+      "master": "",
+      "phd": "2006-2009 兰州大学 大气科学"
+    },
+    "work_experience": [
+      "2000-2004 中国气象局兰州干旱气象研究所 研实员",
+      "2004-2006 中国气象局兰州干旱气象研究所 助理研究员",
+      "2006-2008 中国气象局兰州干旱气象研究所 项目副研究员",
+      "2007-2007 荷兰ITC 访问学者",
+      "2008-2009 中国气象局兰州干旱气象研究所 副研究员",
+      "2009-2015 南京信息工程大学 副教授",
+      "2009-2015 南京信息工程大学大气科学学院 副教授",
+      "2012-2013 美国威斯康星大学 访问学者",
+      "2012-2013 美国威斯康星大学SSEC 访问学者",
+      "2015-今 南京信息工程大学 教授",
+      "2015-至今 南京信息工程大学大气科学学院 教授"
+    ]
+  },
+  "likes": 204,
+  "academic": {
+    "research_fields": [
+      "亚洲极端旱涝研究",
+      "定量遥感",
+      "欧亚陆-气相互作用",
+      "陆面过程参数化估算",
+      "青藏高原动力和热力过程与亚洲气候"
+    ],
+    "publications": [
+      {
+        "title_cn": "沿海城市热点地区降雨溶解有机碳的变化、决定因素和来源",
+        "title_en": "Dissolved Organic Carbon of Rainfall in Coastal Urban Hotspot Area, Southeast China: Variations, Determinants, and Sources",
+        "year": 2025,
+        "journal": "Journal of Hydrology Regional Studies",
+        "DOI": "102300"
+      },
+      {
+        "title_cn": "北方地表热异常对1月中亚湿涡的影响",
+        "title_en": "The Impact of Boreal Surface Thermal Anomalies on January Central Asian Moist Vortex",
+        "year": 2024,
+        "journal": "Climate Dynamics",
+        "DOI": "10.1007/s00382-024-07298-9"
+      },
+      {
+        "title_cn": "亚洲干旱区变暖导致东亚夏季风延迟撤退并加剧中国北方秋季降水",
+        "title_en": "Warming Asian drylands inducing the delayed retreat of East Asian summer monsoon and intensifying autumn precipitation in northern China",
+        "year": 2024,
+        "journal": "J. Geophys. Res. Atmos.",
+        "DOI": "10.1029/2024JD041811"
+      },
+      {
+        "title_cn": "地球三极变暖引起的水热异常放大了2022年的并发极端事件",
+        "title_en": "Warming-induced hydrothermal anomaly over the Earth’s three Poles amplifies concurrent extremes in 2022",
+        "year": 2023,
+        "journal": "npj Climate and Atmospheric Science",
+        "DOI": "10.1038/s41612-023-00553-6"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/zhangjie/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/jie-zhang/615446846750f8727fa846fd"
+  }
+}

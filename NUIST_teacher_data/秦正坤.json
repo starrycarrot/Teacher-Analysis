@@ -1,0 +1,56 @@
+{
+  "basic_info": {
+    "name": "秦正坤",
+    "title": [
+      "教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "博导",
+      "硕导"
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1979",
+    "education": {
+      "undergrad": "1997-2001 南京信息工程大学 计算数学及其应用软件",
+      "master": "2001-2003 南京信息工程大学 大气科学",
+      "phd": "2003-2007 南京信息工程大学 大气科学"
+    },
+    "work_experience": [
+      "2007.6-2014.4 南京信息工程大学大气科学学院 讲师",
+      "2014.5-现在 南京信息工程大学大气科学学院 教授"
+    ]
+  },
+  "likes": 180,
+  "academic": {
+    "research_fields": [
+      "卫星资料同化",
+      "卫星资料的气候应用"
+    ],
+    "publications": [
+      {
+        "title_cn": "高时空分辨率自动站温度观测资料自主质量控制研究",
+        "title_en": "NA",
+        "year": 2024,
+        "journal": "高原气象",
+        "DOI": ""
+      },
+      {
+        "title_cn": "改进内陆降水预报通过微波温度探测数据同化",
+        "title_en": "Improving inland precipitation forecast in China through data assimilation of microwave temperature sounding data from a three-orbit constellation",
+        "year": 2024,
+        "journal": "Quarterly Journal of the Royal Meteorological Society",
+        "DOI": "10.1002/qj.4802"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/qinzhengkun/zh_CN/index.htm"
+  }
+}

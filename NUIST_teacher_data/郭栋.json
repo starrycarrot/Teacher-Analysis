@@ -1,0 +1,72 @@
+{
+  "basic_info": {
+    "name": "郭栋",
+    "admin_role": [
+      ""
+    ],
+    "title": [
+      "副教授",
+      "教授"
+    ],
+    "mentor_qualification": [
+      "博导"
+    ],
+    "honors": []
+  },
+  "bio_details": {
+    "birth_year": "1982*",
+    "education": {
+      "undergrad": "2000-2004 南京信息工程大学 大气科学",
+      "master": "2004-2007 南京信息工程大学 气象学",
+      "phd": "2007-2011 南京信息工程大学 气象学"
+    },
+    "work_experience": [
+      "2008.3-2011.5 中国气象科学研究院 客座",
+      "2011.6-2017.6 南京信息工程大学 讲师",
+      "2015.3-2016.3 George Mason University 国家公派博士后",
+      "2016.8-2017.8 沭阳县环保局 副局长(挂职)",
+      "2017.7-至今 南京信息工程大学 副教授",
+      "2018.4-2019.10 南京信息工程大学大气科学学院 气候学系主任",
+      "2019.4-2021.3 南京信息工程大学雷丁学院 院长助理(挂职)",
+      "2019.7-2020.7 教育部国际司 借调干部",
+      "2021.3-2021.5 南京信息工程大学雷丁学院 副院长（挂职）",
+      "2021.5-至今 南京信息工程大学雷丁学院 副院长"
+    ]
+  },
+  "likes": 1969,
+  "academic": {
+    "research_fields": [
+      "大气环境与气候变化",
+      "平流层与对流层相互作用",
+      "行星大气",
+      "高原气象学与气候学"
+    ],
+    "publications": [
+      {
+        "title_cn": "南极总柱臭氧年代际变化对南半球平流层环流变化特征的影响",
+        "title_en": "The Variation Characteristics of Stratospheric Circulation under the Interdecadal Variability of Antarctic Total Column Ozone in Early Austral Spring",
+        "year": 2024,
+        "journal": "REMOTE SENSING",
+        "DOI": "10.3390/rs16040619"
+      },
+      {
+        "title_cn": "基于CMIP5/6s模式重新审视ENSO和QBO对平流层影响的线性关系",
+        "title_en": "A revisit of the linearity between influence of ENSO and QBO on the stratosphere: Model evidence from CMIP5/6s",
+        "year": 2024,
+        "journal": "Climate Dynamics",
+        "DOI": ""
+      },
+      {
+        "title_cn": "中层大气温度和水汽的长期时空变化",
+        "title_en": "Spatial and temporal variation in long-term temperature and water vapor in the mesopause Region",
+        "year": 2024,
+        "journal": "EGUsphere",
+        "DOI": "10.5194/egusphere-2024-1144"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/guodong/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/dong-guo/615446a16750f8727fa84721"
+  }
+}

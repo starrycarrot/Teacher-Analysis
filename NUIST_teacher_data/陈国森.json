@@ -1,0 +1,69 @@
+{
+  "basic_info": {
+    "name": "陈国森",
+    "title": [
+      "教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "",
+      "硕导"
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1985",
+    "education": {
+      "undergrad": "2004-2008 中山大学 学士",
+      "master": "",
+      "phd": "2008-2013 中科院大气所 博士"
+    },
+    "work_experience": [
+      "2013-2014 中科院大气所 助理研究员",
+      "2013-2018 美国夏威夷大学 博士后",
+      "2018-至今 南京信息工程大学大气科学学院动力气象系 校聘教授"
+    ]
+  },
+  "likes": 176,
+  "academic": {
+    "research_fields": [
+      "热带季节内振荡与热带波动",
+      "热带大气动力学",
+      "非线性气候动力学",
+      "热带动力学",
+      "热带-热带外相互作用",
+      "中高纬大气波动与遥相关"
+    ],
+    "publications": [
+      {
+        "title_cn": "2021年8月长江流域持续降雨的一种新型北传BSISO",
+        "title_en": "A New Type of Northward Propagating BSISO Caused Persistent Rainfall in the Yangtze River Basin in August 2021",
+        "year": 2025,
+        "journal": "crossref",
+        "DOI": "10.22541/essoar.173724299.94940638/v1"
+      },
+      {
+        "title_cn": "夏季风期间快速变暖的印度洋上MJO停留时间的三倍增加",
+        "title_en": "Tripling of MJO Residence Time over the Rapidly Warming Indian Ocean During Summer Monsoon",
+        "year": 2025,
+        "journal": "Science bulletin",
+        "DOI": "10.1016/j.scib.2025.01.043"
+      },
+      {
+        "title_cn": "GFDL SPEAR模型中多样化的北半球夏季季节内振荡的预测",
+        "title_en": "Prediction of Diverse Boreal Summer Intraseasonal Oscillation in the GFDL SPEAR Model",
+        "year": 2024,
+        "journal": "JOURNAL OF CLIMATE",
+        "DOI": "10.1175/jcli-d-23-0601.1"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/chenguosen/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/guosen-chen/61013c1f6750f855fce48fec"
+  }
+}

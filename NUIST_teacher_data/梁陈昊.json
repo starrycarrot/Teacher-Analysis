@@ -1,0 +1,46 @@
+{
+  "basic_info": {
+    "name": "梁陈昊",
+    "title": [
+      "讲师"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      ""
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "",
+    "education": {
+      "undergrad": "",
+      "master": "",
+      "phd": ""
+    },
+    "work_experience": [
+      ""
+    ]
+  },
+  "likes": 25,
+  "academic": {
+    "research_fields": [
+      ""
+    ],
+    "publications": [
+      {
+        "title_cn": "",
+        "title_en": "",
+        "year": "",
+        "journal": "",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/liangchenhao/zh_CN/index.htm"
+  }
+}

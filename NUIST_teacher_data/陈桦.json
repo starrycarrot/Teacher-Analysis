@@ -1,0 +1,64 @@
+{
+  "basic_info": {
+    "name": "陈桦",
+    "title": [
+      "讲师"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1982",
+    "education": {
+      "undergrad": "2003 南京气象学院 大气科学",
+      "master": "2006 南京信息工程大学 气象学",
+      "phd": "2013 George Mason University 气候动力"
+    },
+    "work_experience": [
+      "2013-present 南京信息工程大学 副教授",
+      "2013 Center for Ocean-Land-Atmosphere Studies Post-doctoral Research Scientist"
+    ]
+  },
+  "likes": 99,
+  "academic": {
+    "research_fields": [
+      "年代际变率",
+      "大气内部变率",
+      "海气相互作用",
+      "季风"
+    ],
+    "publications": [
+      {
+        "title_cn": "观测和CMIP6模拟中冬季多年代际陆地降水变率在1970年代中期的变化",
+        "title_en": "Change of the wintertime multidecadal land precipitation variability in the mid-1970s in the observation and CMIP6 simulations",
+        "year": 2023,
+        "journal": "International Journal of Climatology",
+        "DOI": "10.1002/joc.7995"
+      },
+      {
+        "title_cn": "再分析和CMIP5 AMIP模拟中净表面热通量的内部大气变率",
+        "title_en": "Internal atmospheric variability of net surface heat flux in reanalyses and CMIP5 AMIP simulations",
+        "year": 2022,
+        "journal": "International Journal of Climatology",
+        "DOI": "10.1002/joc.7232"
+      },
+      {
+        "title_cn": "北半球季节性陆地降水的年代际至多年代际变率在观测和CMIP6历史模拟中的表现",
+        "title_en": "Decadal-to-multidecadal variability of seasonal land precipitation in Northern Hemisphere in observation and CMIP6 historical simulations",
+        "year": 2020,
+        "journal": "Atmosphere",
+        "DOI": "10.3390/atmos11020195"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/chenhua1/zh_CN/index.htm"
+  }
+}

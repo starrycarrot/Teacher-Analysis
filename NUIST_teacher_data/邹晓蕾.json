@@ -1,0 +1,55 @@
+{
+  "basic_info": {
+    "name": "邹晓蕾",
+    "title": [
+      "教授"
+    ],
+    "admin_role": [
+      "资料同化研究与应用联合中心主任"
+    ],
+    "mentor_qualification": [
+      "博导"
+    ],
+    "honors": [
+      "美国气象学会会士",
+      "英国皇家气象学会会士"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1960",
+    "education": {
+      "undergrad": "1978-1981 南京气象学院 数学师资班",
+      "master": "1982-1983 南京气象学院 天气动力专业",
+      "phd": "1985-1988 中国科学院大气物理研究所 大气科学专业"
+    },
+    "work_experience": [
+      "1989-1993 美国伊利诺伊斯大学、佛罗里达州立大学 博士后"
+    ]
+  },
+  "likes": 185,
+  "academic": {
+    "research_fields": [
+      "数值预报",
+      "卫星资料同化"
+    ],
+    "publications": [
+      {
+        "title_cn": "正压滤波模型大气中的对称与非对称运动",
+        "title_en": "The symmetric and the asymmetric motion in the barotropic filtered model atmosphere",
+        "year": 1986,
+        "journal": "Acta Meteo. Sinica",
+        "DOI": "NA"
+      },
+      {
+        "title_cn": "冬季环流中北半球两座主要山脉的动态效应分析",
+        "title_en": "Analyses of the dynamic effects on winter circulation of the two main mountains in the northern hemisphere",
+        "year": 1992,
+        "journal": "Acta Meteorologica Sinica",
+        "DOI": "NA"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/zouxiaolei/zh_CN/index.htm"
+  }
+}

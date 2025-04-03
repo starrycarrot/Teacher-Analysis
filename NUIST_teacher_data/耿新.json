@@ -1,0 +1,71 @@
+{
+  "basic_info": {
+    "name": "耿新",
+    "admin_role": [
+      ""
+    ],
+    "title": [
+      "讲师"
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      "优秀本科毕业论文（设计）指导教师",
+      "南京信息工程大学优秀博士论文",
+      "国家奖学金",
+      "校优秀班主任"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1990*",
+    "education": {
+      "undergrad": "2008-2012 合肥工业大学 测绘工程",
+      "master": "2012-2015 南京信息工程大学 气象学",
+      "phd": "2015-2018 南京信息工程大学 气象学"
+    },
+    "work_experience": [
+      "2018-至今 南京信息工程大学 讲师",
+      "2021-2022 Pohang University of Science and Technology (POSTECH) 国家公派访问学者/博士后",
+      "2023-2023 Pohang University of Science and Technology (POSTECH) 博士后"
+    ]
+  },
+  "likes": 184,
+  "academic": {
+    "research_fields": [
+      "ENSO动力学及其遥相关",
+      "ENSO动力学及其非平稳气候影响",
+      "东亚冬季风多尺度变率",
+      "东亚季风变异机理",
+      "大尺度海气相互作用",
+      "气候变率与气候变化"
+    ],
+    "publications": [
+      {
+        "title_cn": "大西洋经向翻转环流对南极融水强迫的快速和慢速响应",
+        "title_en": "Fast and Slow Responses of Atlantic Meridional Overturning Circulation to Antarctic Meltwater Forcing",
+        "year": 2024,
+        "journal": "GEOPHYSICAL RESEARCH LETTERS",
+        "DOI": "10.1029/2024gl108272"
+      },
+      {
+        "title_cn": "纯厄尔尼诺事件对斯里兰卡春季降水的不同影响",
+        "title_en": "Distinct impacts of pure El Niño events on spring rainfall of Sri Lanka",
+        "year": 2024,
+        "journal": "crossref",
+        "DOI": "10.21203/rs.3.rs-4355490/v1"
+      },
+      {
+        "title_cn": "关于2023-2024年厄尔尼诺事件空间双峰的研究",
+        "title_en": "On the spatial double peak of the 2023–2024 El Niño event",
+        "year": 2024,
+        "journal": "Communications Earth & Environment",
+        "DOI": "10.1038/s41612-024-00627-z"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/gengxin/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/xin-geng/615446b96750f8727fa84740"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "basic_info": {
+    "name": "张晓",
+    "admin_role": [
+      ""
+    ],
+    "title": [
+      "讲师"
+    ],
+    "mentor_qualification": [],
+    "honors": []
+  },
+  "bio_details": {
+    "birth_year": "1984",
+    "education": {
+      "undergrad": "2003-2007 南京信息工程大学",
+      "master": "2007-2009 University of Alabama in Hunstville",
+      "phd": "2009-2014 University of Bremen"
+    },
+    "work_experience": [
+      "南京信息工程大学大气科学学院数值预报系讲师"
+    ]
+  },
+  "likes": 90,
+  "academic": {
+    "research_fields": [
+      "古气候",
+      "数值模拟"
+    ],
+    "publications": [
+      {
+        "title_cn": "大西洋翻转强度变化对全球季风降水的非线性响应",
+        "title_en": "Nonlinear Response of Global Monsoon Precipitation to Atlantic Overturn-Ing Strength Variations During Marine Isotope Stage 3",
+        "year": 2023,
+        "journal": "JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES",
+        "DOI": "10.1029/2023jd038521"
+      },
+      {
+        "title_cn": "大西洋翻转环流在中间（MIS3）和完全冰川（LGM）条件下的稳定性及其与Dansgaard-Oeschger气候变异性的关系",
+        "title_en": "Stability of the Atlantic Overturning Circulation under Intermediate (MIS3) and Full Glacial (LGM) Conditions and Its Relationship with Dansgaard-Oeschger Climate Variability",
+        "year": 2020,
+        "journal": "Quaternary Science Reviews",
+        "DOI": "10.1016/j.quascirev.2020.106443"
+      },
+      {
+        "title_cn": "深海同位素三期海冰变化对大西洋环流强度及全球气候的影响",
+        "title_en": "Stability of the Atlantic overturning circulation under intermediate (MIS3) and full glacial (LGM) conditions and its relationship with Dansgaard-Oeschger climate variability",
+        "year": 2020,
+        "journal": "Quaternary Science Reviews",
+        "DOI": "106443"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/zhangxiao/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/xiao-zhang/615446bb9e795e7f16d37359"
+  }
+}

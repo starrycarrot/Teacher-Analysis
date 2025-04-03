@@ -1,0 +1,65 @@
+{
+  "basic_info": {
+    "name": "智海",
+    "title": [
+      "教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1965",
+    "education": {
+      "undergrad": "1985-1989 北京气象学院 天气动力",
+      "master": "2000-2003 南京气象学院 大气科学",
+      "phd": "2005-2008 南京信息工程大学 大气科学"
+    },
+    "work_experience": [
+      "1989-1990 内蒙古巴彦淖尔市气象局乌拉特后旗气象站 地面观测员、预报员",
+      "1990-2008 内蒙古巴彦淖尔市气象台 预报员",
+      "2008-2016 南京信息工程大学大气科学学院 副教授",
+      "2016-现在 南京信息工程大学大气科学学院 教授"
+    ]
+  },
+  "likes": 131,
+  "academic": {
+    "research_fields": [
+      "气候变化和数值模拟",
+      "海气相互作用对气候变化的影响",
+      "海气多尺度过程分析"
+    ],
+    "publications": [
+      {
+        "title_cn": "评估使用BNU-ESM在赤道太平洋的年际海表盐度变率及其对屏障层的影响",
+        "title_en": "Assessment of interannual sea surface salinity variability and its effects on the barrier layer in the equatorial Pacific using BNU-ESM",
+        "year": 2016,
+        "journal": "Adv. Atmos. Sci.",
+        "DOI": "10.1007/s00376-015-5163-y"
+      },
+      {
+        "title_cn": "使用CMIP5定量分析热带太平洋淡水通量引起的反馈",
+        "title_en": "Quantitative analysis of the feedback induced by the freshwater flux in the tropical Pacific using CMIP5",
+        "year": 2015,
+        "journal": "Adv. Atmos. Sci.",
+        "DOI": "10.1007/s00376-015-5064-0"
+      },
+      {
+        "title_cn": "模拟热带太平洋盐度变率及相关淡水通量强迫：使用北京师范大学地球系统模型的评估",
+        "title_en": "Simulation of salinity variability and the related freshwater flux forcing in the tropical Pacific: An evaluation using the Beijing Normal University Earth System Model (BNU-ESM)",
+        "year": 2015,
+        "journal": "Adv. Atmos. Sci.",
+        "DOI": "10.1007/s00376-015-4240-6"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/zhihai/zh_CN/index.htm"
+  }
+}

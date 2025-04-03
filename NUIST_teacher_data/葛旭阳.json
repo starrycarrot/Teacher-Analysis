@@ -1,0 +1,84 @@
+{
+  "basic_info": {
+    "name": "葛旭阳",
+    "title": [
+      "教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "博导",
+      "硕导"
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1972",
+    "education": {
+      "undergrad": "1990-1994 南京气象学院 天气动力学专业",
+      "master": "1994-1997 南京气象学院 气象学专业",
+      "phd": "2002-2008 美国夏威夷大学 气象学专业"
+    },
+    "work_experience": [
+      "2013-至今 南京信息工程大学 教授",
+      "2015-2016 NOAA/NCEP/CPC, ESSIC/马里兰大学 访问学者",
+      "2012-2013 夏威夷大学国际太平洋研究中心 博士后研究",
+      "2011-2012 NOAA/NCEP/EMC, UCAR 访问学者",
+      "2010-2011 美国宾夕法尼亚州立大学 博士后研究",
+      "2010 美国海军研究实验室 访问学者",
+      "2008-2010 夏威夷大学国际太平洋研究中心 博士后研究",
+      "2002-2008 美国夏威夷大学气象系 博士在读",
+      "1997-2002 上海气候中心 工程师"
+    ]
+  },
+  "likes": 918,
+  "academic": {
+    "research_fields": [
+      "热带气旋动力学",
+      "中尺度气象学数值模拟"
+    ],
+    "publications": [
+      {
+        "title_cn": "双低空急流耦合对台风“杜苏芮”（2305）后部暴雨增幅作用",
+        "title_en": "",
+        "year": 2025,
+        "journal": "大气科学学报",
+        "DOI": ""
+      },
+      {
+        "title_cn": "非典型对流台风快速增强机制研究: 地表潜热通量作用",
+        "title_en": "",
+        "year": 2025,
+        "journal": "大气科学",
+        "DOI": ""
+      },
+      {
+        "title_cn": "2021年“4.30”南通地区大风形成机理及数值模拟",
+        "title_en": "",
+        "year": 2025,
+        "journal": "气象科学",
+        "DOI": "10.12306/2022jms.0022"
+      },
+      {
+        "title_cn": "超强台风“利奇马”(1909)近海路径预报误差的关键影响机制",
+        "title_en": "",
+        "year": 2025,
+        "journal": "气象学报",
+        "DOI": "10.11676/qxxb2025.20240168"
+      },
+      {
+        "title_cn": "上层对流层冷低压对热带气旋强度的影响",
+        "title_en": "Impacts of an Upper-Tropospheric Cold Low on Tropical Cyclone Intensity",
+        "year": 2024,
+        "journal": "Mon. Wea. Rev.",
+        "DOI": "10.1175/MWR-D-24-0077.1"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/gexuyang/zh_CN/index.htm"
+  }
+}

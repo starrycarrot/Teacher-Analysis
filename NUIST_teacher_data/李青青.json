@@ -1,0 +1,89 @@
+{
+  "basic_info": {
+    "name": "李青青",
+    "admin_role": [
+      ""
+    ],
+    "title": [
+      "研究员"
+    ],
+    "mentor_qualification": [
+      "博导",
+      "硕导"
+    ],
+    "honors": [
+      "Advances in Atmospheric Sciences Editors Award",
+      "Journal of Meteorological Research Reviewer Award",
+      "江苏省青蓝工程中青年学术带头人",
+      "谢义炳青年气象科技奖"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1981*",
+    "education": {
+      "undergrad": "1999-2003 南京大学 大气科学系",
+      "master": "2003-2006 中国海洋大学 海洋环境学院",
+      "phd": "2010-2013 南京信息工程大学 大气科学学院"
+    },
+    "work_experience": [
+      "2006-2015 中国气象局上海台风研究所",
+      "2008-2009 美国夏威夷大学国际太平洋研究中心 访问学者",
+      "2015至今 南京信息工程大学太平洋台风研究中心 研究员"
+    ]
+  },
+  "likes": 417,
+  "academic": {
+    "research_fields": [
+      "中尺度强对流发生发展机理",
+      "中尺度气象学",
+      "台风内核结构变化和机理",
+      "台风动力学",
+      "台风螺旋雨带动力学",
+      "台风预报及检验评估",
+      "热带气旋内核结构变化和机理",
+      "热带气旋动力学",
+      "热带气旋螺旋雨带动力学"
+    ],
+    "publications": [
+      {
+        "title_cn": "数值模拟台风Cempaka（2021）的尺寸收缩",
+        "title_en": "Numerical simulation of size contraction of Typhoon Cempaka (2021)",
+        "year": 2025,
+        "journal": "Atmos. Ocean. Sci. Lett.",
+        "DOI": "100533"
+      },
+      {
+        "title_cn": "使用Thompson微物理方案模拟的“21·7”河南极端强降雨事件的微物理过程",
+        "title_en": "Microphysical processes of the “21·7 ” Henan extremely heavy rainfall event as simulated with the Thompson microphysics scheme",
+        "year": 2025,
+        "journal": "Atmos. Ocean. Sci. Lett.",
+        "DOI": "100480"
+      },
+      {
+        "title_cn": "在理想化热带气旋模拟中，上下层垂直风切变对次眼壁形成的影响",
+        "title_en": "Secondary eyewall formation in upper- and lower-layer vertical wind shear simulated in idealized tropical cyclones",
+        "year": 2025,
+        "journal": "Atmos. Ocean. Sci. Lett.",
+        "DOI": "100465"
+      },
+      {
+        "title_cn": "揭示典型天气背景下珠江三角洲城市群对中尺度对流系统降雨的城市影响",
+        "title_en": "Unveiling the Urban Impact on Mesoscale Convective System Rainfall in the Pearl River Delta Urban Agglomeration under Typical Synoptic Backgrounds",
+        "year": 2024,
+        "journal": "JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES",
+        "DOI": "10.1029/2024jd042409"
+      },
+      {
+        "title_cn": "台风Mekkhala（2020）在强垂直风切变中的内核增湿和登陆前快速增强",
+        "title_en": "Inner-Core Humidification and Prelandfall Rapid Intensification of Typhoon Mekkhala (2020) in Strong Vertical Wind Shear",
+        "year": 2024,
+        "journal": "MONTHLY WEATHER REVIEW",
+        "DOI": "10.1175/mwr-d-23-0225.1"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/liqingqing1/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/qingqing-li/60dad8ea6750f876c2cb47e0"
+  }
+}

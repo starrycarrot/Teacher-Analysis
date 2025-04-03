@@ -1,0 +1,55 @@
+{
+  "basic_info": {
+    "name": "陈威霖",
+    "title": [
+      "讲师"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      ""
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1982",
+    "education": {
+      "undergrad": "2001-2005 南京信息工程大学 资源环境与城乡规划",
+      "master": "2005-2008 南京信息工程大学 气候系统与全球变化",
+      "phd": "2008-2012 南京信息工程大学 气候系统与全球变化"
+    },
+    "work_experience": [
+      "2013-2014 美国夏威夷大学 访问学者",
+      "2012-至今 南京信息工程大学 讲师"
+    ]
+  },
+  "likes": 41,
+  "academic": {
+    "research_fields": [
+      "区域气候变化的模拟与预测",
+      "区域极端气候的诊断与归因"
+    ],
+    "publications": [
+      {
+        "title_cn": "CMIP5模式对东亚天气型气候特征模拟的性能",
+        "title_en": "Performance of CMIP5 Models in the Simulation of Climate Characteristics of Synoptic Patterns over East Asia",
+        "year": 2015,
+        "journal": "J. Meteor. Res",
+        "DOI": ""
+      },
+      {
+        "title_cn": "中国在SRES A1B情景下使用28个AOGCMs的气候变化的概率预测",
+        "title_en": "Probabilistic Projections of Climate Change over China under the SRES A1B Scenario Using 28 AOGCMs",
+        "year": 2011,
+        "journal": "J. Climate",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/chenweilin/zh_CN/index.htm"
+  }
+}

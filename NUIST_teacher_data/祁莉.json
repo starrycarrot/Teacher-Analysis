@@ -1,0 +1,100 @@
+{
+  "basic_info": {
+    "name": "祁莉",
+    "admin_role": [
+      ""
+    ],
+    "title": [
+      "教授"
+    ],
+    "mentor_qualification": [
+      "博导",
+      "硕导"
+    ],
+    "honors": [
+      "全国大气科学类青年教师教学竞赛二等奖",
+      "国家一流本科课程",
+      "江苏省优秀博士论文",
+      "江苏省科学技术奖三等奖",
+      "江苏省科技进步一等奖",
+      "江苏省首届教师创新教学竞赛一等奖",
+      "江苏省高校“青蓝工程”优秀青年骨干教师"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1981",
+    "education": {
+      "undergrad": "1999-2003 南京气象学院 大气科学专业",
+      "master": "",
+      "phd": "2003-2008 南京信息工程大学 气象学专业"
+    },
+    "work_experience": [
+      "2008-2010 南京信息工程大学 讲师",
+      "2010-2012 美国夏威夷大学IPRC中心 博士后",
+      "2010-2016 南京信息工程大学 副教授",
+      "2017-至今 南京信息工程大学 教授"
+    ]
+  },
+  "likes": 207,
+  "academic": {
+    "research_fields": [
+      "东亚季风气候",
+      "海气相互作用"
+    ],
+    "publications": [
+      {
+        "title_cn": "2010年后南海夏季风爆发的年代际延迟",
+        "title_en": "Interdecadal delay of the South China Sea Summer Monsoon Onset after 2010",
+        "year": 2024,
+        "journal": "Climate Dynamics",
+        "DOI": "10.1007/s00382-023-07081-2"
+      },
+      {
+        "title_cn": "北太平洋海温对ENSO事件响应的持续性",
+        "title_en": "",
+        "year": 2024,
+        "journal": "气象学报",
+        "DOI": "10.11676/qxxb2024.20230127"
+      },
+      {
+        "title_cn": "北太平洋海温Victoria模态与ENSO年际关系的非对称特征",
+        "title_en": "Asymmetric Characteristics of Interannual Relationship between Victoria Mode of North Pacific SST",
+        "year": 2022,
+        "journal": "大气科学学报",
+        "DOI": "10.13878/j.cnki.dqkxxb.20200719017"
+      },
+      {
+        "title_cn": "大西洋多年代际振荡对热带太平洋ENSO大气异常振幅的调制",
+        "title_en": "Atlantic Multidecadal Oscillation Modulates ENSO Atmospheric Anomaly Amplitude in the Tropical Pacific",
+        "year": 2022,
+        "journal": "JOURNAL OF CLIMATE",
+        "DOI": "10.1175/jcli-d-21-0603.1"
+      },
+      {
+        "title_cn": "北太平洋Victoria模式：比北太平洋涛动更有效的中太平洋厄尔尼诺预测信号",
+        "title_en": "The North Pacific Victoria mode: more effective prediction signal for the central Pacific El Nino than the North Pacific Oscillation",
+        "year": 2022,
+        "journal": "Internationl Journal of Climatology",
+        "DOI": "10.1002/joc.7256"
+      },
+      {
+        "title_cn": "全球变暖下青藏高原东南侧常年南风强度的多模式结果比较分析",
+        "title_en": "",
+        "year": 2021,
+        "journal": "气候变化研究进展",
+        "DOI": ""
+      },
+      {
+        "title_cn": "MJO在2019年中国东部极端秋季干旱中不可或缺的作用",
+        "title_en": "Indispensable role of the Madden-Julian Oscillation in the 2019 extreme autumn drought over eastern China",
+        "year": 2021,
+        "journal": "Journal of Geophysical Research-Atmospheres",
+        "DOI": "10.1029/2020JD034123"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/qili/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/li-qi/56243b6f45cedb33984e84b5"
+  }
+}

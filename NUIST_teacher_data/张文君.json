@@ -1,0 +1,56 @@
+{
+  "basic_info": {
+    "name": "张文君",
+    "title": [
+      "教授"
+    ],
+    "admin_role": [
+      "南京信息工程大学十一届学术委员会委员"
+    ],
+    "mentor_qualification": [
+      "博导",
+      "硕导"
+    ],
+    "honors": [
+      "国家杰出青年基金获得者",
+      "江苏省重大人才工程B类特聘教授",
+      "江苏省高校优秀科技创新团队带头人"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "",
+    "education": {
+      "undergrad": "",
+      "master": "",
+      "phd": ""
+    },
+    "work_experience": []
+  },
+  "likes": 667,
+  "academic": {
+    "research_fields": [
+      "ENSO动力学",
+      "大尺度海气相互作用动力学",
+      "东亚气候变异及模拟"
+    ],
+    "publications": [
+      {
+        "title_cn": "热带太平洋和热带南大西洋同步的年代际气候变率",
+        "title_en": "Synchronous decadal climate variability in the tropical central Pacific and tropical South Atlantic",
+        "year": 2024,
+        "journal": "npj Climate and Atmospheric Science",
+        "DOI": "10.1038/s41612-024-00638-w"
+      },
+      {
+        "title_cn": "量化冬季北太平洋涛动对后续ENSO的放大效应",
+        "title_en": "Quantifying the amplifying effect of the winter North Pacific Oscillation on the subsequent ENSO",
+        "year": 2024,
+        "journal": "Geophysical Research Letters",
+        "DOI": "10.1029/2024GL111019"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/zhangwenjun/zh_CN/index.htm"
+  }
+}

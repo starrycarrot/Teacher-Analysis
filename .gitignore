@@ -3,6 +3,7 @@
 
 # 忽略包含个人凭证的配置文件
 config/aminer_cookies.json
+scrapers/smart_scraper.py
 
 # 忽略废弃的尝试目录
 废弃的尝试/
@@ -100,7 +101,6 @@ log/
 
 # ===== 数据文件 =====
 *.csv
-*.json
 !config/org_mapping.json
 
 # ===== 临时文件 =====

@@ -1,0 +1,91 @@
+{
+  "basic_info": {
+    "name": "施宁",
+    "admin_role": [
+      ""
+    ],
+    "title": [
+      "教授",
+      "研究员（高校）"
+    ],
+    "mentor_qualification": [
+      "博导",
+      "硕导"
+    ],
+    "honors": [
+      "江苏省高校“青蓝工程”中青年学术带头人",
+      "江苏省高校“青蓝工程”优秀青年骨干教师"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1982*",
+    "education": {
+      "undergrad": "2000-2004 南京信息工程大学 本科",
+      "master": "2004-2009 南京信息工程大学 硕博连读",
+      "phd": "2004-2009 南京信息工程大学 硕博连读"
+    },
+    "work_experience": [
+      "2009-2014 南京信息工程大学大气科学学院 讲师",
+      "2014-2020 南京信息工程大学大气科学学院 副教授",
+      "2018-2019 南京信息工程大学大气科学学院 数值预报系副主任",
+      "2019-至今 南京信息工程大学国际教育学院 院长助理",
+      "2020-至今 南京信息工程大学大气科学学院 教授"
+    ]
+  },
+  "likes": 141,
+  "academic": {
+    "research_fields": [
+      "中高纬度大气动力学",
+      "季风动力学",
+      "极端气候"
+    ],
+    "publications": [
+      {
+        "title_cn": "西太平洋副热带高压的演变及亚洲降水从春季到夏季的影响",
+        "title_en": "Evolution of the western North Pacific subtropical high and impact of Asian precipitation from spring to summer",
+        "year": 2025,
+        "journal": "Atmospheric Research",
+        "DOI": "10.1016/j.atmosres.2025.107909"
+      },
+      {
+        "title_cn": "斯堪的纳维亚模式对亚洲冬季地表气温的月度影响",
+        "title_en": "Monthly Impact of the Scandinavian Pattern on Winter Surface Air Temperature over Asia",
+        "year": 2024,
+        "journal": "ATMOSPHERIC RESEARCH",
+        "DOI": "10.1016/j.atmosres.2024.107752"
+      },
+      {
+        "title_cn": "长江流域中下游极端热浪的热力学特征",
+        "title_en": "Thermodynamic Characteristics of Extreme Heat Waves over the Middle and Lower Reaches of the Yangtze River Basin",
+        "year": 2024,
+        "journal": "CLIMATE DYNAMICS",
+        "DOI": "10.1007/s00382-024-07104-6"
+      },
+      {
+        "title_cn": "南半球温带地区阻塞流配置中波破碎事件的气候学",
+        "title_en": "A climatology of wave-breaking events with blocking flow configurations in the extratropical Southern Hemisphere",
+        "year": 2024,
+        "journal": "Climate Dynamics",
+        "DOI": "10.1007/s00382-024-07387-9"
+      },
+      {
+        "title_cn": "次季节斯堪的纳维亚模式的能量收支特征",
+        "title_en": "Energy budget characteristics of the subseasonal Scandinavian pattern",
+        "year": 2024,
+        "journal": "Atmospheric Research",
+        "DOI": "10.1016/j.atmosres.2024.107313"
+      },
+      {
+        "title_cn": "简化非线性斜压模型中大西洋阻塞事件的局部有限振幅波活动",
+        "title_en": "Atlantic blocking events in a simplified nonlinear baroclinic model for local finite-amplitude wave activity",
+        "year": 2024,
+        "journal": "Atmospheric & Oceanic Science Letters",
+        "DOI": "10.1016/j.aosl.2024.100486"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/shining/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/ning-shi/5431b6c2dabfae8fa2cc9113"
+  }
+}

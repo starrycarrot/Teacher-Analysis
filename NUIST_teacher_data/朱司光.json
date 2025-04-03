@@ -1,0 +1,48 @@
+{
+  "basic_info": {
+    "name": "朱司光",
+    "admin_role": [
+      ""
+    ],
+    "title": [
+      "副教授",
+      "助理研究员"
+    ],
+    "mentor_qualification": [],
+    "honors": []
+  },
+  "bio_details": {
+    "birth_year": "1987*",
+    "education": {
+      "undergrad": "2005-2009 南京信息工程大学 大气科学专业",
+      "master": "2009-2012 南京信息工程大学 气象学专业",
+      "phd": "2012-2017 北京师范大学 全球环境变化专业"
+    },
+    "work_experience": [
+      "2017.09-2021.03 南京信息工程大学大气科学学院 博士后",
+      "2021.04-2021.12 南京信息工程大学大气科学学院 助理研究员",
+      "2021.12至今 南京信息工程大学大气科学学院 副教授"
+    ]
+  },
+  "likes": 12,
+  "academic": {
+    "research_fields": [
+      "陆气相互作用机理研究",
+      "陆面模式开发与改进",
+      "陆面过程与气候数值模拟"
+    ],
+    "publications": [
+      {
+        "title_cn": "欧亚大陆春季融雪对东北亚夏季地表增温的影响及其相关机制",
+        "title_en": "Influence of the Eurasian Spring Snowmelt on Summer Land Surface Warming over Northeast Asia and Its Associated Mechanism",
+        "year": 2021,
+        "journal": "Journal of Climate",
+        "DOI": "10.1175/jcli-d-20-0756.1"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/zhusiguang/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/siguang-zhu/5431a4e7dabfae8eb14c97e1"
+  }
+}

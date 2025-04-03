@@ -1,0 +1,98 @@
+{
+  "basic_info": {
+    "name": "孙博",
+    "admin_role": [
+      "气候系系主任"
+    ],
+    "title": [
+      "教授"
+    ],
+    "mentor_qualification": [
+      "博导",
+      "硕导"
+    ],
+    "honors": [
+      "中国科学院优秀博士学位论文",
+      "中国科学院院长特别奖",
+      "南京信息工程大学 第二届“十大青年科技之星”",
+      "南京信息工程大学大气科学学院专业建设突出贡献奖",
+      "南京信息工程大学大气科学学院优秀青年人才",
+      "南京信息工程大学青年五四奖章",
+      "教育部博士研究生国家奖学金",
+      "江苏省333高层次人才培养工程（第三层次）",
+      "江苏省科协青年科技人才托举工程"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1987",
+    "education": {
+      "undergrad": "2006-2010 兰州大学 大气科学",
+      "master": "",
+      "phd": "2010-2015 中国科学院大气物理研究所 气象学"
+    },
+    "work_experience": [
+      "2015-2017 美国夏威夷大学 博士后",
+      "2017-2020 南京信息工程大学 讲师（校聘教授）",
+      "2017-至今 南京信息工程大学大气科学学院气候学系 教授",
+      "2020至今 南京信息工程大学 教授"
+    ]
+  },
+  "likes": 510,
+  "academic": {
+    "research_fields": [
+      "全球气候变化及影响",
+      "大气水分循环",
+      "极端气候变异",
+      "气候变化",
+      "短期气候预测"
+    ],
+    "publications": [
+      {
+        "title_cn": "改进的蜣螂优化器、多头注意力和混合深度学习算法在中国宁夏地区地下水深度预测中的应用",
+        "title_en": "Application of the Improved Dung Beetle Optimizer, Muti-Head Attention and Hybrid Deep Learning Algorithms to Groundwater Depth Prediction in the Ningxia Area, China",
+        "year": 2025,
+        "journal": "ATMOSPHERIC AND OCEANIC SCIENCE LETTERS",
+        "DOI": "10.1016/j.aosl.2024.100497"
+      },
+      {
+        "title_cn": "2022年南欧热浪及其对电力系统的影响",
+        "title_en": "South European Heatwaves and Their Impacts on the Power System in 2022",
+        "year": 2025,
+        "journal": "JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES",
+        "DOI": "10.1029/2024jd042310"
+      },
+      {
+        "title_cn": "梅雨地区复合热干旱事件：极地和热带地区的影响",
+        "title_en": "Compound Hot Drought Events in the Mei-yu Region: Influences from Polar and Tropical Regions",
+        "year": 2025,
+        "journal": "SCIENCE BULLETIN",
+        "DOI": "10.1016/j.scib.2024.09.043"
+      },
+      {
+        "title_cn": "CMIP6对冬季极地-热带气候系统动力过程的模拟能力",
+        "title_en": "Performance Evaluation of CMIP6 Models in Simulating the Dynamic Processes of Arctic-Tropical Climate Connection During Winter",
+        "year": 2024,
+        "journal": "Journal of Geophysical Research: Atmospheres",
+        "DOI": "10.1029/2024JD041328"
+      },
+      {
+        "title_cn": "揭示人类活动对复合极端事件的影响",
+        "title_en": "Anthropogenic impact on the severity of compound extreme high temperature and drought/rain events in China",
+        "year": 2023,
+        "journal": "npj Clim. Atmos. Sci.",
+        "DOI": "10.1038/s41612-023-00413-3"
+      },
+      {
+        "title_cn": "揭示梅雨对气候变化的响应",
+        "title_en": "How does Mei-yu precipitation respond to climate change?",
+        "year": 2023,
+        "journal": "National Science Review",
+        "DOI": "10.1093/nsr/nwad246"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/sunbo/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/bo-sun/615446926750f8727fa8470d"
+  }
+}

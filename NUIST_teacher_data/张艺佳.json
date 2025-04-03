@@ -1,0 +1,54 @@
+{
+  "basic_info": {
+    "name": "张艺佳",
+    "title": [
+      "未评职称(高校教师)"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      ""
+    ],
+    "honors": [
+      "江苏省三好学生",
+      "博士研究生国家奖学金"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1997*",
+    "education": {
+      "undergrad": "2015-2019 南京信息工程大学 大气科学专业",
+      "master": "2019-2024 南京信息工程大学 气象学",
+      "phd": "2019-2024 南京信息工程大学 气象学"
+    },
+    "work_experience": [
+      "2024-至今 南京信息工程大学 博士后"
+    ]
+  },
+  "likes": 13,
+  "academic": {
+    "research_fields": [
+      "北极-欧亚中高纬气候变异"
+    ],
+    "publications": [
+      {
+        "title_cn": "暖北极-冷欧亚模式有助于预测西伯利亚西部春季野火燃烧面积",
+        "title_en": "Warm Arctic-Cold Eurasia pattern helps predict spring wildfires burned area in West Siberia",
+        "year": 2024,
+        "journal": "Nature Communications",
+        "DOI": ""
+      },
+      {
+        "title_cn": "副热带海表温度提高了对亚洲中高纬度冬季地表气温次季节反转的理解",
+        "title_en": "Subtropical SST improved the understanding of the subseasonal reversal of surface air temperature in winter over the mid-high latitudes of Asia",
+        "year": 2024,
+        "journal": "Atmospheric Research",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/zhangyijia/zh_CN/index.htm"
+  }
+}

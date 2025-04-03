@@ -1,0 +1,63 @@
+{
+  "basic_info": {
+    "name": "李忠贤",
+    "title": [
+      "教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      "江苏省高校“青蓝工程”优秀青年骨干教师培养对象"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1979",
+    "education": {
+      "undergrad": "1996-2000 南京气象学院 天气动力学",
+      "master": "2000-2004 南京信息工程大学 气象学",
+      "phd": "2004-2008 南京信息工程大学 气象学"
+    },
+    "work_experience": [
+      "2022- 南京信息工程大学 教授",
+      "2011-2022 南京信息工程大学 副教授",
+      "2006-2011 南京信息工程大学 讲师",
+      "2004-2006 南京信息工程大学 助教"
+    ]
+  },
+  "likes": 207,
+  "academic": {
+    "research_fields": [
+      "海气相互作用与短期气候预测"
+    ],
+    "publications": [
+      {
+        "title_cn": "夏季北大西洋海温异常与长江流域极端高温日数年际变化关系的年代际减弱",
+        "title_en": "",
+        "year": 2024,
+        "journal": "大气科学学报",
+        "DOI": ""
+      },
+      {
+        "title_cn": "秋季北大西洋马蹄型海温异常与初冬我国气温年际变化的联系",
+        "title_en": "",
+        "year": 2024,
+        "journal": "大气科学",
+        "DOI": ""
+      },
+      {
+        "title_cn": "北大西洋和热带印度洋海温的协同作用对松花江流域暖季降水年代际变化的影响",
+        "title_en": "",
+        "year": 2023,
+        "journal": "气象学报",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/lizhongxian/zh_CN/index.htm"
+  }
+}

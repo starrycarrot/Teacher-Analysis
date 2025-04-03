@@ -1,0 +1,55 @@
+{
+  "basic_info": {
+    "name": "杜银",
+    "title": [
+      "副教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1980*",
+    "education": {
+      "undergrad": "1998-2002 南京气象学院 气象学",
+      "master": "2004-2009 南京大学 气象学",
+      "phd": "2004-2009 南京大学 气象学"
+    },
+    "work_experience": [
+      "2014-2015 美国夏威夷大学 访问学者"
+    ]
+  },
+  "likes": 56,
+  "academic": {
+    "research_fields": [
+      "东亚夏季风异常",
+      "极端天气气候",
+      "数值模拟和评估"
+    ],
+    "publications": [
+      {
+        "title_cn": "长江三角洲城市集群化发展对极端高温事件空间格局的影响",
+        "title_en": "Global financial crisis making a V-Shaped fluctuation in NO2 pollution over the Yangtze River Delta",
+        "year": 2017,
+        "journal": "科学通报",
+        "DOI": ""
+      },
+      {
+        "title_cn": "东亚副热带西风急流位置变化及其对中国东部夏季降水异常分布的影响",
+        "title_en": "Interannual variability of the Asian subtropical westerly jet in boreal summer and associated with circulation and SST anomalies",
+        "year": 2016,
+        "journal": "Climate Dynamics",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/duyin/zh_CN/index.htm"
+  }
+}

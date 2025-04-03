@@ -1,0 +1,61 @@
+{
+  "basic_info": {
+    "name": "杨双艳",
+    "title": [
+      "教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "博导",
+      "硕导"
+    ],
+    "honors": [
+      "优秀班主任",
+      "优秀毕业论文指导教师",
+      "中国气象科学研究院“华云”优秀博士毕业生一等奖"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1985*",
+    "education": {
+      "undergrad": "2003-2007 天津工业大学 环境工程",
+      "master": "2007-2010 南京信息工程大学 气象学",
+      "phd": "2010-2013 中国气象科学研究院/南京信息工程大学 气象学"
+    },
+    "work_experience": [
+      "2013-2014 深圳市气象局深圳市国家气候观象台 工程师",
+      "2014-2017 美国夏威夷大学国际太平洋研究中心 博士后",
+      "2017-2018 南京信息工程大学大气科学学院 校聘教授",
+      "2018至今 南京信息工程大学大气科学学院 教授"
+    ]
+  },
+  "likes": 127,
+  "academic": {
+    "research_fields": [
+      "季节内振荡动力学",
+      "短期气候预测与气候变化",
+      "高对流层-低平流层动力学"
+    ],
+    "publications": [
+      {
+        "title_cn": "北半球冬季中高纬欧亚ISO对华北PM2.5浓度异常的影响",
+        "title_en": "Influence of the mid‑high‑latitude Eurasian ISO on PM2.5 concentration anomaly in North China during boreal winter",
+        "year": 2024,
+        "journal": "Clim. Dyn.",
+        "DOI": "10.1007/s00382-024-07555-x"
+      },
+      {
+        "title_cn": "夏季欧亚中高纬大气ISO与欧洲阻塞频率的联系及其对极端高温事件的协同作用",
+        "title_en": "Relation of mid‐high‐Latitude Eurasian ISO to Ural Blocking frequency and their co‐effect on extreme hot events during boreal summer",
+        "year": 2022,
+        "journal": "Atmos.",
+        "DOI": "10.3390/atmos13122041"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/yangsy/zh_CN/index.htm"
+  }
+}

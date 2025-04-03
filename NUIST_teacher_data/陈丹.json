@@ -1,0 +1,71 @@
+{
+  "basic_info": {
+    "name": "陈丹",
+    "title": [
+      "副教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "",
+      "硕导"
+    ],
+    "honors": [
+      "2017年第二届“气象出版杯”全国大气科学类专业青年教师教学交流与竞赛 二等奖（个人）",
+      "院士"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1983",
+    "education": {
+      "undergrad": "2002-2006 南京信息工程大学 大气科学",
+      "master": "",
+      "phd": "2007-2012 中科院大气物理研究所 中层大气与全球环境探测"
+    },
+    "work_experience": [
+      "2006-2007 中科院大气物理研究所 客座",
+      "2006年7月-2007年9月 中科院大气物理研究所 客座",
+      "2012-2020 南京信息工程大学 讲师",
+      "2012年7月-2020年6月 南京信息工程大学 讲师",
+      "2016-2017 德国于利希研究中心-平流层大气研究所 访问学者",
+      "2016年3月-2017年3月 德国于利希研究中心-平流层大气研究所 访问学者",
+      "2020-至今 南京信息工程大学 副教授",
+      "2020年7月-至今 南京信息工程大学 副教授"
+    ]
+  },
+  "likes": 131,
+  "academic": {
+    "research_fields": [
+      "平流层-对流层相互作用",
+      "中层大气动力学"
+    ],
+    "publications": [
+      {
+        "title_cn": "基于秦岭山脉树木年轮蓝强度的首次温度重建",
+        "title_en": "The First Temperature Reconstruction Based on Tree-Ring Blue Intensity in the Qinling Mountains",
+        "year": 2025,
+        "journal": "crossref",
+        "DOI": "10.2139/ssrn.5087060"
+      },
+      {
+        "title_cn": "河岸植物-土壤-微生物C:N:P化学计量学：它们在植物功能群水平上是否保守",
+        "title_en": "Riparian Plant-Soil-microbial C:N:P Stoichiometry: Are They Conserved at Plant Functional Group Level",
+        "year": 2024,
+        "journal": "Environmental Science and Pollution Research",
+        "DOI": "10.1007/s11356-024-34153-5"
+      },
+      {
+        "title_cn": "模拟东北亚典型切断低压中多时间尺度平流层入侵过程",
+        "title_en": "Simulation of the Multi-Timescale Stratospheric Intrusion Processes in a Typical Cut-Off Low over Northeast Asia",
+        "year": 2022,
+        "journal": "Atmosphere",
+        "DOI": "https://doi.org/10.3390/atmos13010068"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/chendan/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/dan-chen/542ac301dabfae2b4e13ef8d"
+  }
+}

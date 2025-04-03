@@ -1,0 +1,66 @@
+{
+  "basic_info": {
+    "name": "江志红",
+    "title": [
+      "教授"
+    ],
+    "admin_role": [
+      "南京信息工程大学副校长"
+    ],
+    "mentor_qualification": [
+      "博导"
+    ],
+    "honors": [
+      "享受国务院政府特殊津贴专家"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1962*",
+    "education": {
+      "undergrad": "1980-1984 南京大学 大气科学",
+      "master": "1984-1987 南京大学 大气科学",
+      "phd": "1997-2000 南京气象学院 大气科学"
+    },
+    "work_experience": [
+      "1987-2002 南京气象学院 教师",
+      "2001-2002 台湾大学大气科学系 访问学者",
+      "2002-2006 南京信息工程大学资源环境与城乡规划系 副主任",
+      "2006-2010 南京信息工程大学大气科学学院 副院长",
+      "2010-2022 南京信息工程大学 副校长"
+    ]
+  },
+  "likes": 65,
+  "academic": {
+    "research_fields": [
+      "气候变化及其区域响应",
+      "气候诊断与预测",
+      "统计气候理论及其应用"
+    ],
+    "publications": [
+      {
+        "title_cn": "东亚夏季风推进过程的气候特征及其年代际变化",
+        "title_en": "Interdecadal variations of East Asian summer monsoon northward propagation and influences on summer precipitation over East China",
+        "year": 2008,
+        "journal": "Meteorology & Atmospheric Physics",
+        "DOI": "NA"
+      },
+      {
+        "title_cn": "中国近50年冬夏季极端气温场的年代际空间型态及其演变特征研究",
+        "title_en": "Characteristics of Extreme Temperature Event and Its Response to Regional Warming in Northwest China in Past 45 Years",
+        "year": 2008,
+        "journal": "Chinese Geographical Science",
+        "DOI": "NA"
+      },
+      {
+        "title_cn": "全球变暖情景下中国气温分区的未来变化",
+        "title_en": "Probabilistic Projections of Climate Change over China under the SRES A1B Scenario Using 28 AOGCMs",
+        "year": 2011,
+        "journal": "Journal of Climate",
+        "DOI": "NA"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/jiangzhihong/zh_CN/index.htm"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "basic_info": {
+    "name": "董慧杰",
+    "title": [
+      "讲师"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      ""
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1987",
+    "education": {
+      "undergrad": "2005-2009 南京信息工程大学 大气探测专业",
+      "master": "2009-2011 南京信息工程大学 大气遥感科学与技术",
+      "phd": "2011-2017 南京信息工程大学 气象学"
+    },
+    "work_experience": [
+      "2012-2012 美国佛罗里达州立大学 访问学者"
+    ]
+  },
+  "likes": 47,
+  "academic": {
+    "research_fields": [
+      "卫星资料的质量控制及其在天气和气候中的应用"
+    ],
+    "publications": [
+      {
+        "title_cn": "减轻和比较风云-3B/C/D微波辐射成像仪亮度温度观测中的条纹噪声",
+        "title_en": "Mitigating and comparing the striping noise in FengYun-3B/C/D microwave radiation imager brightness temperature observations",
+        "year": 2019,
+        "journal": "Q J R Meteorol Soc",
+        "DOI": "10.1002/qj.3665"
+      },
+      {
+        "title_cn": "热带降雨测量任务微波成像仪观测的条纹噪声减轻",
+        "title_en": "Striping Noise Mitigation for Tropical Rainfall Measuring Mission Microwave Imager Observations",
+        "year": 2019,
+        "journal": "IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING",
+        "DOI": "10.1109/TGRS.2018.2873661"
+      },
+      {
+        "title_cn": "全球降水测量（GPM）微波成像仪两个水汽探测通道中条纹噪声的分析和减轻",
+        "title_en": "Analysis and Mitigation of Striping Noise in Two Water Vapor Sounding Channels of Global Precipitation Measurement (GPM) Microwave Imager",
+        "year": 2017,
+        "journal": "Journal of Atmospheric and Oceanic Technology",
+        "DOI": "10.1175/JTECH-D-17-0006.1"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/donghuijie/zh_CN/index.htm"
+  }
+}

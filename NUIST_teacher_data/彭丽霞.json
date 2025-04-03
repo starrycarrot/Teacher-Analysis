@@ -1,0 +1,77 @@
+{
+  "basic_info": {
+    "name": "彭丽霞",
+    "title": [
+      "讲师"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      ""
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1978",
+    "education": {
+      "undergrad": "1998-2002 南京气象学院 天气动力学专业",
+      "master": "2002-2004 南京信息工程大学 气象学专业",
+      "phd": "2004-2008 南京信息工程大学 气象学专业"
+    },
+    "work_experience": [
+      "2008-至今 南京信息工程大学 大气科学学院专任教师"
+    ]
+  },
+  "likes": 53,
+  "academic": {
+    "research_fields": [
+      "短期气候变化及其预测",
+      "大气环流",
+      "海气相互作用",
+      "青藏高原"
+    ],
+    "publications": [
+      {
+        "title_cn": "南亚高压的年代际变化及其与热带和副热带地区海面温度的关系",
+        "title_en": "THE INTERDECADAL VARIATION OF THE SOUTH ASIAN HIGH AND ITS ASSOCIATION WITH THE SEA SURFACE TEMPERATURE OF TROPICAL AND SUBTROPICAL REGIONS",
+        "year": 2018,
+        "journal": "热带气象学报(英文版)",
+        "DOI": "NA"
+      },
+      {
+        "title_cn": "夏季南亚高压多中心特征及其热力影响因子分析",
+        "title_en": "NA",
+        "year": 2016,
+        "journal": "大气科学",
+        "DOI": "NA"
+      },
+      {
+        "title_cn": "南亚高压强度年代际变化及其与热带副热带海温关系",
+        "title_en": "NA",
+        "year": 2016,
+        "journal": "热带气象学报",
+        "DOI": "NA"
+      },
+      {
+        "title_cn": "南亚高压季节持续性异常及其与ENSO关系",
+        "title_en": "NA",
+        "year": 2010,
+        "journal": "气象学报",
+        "DOI": "NA"
+      },
+      {
+        "title_cn": "夏季南亚高压年际变化及其与ENSO的关系",
+        "title_en": "NA",
+        "year": 2009,
+        "journal": "大气科学",
+        "DOI": "NA"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/penglixia/zh_CN/index.htm"
+  }
+}

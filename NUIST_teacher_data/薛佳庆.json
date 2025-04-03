@@ -1,0 +1,66 @@
+{
+  "basic_info": {
+    "name": "薛佳庆",
+    "title": [
+      "副教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      "江苏省双创博士",
+      "中国科学院大气物理研究所优秀博士学位论文",
+      "博士研究生国家奖学金",
+      "本科生国家奖学金"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1992*",
+    "education": {
+      "undergrad": "2010-2014 南京信息工程大学 大气科学",
+      "master": "2014-2019 中国科学院大气物理研究所 气象学",
+      "phd": "2014-2019 中国科学院大气物理研究所 气象学"
+    },
+    "work_experience": [
+      "2019-至今 南京信息工程大学 教师"
+    ]
+  },
+  "likes": 195,
+  "academic": {
+    "research_fields": [
+      "热带&沿岸海气耦合模态",
+      "海-气系统年代际变化及机理",
+      "季风动力学",
+      "气候季节预测"
+    ],
+    "publications": [
+      {
+        "title_cn": "大西洋多年代际振荡对东南印度洋Ningaloo Niño/Niña强度的年代际调制",
+        "title_en": "Interdecadal modulation of Ningaloo Niño/Niña strength in the Southeast Indian Ocean by the Atlantic Multidecadal Oscillation",
+        "year": 2025,
+        "journal": "Nature Communications",
+        "DOI": "16, 1966"
+      },
+      {
+        "title_cn": "大西洋多年代际振荡对冬季北极振荡影响华南降水的调制作用",
+        "title_en": "The influence of Arctic oscillation on South China precipitation in winter is modulated by the Atlantic multidecadal oscillation",
+        "year": 2024,
+        "journal": "Geophysical Research Letters",
+        "DOI": "51, e2024GL112090"
+      },
+      {
+        "title_cn": "ENSO-IOD跨海盆连接受大西洋多年代际振荡控制",
+        "title_en": "ENSO–IOD inter-basin connection is controlled by the Atlantic Multidecadal Oscillation",
+        "year": 2022,
+        "journal": "Geophysical Research Letters",
+        "DOI": "49, e2022GL101571"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/xuejiaqing/zh_CN/index.htm"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "basic_info": {
+    "name": "闫会平",
+    "title": [
+      "讲师"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      ""
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1987",
+    "education": {
+      "undergrad": "2006-2010 兰州大学 大气科学",
+      "master": "",
+      "phd": "2010-2015 兰州大学 大气科学"
+    },
+    "work_experience": [
+      "2016-至今 南京信息工程大学 讲师",
+      "2019-2020 美国西北太平洋国家实验室 访问学者"
+    ]
+  },
+  "likes": 116,
+  "academic": {
+    "research_fields": [
+      "数值模拟",
+      "模式不确定分析",
+      "气溶胶与气候相互作用"
+    ],
+    "publications": [
+      {
+        "title_cn": "热带非洲野火气溶胶在一月份触发北半球中高纬度地区的遥相关",
+        "title_en": "Tropical African wildfire aerosols trigger teleconnections over mid-to-high latitudes of Northern Hemisphere in January",
+        "year": 2021,
+        "journal": "Environ. Res. Lett.",
+        "DOI": "10.1088/1748-9326/abe433"
+      },
+      {
+        "title_cn": "中国冬季晴空日的两个主导模式及其形成机制",
+        "title_en": "The two leading modes of winter clear-sky days over China and their formation mechanisms",
+        "year": 2021,
+        "journal": "Clim. Dyn.",
+        "DOI": "10.1007/s00382-020-05470-5"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/yanhuiping/zh_CN/index.htm"
+  }
+}

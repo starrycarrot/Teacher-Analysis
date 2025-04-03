@@ -1,0 +1,89 @@
+{
+  "basic_info": {
+    "name": "朱志伟",
+    "admin_role": [
+      ""
+    ],
+    "title": [
+      "教授"
+    ],
+    "mentor_qualification": [
+      "博导",
+      "硕导"
+    ],
+    "honors": [
+      "中国科协第四届青年人才托举工程",
+      "国家重大人才计划B类青年拔尖人才",
+      "江苏省优秀博士学位论文",
+      "江苏省重大人才工程B类特聘教授"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1987*",
+    "education": {
+      "undergrad": "2005-2009 南京信息工程大学 大气科学",
+      "master": "NA",
+      "phd": "2009-2014 南京信息工程大学/夏威夷大学 气象学"
+    },
+    "work_experience": [
+      "2013-2014 夏威夷大学国际太平洋研究中心 访问学者",
+      "2014-2017 夏威夷大学国际太平洋研究中心 博士后",
+      "2017-2018 南京信息工程大学大气科学学院 校聘教授",
+      "2018-至今 南京信息工程大学大气科学学院 教授",
+      "2019-至今 南京信息工程大学大气科学学院 院长助理",
+      "2020-至今 南京信息工程大学 博士生导师"
+    ]
+  },
+  "likes": 1521,
+  "academic": {
+    "research_fields": [
+      "东亚季风",
+      "大尺度海气相互作用过程及其遥相关影响机理",
+      "天气气候预测",
+      "季风变异与极端天气气候事件的规律及其成因",
+      "气候动力学",
+      "气温和降水及其极端变率的次季节和季节预测"
+    ],
+    "publications": [
+      {
+        "title_cn": "MJO结构-传播关系及CMIP6模型中背景平均态的影响",
+        "title_en": "MJO Structure–Propagation Nexus and Impacts of Background Mean States in CMIP6 Models",
+        "year": 2024,
+        "journal": "JOURNAL OF CLIMATE",
+        "DOI": "10.1175/jcli-d-23-0348.1"
+      },
+      {
+        "title_cn": "冬季北极涛动空间格局的年代际变化",
+        "title_en": "Interdecadal Variations in the Spatial Pattern of the Arctic Oscillation Arctic Center in Wintertime",
+        "year": 2024,
+        "journal": "GEOPHYSICAL RESEARCH LETTERS",
+        "DOI": "10.1029/2024gl111380"
+      },
+      {
+        "title_cn": "东亚副热带夏季风降水热力强迫的北半球遥相关影响及其机理",
+        "title_en": "The influence of 10–30-day boreal summer intraseasonal oscillation on the forecast skill of extreme rainfall over southern China",
+        "year": 2024,
+        "journal": "Climate Dynamics",
+        "DOI": "10.1007/s00382-023-06900-w"
+      },
+      {
+        "title_cn": "中国西北5月和9月地表气温的年际变率机理及其预测",
+        "title_en": "NA",
+        "year": 2023,
+        "journal": "Chinese Journal of Atmospheric Sciences",
+        "DOI": "10.3878/j.issn.1006-9895.2111.21124"
+      },
+      {
+        "title_cn": "热带非洲野火气溶胶触发北半球中高纬度1月遥相关",
+        "title_en": "Tropical African wildfire aerosols trigger teleconnections over mid-to-high latitudes of Northern Hemisphere in January",
+        "year": 2021,
+        "journal": "Environmental Research Letters",
+        "DOI": "10.1088/1748-9326/abe433"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/zhuzhiwei/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/zhiwei-zhu/6101516a6750f855fce499ff"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "basic_info": {
+    "name": "周淑琴",
+    "admin_role": [
+      "大气科学学院党委书记"
+    ],
+    "title": [
+      "副教授"
+    ],
+    "mentor_qualification": [],
+    "honors": []
+  },
+  "bio_details": {
+    "birth_year": "1971",
+    "education": {
+      "undergrad": "1990-1994 南京气象学院 计算机及应用专业",
+      "master": "2001-2004 南京信息工程大学 系统分析与集成",
+      "phd": ""
+    },
+    "work_experience": [
+      "1994-1995 南京气象学院 辅导员",
+      "1995-2005 南京气象学院 计算机技术专业教师",
+      "2002-2005 南京气象学院 计算机软件教研室副主任",
+      "2005-2005 南京气象学院 软件工程教研室副主任",
+      "2005-2006 南京信息工程大学 计算机科学与技术系党总支副书记兼系副主任",
+      "2006-2007 南京信息工程大学 研究生部党总支副书记",
+      "2007-2008 南京信息工程大学 保密办副主任",
+      "2007-2008 南京信息工程大学 党委办公室副主任",
+      "2008-2011 南京信息工程大学 学生工作部副部长、学生工作处副处长",
+      "2011-2014 南京信息工程大学 计算机与软件学院党委书记",
+      "2014-2017 南京信息工程大学 信息与控制学院党委书记",
+      "2017-至今 南京信息工程大学 体育部党总支书记",
+      "2019-至今 南京信息工程大学 大气科学学院党委书记"
+    ]
+  },
+  "likes": 27,
+  "academic": {
+    "research_fields": [
+      "系统分析与集成",
+      "计算机科学与技术"
+    ],
+    "publications": [
+      {
+        "title_cn": "嵌入性理论视野下高校基层服务型党组织引领育人工作的路径",
+        "title_en": "",
+        "year": 2016,
+        "journal": "理论观察",
+        "DOI": "10.3969/j.issn.1009-2234.2016.11.005"
+      },
+      {
+        "title_cn": "生活世界视野下关工委融入贫困生人文关怀的探索",
+        "title_en": "",
+        "year": 2016,
+        "journal": "学理论",
+        "DOI": "10.3969/j.issn.1002-2589.2016.02.039"
+      },
+      {
+        "title_cn": "高校编外辅导员工作满意度现状调查--基于江苏省5所高校的问卷调查",
+        "title_en": "A Study of Off-Staff Advisors' Job Satisfaction",
+        "year": 2014,
+        "journal": "高校辅导员学刊",
+        "DOI": "10.3969/j.issn.1674-5337.2014.02.009"
+      },
+      {
+        "title_cn": "群众路线视域关照下高校人才培养实践思考",
+        "title_en": "",
+        "year": 2014,
+        "journal": "青年与社会",
+        "DOI": ""
+      },
+      {
+        "title_cn": "职业生涯语境下大学生人文精神培养路径探讨",
+        "title_en": "",
+        "year": 2013,
+        "journal": "教育与职业",
+        "DOI": "10.3969/j.issn.1004-3985.2013.15.051"
+      },
+      {
+        "title_cn": "关于加强大学生就业指导课程建设的思考",
+        "title_en": "",
+        "year": 2011,
+        "journal": "江苏科技信息",
+        "DOI": "10.3969/j.issn.1004-7530.2011.09.015"
+      },
+      {
+        "title_cn": "高校大学生创新创业教育研究",
+        "title_en": "The Research of College Student Innovation and Business Education",
+        "year": 2011,
+        "journal": "科技创业月刊",
+        "DOI": "10.3969/j.issn.1672-2272.2011.12.010"
+      },
+      {
+        "title_cn": "关于高校提升大学生就业能力的思考",
+        "title_en": "On Enhancing the Employability of University Students",
+        "year": 2011,
+        "journal": "Journal of Liaoning Medical University(Social Science Edition)",
+        "DOI": "10.3969/j.issn.1674-0416.2011.03.024"
+      },
+      {
+        "title_cn": "后金融危机时代的大学生就业问题实证研究",
+        "title_en": "",
+        "year": 2011,
+        "journal": "教育教学论坛",
+        "DOI": "10.3969/j.issn.1674-9324.2011.28.002"
+      },
+      {
+        "title_cn": "高校大学生创新创业教育研究",
+        "title_en": "",
+        "year": 2011,
+        "journal": "科技创业月刊",
+        "DOI": ""
+      },
+      {
+        "title_cn": "利用信息技术推进高校党建工作",
+        "title_en": "Using Information Technology Promoting Party Building Work of Colleges and Universities",
+        "year": 2009,
+        "journal": "Journal of Hebei University of Engineering",
+        "DOI": "10.3969/j.issn.1673-9477.2009.01.025"
+      },
+      {
+        "title_cn": "高等学校的师德建设初探",
+        "title_en": "Exploration of the Construction of Teachers' Professional Ethics in Colleges and Universities",
+        "year": 2009,
+        "journal": "Journal of Liaoning Medical University(Social Science Edition)",
+        "DOI": "10.3969/j.issn.1674-0416.2009.01.018"
+      },
+      {
+        "title_cn": "利用信息技术 推进高校党建工作",
+        "title_en": "",
+        "year": 2009,
+        "journal": "河北工程大学学报（社会科学版）",
+        "DOI": ""
+      },
+      {
+        "title_cn": "采取有效措施 加强高校辅导员队伍建设",
+        "title_en": "",
+        "year": 2007,
+        "journal": "重庆工学院学报",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/zhoushuqin/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/shuqin-zhou/6165412b60a9657b486f7f91"
+  }
+}

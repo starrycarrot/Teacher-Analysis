@@ -1,0 +1,66 @@
+{
+  "basic_info": {
+    "name": "施春华",
+    "title": [
+      "教授"
+    ],
+    "admin_role": [
+      "天气学系主任"
+    ],
+    "mentor_qualification": [
+      "博导",
+      "硕导"
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1978",
+    "education": {
+      "undergrad": "1997-2001 中国科学技术大学 大气科学",
+      "master": "2001-2006 中国科学技术大学 大气科学",
+      "phd": "2001-2006 中国科学技术大学 大气科学"
+    },
+    "work_experience": [
+      "2006- 南京信息工程大学 大气科学学院，历任讲师、副教授、教授",
+      "2019- 南京信息工程大学 大气科学学院，天气学系主任",
+      "2015-2016 George Mason University Visiting Scholar"
+    ]
+  },
+  "likes": 62,
+  "academic": {
+    "research_fields": [
+      "中层大气动力学",
+      "中层大气物理学",
+      "对流层-平流层耦合",
+      "卫星遥感在天气气候及环境变化中的应用"
+    ],
+    "publications": [
+      {
+        "title_cn": "中央大陆夏季“暖洞”由大西洋多年代际振荡通过低空急流调制",
+        "title_en": "Central Continental Boreal Summer “Warming Holes” Modulated by Atlantic Multidecadal Oscillation Via Low‐Level Jets",
+        "year": 2022,
+        "journal": "Journal of Geophysical Research: Atmospheres",
+        "DOI": "https://doi.org/10.1029/2021JD035217"
+      },
+      {
+        "title_cn": "静止和瞬态臭氧输送对夏季青藏高原臭氧谷的影响",
+        "title_en": "Effects of stationary and transient transport of ozone on the ozone valley over the Tibetan Plateau in summer",
+        "year": 2021,
+        "journal": "Frontiers in Earth Science",
+        "DOI": "10.3389/feart.2021.608018"
+      },
+      {
+        "title_cn": "WP和NAO对中国东南部冬季温度的协同影响",
+        "title_en": "",
+        "year": 2021,
+        "journal": "大气科学学报",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/shichunhua/zh_CN/index.htm"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "basic_info": {
+    "name": "陶凌峰",
+    "title": [
+      "副教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      "南京大学毓秀青年学者计划",
+      "南京大学优秀博士毕业生",
+      "南京大学优秀博士创新能力提升计划",
+      "南京大学优秀研究生"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1993",
+    "education": {
+      "undergrad": "2010-2014 南京大学 大气科学",
+      "master": "",
+      "phd": "2014-2020 南京大学 大气科学"
+    },
+    "work_experience": [
+      "2020-2023 南京大学 博士后",
+      "2023-2023 南京信息工程大学大气科学学院 教师",
+      "2024-至今 南京信息工程大学大气科学学院 副教授"
+    ]
+  },
+  "likes": 261,
+  "academic": {
+    "research_fields": [
+      "气候动力学",
+      "气候预测",
+      "海陆气相互作用"
+    ],
+    "publications": [
+      {
+        "title_cn": "ENSO影响次年早夏北太平洋气候的经向路径",
+        "title_en": "Meridional path of ENSO impact on following early-Summer North Pacific climate",
+        "year": 2024,
+        "journal": "Geophys. Res. Lett.",
+        "DOI": "10.1029/2024GL111079"
+      },
+      {
+        "title_cn": "春季黑潮-亲潮延伸区海温异常对夏季大气环流的跨季节影响",
+        "title_en": "Cross-season effect of spring Kuroshio-Oyashio extension SST anomalies on following summer atmospheric circulation",
+        "year": 2024,
+        "journal": "Geophys. Res. Lett.",
+        "DOI": "10.1029/2024GL108750"
+      },
+      {
+        "title_cn": "北大西洋三极海温在中冬季NAO反转中的作用",
+        "title_en": "Role of North Atlantic Tripole SST in Mid-Winter Reversal of NAO",
+        "year": 2023,
+        "journal": "Geophys. Res. Lett.",
+        "DOI": "10.1029/2023GL103502"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/taolingfeng/zh_CN/index.htm"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "basic_info": {
+    "name": "赵伟林",
+    "title": [
+      "工程师"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      ""
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "",
+    "education": {
+      "undergrad": "",
+      "master": "",
+      "phd": ""
+    },
+    "work_experience": [
+      ""
+    ]
+  },
+  "likes": 1,
+  "academic": {
+    "research_fields": [
+      ""
+    ],
+    "publications": [
+      ""
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/zhaoweilin/zh_CN/index.htm"
+  }
+}

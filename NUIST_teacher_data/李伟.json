@@ -1,0 +1,57 @@
+{
+  "basic_info": {
+    "name": "李伟",
+    "title": [
+      "副教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1987",
+    "education": {
+      "undergrad": "2007-2011 山西农业大学 计算机科学与技术",
+      "master": "2011-2018 南京信息工程大学 大气科学",
+      "phd": "2011-2018 南京信息工程大学 大气科学"
+    },
+    "work_experience": [
+      "2022-至今 南京信息工程大学 副教授",
+      "2021-2021 福建省气象局 福建省灾害天气重点实验室",
+      "2018-2022 南京信息工程大学 讲师"
+    ]
+  },
+  "likes": 150,
+  "academic": {
+    "research_fields": [
+      "气候变化信号的检测和归因",
+      "人类活动对气候系统的影响",
+      "气候变化预估"
+    ],
+    "publications": [
+      {
+        "title_cn": "长江流域2022年夏季复合高温干旱事件的人为影响",
+        "title_en": "Anthropogenic Influence on the Record-Breaking Compound Hot and Dry Event in Summer 2022 in the Yangtze River Basin in China",
+        "year": 2023,
+        "journal": "Bulletin of the American Meteorological Society",
+        "DOI": "10.1175/BAMS-D-23-0149.1"
+      },
+      {
+        "title_cn": "中国东北夏季复合干热事件变化的检测与归因",
+        "title_en": "Detection and attribution of changes in summer compound hot and dry events over northeastern China with CMIP6 models",
+        "year": 2022,
+        "journal": "Journal of Meteorological Research",
+        "DOI": "10.1007/s13351-022-1112-8"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/liwei12/zh_CN/index.htm"
+  }
+}

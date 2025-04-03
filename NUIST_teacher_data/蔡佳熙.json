@@ -1,0 +1,74 @@
+{
+  "basic_info": {
+    "name": "蔡佳熙",
+    "title": [
+      "副教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      ""
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1982",
+    "education": {
+      "undergrad": "",
+      "master": "2004-2007 南京信息工程大学 气象学",
+      "phd": "2007-2010 南京信息工程大学 气象学"
+    },
+    "work_experience": [
+      "2010-至今 南京信息工程大学大气科学学院 教师",
+      "2013-2014 美国乔治梅森大学 访问学者"
+    ]
+  },
+  "likes": 97,
+  "academic": {
+    "research_fields": [
+      "极赤温差的变化规律及其对中国气候的影响",
+      "海温异常及其与季风区气候的联系",
+      "气温变化规律及其异常特征的形成机理研究",
+      "气温变化规律及其异常特征的形成机理",
+      "气候动力学"
+    ],
+    "publications": [
+      {
+        "title_cn": "中亚冬季积雪对次年春季东北冷涡的影响",
+        "title_en": "The Impacts of Winter Snow Cover of Central Asia on the Northeastern China Cold Vortex in Succeeding Spring",
+        "year": 2024,
+        "journal": "CLIMATE DYNAMICS",
+        "DOI": "10.1007/s00382-023-07075-0"
+      },
+      {
+        "title_cn": "1978年至2021年西太平洋副热带高压脊线位置的南北偏移及其对江淮地区7月降水的影响",
+        "title_en": "The North–south Shift of the Ridge Location of the Western Pacific Subtropical High and Its Influence on the July Precipitation in the Jianghuai Region from 1978 to 2021",
+        "year": 2023,
+        "journal": "FRONTIERS IN EARTH SCIENCE",
+        "DOI": "10.3389/feart.2023.1251294"
+      },
+      {
+        "title_cn": "2018年盛夏华北地区异常热浪",
+        "title_en": "An Unusual Heat Wave in North China During Midsummer, 2018",
+        "year": 2020,
+        "journal": "Frontiers in Earth Science",
+        "DOI": "10.3389/feart.2020.00238"
+      },
+      {
+        "title_cn": "厄尔尼诺爆发的年代际变率及其对环太平洋季风系统的影响",
+        "title_en": "Interdecadal variability of El Nino onset and its impact on monsoon systems over areas encircling the Pacific Ocean",
+        "year": 2019,
+        "journal": "Clim. Dyn.",
+        "DOI": "10.1007/s00382-016-3377-z"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/caijiaxi/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/jiaxi-cai/53f456dbdabfaee4dc813a3e"
+  },
+  "work_experience": []
+}

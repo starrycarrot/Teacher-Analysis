@@ -1,0 +1,66 @@
+{
+  "basic_info": {
+    "name": "Young-Min Yang（杨咏岷）",
+    "title": [
+      "教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "博导",
+      "硕导"
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1974",
+    "education": {
+      "undergrad": "1993-1998 韩国国立首尔大学 农村环境工程",
+      "master": "1998-2000 韩国国立首尔大学 农村环境工程",
+      "phd": "2006-2014 韩国国立首尔大学 计算科学技术交叉学"
+    },
+    "work_experience": [
+      "2010-2010 美国国家航空航天局戈达德太空飞行中心/美国国家海洋和大气管理局地球物理流体动力学实验室 访问学者",
+      "2014-2019 夏威夷大学国际太平洋研究中心 博士后",
+      "2019-至今 南京信息工程大学大气科学学院 校聘教授"
+    ]
+  },
+  "likes": 28,
+  "academic": {
+    "research_fields": [
+      "气候动力学",
+      "气候变率",
+      "模式研发",
+      "极端天气预测"
+    ],
+    "publications": [
+      {
+        "title_cn": "未来厄尔尼诺引起的中纬度降水变化：基于平均海温变化约束的预测",
+        "title_en": "Future changes in El Niño-induced midlatitude precipitation projected by mean SST change constraints",
+        "year": 2020,
+        "journal": "Nature communications",
+        "DOI": ""
+      },
+      {
+        "title_cn": "北太平洋西部夏季季节内振荡向北传播的主导过程",
+        "title_en": "Dominant Process for Northward Propagation of Boreal Summer Intraseasonal Oscillation over the Western North Pacific",
+        "year": 2020,
+        "journal": "Geophys. Res. Lett.",
+        "DOI": ""
+      },
+      {
+        "title_cn": "通过增强气候系统模型NESM3.0中的湿物理参数化改进历史模拟",
+        "title_en": "Improved historical simulation by enhancing moist physical parameterizations in the climate system model NESM3.0",
+        "year": 2020,
+        "journal": "Clim Dyn",
+        "DOI": "10.1007/s00382-020-05240-3"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/mayongmin/zh_CN/index.htm"
+  }
+}

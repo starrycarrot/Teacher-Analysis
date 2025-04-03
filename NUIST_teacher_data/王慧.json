@@ -1,0 +1,65 @@
+{
+  "basic_info": {
+    "name": "王慧",
+    "title": [
+      "副教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1982",
+    "education": {
+      "undergrad": "2000-2004 兰州大学 大气科学",
+      "master": "2004-2007 中国科学学院寒区旱区环境与工程研究所 大气科学",
+      "phd": "2007-2010 南京信息工程大学 大气科学"
+    },
+    "work_experience": [
+      "2010-2015 南京信息工程大学 讲师",
+      "2015-至今 南京信息工程大学 副教授",
+      "2017-2018 美国夏威夷大学 访问学者"
+    ]
+  },
+  "likes": 65,
+  "academic": {
+    "research_fields": [
+      "气候动力学与陆气相互作用",
+      "青藏高原和中国西北干旱区陆气相互作用",
+      "气候变化及其影响",
+      "东亚季风异常的成因和机理研究"
+    ],
+    "publications": [
+      {
+        "title_cn": "青藏高原中东部暖季极端降水的区域特征及其典型环流",
+        "title_en": "Relationship between summer extreme precipitation anomaly in Central Asia and surface sensible heat variation on the Central-Eastern Tibetan Plateau",
+        "year": 2022,
+        "journal": "Climate Dynamics",
+        "DOI": "10.1007/s00382-022-06148-w"
+      },
+      {
+        "title_cn": "青藏高原中东部地表感热趋势转折特征的季节差异",
+        "title_en": "Estimation of the surface heat transfer coefficient over the east-central Tibetan Plateau using satellite remote sensing and field observation data",
+        "year": 2019,
+        "journal": "Theoretical and Applied Climatology",
+        "DOI": "10.1007/s00704-019-02815-x"
+      },
+      {
+        "title_cn": "西北干旱区常规气象站与野外试验站观测的气象要素的对比分析",
+        "title_en": "Comparison of meteorological elements observed by conventional meteorological stations and field test stations in arid regions of Northwest China",
+        "year": 2010,
+        "journal": "高原气象",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/wanghui1/zh_CN/index.htm"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "basic_info": {
+    "name": "孙巧红",
+    "title": [
+      "教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "博导",
+      "硕导"
+    ],
+    "honors": [
+      "国家海外引才计划青年学者",
+      "江苏省重大人才工程B类特聘教授"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1990",
+    "education": {
+      "undergrad": "2008-2012 福建师范大学 地理科学",
+      "master": "2012-2015 北京师范大学 全球环境变化",
+      "phd": "2015-2018 北京师范大学 全球环境变化"
+    },
+    "work_experience": [
+      "2022-至今 南京信息工程大学大气科学学院 教授",
+      "2018-2022 University of Victoria Postdoctoral fellow"
+    ]
+  },
+  "likes": 104,
+  "academic": {
+    "research_fields": [
+      "气候变化",
+      "极端事件检测归因",
+      "未来预估"
+    ],
+    "publications": [
+      {
+        "title_cn": "温室气体引起的变暖对厄尔尼诺和拉尼娜事件对北方寒冷季节日降水极端事件影响的效应",
+        "title_en": "The effect of greenhouse gas induced warming on the impact of El Niño and La Niña events on daily precipitation extremes in the boreal cold season",
+        "year": 2023,
+        "journal": "Journal of Climate",
+        "DOI": ""
+      },
+      {
+        "title_cn": "量化人类对全球、大陆和区域尺度上1天和5天极端降水强度的影响",
+        "title_en": "Quantifying the human influence on the intensity of extreme 1- and 5-day precipitation amounts at global, continental, and regional scales",
+        "year": 2022,
+        "journal": "Journal of Climate",
+        "DOI": "10.1175/JCLI-D-21-0028.1"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/sunqiaohong/zh_CN/index.htm"
+  }
+}

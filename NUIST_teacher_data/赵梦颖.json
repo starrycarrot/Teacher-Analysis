@@ -1,0 +1,87 @@
+{
+  "basic_info": {
+    "name": "赵梦颖",
+    "admin_role": [
+      ""
+    ],
+    "title": [
+      "讲师"
+    ],
+    "mentor_qualification": [],
+    "honors": []
+  },
+  "bio_details": {
+    "birth_year": "1997*",
+    "education": {
+      "undergrad": "2015-2019 浙江大学 大气科学",
+      "master": "",
+      "phd": "2019-2024 浙江大学 遥感与地理信息系统"
+    },
+    "work_experience": [
+      "2024年6月至今 南京信息工程大学大气科学学院 讲师"
+    ]
+  },
+  "likes": 16,
+  "academic": {
+    "research_fields": [
+      "不同地球工程手段对气候系统的可能影响及机理研究",
+      "全球气候变化研究",
+      "气候系统对不同外源强迫因子的响应机制研究"
+    ],
+    "publications": [
+      {
+        "title_cn": "碳循环对不同实施策略平流层气溶胶地球工程的响应",
+        "title_en": "Carbon cycle response to stratospheric aerosol injection with multiple temperature stabilization targets and strategies",
+        "year": 2024,
+        "journal": "Earth's Future",
+        "DOI": "10.1029/2024EF004474"
+      },
+      {
+        "title_cn": "不同种类秸秆还田对单季稻田CH4排放和功能微生物丰度的影响",
+        "title_en": "Effects of Different Types of Straw Application on CH4 Emissions and Functional",
+        "year": 2023,
+        "journal": "Chinese Journal of Soil Science",
+        "DOI": "10.19336/j.cnki.trtb.2022032703"
+      },
+      {
+        "title_cn": "厨房垃圾的水热碳化：固体和液体产物的分析及水热炭在水稻土壤中的应用",
+        "title_en": "Hydrothermal Carbonization of Kitchen Waste: an Analysis of Solid and Aqueous Products and the Application of Hydrochar to Paddy Soil",
+        "year": 2022,
+        "journal": "The Science of The Total Environment",
+        "DOI": "10.1016/j.scitotenv.2022.157953"
+      },
+      {
+        "title_cn": "冬季排水和覆膜栽培通过调节稻田土壤中产甲烷古菌和发酵细菌群落的功能和结构来减少CH4排放",
+        "title_en": "Winter Drainage and Film Mulching Cultivation Mitigated CH4 Emission by Regulating the Function and Structure of Methanogenic Archaeal and Fermenting Bacterial Communities in Paddy Soil",
+        "year": 2022,
+        "journal": "Journal of Environmental Management",
+        "DOI": "10.1016/j.jenvman.2022.116194"
+      },
+      {
+        "title_cn": "不同强度太阳辐射干预对区域陆地水循环和碳吸收的影响",
+        "title_en": "Regional response of land hydrology and carbon uptake to different amounts of solar radiation modification",
+        "year": 2022,
+        "journal": "Earth's Future",
+        "DOI": "10.1029/2022EF003288"
+      },
+      {
+        "title_cn": "气候系统对在不同高度和纬度气溶胶扰动的响应",
+        "title_en": "Climate response to latitudinal and altitudinal distribution of stratospheric sulfate aerosols",
+        "year": 2021,
+        "journal": "Journal of Geophysical Research: Atmospheres",
+        "DOI": "10.1029/2021JD035379"
+      },
+      {
+        "title_cn": "增强海洋反照率和低云反照率对气候影响的比较模拟研究",
+        "title_en": "Climate more responsive to marine cloud brightening than ocean albedo modification: A model study",
+        "year": 2021,
+        "journal": "Journal of Geophysical Research: Atmospheres",
+        "DOI": "10.1029/2020JD033256"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/zhaomengying/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/mengying-zhao/65324c8e8a47b6492319bba0"
+  }
+}

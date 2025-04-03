@@ -1,0 +1,88 @@
+{
+  "basic_info": {
+    "name": "王璐",
+    "admin_role": [
+      ""
+    ],
+    "title": [
+      "教授"
+    ],
+    "mentor_qualification": [
+      "博导",
+      "硕导"
+    ],
+    "honors": [
+      "江苏省双创团队核心成员",
+      "江苏省特聘教授",
+      "江苏省第七期“333高层次人才培养工程”中青年学术技术带头人",
+      "江苏省重大人才工程B类特聘教授"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1985*",
+    "education": {
+      "undergrad": "2003-2007 南京信息工程大学 大气科学",
+      "master": "",
+      "phd": "2007-2012 中国科学院大气物理研究所 气象学"
+    },
+    "work_experience": [
+      "2011-2011 美国夏威夷大学 访问学者",
+      "2011.02-2011.05 美国夏威夷大学 访问学者",
+      "2011.09-2011.10 美国夏威夷大学 访问学者",
+      "2012-2013 国家卫星气象中心 工程师",
+      "2012.07-2013.09 国家卫星气象中心 工程师",
+      "2013-2018 美国夏威夷大学 博士后",
+      "2013.10-2018.05 美国夏威夷大学 博士后",
+      "2018-2019 南京信息工程大学 校聘教授",
+      "2018.09-2019.03 南京信息工程大学 校聘教授",
+      "2019-至今 南京信息工程大学 教授",
+      "2019.04-至今 南京信息工程大学 教授"
+    ]
+  },
+  "likes": 185,
+  "academic": {
+    "research_fields": [
+      "大气季节内振荡动力学机理",
+      "天气气候预测",
+      "季节内振荡动力学及数值模拟",
+      "季风与海气相互作用",
+      "延伸期预报方法与机理",
+      "气候动力学",
+      "海气相互作用"
+    ],
+    "publications": [
+      {
+        "title_cn": "约束预测中印度夏季风持续时间缩短",
+        "title_en": "A Shorter Duration of the Indian Summer Monsoon in Constrained Projections",
+        "year": 2025,
+        "journal": "GEOPHYSICAL RESEARCH LETTERS",
+        "DOI": "10.1029/2024gl112848"
+      },
+      {
+        "title_cn": "热带季节内振荡作为2022年巴基斯坦破纪录降雨事件的关键驱动因素和可预测性来源",
+        "title_en": "Tropical Intraseasonal Oscillations As Key Driver and Source of Predictability for the 2022 Pakistan Record-Breaking Rainfall Event",
+        "year": 2024,
+        "journal": "NPJ CLIMATE AND ATMOSPHERIC SCIENCE",
+        "DOI": "10.1038/s41612-024-00809-9"
+      },
+      {
+        "title_cn": "南亚高压季节内变化与热带季节内振荡之间的关系",
+        "title_en": "",
+        "year": 2021,
+        "journal": "大气科学",
+        "DOI": "10.3878/j.issn.1006-9895.2007.20144"
+      },
+      {
+        "title_cn": "热带季节内振荡在2014年厄尔尼诺发展终止中的作用",
+        "title_en": "Role of the meridional dipole of SSTA and associated cross-equatorial flow in the tropical eastern Pacific in terminating the 2014 El Niño development",
+        "year": 2018,
+        "journal": "Climate Dynamics",
+        "DOI": "10.1007/s00382-017-4066-2"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/wanglu1/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/lu-wang/615446ba6750f8727fa84741"
+  }
+}

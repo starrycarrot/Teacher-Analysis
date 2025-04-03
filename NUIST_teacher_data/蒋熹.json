@@ -1,0 +1,90 @@
+{
+  "basic_info": {
+    "name": "蒋熹",
+    "admin_role": [
+      ""
+    ],
+    "title": [
+      "副教授"
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": []
+  },
+  "bio_details": {
+    "birth_year": "",
+    "education": {
+      "undergrad": "",
+      "master": "",
+      "phd": "中国科学院寒区旱区环境与工程研究所 大气科学"
+    },
+    "work_experience": [
+      "南京信息工程大学大气科学学院气候学系副教授"
+    ]
+  },
+  "likes": 36,
+  "academic": {
+    "research_fields": [
+      "冰冻圈能量、水份循环与气候变化",
+      "冰川对气候变化的响应及其敏感性研究",
+      "冰雪表面能量、物质平衡的观测和数值模拟",
+      "青藏高原和高寒山区冰川气象"
+    ],
+    "publications": [
+      {
+        "title_cn": "青藏高原小冬克玛底冰川1969-2020年冰量时间变化",
+        "title_en": "Temporal Variations in the Ice Volume of Xiao Dongkemadi Glacier, Central Tibetan Plateau, from 1969 to 2020",
+        "year": 2025,
+        "journal": "JOURNAL OF GLACIOLOGY",
+        "DOI": "10.1017/jog.2024.100"
+      },
+      {
+        "title_cn": "华南南华盆地大塘坡组锰矿床的降水机制",
+        "title_en": "Precipitation Mechanism of Mn Ore Deposits in the Datangpo Formation, Nanhua Basin, South China",
+        "year": 2024,
+        "journal": "GLOBAL AND PLANETARY CHANGE",
+        "DOI": "10.1016/j.gloplacha.2024.104499"
+      },
+      {
+        "title_cn": "基于高空间分辨率遥感数据的青藏高原东北部清洁表面冰川内碎屑的新信号",
+        "title_en": "Emerging Signal of Englacial Debris on One Clean Surface Glacier Based on High Spatial Resolution Remote Sensing Data in Northeastern Tibetan Plateau",
+        "year": 2023,
+        "journal": "REMOTE SENSING",
+        "DOI": "10.3390/rs15153899"
+      },
+      {
+        "title_cn": "中国夜雨的时空变化特征研究",
+        "title_en": "Characteristics of Temporal and Spatial Variations of Nocturnal Precipitation in China",
+        "year": 2022,
+        "journal": "南京大学学报（自然科学）",
+        "DOI": "10.13232/j.cnki.jnju.2022.05.002"
+      },
+      {
+        "title_cn": "利用COSMIC掩星资料分析青藏高原地区对流层顶季节变化特征",
+        "title_en": "Seasonal Variation of the Tropopause Height over the Tibetan Plateau Derived from COSMIC Radio Occultation Data",
+        "year": 2022,
+        "journal": "大气科学学报",
+        "DOI": "10.13878/j.cnki.dqkxxb.20210315011"
+      },
+      {
+        "title_cn": "基于ICESat数据的2003-09年西藏高原纳木错湖水位和冰川物质平衡变化",
+        "title_en": "Variations in water level and glacier mass balance in Nam Co lake, Nyainqentanglha range, Tibetan Plateau, based on ICESat data for 2003–09",
+        "year": 2014,
+        "journal": "Annals of Glaciology",
+        "DOI": ""
+      },
+      {
+        "title_cn": "冰雪反照率研究进展",
+        "title_en": "",
+        "year": 2006,
+        "journal": "冰川冻土",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/jiangxi/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/xi-jiang/53f464c2dabfaee4dc847565"
+  }
+}

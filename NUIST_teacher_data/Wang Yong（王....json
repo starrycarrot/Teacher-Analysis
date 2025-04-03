@@ -1,0 +1,70 @@
+{
+  "basic_info": {
+    "name": "YONG WANG（王勇）",
+    "title": [
+      "教授"
+    ],
+    "admin_role": [
+      "华风南信大研究院院长"
+    ],
+    "mentor_qualification": [
+      "博导",
+      "硕导"
+    ],
+    "honors": [
+      "NA"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1962",
+    "education": {
+      "undergrad": "1979-1983 南京气象学院 学士学位",
+      "master": "1983-1986 中国气象科学研究院 硕士学位",
+      "phd": "1990-1994 维也纳大学 博士学位"
+    },
+    "work_experience": [
+      "1986-1990 中央气象台 工程师",
+      "1990-1994 维也纳大学气象系 助教",
+      "1994-1999 奥地利国家气象地震局 研究员",
+      "1999-2007 奥地利国家气象地震局 气象台数值预报室副主任",
+      "2007-2009 奥地利国家气象地震局 模式中心数值预报室主任",
+      "2010-2021 奥地利国家气象地震局 模式中心主任",
+      "202107- 南京信息工程大学 教授",
+      "202107- 中国气象局华风气象传媒集团 首席科学主任"
+    ]
+  },
+  "likes": 97,
+  "academic": {
+    "research_fields": [
+      "数值预报及应用",
+      "集合预报",
+      "短临预报及其应用"
+    ],
+    "publications": [
+      {
+        "title_cn": "集合预报系统后处理指南",
+        "title_en": "Guidelines on ensemble prediction system postprocessing – WMO No. 1254",
+        "year": 2021,
+        "journal": "WMO",
+        "DOI": "NA"
+      },
+      {
+        "title_cn": "华北平原从冬季到次年春季雾霾污染的不同演变：北大西洋海温异常的作用",
+        "title_en": "Distinct evolutions of haze pollution from winter to following spring over the North China Plain: Role of the North Atlantic sea surface temperature anomalies",
+        "year": 2021,
+        "journal": "Atmospheric Chemistry and Physics",
+        "DOI": "10.5194/acp-2021-249"
+      },
+      {
+        "title_cn": "C-LAEF：对流允许有限区域集合预报系统",
+        "title_en": "C-LAEF: Convection permitting Limited-Area Ensemble Forecasting system",
+        "year": 2021,
+        "journal": "Q. J. R. Meteorol. Soc.",
+        "DOI": "10.1002/qj.3986"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/wangyong_HF/zh_CN/index.htm"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "basic_info": {
+    "name": "陈林",
+    "title": [
+      "教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "",
+      "硕导",
+      "博导"
+    ],
+    "honors": [
+      "江苏省优秀青年",
+      "",
+      "江苏省重大人才工程B类特聘教授"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1988*",
+    "education": {
+      "undergrad": "2006-2010 南京信息工程大学 大气科学",
+      "master": "",
+      "phd": "2010-2015 中国科学院大气物理研究所 大气科学和地球流体力学数值模拟"
+    },
+    "work_experience": [
+      "2013-2015 美国夏威夷大学 访问学者",
+      "2015-2018 美国夏威夷大学 博士后",
+      "2018-2020 南京信息工程大学 校聘教授",
+      "2020-至今 南京信息工程大学 教授"
+    ]
+  },
+  "likes": 359,
+  "academic": {
+    "research_fields": [
+      "全球变暖背景下和古气候背景下气候变化机理",
+      "大尺度海气相互作用",
+      "大尺度海气相互作用及其对东亚气候影响",
+      "气候变化数值模拟、季节预测",
+      "气候系统模式研发及应用",
+      "全球气候系统模式研发和应用",
+      "ENSO动力学",
+      "天气-气候一体化模式研发及应用",
+      "ENSO机理和数值模拟"
+    ],
+    "publications": [
+      {
+        "title_cn": "A High-Resolution Multiproxy Speleothem Record of Eastern China Hydroclimate Variation During Last Glacial Maximum",
+        "title_en": "A High-Resolution Multiproxy Speleothem Record of Eastern China Hydroclimate Variation During Last Glacial Maximum",
+        "year": 2025,
+        "journal": "QUATERNARY SCIENCE REVIEWS",
+        "DOI": "10.1016/j.quascirev.2024.109152"
+      },
+      {
+        "title_cn": "Strengthened Impact of the Spring North Atlantic Tripole Sea Surface Temperature Anomalies on the Following Peak Summer Western North Pacific Subtropical High Since the Middle 1990S",
+        "title_en": "Strengthened Impact of the Spring North Atlantic Tripole Sea Surface Temperature Anomalies on the Following Peak Summer Western North Pacific Subtropical High Since the Middle 1990S",
+        "year": 2025,
+        "journal": "Climate Dynamics",
+        "DOI": "10.1007/s00382-025-07613-y"
+      },
+      {
+        "title_cn": "印度洋偶极子和2020年独特的印度洋盆地变暖",
+        "title_en": "Indian Ocean dipole and unique Indian Ocean basin warming in 2020",
+        "year": 2021,
+        "journal": "Bulletin of the American Meteorological Society",
+        "DOI": "10.1175/BAMS-D-21-0080.1"
+      },
+      {
+        "title_cn": "2015/16超级厄尔尼诺现象的形成机制",
+        "title_en": "Formation Mechanism for 2015/16 Super El Niño",
+        "year": 2017,
+        "journal": "Scientific Reports",
+        "DOI": "10.1038/s41598-017-02926-3"
+      },
+      {
+        "title_cn": "全球变暖下ENSO振幅变化的不同预测的可能解释",
+        "title_en": "A possible explanation for the divergent projection of ENSO amplitude change under global warming",
+        "year": 2017,
+        "journal": "Climate Dynamics",
+        "DOI": "10.1007/s00382-017-3544-x"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/chenlin12/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/lin-chen/542a3e8adabfae646d5434ed"
+  }
+}

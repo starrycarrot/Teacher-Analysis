@@ -1,0 +1,58 @@
+{
+  "basic_info": {
+    "name": "周顺武",
+    "title": [
+      "教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "博导",
+      "硕导"
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1968*",
+    "education": {
+      "undergrad": "1986-1990 南京气象学院 天气动力",
+      "master": "1994-1997 南京气象学院 气象",
+      "phd": "2002-2006 中国科学院大气物理研究所 气象"
+    },
+    "work_experience": [
+      "1990-1994 西藏自治区气象台 工程师",
+      "1997-2002 西藏自治区气象局 高级工程师",
+      "2006-至今 南京信息工程大学大气科学学院 教授"
+    ]
+  },
+  "likes": 261,
+  "academic": {
+    "research_fields": [
+      "高原气象",
+      "中尺度诊断与模拟",
+      "区域气候变化"
+    ],
+    "publications": [
+      {
+        "title_cn": "青藏高原雨季特征量的气候特征及其南北差异",
+        "title_en": "The climatic characteristics of rainy season over the Tibetan Plateau and its north-south differences",
+        "year": 2024,
+        "journal": "气候与环境研究",
+        "DOI": "10.3878/j.issn.1006-9585.2024.24010"
+      },
+      {
+        "title_cn": "南极春季臭氧损耗和恢复期的主要特征及其与平流层环流异常的联系",
+        "title_en": "The main characteristics of Antarctic spring ozone depletion and recovery and its relationship with stratospheric circulation anomalies",
+        "year": 2023,
+        "journal": "极地研究",
+        "DOI": "10.13679/j.jdyj.20220430"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/zhoushunwu/zh_CN/index.htm"
+  }
+}

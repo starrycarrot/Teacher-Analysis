@@ -1,0 +1,71 @@
+{
+  "basic_info": {
+    "name": "段明铿",
+    "title": [
+      "副教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "",
+      "硕导"
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1979",
+    "education": {
+      "undergrad": "",
+      "master": "",
+      "phd": ""
+    },
+    "work_experience": []
+  },
+  "likes": 92,
+  "academic": {
+    "research_fields": [
+      "数值天气预报",
+      "集合预报",
+      "大气动力学",
+      "大气随机动力学",
+      "大气环流异常与区域气候变化"
+    ],
+    "publications": [
+      {
+        "title_cn": "日本/东海副极锋对冬季和春季北太平洋风暴路径活动的影响",
+        "title_en": "Observed Influences of Subpolar Front in the Japan/East Sea on Winter and Spring North Pacific Storm Track Activity",
+        "year": 2025,
+        "journal": "GEOPHYSICAL RESEARCH LETTERS",
+        "DOI": "10.1029/2024gl113622"
+      },
+      {
+        "title_cn": "土壤湿度和海表温度对夏季青藏高原温度的协同贡献",
+        "title_en": "Synergistic Contribution of Soil Moisture and Sea Surface Temperature to Summer Tibetan Plateau Temperature",
+        "year": 2025,
+        "journal": "ATMOSPHERIC RESEARCH",
+        "DOI": "10.1016/j.atmosres.2024.107811"
+      },
+      {
+        "title_cn": "中国夏季复合热浪和干旱事件：区域间和季节内特征及其驱动因素",
+        "title_en": "Summertime Compound Heat Wave and Drought Events in China: Interregional and Subseasonal Characteristics, and the Associated Driving Factors",
+        "year": 2024,
+        "journal": "ENVIRONMENTAL RESEARCH LETTERS",
+        "DOI": "10.1088/1748-9326/ad5576"
+      },
+      {
+        "title_cn": "Comparing the Arctic climate in Chinese and other CMIP6 models",
+        "title_en": "Comparing the Arctic climate in Chinese and other CMIP6 models",
+        "year": 2023,
+        "journal": "Atmospheric and Oceanic Science Letters",
+        "DOI": "10.1016/j.aosl.2023.100334"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/duanmingkeng/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/mingkeng-duan/616b4fa260a9656471f03f87"
+  }
+}

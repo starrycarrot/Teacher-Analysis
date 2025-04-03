@@ -1,0 +1,65 @@
+{
+  "basic_info": {
+    "name": "王美蓉",
+    "title": [
+      "副教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1987",
+    "education": {
+      "undergrad": "2005-2009 南京信息工程大学 气象学",
+      "master": "2009-2012 南京信息工程大学 气象学",
+      "phd": "2012-2015 中国科学院大气物理研究所 气象学"
+    },
+    "work_experience": [
+      "2015-至今 南京信息工程大学 副教授",
+      "2019-2020 美国马里兰大学帕克分校 访问学者"
+    ]
+  },
+  "likes": 88,
+  "academic": {
+    "research_fields": [
+      "青藏高原气象学",
+      "青藏高原气候动力学",
+      "季节内振荡",
+      "东亚夏季风及中国降水",
+      "陆地植被年际变率"
+    ],
+    "publications": [
+      {
+        "title_cn": "青藏高原大气热源准双周振荡的空间异质性对不同降雨强度的贡献",
+        "title_en": "Spatial Heterogeneity of Summer Rainfall Trends over the Tibetan Plateau Contributed by Different Rainfall Intensities",
+        "year": 2023,
+        "journal": "Remote Sensing",
+        "DOI": "10.3390/rs15235587"
+      },
+      {
+        "title_cn": "青藏高原春季感热对华南盛夏降水的影响",
+        "title_en": "Impacts of Tibetan Plateau sensible heat and El Nino-Southern Oscillation on precipitation over South China under the background of the PDO",
+        "year": 2023,
+        "journal": "Frontiers in Environmental Science",
+        "DOI": "10.3389/fenvs.2023.1225891"
+      },
+      {
+        "title_cn": "青藏高原中东部地表感热通量的日变化特征",
+        "title_en": "Diurnal variation characteristics of the surface sensible heat flux over the Tibetan Plateau",
+        "year": 2023,
+        "journal": "Atmosphere",
+        "DOI": "10.3390/atmos14010128"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/wangmeirong/zh_CN/index.htm"
+  }
+}

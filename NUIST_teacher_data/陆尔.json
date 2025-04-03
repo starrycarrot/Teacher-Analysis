@@ -1,0 +1,70 @@
+{
+  "basic_info": {
+    "name": "陆尔",
+    "title": [
+      "教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "博导"
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1966*",
+    "education": {
+      "undergrad": "1984-1988 南京大学 大气科学",
+      "master": "1985-1987 南京大学 大气科学",
+      "phd": "2001-2005 亚利桑那大学 大气科学"
+    },
+    "work_experience": [
+      "1987.8-1995.3 中国气象科学研究院 助理研究员",
+      "1995.4-1999.8 国家气候中心 副研究员",
+      "1995.6-1995.8 日本气象研究所 双边交流",
+      "1997.11-1998.7 香港城市大学 访问研究",
+      "2005.10-2006.4 亚利桑那大学 博士后研究",
+      "2006.5-2010.10 爱荷华州立大学 研究和教学",
+      "2009.12-2010.5 NCAR气候分析部 客座研究",
+      "2010.11-2012.5 NOAA气候预测中心 研究和业务",
+      "2011.4- 南京信息工程大学 教授"
+    ]
+  },
+  "likes": 406,
+  "academic": {
+    "research_fields": [
+      "气候监测检测（季风、干旱、极端事件等）的理论和方法",
+      "极端天气气候（干旱、雨涝、热浪、低温等）的形成维持机理",
+      "全球变暖及其对水份循环过程的影响"
+    ],
+    "publications": [
+      {
+        "title_cn": "早期春季北极海冰对中国东北夏季降水的影响：中间环节和时空通道",
+        "title_en": "Influence of early spring Arctic sea ice on midsummer precipitation in Northeast China: The intermediate links and temporal-spatial channels",
+        "year": 2024,
+        "journal": "Journal of Geophysical Research",
+        "DOI": "10.1029/2023JD040640"
+      },
+      {
+        "title_cn": "2022年中国夏季热浪：高温频率和强度的严重性和主导性分析",
+        "title_en": "The 2022 summer heat wave over China: An analysis of the severity and dominance from the frequency and intensity of high temperature",
+        "year": 2024,
+        "journal": "International Journal of Climatology",
+        "DOI": "10.1002/joc.8585"
+      },
+      {
+        "title_cn": "历史和未来中国气象-水文复合干旱的变化",
+        "title_en": "Historical and future changes of meteorological-hydrological compound drought in China",
+        "year": 2024,
+        "journal": "Atmosphere",
+        "DOI": "3326727"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/luer/zh_CN/index.htm"
+  }
+}

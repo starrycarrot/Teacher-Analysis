@@ -1,0 +1,63 @@
+{
+  "basic_info": {
+    "name": "刘琳",
+    "admin_role": [
+      ""
+    ],
+    "title": [
+      "助理研究员"
+    ],
+    "mentor_qualification": [],
+    "honors": []
+  },
+  "bio_details": {
+    "birth_year": "",
+    "education": {},
+    "work_experience": []
+  },
+  "likes": 0,
+  "academic": {
+    "research_fields": [],
+    "publications": [
+      {
+        "title_cn": "基于目标管理,改进高校教师绩效考核",
+        "title_en": "",
+        "year": 2020,
+        "journal": "人力资源",
+        "DOI": "10.3969/j.issn.1672-1632.2020.18.040"
+      },
+      {
+        "title_cn": "高校教师专业自主发展影响因素分析",
+        "title_en": "",
+        "year": 2018,
+        "journal": "中国成人教育",
+        "DOI": ""
+      },
+      {
+        "title_cn": "新时期我国高校科研团队建设研究",
+        "title_en": "the-research-team-construction-in-colleges-and-universities-in-the-new-era",
+        "year": 2018,
+        "journal": "教育教学论坛",
+        "DOI": ""
+      },
+      {
+        "title_cn": "浅析高校人事管理向人力资源管理的转变",
+        "title_en": "",
+        "year": 2018,
+        "journal": "人力资源管理",
+        "DOI": "10.3969/j.issn.1673-8209.2018.05.118"
+      },
+      {
+        "title_cn": "高校党的先进文化与学科文化的关系定位及融合路径探究",
+        "title_en": "",
+        "year": 2013,
+        "journal": "文教资料",
+        "DOI": "10.3969/j.issn.1004-8359.2013.14.032"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/liulin/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/lin-liu/63245d09a36d2225e1f80c9a"
+  }
+}

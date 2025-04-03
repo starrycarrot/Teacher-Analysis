@@ -1,0 +1,67 @@
+{
+  "basic_info": {
+    "name": "曹洁",
+    "title": [
+      "教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      "中国科学院院长奖",
+      "江苏省双创博士"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1983",
+    "education": {
+      "undergrad": "2001-2005 南京信息工程大学 大气科学",
+      "master": "2005-2010 中国科学院大气物理研究所 硕博连读",
+      "phd": "2005-2010 中国科学院大气物理研究所 硕博连读"
+    },
+    "work_experience": [
+      "2008-2011 美国NOAA和Oklahoma大学联合中尺度气象研究所 Research Assistant",
+      "2011-2013 中国科学院大气物理研究所 助理研究员",
+      "2013-2021 中国科学院大气物理研究所 副研究员",
+      "2021-2023 南京信息工程大学大气科学学院 副研究员",
+      "2023-至今 南京信息工程大学大气科学学院 教授"
+    ]
+  },
+  "likes": 505,
+  "academic": {
+    "research_fields": [
+      "中尺度动力学",
+      "灾害天气分析",
+      "数值预报"
+    ],
+    "publications": [
+      {
+        "title_cn": "复杂下垫面有限区域流场分解新积分方法",
+        "title_en": "A new integral method for directly partitioning flow fields in limited domains over complex underlying surfaces",
+        "year": 2023,
+        "journal": "Atmospheric Research",
+        "DOI": "10.1016/j.atmosres.2023.106644"
+      },
+      {
+        "title_cn": "华北平原2021年与历史年份区域持续性极端降水事件的天气特征及成因对比分析",
+        "title_en": "Comparative analysis of synoptic characteristics and causes of regional persistent extreme precipitation events over North China Plain between the year of 2021 and historical years",
+        "year": 2023,
+        "journal": "Atmospheric Research",
+        "DOI": "10.1016/j.atmosres.2023.106697"
+      },
+      {
+        "title_cn": "近70年有限区域流函数速度势算法研究的回顾和新进展",
+        "title_en": "",
+        "year": 2023,
+        "journal": "大气科学",
+        "DOI": "10.3878/j.issn.1006-9895.2210.22143"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/caoj/zh_CN/index.htm"
+  }
+}

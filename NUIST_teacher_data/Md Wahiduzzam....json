@@ -1,0 +1,55 @@
+{
+  "basic_info": {
+    "name": "Md Wahiduzzaman",
+    "title": [
+      "讲师"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      ""
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1985",
+    "education": {
+      "undergrad": "",
+      "master": "",
+      "phd": ""
+    },
+    "work_experience": [
+      "2019-20 南京信息工程大学 博士后"
+    ]
+  },
+  "likes": 10,
+  "academic": {
+    "research_fields": [
+      "热带气旋生成与路径预测",
+      "气候动力学",
+      "统计气象学"
+    ],
+    "publications": [
+      {
+        "title_cn": "北印度洋热带气旋生成、路径和登陆的气候学模型",
+        "title_en": "A climatological model for the North Indian Ocean tropical cyclone genesis, tracks and landfall",
+        "year": 2017,
+        "journal": "Climate Dynamics",
+        "DOI": ""
+      },
+      {
+        "title_cn": "利用准两年振荡的北印度洋热带气旋统计季节预测模型",
+        "title_en": "A statistical seasonal forecast model of North Indian Ocean Tropical Cyclones using Quasi Biennial-Oscillation",
+        "year": 2019,
+        "journal": "International Journal of Climatology",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/MdWahiduzzaman/zh_CN/index.htm"
+  }
+}

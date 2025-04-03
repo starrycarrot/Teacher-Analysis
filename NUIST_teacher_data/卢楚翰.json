@@ -1,0 +1,91 @@
+{
+  "basic_info": {
+    "name": "卢楚翰",
+    "admin_role": [
+      ""
+    ],
+    "title": [
+      "教授"
+    ],
+    "mentor_qualification": [
+      "博导",
+      "硕导"
+    ],
+    "honors": [
+      "中国气象局全国气象教学团队骨干",
+      "无锡市太湖人才",
+      "校教学成果奖（特等奖）",
+      "江苏省优秀博士学位论文",
+      "江苏省教学成果奖（特等奖）",
+      "江苏省杰出青年教师",
+      "江苏省杰出青年教师培育聘请外专项目",
+      "江苏省青蓝工程学科带头人"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1982*",
+    "education": {
+      "undergrad": "2000-2004 南京信息工程大学 大气科学",
+      "master": "2004-2009 南京信息工程大学 大气科学",
+      "phd": "2004-2009 南京信息工程大学 大气科学"
+    },
+    "work_experience": [
+      "2009-06—至今 南京信息工程大学 教师",
+      "2011-09—2013-01 美国阿拉斯加大学国际北极研究中心 访问学者",
+      "2013-09—2014-09 美国阿拉斯加大学国际北极研究中心 访问学者",
+      "2013-至今 南京信息工程大学 副教授",
+      "2018-01—至今 南京信息工程大学大气科学学院 副院长"
+    ]
+  },
+  "likes": 233,
+  "academic": {
+    "research_fields": [
+      "人工智能与气象应用",
+      "北极海冰快速变化及其与北半球中高纬度大气相互作用",
+      "南北半球大气质量涛动及其气候效应",
+      "大气环流异常及气候变率",
+      "极端天气气候"
+    ],
+    "publications": [
+      {
+        "title_cn": "热带和热带外准双周振荡对2022年2月中国南方持续低温雨雪事件的影响",
+        "title_en": "Impacts of Tropical and Extratropical Quasi-Biweekly Oscillation on a Persistent Low-Temperature Rain and Snow Event in Southern China in February 2022",
+        "year": 2025,
+        "journal": "Journal of Meteorological Research",
+        "DOI": "10.1007/s13351-024-3207-x"
+      },
+      {
+        "title_cn": "使用DETR模型和卫星云图像识别冷锋",
+        "title_en": "Cold Front Identification Using the DETR Model with Satellite Cloud Imagery",
+        "year": 2025,
+        "journal": "REMOTE SENSING",
+        "DOI": "10.3390/rs17010036"
+      },
+      {
+        "title_cn": "极端海洋热浪次季节预报的影响因素：以热带太平洋中东部为例",
+        "title_en": "Influencing Factors of the Sub-Seasonal Forecasting of Extreme Marine Heatwaves: A Case Study for the Central–Eastern Tropical Pacific",
+        "year": 2025,
+        "journal": "Remote Sensing",
+        "DOI": "10.3390/rs17050810"
+      },
+      {
+        "title_cn": "改进的Transformer模型用于季节内振荡的延伸范围预报",
+        "title_en": "A Modified Transformer Model for the Extended-Range Forecast of Intraseasonal Oscillation",
+        "year": 2025,
+        "journal": "npj Climate and Atmospheric Science",
+        "DOI": "10.1038/s41612-025-00902-7"
+      },
+      {
+        "title_cn": "中亚冬季积雪对次年春季中国东北冷涡的影响",
+        "title_en": "The impacts of winter snow cover of central Asia on the northeastern China cold vortex in succeeding spring",
+        "year": 2024,
+        "journal": "Climate Dynamics",
+        "DOI": "10.1007/s00382-023-07075-0"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/luchuhan/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/chuhan-lu/53f45549dabfaeecd69e710a"
+  }
+}

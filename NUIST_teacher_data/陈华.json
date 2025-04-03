@@ -1,0 +1,66 @@
+{
+  "basic_info": {
+    "name": "陈华",
+    "title": [
+      "副教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1971",
+    "education": {
+      "undergrad": "",
+      "master": "",
+      "phd": "2000-2003 北京大学 气象学"
+    },
+    "work_experience": [
+      "1996-2000 中国气象局国家卫星气象中心 职业未提及",
+      "1996.08-2000.08 中国气象局国家卫星气象中心",
+      "2003-2014 中国科学院南海海洋研究所 职业未提及",
+      "2003.09-2014.12 中国科学院南海海洋研究所",
+      "2006-2007 德国卡尔斯鲁厄大学 访问学者",
+      "2006.10-2007.09 德国卡尔斯鲁厄大学气象与气候研究所 访问学者",
+      "2015至今 南京信息工程大学 职业未提及",
+      "2015.01至今 南京信息工程大学 副教授"
+    ]
+  },
+  "likes": 34,
+  "academic": {
+    "research_fields": [
+      "中尺度大气动力学",
+      "中低纬大气/海洋相互作用",
+      "台风动力学",
+      "海气相互作用",
+      "中小尺度大气动力学",
+      "卫星气象"
+    ],
+    "publications": [
+      {
+        "title_cn": "热带气旋“Malakas”与中纬度系统的相互作用及其结构变化",
+        "title_en": "THE IMPACTS OF INTERACTION OF A TYPHOON WITH THE MIDLATITUDE TROUGH ON ITS TRACK AFTER THE RECURVATURE",
+        "year": 2019,
+        "journal": "气象科学",
+        "DOI": "10.3969/2018jms.0079"
+      },
+      {
+        "title_cn": "具有结合胆酸盐作用卵形鲳鲹蛋白酶解物的制备和分子量分布研究",
+        "title_en": "Production of bile acid salts-binding hydrolysate from Trachinotus ovatus and its molecular weight distribution",
+        "year": 2017,
+        "journal": "南方水产科学",
+        "DOI": "10.3969/j.issn.2095-0780.2017.02.013"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/chenhua/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/hua-chen/542abebddabfae2b4e13b761"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "basic_info": {
+    "name": "王超",
+    "title": [
+      "教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "博导",
+      "硕导"
+    ],
+    "honors": [
+      "JMSJ Award",
+      "JMR Reviwer Award"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1987*",
+    "education": {
+      "undergrad": "2005-2009 南京信息工程大学 大气科学专业",
+      "master": "2009-2012 南京信息工程大学 气象学专业",
+      "phd": "2012-2016 南京信息工程大学 气象学专业"
+    },
+    "work_experience": [
+      "2016-2021 南京信息工程大学 讲师",
+      "2021-2023 南京信息工程大学 副教授",
+      "2023-至今 南京信息工程大学 教授",
+      "2023-至今 南京信息工程大学 博士生导师",
+      "2017-2018 美国夏威夷大学 访问学者"
+    ]
+  },
+  "likes": 172,
+  "academic": {
+    "research_fields": [
+      "热带气旋(台风)",
+      "气候变化"
+    ],
+    "publications": [
+      {
+        "title_cn": "太平洋年代际振荡对太平洋经向模态与西北太平洋热带气旋生成关系的调制",
+        "title_en": "Pacific Decadal Oscillation Modulates the Relationship Between Pacific Meridional Mode and Tropical Cyclone Genesis in the Western North Pacific",
+        "year": 2023,
+        "journal": "Geophysical Research Letters",
+        "DOI": ""
+      },
+      {
+        "title_cn": "南亚高压对南海热带气旋生成的影响",
+        "title_en": "Impacts of the South Asian high on tropical cyclone genesis in the South China Sea",
+        "year": 2021,
+        "journal": "Climate Dynamics",
+        "DOI": "https://doi.org/10.1007/s00382-020-05586-8"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/chaowang/zh_CN/index.htm"
+  }
+}

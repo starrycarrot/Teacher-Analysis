@@ -1,0 +1,68 @@
+{
+  "basic_info": {
+    "name": "许冬梅",
+    "title": [
+      "副教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1985*",
+    "education": {
+      "undergrad": "2003-2007 南京信息工程大学 数学与统计学院",
+      "master": "2007-2010 南京信息工程大学 大气科学学院",
+      "phd": "2010-2014 南京信息工程大学 大气科学学院"
+    },
+    "work_experience": [
+      "2021-至今 大气科学学院数值预报系 副教授",
+      "2018-2020 美国国家大气研究中心 博士后",
+      "2015-2016 美国国家大气研究中心 博士后",
+      "2011-2014 美国国家大气研究中心 访问学者"
+    ]
+  },
+  "likes": 1138,
+  "academic": {
+    "research_fields": [
+      "资料同化",
+      "数值模拟",
+      "卫星资料同化",
+      "卫星资料云反演",
+      "集合变分资料同化方法",
+      "雷达资料同化"
+    ],
+    "publications": [
+      {
+        "title_cn": "Four-Dimensional Variational Assimilation of Precipitation Data with the Large-scale Analysis Constraint in the 21.7 Extreme Rainfall Event in China",
+        "title_en": "Four-Dimensional Variational Assimilation of Precipitation Data with the Large-scale Analysis Constraint in the 21.7 Extreme Rainfall Event in China",
+        "year": 2025,
+        "journal": "Journal of Geophysical Research: Atmospheres",
+        "DOI": "NA"
+      },
+      {
+        "title_cn": "新一代静止气象卫星葵花8号的晴空红外辐射率资料同化对台风“天鸽”的预报影响研究",
+        "title_en": "NA",
+        "year": 2022,
+        "journal": "海洋学报",
+        "DOI": "NA"
+      },
+      {
+        "title_cn": "Assimilation of GPM Microwave Imager Radiance for Track Prediction of Typhoon Cases with the WRF Hybrid En3DVAR System",
+        "title_en": "Assimilation of GPM Microwave Imager Radiance for Track Prediction of Typhoon Cases with the WRF Hybrid En3DVAR System",
+        "year": 2021,
+        "journal": "Adv. Atmos. Sci.",
+        "DOI": "NA"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/xudongmei/zh_CN/index.htm"
+  }
+}

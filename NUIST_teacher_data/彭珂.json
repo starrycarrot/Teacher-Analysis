@@ -1,0 +1,88 @@
+{
+  "basic_info": {
+    "name": "彭珂",
+    "admin_role": [
+      ""
+    ],
+    "title": [
+      "讲师"
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      "江苏省双创博士"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1991*",
+    "education": {
+      "undergrad": "2009-2013 成都信息工程大学 大气科学专业",
+      "master": "2013-2015 南京大学 气象",
+      "phd": "2013-2019 南京大学 大气科学专业"
+    },
+    "work_experience": [
+      "2017.03-2017.11 美国国家大气研究中心 访问学者",
+      "2018.04-2018.06 美国国家大气研究中心 访问学者",
+      "2019-至今 南京信息工程大学 讲师",
+      "2019.06-至今 南京信息工程大学大气科学学院 讲师"
+    ]
+  },
+  "likes": 179,
+  "academic": {
+    "research_fields": [
+      "热带气旋动力学",
+      "热带气旋结构",
+      "热带气旋预报预测",
+      "热带气旋预报预测评估方法"
+    ],
+    "publications": [
+      {
+        "title_cn": "热带气旋快速增强的多样性",
+        "title_en": "Diversity of Tropical Cyclones Rapid Intensification",
+        "year": 2024,
+        "journal": "GEOPHYSICAL RESEARCH LETTERS",
+        "DOI": "10.1029/2023gl108006"
+      },
+      {
+        "title_cn": "热带气旋快速增强的多样性",
+        "title_en": "Diversity of tropical cyclones rapid intensification",
+        "year": 2024,
+        "journal": "Geophysical Research Letters",
+        "DOI": "e2023GL108006"
+      },
+      {
+        "title_cn": "NUIST-CFS1.0预报系统中季节性热带气旋活动的预测",
+        "title_en": "Prediction of Seasonal Tropical Cyclone Activity in the NUIST-CFS1.0 Forecast System",
+        "year": 2023,
+        "journal": "ADVANCES IN ATMOSPHERIC SCIENCES",
+        "DOI": "10.1007/s00376-023-2213-8"
+      },
+      {
+        "title_cn": "NUIST-CFS1.0预测系统中热带气旋季节活动的预测",
+        "title_en": "Prediction of seasonal tropical cyclone activity in the NUIST-CFS1.0 forecast system",
+        "year": 2023,
+        "journal": "Adv. Atmos. Sci.",
+        "DOI": ""
+      },
+      {
+        "title_cn": "初始涡旋垂直结构对轴对称热带气旋早期发展的影响",
+        "title_en": "Effect of the Initial Vortex Vertical Structure on Early Development of an Axisymmetric Tropical Cyclone",
+        "year": 2021,
+        "journal": "JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES",
+        "DOI": "10.1029/2020jd033697"
+      },
+      {
+        "title_cn": "初始涡旋垂直结构对轴对称热带气旋早期发展的影响",
+        "title_en": "Effect of the initial vortex vertical structure on early development of an axisymmetric tropical cyclone",
+        "year": 2021,
+        "journal": "Journal of Geophysical Research: Atmospheres",
+        "DOI": "e2020JD033697"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/pengke/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/ke-peng/615446b99e795e7f16d37357"
+  }
+}

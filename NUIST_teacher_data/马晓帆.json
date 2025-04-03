@@ -1,0 +1,90 @@
+{
+  "basic_info": {
+    "name": "马晓帆",
+    "title": [
+      "讲师"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      ""
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1993",
+    "education": {
+      "undergrad": "2011-2015 南京信息工程大学 大气科学专业",
+      "master": "",
+      "phd": "2015-2021 中国科学院大气物理研究所 气象学专业"
+    },
+    "work_experience": [
+      "2022-至今 南京信息工程大学 讲师"
+    ]
+  },
+  "likes": 80,
+  "academic": {
+    "research_fields": [
+      "年代际气候变率",
+      "气候变化",
+      "大西洋经向翻转环流年代际变率及其气候影响"
+    ],
+    "publications": [
+      {
+        "title_cn": "大西洋多年代际振荡和太平洋年代际振荡对西北太平洋热带气旋降水的不同调制",
+        "title_en": "Distinct Modulations of Northwest Pacific Tropical Cyclone Precipitation by Atlantic Multidecadal Oscillation and Interdecadal Pacific Oscillation",
+        "year": 2024,
+        "journal": "Geophysical Research Letters",
+        "DOI": "10.1029/2023GL107749"
+      },
+      {
+        "title_cn": "印度洋偶极子在全新世中期由于平均海洋气候学变化而减弱",
+        "title_en": "Weakening of the Indian Ocean Dipole in the mid-Holocene due to the mean oceanic climatology change",
+        "year": 2023,
+        "journal": "Journal of Climate",
+        "DOI": ""
+      },
+      {
+        "title_cn": "CMIP6/CMIP5工业化前模拟中AMOC多年代际变率主导时间尺度的潜在机制",
+        "title_en": "The potential mechanisms of the dominant timescale of AMOC multidecadal variability in CMIP6/CMIP5 preindustrial simulations",
+        "year": 2023,
+        "journal": "Climate Dynamics",
+        "DOI": "10.1007/s00382-022-06440-9"
+      },
+      {
+        "title_cn": "碳中和目标下的关键气候问题",
+        "title_en": "Critical climate issues toward carbon neutrality targets",
+        "year": 2022,
+        "journal": "Fundamental Research",
+        "DOI": "10.1016/j.fmre.2022.02.011"
+      },
+      {
+        "title_cn": "碳中和下人为气溶胶对地表温度的重要作用",
+        "title_en": "The significant roles of anthropogenic aerosols on surface temperature under carbon neutrality",
+        "year": 2021,
+        "journal": "Science Bulletin",
+        "DOI": "10.1016/j.scib.2021.10.022"
+      },
+      {
+        "title_cn": "不同CO2强迫下演变的AMOC多年代际变率",
+        "title_en": "Evolving AMOC multidecadal variability under different CO2 forcings",
+        "year": 2021,
+        "journal": "Climate Dynamics",
+        "DOI": "10.1007/s00382-021-05730-y"
+      },
+      {
+        "title_cn": "区域海洋热吸收对人为变暖情景的依赖性",
+        "title_en": "Dependence of regional ocean heat uptake on anthropogenic warming scenarios",
+        "year": 2020,
+        "journal": "Science Advances",
+        "DOI": "10.1126/sciadv.abc0303"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/maxiaofan/zh_CN/index.htm"
+  }
+}

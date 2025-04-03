@@ -1,0 +1,63 @@
+{
+  "basic_info": {
+    "name": "王树舟",
+    "title": [
+      "副教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1982",
+    "education": {
+      "undergrad": "2006-2006 南京信息工程大学 大气科学",
+      "master": "2009-2009 中国科学院大学 大气物理学与大气环境",
+      "phd": "2012-2012 中国科学院大学 气象学"
+    },
+    "work_experience": [
+      "2012.07- 南京信息工程大学 专任教师",
+      "2016.08-2017.08 The University of Texas at Austin 访问学者"
+    ]
+  },
+  "likes": 78,
+  "academic": {
+    "research_fields": [
+      "大气边界层",
+      "陆面过程",
+      "气候模拟和预测"
+    ],
+    "publications": [
+      {
+        "title_cn": "评估坦桑尼亚极端降雨事件中陆面模型和微物理方案的性能",
+        "title_en": "Evaluating the performance of land surface models and microphysics schemes on simulation of an extreme rainfall event in Tanzania using the WRF model",
+        "year": 2024,
+        "journal": "Atmos. Clim. Sci.",
+        "DOI": ""
+      },
+      {
+        "title_cn": "基于Noah-MP陆面模式的青藏高原地表感热和潜热通量分布及变化特征",
+        "title_en": "",
+        "year": 2023,
+        "journal": "高原气象",
+        "DOI": ""
+      },
+      {
+        "title_cn": "模拟1981年至2018年青藏高原的感热和潜热通量",
+        "title_en": "Simulation of sensible and latent heat fluxes on the Tibetan Plateau from 1981 to 2018",
+        "year": 2022,
+        "journal": "Atmos. Res.",
+        "DOI": "106129"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/wangshuzhou/zh_CN/index.htm"
+  }
+}

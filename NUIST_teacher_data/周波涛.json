@@ -1,0 +1,89 @@
+{
+  "basic_info": {
+    "name": "周波涛",
+    "admin_role": [
+      ""
+    ],
+    "title": [
+      "教授",
+      "研究员"
+    ],
+    "mentor_qualification": [
+      "博导",
+      "硕导"
+    ],
+    "honors": [
+      "中国气象局科技领军人才",
+      "国家杰出青年基金获得者",
+      "国家重大人才计划B类青年拔尖人才",
+      "江苏省重大人才工程B类特聘教授",
+      "首批中国气象局青年英才"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1979",
+    "education": {
+      "undergrad": "1996-2000 南京气象学院 气象学",
+      "master": "2000-2003 南京气象学院 气象学",
+      "phd": "2003-2006 中科院大气物理研究所 气象学"
+    },
+    "work_experience": [
+      "2006-2008 国家气候中心气候变化室 助理研究员",
+      "2008-2011 国家气候中心决策咨询部 副研究员",
+      "2011-2012 国家气候中心业务科技处 副处长",
+      "2012-2013 国家气候中心气候变化适应室 副主任",
+      "2013-2013 加拿大环境部气候研究中心 访问学者",
+      "2013-2014 国家气候中心气候变化适应室 主任",
+      "2014-2018 国家气候中心气候变化适应室 主任/研究员",
+      "2016-2016 云南省气象局 局长助理",
+      "2018-至今 南京信息工程大学大气科学学院 教授",
+      "2019-2022 南京信息工程大学大气科学学院 副院长",
+      "2022-至今 南京信息工程大学大气科学学院 院长"
+    ]
+  },
+  "likes": 693,
+  "academic": {
+    "research_fields": [
+      "东亚气候变异机理与预测",
+      "大尺度环流系统和气候模态/大气涛动",
+      "极端气候事件",
+      "气候变化",
+      "气候变异机理与预测",
+      "气候现象与气候动力学"
+    ],
+    "publications": [
+      {
+        "title_cn": "黄土高原春季干旱与热带印度洋海温的不稳定关系受ENSO年代际变率的调制",
+        "title_en": "Unstable Relationship Between Tropical Indian Ocean SST and Spring Drought on the Loess Plateau Modulated by Interdecadal Variability of ENSO",
+        "year": 2025,
+        "journal": "Journal of Climate",
+        "DOI": "10.1175/jcli-d-24-0269.1"
+      },
+      {
+        "title_cn": "2022年南欧热浪及其对电力系统的影响",
+        "title_en": "South European Heatwaves and Their Impacts on the Power System in 2022",
+        "year": 2025,
+        "journal": "JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES",
+        "DOI": "10.1029/2024jd042310"
+      },
+      {
+        "title_cn": "近期秋季北极东部海冰减少与夏季亚洲-太平洋涛动的增强",
+        "title_en": "Recent autumn sea ice loss in the eastern Arctic enhanced by summer Asian-Pacific Oscillation",
+        "year": 2024,
+        "journal": "Nature Communications",
+        "DOI": "doi:10.1038/s41467-024-47051-8"
+      },
+      {
+        "title_cn": "2022年中国南方破纪录的夏秋连旱: 热带海温和欧亚加热的作用",
+        "title_en": "Record-breaking summer-autumn drought in southern China in 2022: Roles of tropical sea surface temperature and Eurasian warming",
+        "year": 2024,
+        "journal": "中国科学: 地球科学",
+        "DOI": "doi: 10.1007/ s11430 -023-1242-8"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/zhoubotao/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/botao-zhou/53f4687bdabfaee4dc856741"
+  }
+}

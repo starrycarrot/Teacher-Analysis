@@ -1,0 +1,62 @@
+{
+  "basic_info": {
+    "name": "高旗",
+    "title": [
+      "讲师"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      ""
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1995*",
+    "education": {
+      "undergrad": "2013-2017 南京信息工程大学 大气科学",
+      "master": "2017-2020 南京信息工程大学 气象学",
+      "phd": "2020-2024 复旦大学与中国气象科学研究院 大气科学"
+    },
+    "work_experience": [
+      "2024-至今 南京信息工程大学大气科学学院 教师"
+    ]
+  },
+  "likes": 44,
+  "academic": {
+    "research_fields": [
+      "中小尺度天气动力学",
+      "台风动力学",
+      "数值模拟"
+    ],
+    "publications": [
+      {
+        "title_cn": "初始涡旋不对称结构对热带气旋强度变化的影响",
+        "title_en": "The effect of initial vortex asymmetric structure on tropical cyclone intensity change in response to an imposed environmental vertical wind shear",
+        "year": 2023,
+        "journal": "Geophysical Research Letters",
+        "DOI": "e2023GL104222"
+      },
+      {
+        "title_cn": "热带气旋减弱率对初始涡旋暖核强度和高度的影响",
+        "title_en": "Dependence of tropical cyclone weakening rate in response to an imposed moderate environmental vertical wind shear on the warm-core strength and height of the initial vortex",
+        "year": 2024,
+        "journal": "Geophysical Research Letters",
+        "DOI": "e2023GL107779"
+      },
+      {
+        "title_cn": "数值模拟热带气旋外雨带层状区的特征：低层切变与高层切变",
+        "title_en": "Characteristics of the outer rainband stratiform sector in numerically simulated tropical cyclones: Lower-layer shear versus upper-layer shear",
+        "year": 2020,
+        "journal": "Advances in Atmospheric Sciences",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/gaoqi/zh_CN/index.htm"
+  }
+}

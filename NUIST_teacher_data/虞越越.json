@@ -1,0 +1,122 @@
+{
+  "basic_info": {
+    "name": "虞越越",
+    "admin_role": [
+      ""
+    ],
+    "title": [
+      "教授"
+    ],
+    "mentor_qualification": [
+      "博导",
+      "硕导"
+    ],
+    "honors": [
+      "CLIVAR2016 Open Science Conference, Poster competition winner",
+      "中国科学院大气物理研究所优秀博士论文",
+      "中国科学院大气物理研究所优秀毕业生",
+      "中国科学院院长奖学金",
+      "南京信息工程大学\"三育人\"先进个人",
+      "南京信息工程大学优秀共产党员（教工）",
+      "南京信息工程大学优秀班主任",
+      "南京信息工程大学十佳班主任",
+      "南京信息工程大学来华留学教学名师",
+      "南京信息工程大学来华留学教育管理先进工作者",
+      "教育部国家奖学金",
+      "江苏省气象学会气象科技成果奖（基础研究成果奖）二等奖",
+      "江苏省高校省级三好学生",
+      "江苏高校外国留学生教学观摩比赛 特等奖"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1987",
+    "education": {
+      "undergrad": "2006-2010 南京信息工程大学 大气科学",
+      "master": "2010-2015 中国科学院大气物理研究所 气象学",
+      "phd": "2010-2015 中国科学院大气物理研究所 气象学"
+    },
+    "work_experience": [
+      "2012年10月-2013年3月 美国佛罗里达州立大学 访问学者",
+      "2013年10月-2014年4月 美国佛罗里达州立大学 访问学者",
+      "2015年9月-2017年8月 美国佛罗里达州立大学 博士后",
+      "2017年8月-2021年6月 南京信息工程大学大气科学学院 校聘教授",
+      "2017年8月-至今 南京信息工程大学大气科学学院动力气象系 校聘教授",
+      "2021年7月-2023年6月 南京信息工程大学大气科学学院 副教授",
+      "2023年7月至今 南京信息工程大学大气科学学院 教授"
+    ]
+  },
+  "likes": 967,
+  "academic": {
+    "research_fields": [
+      "全球大气质量环流及平流层-对流层耦合",
+      "全球等熵大气质量环流理论及其应用",
+      "冬季寒潮的短期和延伸期预报",
+      "冬季温带气旋形态特征研究",
+      "卫星资料分析云与海冰关系",
+      "大气环流动力学",
+      "平流层-对流层相互作用",
+      "平流层-对流层耦合及其在寒潮低温次季节预测中的应用",
+      "平流层爆发性增温与南亚季风关系",
+      "极地海冰、太平洋海温对平流层-对流层相互作用的影响",
+      "极端温度的次季节预测",
+      "罗斯贝波动机理",
+      "赤道准两年振荡",
+      "青藏高原物质输送及动力机理研究"
+    ],
+    "publications": [
+      {
+        "title_cn": "北半球环形模低频与高频变率及北极臭氧消耗之间的联系",
+        "title_en": "Connections Between Low- and High- Frequency Variabilities of Stratospheric Northern Annular Mode and Arctic Ozone Depletion",
+        "year": 2024,
+        "journal": "Environmental Research Letters",
+        "DOI": "10.1088/1748-9326/ad2c24"
+      },
+      {
+        "title_cn": "2020/21冬季极端寒冷事件的等熵质量环流视角",
+        "title_en": "An Isentropic Mass Circulation View on the Extreme Cold Events in the 2020/21 Winter",
+        "year": 2023,
+        "journal": "Climate Dynamics",
+        "DOI": "10.1007/s00376-021-1289-2"
+      },
+      {
+        "title_cn": "平流层脉冲-大陆冷空气爆发耦合关系：年际和年代际变化",
+        "title_en": "Stratospheric Pulse-Continental Cold Air Outbreak Coupling Relationships: Interannual and Interdecadal Changes",
+        "year": 2023,
+        "journal": "Frontiers in Earth Science",
+        "DOI": "10.3389/feart.2022.1093189"
+      },
+      {
+        "title_cn": "我国冬季干、湿低温灾害的时空分布特征分析",
+        "title_en": "",
+        "year": 2023,
+        "journal": "大气科学",
+        "DOI": "10.3878/j.issn.1006-9895.2111.21143"
+      },
+      {
+        "title_cn": "2018年1月江苏两次暴雪过程积雪效率差异及其机理研究",
+        "title_en": "",
+        "year": 2023,
+        "journal": "大气科学",
+        "DOI": "10.3878/j.issn.1006-9895.2109.21065"
+      },
+      {
+        "title_cn": "平流层大气质量环流脉冲事件与北半球冬季大陆尺度寒潮低温的次季节尺度预测",
+        "title_en": "",
+        "year": 2021,
+        "journal": "气象科技进展",
+        "DOI": ""
+      },
+      {
+        "title_cn": "夏季青藏高原及周边上对流层水汽质量及其向平流层传输年际异常.Ⅱ:向平流层的绝热和非绝热传输",
+        "title_en": "Interannual anomalies of upper tropospheric water vapor mass and its transport into the stratosphere over the Tibetan Plateau and its surroundings in summer. II: Adiabatic and non-adiabatic transport into the stratosphere",
+        "year": 2020,
+        "journal": "大气科学",
+        "DOI": "10.3878/j.issn.1006-9895.1905.18267"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/yuyueyue/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/yueyue-yu/61014e7b6750f855fce49864"
+  }
+}

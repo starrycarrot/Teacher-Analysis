@@ -1,0 +1,111 @@
+{
+  "basic_info": {
+    "name": "毕明玉",
+    "title": [
+      "讲师"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      ""
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1984",
+    "education": {
+      "undergrad": "2004-2008 南京信息工程大学 大气科学",
+      "master": "2008-2011 南京信息工程大学 气象学",
+      "phd": "2011-2015 南京信息工程大学 气象学"
+    },
+    "work_experience": [
+      "2015- 南京信息工程大学大气科学学院 讲师"
+    ]
+  },
+  "likes": 44,
+  "academic": {
+    "research_fields": [
+      "台风动力学数值模拟",
+      "西北太平洋台风异常北折路径研究",
+      "台风尺度大小变化及台风雨带变化"
+    ],
+    "publications": [
+      {
+        "title_cn": "热带气旋发展对科里奥利参数的依赖性：一个理论模型",
+        "title_en": "Dependence of tropical cyclone development on coriolis parameter: A theoretical model",
+        "year": 2018,
+        "journal": "Dynamics of Atmospheres and Oceans",
+        "DOI": ""
+      },
+      {
+        "title_cn": "不同时间尺度变化对西北太平洋热带气旋生成的贡献",
+        "title_en": "Contributions of Different Time-Scale Variations to Tropical Cyclogenesis over the Western North Pacific",
+        "year": 2018,
+        "journal": "Journal of Climate",
+        "DOI": ""
+      },
+      {
+        "title_cn": "热带气旋路径对附近季风环流垂直结构的敏感性",
+        "title_en": "Sensitivity of Tropical Cyclone Track to the Vertical Structure of a Nearby Monsoon Gyre",
+        "year": 2018,
+        "journal": "Journal of the Atmospheric Sciences",
+        "DOI": ""
+      },
+      {
+        "title_cn": "1960年代以来西北太平洋热带气旋生成频率的下降",
+        "title_en": "Decrease of tropical cyclone genesis frequency in the western North Pacific since 1960s",
+        "year": 2018,
+        "journal": "Dynamics of Atmospheres and Oceans",
+        "DOI": ""
+      },
+      {
+        "title_cn": "热带气旋在垂直切变下对纬度的依赖性",
+        "title_en": "Dependence of tropical cyclone intensification on the latitude undervertical shear",
+        "year": 2018,
+        "journal": "J. Meteor. Res.",
+        "DOI": "10.1007/s13351-018-7055-4"
+      },
+      {
+        "title_cn": "尺度相互作用在西北太平洋秋季热带气旋突变中的作用",
+        "title_en": "Role of scale interactions in the abrupt change of tropical cyclone in autumn over the western north pacific",
+        "year": 2017,
+        "journal": "Climate Dynamics",
+        "DOI": ""
+      },
+      {
+        "title_cn": "台风Megi（2010）与低频季风环流的相互作用",
+        "title_en": "Interactions between Typhoon Megi (2010) and a Low-frequency Monsoon Gyre",
+        "year": 2015,
+        "journal": "Journal of the Atmospheric Sciences",
+        "DOI": ""
+      },
+      {
+        "title_cn": "真实强度热带气旋的存在对大气季节内振荡强度估计的影响有多大？",
+        "title_en": "To what extent the presence of real-strength tropical cyclones influences the estimation of atmospheric intraseasonal oscillation intensity?",
+        "year": 2015,
+        "journal": "Atmospheric Science Letters",
+        "DOI": ""
+      },
+      {
+        "title_cn": "台风风神强迫次级环流诊断分析",
+        "title_en": "",
+        "year": 2014,
+        "journal": "大气科学学报",
+        "DOI": ""
+      },
+      {
+        "title_cn": "中尺度对流系统对台风“风神”移动路径影响的研究",
+        "title_en": "",
+        "year": 2012,
+        "journal": "气象学报",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/bimingyu/zh_CN/index.htm"
+  }
+}

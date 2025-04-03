@@ -1,0 +1,68 @@
+{
+  "basic_info": {
+    "name": "李丽平",
+    "title": [
+      "教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "博导",
+      "硕导"
+    ],
+    "honors": [
+      "江苏省第四期“333高层次人才培养工程”第三层次培养对象",
+      "南京信息工程大学“十佳教师”",
+      "江苏省高校“青蓝工程”优秀青年骨干教师"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1971",
+    "education": {
+      "undergrad": "1991-1995 南京信息工程大学 应用气象系",
+      "master": "1995-1998 南京信息工程大学 气象系",
+      "phd": "2000-2004 南京信息工程大学 气象系"
+    },
+    "work_experience": [
+      "1998-2000 南京信息工程大学 助教",
+      "2000-2006 南京信息工程大学 讲师",
+      "2006-2015 南京信息工程大学 副教授",
+      "2016-今 南京信息工程大学 教授",
+      "2005-2006 美国乔治梅森大学 访问学者"
+    ]
+  },
+  "likes": 206,
+  "academic": {
+    "research_fields": [
+      "低频、年际到年代际尺度区域（极端）气候异常",
+      "海汽相互作用"
+    ],
+    "publications": [
+      {
+        "title_cn": "热带太平洋次表层海温异常对中国东部夏季降水的可能影响",
+        "title_en": "The possible influence of tropical Pacific subsurface temperature anomalies on summer precipitation in eastern China",
+        "year": 2015,
+        "journal": "International Journal of Climatology",
+        "DOI": "10.1002/JOC.4134"
+      },
+      {
+        "title_cn": "华南前汛期干旱和洪水灾害特征及风险分析",
+        "title_en": "An analysis of the drought and flood hazard characteristics and risks during the pre-rainy season in South China",
+        "year": 2014,
+        "journal": "Natural Hazards",
+        "DOI": "10.1007/s11069-013-0692-0"
+      },
+      {
+        "title_cn": "热带太平洋海平面高度年际异常与中国夏季降水的可能关系",
+        "title_en": "Possible relationship between the interannual anomaly of the tropical Pacifical sea surface height and summer precipitation in China",
+        "year": 2013,
+        "journal": "Journal of Tropical Meteorology",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/liliping/zh_CN/index.htm"
+  }
+}

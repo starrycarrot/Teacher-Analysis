@@ -1,0 +1,56 @@
+{
+  "basic_info": {
+    "name": "马静",
+    "title": [
+      "副教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      "江苏省优秀博士论文",
+      "Advances in Atmospheric Sciences (AAS) Editor's Award"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1987",
+    "education": {
+      "undergrad": "2006-2010 南京信息工程大学 大气科学",
+      "master": "2010-2017 南京信息工程大学 气象学",
+      "phd": "2010-2017 南京信息工程大学 气象学"
+    },
+    "work_experience": [
+      "2017-2021 南京信息工程大学大气科学学院 讲师",
+      "2021-至今 南京信息工程大学大气科学学院 副教授"
+    ]
+  },
+  "likes": 349,
+  "academic": {
+    "research_fields": [
+      "海气相互作用",
+      "季风与区域气候"
+    ],
+    "publications": [
+      {
+        "title_cn": "NUIST-CFS1.0历史回报中海洋热浪的预报技巧和可预测性来源",
+        "title_en": "The Forecast Skill and Predictability Source of the Marine Heatwaves in the NUIST-CFS1.0 Hindcasts",
+        "year": 2024,
+        "journal": "Advances in Atmospheric Sciences",
+        "DOI": "10.1007/s00376-023-3139-x"
+      },
+      {
+        "title_cn": "热带大西洋海温异常对NUIST-CFS1.0历史回报中ENSO的影响",
+        "title_en": "Impact of tropical Atlantic SST anomaly on ENSO in the NUIST-CFS1.0 Hindcasts",
+        "year": 2022,
+        "journal": "International Journal of Climatology",
+        "DOI": "10.1002/joc.7577"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/majing1/zh_CN/index.htm"
+  }
+}

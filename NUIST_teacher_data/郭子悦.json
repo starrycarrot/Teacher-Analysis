@@ -1,0 +1,68 @@
+{
+  "basic_info": {
+    "name": "郭子悦",
+    "title": [
+      "讲师"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      ""
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1993",
+    "education": {
+      "undergrad": "2012-2016 南京信息工程大学 大气科学专业",
+      "master": "2016-2018 南京大学 气象学专业",
+      "phd": "2018-2022 南京大学 大气科学专业"
+    },
+    "work_experience": [
+      "2022-至今 南京信息工程大学大气科学学院 讲师"
+    ]
+  },
+  "likes": 60,
+  "academic": {
+    "research_fields": [
+      "区域气候变化与数值模拟",
+      "对流可分辨区域气候模拟及预估"
+    ],
+    "publications": [
+      {
+        "title_cn": "基于对象的中国东部对流可分辨区域气候模拟降水系统评估",
+        "title_en": "Object-based evaluation of precipitation systems in convection-permitting regional climate simulation over eastern China",
+        "year": 2022,
+        "journal": "Journal of Geophysical Research: Atmospheres",
+        "DOI": ""
+      },
+      {
+        "title_cn": "中国东部对流可分辨模拟中每日和次每日降水的改进",
+        "title_en": "Improved daily and sub-daily precipitation over eastern China in convection-permitting simulations",
+        "year": 2021,
+        "journal": "Atmospheric Research",
+        "DOI": ""
+      },
+      {
+        "title_cn": "中国东部十年长对流可分辨区域气候模拟：降水日循环的评估",
+        "title_en": "Decadal long convection-permitting regional climate simulations over eastern China: Evaluation of diurnal cycle of precipitation",
+        "year": 2020,
+        "journal": "Climate Dynamics",
+        "DOI": ""
+      },
+      {
+        "title_cn": "中国东部夏季降水模拟对微物理参数化的敏感性：对流可分辨区域气候模拟",
+        "title_en": "Sensitivity of summer precipitation simulation to microphysics parameterization over eastern China: Convection‐permitting regional climate simulation",
+        "year": 2019,
+        "journal": "Journal of Geophysical Research: Atmospheres",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/guoziyue/zh_CN/index.htm"
+  }
+}

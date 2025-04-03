@@ -1,0 +1,57 @@
+{
+  "basic_info": {
+    "name": "吴琨",
+    "title": [
+      "副教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1992",
+    "education": {
+      "undergrad": "2010-2014 南京信息工程大学 大气科学",
+      "master": "2014-2019 南京信息工程大学 气象学",
+      "phd": "2014-2019 南京信息工程大学 气象学"
+    },
+    "work_experience": [
+      "2019-2024 南京信息工程大学大气科学学院/气候与应用前沿研究院（ICAR） 讲师",
+      "2024-至今 南京信息工程大学大气科学学院/气候与应用前沿研究院（ICAR） 副教授"
+    ]
+  },
+  "likes": 146,
+  "academic": {
+    "research_fields": [
+      "数值模式辐射过程参数化",
+      "卫星遥感用途的辐射传输模型研发及应用",
+      "机器学习在大气辐射模拟中的应用",
+      "云-气溶胶-辐射相互作用"
+    ],
+    "publications": [
+      {
+        "title_cn": "紫外-可见和近红外辐射传输的离散坐标近似偏振累加方法",
+        "title_en": "Polarized Adding Method of Discrete Ordinate Approximation for Ultraviolet-Visible and Near-Infrared Radiative Transfer",
+        "year": 2024,
+        "journal": "Optics Express",
+        "DOI": ""
+      },
+      {
+        "title_cn": "大气辐射的进展：理论与模型及其应用。第二部分：辐射传输模型及相关应用",
+        "title_en": "Advances in Atmospheric Radiation: Theories, Models, and Their Applications. Part II: Radiative Transfer Models and Related Applications",
+        "year": 2024,
+        "journal": "Journal of Meteorological Research",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/wukun/zh_CN/index.htm"
+  }
+}

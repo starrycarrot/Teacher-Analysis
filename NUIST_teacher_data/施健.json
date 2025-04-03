@@ -1,0 +1,56 @@
+{
+  "basic_info": {
+    "name": "施健",
+    "title": [
+      "讲师"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1990",
+    "education": {
+      "undergrad": "2008-2012 南京信息工程大学 大气科学",
+      "master": "2012-2017 南京信息工程大学 气象学",
+      "phd": "2012-2017 南京信息工程大学 气象学"
+    },
+    "work_experience": [
+      "2017年10月至今 南京信息工程大学 讲师",
+      "2021年12月-2023年11月 Alfred Wegener Institute 博士后"
+    ]
+  },
+  "likes": 85,
+  "academic": {
+    "research_fields": [
+      "ENSO-季风动力学",
+      "海冰-大气相互作用",
+      "古气候模拟"
+    ],
+    "publications": [
+      {
+        "title_cn": "过去千年中国东部和中亚干旱区降水变化及其可能机制：来自PMIP3实验的视角",
+        "title_en": "Precipitation variation over eastern China and arid central Asia during the past millennium and its possible mechanism: Perspectives from PMIP3 experiments",
+        "year": 2016,
+        "journal": "Journal of Geophysical Research: Atmospheres",
+        "DOI": ""
+      },
+      {
+        "title_cn": "全新世东亚夏季风降水穿时性的模拟研究",
+        "title_en": "",
+        "year": 2024,
+        "journal": "第四纪研究",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/shijian/zh_CN/index.htm"
+  }
+}

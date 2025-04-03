@@ -1,0 +1,75 @@
+{
+  "basic_info": {
+    "name": "姚素香",
+    "title": [
+      "教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "博导",
+      "硕导"
+    ],
+    "honors": [
+      "江苏省本科生优秀毕业论文指导教师",
+      "全国“十大气象科普创客”",
+      "第二届江苏省高校教师教学创新大赛特等奖",
+      "第一届江苏省高校教学创新大赛一等奖",
+      "全国高校混合式教学设计创新大赛三等奖",
+      "全国优秀气象科普作品二等奖",
+      "南京信息工程大学三育人先进个人",
+      "全国气象教学团队",
+      "疫情防控期间“优秀在线教学调研报告”一等奖",
+      "全国大气科学类专业大学生天气分析预报技能大赛优秀指导教师",
+      "江苏省高等学校微课教学比赛三等奖",
+      "第二届全国大学生气象科普创意大赛优秀指导教师"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1978",
+    "education": {
+      "undergrad": "1998-2002 南京大学 大气科学",
+      "master": "2002-2007 南京大学 大气科学",
+      "phd": "2002-2007 南京大学 大气科学"
+    },
+    "work_experience": [
+      "2007-今 南京信息工程大学大气科学学院 教师",
+      "2013-2014 夏威夷大学 IPRC 访问学者"
+    ]
+  },
+  "likes": 319,
+  "academic": {
+    "research_fields": [
+      "大气季节内振荡",
+      "季风与海气相互作用",
+      "区域气候模拟"
+    ],
+    "publications": [
+      {
+        "title_cn": "长江中下游地区夏季降水20-40天振荡的传播多样性",
+        "title_en": "Propagation diversity of 20-40 days oscillation of summer precipitation in the middle and lower reaches of the Yangtze River",
+        "year": 2024,
+        "journal": "JGR-Atmosphere",
+        "DOI": "10.1029/2024JD041174"
+      },
+      {
+        "title_cn": "长江中下游地区夏季降水准双周振荡的传播多样性",
+        "title_en": "Propagation Diversity of Quasi-Biweekly Oscillation of Summer Precipitation in the Middle and Lower Reaches of the Yangtze River",
+        "year": 2023,
+        "journal": "Journal of Climate",
+        "DOI": "10.1175/JCLI-D-22-0643.1"
+      },
+      {
+        "title_cn": "冬季乌拉尔山阻塞高压建立和维持与位势高度季节内振荡的联系",
+        "title_en": "",
+        "year": 2023,
+        "journal": "高原气象",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/yaosuxiang/zh_CN/index.htm"
+  }
+}

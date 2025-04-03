@@ -1,0 +1,84 @@
+{
+  "basic_info": {
+    "name": "秦育婧",
+    "admin_role": [
+      ""
+    ],
+    "title": [
+      "副教授"
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": []
+  },
+  "bio_details": {
+    "birth_year": "1982",
+    "education": {
+      "undergrad": "2000-2004 南京信息工程大学 大气科学",
+      "master": "",
+      "phd": "2004-2009 南京信息工程大学 大气科学"
+    },
+    "work_experience": [
+      "2009.6-2018.6 南京信息工程大学 讲师",
+      "2013.9-2014.9 阿拉斯加大学 访问学者",
+      "2018.7-至今 南京信息工程大学 副教授"
+    ]
+  },
+  "likes": 83,
+  "academic": {
+    "research_fields": [
+      "Hadley环流异常及其气候效应",
+      "东亚季风区Hadley环流强度变化与我国东部夏季雨带的关系",
+      "人工智能与气象应用",
+      "基于深度学习的欧亚锋面结构及活动",
+      "基于自动识别的大陆气旋反气旋及冷锋活动特征及其与极端天气气候事件的联系",
+      "大气环流异常及短时临近预报",
+      "大气环流异常及短期临近预报",
+      "春季南亚高压的重建过程与南海夏季风的爆发",
+      "极端天气气候",
+      "江淮流域水汽收支及江淮气旋"
+    ],
+    "publications": [
+      {
+        "title_cn": "利用DETR模型与卫星云图识别冷锋",
+        "title_en": "Cold Front Identification Using the DETR Model with Satellite Cloud Imagery",
+        "year": 2025,
+        "journal": "REMOTE SENSING",
+        "DOI": "10.3390/rs17010036"
+      },
+      {
+        "title_cn": "北大西洋偶极子海温异常对中国西南秋季干旱的影响",
+        "title_en": "The Influence of North Atlantic Dipole Sea Surface Temperature Anomalies on Autumn Drought over Southwest China",
+        "year": 2024,
+        "journal": "INTERNATIONAL JOURNAL OF CLIMATOLOGY",
+        "DOI": "10.1002/joc.8736"
+      },
+      {
+        "title_cn": "基于自动识别的近三十年华北地区冬季冷锋活动异常及其可能成因",
+        "title_en": "",
+        "year": 2022,
+        "journal": "气象学报",
+        "DOI": ""
+      },
+      {
+        "title_cn": "冬季欧亚大陆反气旋活动特征及其与中国气温的关系",
+        "title_en": "",
+        "year": 2017,
+        "journal": "大气科学学报",
+        "DOI": ""
+      },
+      {
+        "title_cn": "夏季东亚季风区Hadley环流上升支结构异常及其对长江流域降水的影响",
+        "title_en": "",
+        "year": 2015,
+        "journal": "热带气象学报",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/qinyujing/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/yujing-qin/5628cd2f45cedb33987f10df"
+  }
+}

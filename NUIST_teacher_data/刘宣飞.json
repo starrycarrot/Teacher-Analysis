@@ -1,0 +1,90 @@
+{
+  "basic_info": {
+    "name": "刘宣飞",
+    "title": [
+      "教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "博导"
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1965",
+    "education": {
+      "undergrad": "1983-1987 南京气象学院 气候学",
+      "master": "1987-1990 中国气象科学研究院 气候学",
+      "phd": "1990-1998 南京气象学院 天气动力学"
+    },
+    "work_experience": [
+      ""
+    ]
+  },
+  "likes": 23,
+  "academic": {
+    "research_fields": [
+      "海洋锋区附近的海气相互作用",
+      "与东亚季风相联系的中国主要雨季",
+      "中国极端气候事件及其变化"
+    ],
+    "publications": [
+      {
+        "title_cn": "大气对春季东海黑潮锋响应的气压调整机制分析",
+        "title_en": "",
+        "year": 2015,
+        "journal": "大气科学",
+        "DOI": ""
+      },
+      {
+        "title_cn": "华西秋雨区域性极端降水的环流特征",
+        "title_en": "",
+        "year": 2015,
+        "journal": "热带气象学报",
+        "DOI": ""
+      },
+      {
+        "title_cn": "华西秋雨起止与秋冬季节大气环流转换",
+        "title_en": "",
+        "year": 2013,
+        "journal": "气象学报",
+        "DOI": ""
+      },
+      {
+        "title_cn": "江南春雨的两个阶段及其降水性质",
+        "title_en": "",
+        "year": 2013,
+        "journal": "热带气象学报",
+        "DOI": ""
+      },
+      {
+        "title_cn": "春季IOD影响东亚季风机制的数值研究",
+        "title_en": "",
+        "year": 2011,
+        "journal": "热带气象学报",
+        "DOI": ""
+      },
+      {
+        "title_cn": "青藏高原冬春积雪影响南海季风爆发的数值研究",
+        "title_en": "",
+        "year": 2011,
+        "journal": "热带气象学报",
+        "DOI": ""
+      },
+      {
+        "title_cn": "Effects of the Thermal Contrast between Indo-China Peninsula and South China Sea on the SCS Monsoon Onset",
+        "title_en": "Effects of the Thermal Contrast between Indo-China Peninsula and South China Sea on the SCS Monsoon Onset",
+        "year": 2010,
+        "journal": "A.M. S.",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/liuxuanfei/zh_CN/index.htm"
+  }
+}

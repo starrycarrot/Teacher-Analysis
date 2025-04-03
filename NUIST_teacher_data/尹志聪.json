@@ -1,0 +1,100 @@
+{
+  "basic_info": {
+    "name": "尹志聪",
+    "admin_role": [
+      ""
+    ],
+    "title": [
+      "教授"
+    ],
+    "mentor_qualification": [
+      "博导",
+      "硕导"
+    ],
+    "honors": [
+      "2023年度中国十大气象科技进展（第一完成人）",
+      "2024年度中国气候研究重大进展（第一完成人）",
+      "江苏省自然科学百篇优秀学术成果论文（第一完成人）"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1985*",
+    "education": {
+      "undergrad": "2003-2007 中国海洋大学 本科",
+      "master": "2007-2010 中国气象科学研究院 硕士",
+      "phd": "2013-2016 中国科学院大气物理研究所 博士"
+    },
+    "work_experience": [
+      "2010-2016 北京市气象局",
+      "2016-2020 南京信息工程大学 副研究员",
+      "2020-至今 南京信息工程大学 教授"
+    ]
+  },
+  "likes": 1575,
+  "academic": {
+    "research_fields": [
+      "北极-中高纬气候变异与东亚极端气候",
+      "北极气候的年际和次季节变率及其与灾害性气候的联系和物理机制",
+      "大尺度气候模态、极端气候、霾和臭氧气候条件的短期气候预测",
+      "梅雨极端化",
+      "欧亚积雪和中高纬海温异常与东亚极端气候的联系，及新的预测信号",
+      "超级沙尘暴",
+      "霾-臭氧污染"
+    ],
+    "publications": [
+      {
+        "title_cn": "西北太平洋海温异常的季节内反转影响了中国极端寒冷的偶极模式",
+        "title_en": "Subseasonal Reversal of Northwest Pacific SST Anomalies Influenced the Dipole Pattern of Cold Extremes in China",
+        "year": 2025,
+        "journal": "ATMOSPHERIC RESEARCH",
+        "DOI": "10.1016/j.atmosres.2024.107862"
+      },
+      {
+        "title_cn": "中国碳中与清洁空气协同路线图2023报告：减碳、污染缓解、绿化与增长",
+        "title_en": "The 2023 Report of the Synergetic Roadmap on Carbon Neutrality and Clean Air for China: Carbon Reduction, Pollution Mitigation, Greening, and Growth",
+        "year": 2025,
+        "journal": "ENVIRONMENTAL SCIENCE AND ECOTECHNOLOGY",
+        "DOI": "10.1016/j.ese.2024.100517"
+      },
+      {
+        "title_cn": "暖北极-冷欧亚模式有助于预测西西伯利亚春季野火燃烧面积",
+        "title_en": "Warm Arctic-Cold Eurasia pattern helps predict spring wildfires burned area in West Siberia",
+        "year": 2024,
+        "journal": "Nature Communications",
+        "DOI": "10.1038/s41467-024-53470-4"
+      },
+      {
+        "title_cn": "传统梅雨-白雨已被全球变暖暂停",
+        "title_en": "Traditional Meiyu-Baiu has been suspended by global warming",
+        "year": 2024,
+        "journal": "National Science Review",
+        "DOI": "10.1093/nsr/nwae166"
+      },
+      {
+        "title_cn": "次季节变率和“暖北极-冷欧亚”趋势",
+        "title_en": "Subseasonal variability and the 'Arctic warming-Eurasia cooling' trend",
+        "year": 2023,
+        "journal": "Science Bulletin",
+        "DOI": "10.1016/j.scib.2023.02.009"
+      },
+      {
+        "title_cn": "中国的气候极端事件变得越来越猛烈",
+        "title_en": "Climate extremes become increasingly fierce in China",
+        "year": 2023,
+        "journal": "The Innovation",
+        "DOI": "10.1016/j.xinn.2023.100406"
+      },
+      {
+        "title_cn": "为什么2021年华北出现超级沙尘暴？",
+        "title_en": "Why super sandstorm 2021 in North China?",
+        "year": 2022,
+        "journal": "National Science Review",
+        "DOI": "10.1093/nsr/nwab165"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/yinzhicong/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/zhicong-yin/53f42ceedabfaedd74d303f9"
+  }
+}

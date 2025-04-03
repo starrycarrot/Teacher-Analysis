@@ -1,0 +1,79 @@
+{
+  "basic_info": {
+    "name": "潘玉洁",
+    "admin_role": [
+      ""
+    ],
+    "title": [
+      "副教授",
+      "副研究员"
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": []
+  },
+  "bio_details": {
+    "birth_year": "1983*",
+    "education": {
+      "undergrad": "2001-2005 南京大学 大气科学",
+      "master": "",
+      "phd": "2005-2010 南京大学 理学"
+    },
+    "work_experience": [
+      "2010-2014 俄克拉荷马大学风暴分析和预报中心 博士后",
+      "2010.9～2014.2 The Center for Analysis and Prediction of Storms (CAPS)，University of Oklahoma 讲师",
+      "2014-至今 南京信息工程大学大气科学学院动力气象系 副研究员",
+      "2014.1～2022.1 南京信息工程大学 讲师",
+      "2022.6～至今 南京信息工程大学 副教授，硕导"
+    ]
+  },
+  "likes": 215,
+  "academic": {
+    "research_fields": [
+      "中尺度气象学",
+      "资料同化"
+    ],
+    "publications": [
+      {
+        "title_cn": "通过雷达数据同化中的云分析对华南飑线分析和预测中湿度调整的影响",
+        "title_en": "Impacts of Humidity Adjustment Through Radar Data Assimilation Using Cloud Analysis on the Analysis and Prediction of a Squall Line in Southern China",
+        "year": 2020,
+        "journal": "EARTH AND SPACE SCIENCE",
+        "DOI": "10.1029/2019ea000893"
+      },
+      {
+        "title_cn": "利用极化雷达观测评估登陆台风麦德姆（2014）的模拟滴谱分布和微物理过程",
+        "title_en": "Evaluation of Simulated Drop Size Distributions and Microphysical Processes Using Polarimetric Radar Observations for Landfalling Typhoon Matmo (2014)",
+        "year": 2020,
+        "journal": "JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES",
+        "DOI": "10.1029/2019jd031527"
+      },
+      {
+        "title_cn": "通过雷达数据同化中的云分析调整湿度对中国南方飑线分析和预测的影响",
+        "title_en": "Impacts of Humidity Adjustment Through Radar Data Assimilation Using Cloud Analysis on the Analysis and Prediction of a Squall Line in Southern China",
+        "year": 2020,
+        "journal": "Earth and space science",
+        "DOI": ""
+      },
+      {
+        "title_cn": "利用ARPS 3DVar和云分析系统同化雷达数据频率对中国南方飑线预报的影响",
+        "title_en": "Impact of the Assimilation Frequency of Radar Data with the ARPS 3DVar and Cloud Analysis System on Forecasts of a Squall Line in Southern China",
+        "year": 2019,
+        "journal": "ADVANCES IN ATMOSPHERIC SCIENCES",
+        "DOI": ""
+      },
+      {
+        "title_cn": "2014年5月31日华东地区一次暖区飑线过程的多普勒天气雷达分析",
+        "title_en": "",
+        "year": 2018,
+        "journal": "气象科学",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/panyujie/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/yujie-pan/542f0052dabfaea2f5537e68"
+  }
+}

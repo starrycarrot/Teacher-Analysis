@@ -1,0 +1,83 @@
+{
+  "basic_info": {
+    "name": "沈新勇",
+    "admin_role": [
+      ""
+    ],
+    "title": [
+      "教授"
+    ],
+    "mentor_qualification": [
+      "博导"
+    ],
+    "honors": [
+      "江苏省“青蓝工程”中青年学术带头人"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "",
+    "education": {
+      "undergrad": "",
+      "master": "",
+      "phd": "1994 北京大学地球物理学系 地球物理学"
+    },
+    "work_experience": [
+      "1995-1997 南京大学大气科学系 博士后",
+      "1995-2002 南京大学大气科学系 博士后",
+      "2002- 南京气象学院大气科学系 教师",
+      "2002-2004 南京气象学院大气科学系 任教",
+      "2002-至今 南京信息工程大学大气科学学院天气学系 教授",
+      "2004-2005 中国气象局上海台风研究所 客座研究员",
+      "2008-2009 美国马里兰大学 访问教授"
+    ]
+  },
+  "likes": 124,
+  "academic": {
+    "research_fields": [
+      "东北冷涡暴雨系统",
+      "中尺度气象学",
+      "华南暴雨",
+      "台风动力学及数值模拟",
+      "梅雨锋降水",
+      "气候动力学",
+      "气溶胶对东亚季风的影响",
+      "涡旋Rossby波",
+      "重力惯性波",
+      "飑线等强对流系统"
+    ],
+    "publications": [
+      {
+        "title_cn": "北京对流下山合并和增强的机制研究",
+        "title_en": "Mechanistic Study of a Downhill Merging and Enhancement of Convection in Beijing",
+        "year": 2025,
+        "journal": "Atmospheric and Oceanic Science Letters",
+        "DOI": "10.1016/j.aosl.2025.100595"
+      },
+      {
+        "title_cn": "鄂霍次克-白令海春季海冰反向变化与11年太阳周期的关系检测",
+        "title_en": "Detection of the Relationship Between the Inverse Variations of Sea Ice in the Okhotsk-Bering Sea During Spring and the 11-Year Solar Cycle",
+        "year": 2025,
+        "journal": "INTERNATIONAL JOURNAL OF CLIMATOLOGY",
+        "DOI": "10.1002/joc.8766"
+      },
+      {
+        "title_cn": "一次东北冷涡过程的数值模拟与降水分析",
+        "title_en": "Numerical simulation and precipitation analysis of a northeast cold vortex process",
+        "year": 2012,
+        "journal": "大气科学",
+        "DOI": ""
+      },
+      {
+        "title_cn": "台风麦莎的正压特征波动结构及其稳定性",
+        "title_en": "Barotropic characteristic wave structure and its stability of Typhoon Matsa",
+        "year": 2012,
+        "journal": "大气科学学报",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/shenxinyong/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/xinyong-shen/5625730345cedb33985bf0d5"
+  }
+}

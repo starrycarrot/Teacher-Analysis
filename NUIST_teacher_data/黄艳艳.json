@@ -1,0 +1,87 @@
+{
+  "basic_info": {
+    "name": "黄艳艳",
+    "admin_role": [
+      ""
+    ],
+    "title": [
+      "副教授",
+      "副研究员"
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": []
+  },
+  "bio_details": {
+    "birth_year": "1986",
+    "education": {
+      "undergrad": "2005-2009 兰州大学 大气科学",
+      "master": "",
+      "phd": "2009-2014 中国科学院大气物理研究所 博士"
+    },
+    "work_experience": [
+      "2014-2015 美国夏威夷大学 访问学者",
+      "2014-2016 浙江大学 博士后",
+      "2016-2016 英国雷丁大学、牛津大学 访问学者",
+      "2016-至今 南京信息工程大学大气科学学院 教师",
+      "2016-至今 南京信息工程大学大气科学学院气候学系 副研究员"
+    ]
+  },
+  "likes": 286,
+  "academic": {
+    "research_fields": [
+      "气候动力学",
+      "气候变化",
+      "气候预测"
+    ],
+    "publications": [
+      {
+        "title_cn": "改进的蜣螂优化器、多头注意力和混合深度学习算法在中国宁夏地区地下水深度预测中的应用",
+        "title_en": "Application of the Improved Dung Beetle Optimizer, Muti-Head Attention and Hybrid Deep Learning Algorithms to Groundwater Depth Prediction in the Ningxia Area, China",
+        "year": 2025,
+        "journal": "ATMOSPHERIC AND OCEANIC SCIENCE LETTERS",
+        "DOI": "10.1016/j.aosl.2024.100497"
+      },
+      {
+        "title_cn": "为什么自21世纪初以来北亚的极端低温事件有所加强",
+        "title_en": "Why Have Extreme Low-Temperature Events in Northern Asia Strengthened Since the Turn of the 21st Century",
+        "year": 2025,
+        "journal": "Atmospheric Research",
+        "DOI": "10.1016/j.atmosres.2025.107919"
+      },
+      {
+        "title_cn": "如何2022年5月阿拉伯半岛前所未有的沙尘暴加剧了随后夏季中国创纪录的热浪",
+        "title_en": "How the unparalleled dust storm over the Arabian Peninsula in May 2022 exacerbated the record-breaking heatwave in China in the ensuing summer",
+        "year": 2025,
+        "journal": "Atmospheric Research",
+        "DOI": "108054"
+      },
+      {
+        "title_cn": "为什么自21世纪初以来北亚的极端低温事件有所加强？",
+        "title_en": "Why have extreme low-temperature events in northern Asia strengthened since the turn of the 21st century?",
+        "year": 2025,
+        "journal": "Atmospheric Research",
+        "DOI": "107919"
+      },
+      {
+        "title_cn": "CMIP6模型中欧亚地表气温的年代际预测技巧",
+        "title_en": "Decadal Prediction Skill for Eurasian Surface Air Temperature in CMIP6 Models",
+        "year": 2024,
+        "journal": "ATMOSPHERIC AND OCEANIC SCIENCE LETTERS",
+        "DOI": "10.1016/j.aosl.2023.100377"
+      },
+      {
+        "title_cn": "中国夏季降水的年代际变化与春季北极海冰的关系",
+        "title_en": "Decadal Variations in the Summer Precipitation Over Eastern China Associated With Spring Arctic Sea Ice",
+        "year": 2023,
+        "journal": "Journal of Geophysical Research: Atmospheres",
+        "DOI": "10.1029/2023JD039231"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/huangyanyan/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/yanyan-huang/615446bd9e795e7f16d3735d"
+  }
+}

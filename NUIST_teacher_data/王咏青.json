@@ -1,0 +1,74 @@
+{
+  "basic_info": {
+    "name": "王咏青",
+    "title": [
+      "教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1970",
+    "education": {
+      "undergrad": "1987-1991 南京气象学院 天气动力学",
+      "master": "1991-1994 南京气象学院 气象学",
+      "phd": "1999-2002 南京气象学院 气象学"
+    },
+    "work_experience": [
+      "2010-至今 南京信息工程大学 教授",
+      "2007-2009 美国夏威夷大学 访问学者",
+      "2002-2010 南京信息工程大学 副教授",
+      "2004-2006 南京大学 博士后",
+      "1994-2002 南京气象学院 讲师"
+    ]
+  },
+  "likes": 115,
+  "academic": {
+    "research_fields": [
+      "中尺度数值模拟",
+      "台风动力学",
+      "台风数值模拟",
+      "干旱动力学"
+    ],
+    "publications": [
+      {
+        "title_cn": "一次“大气河”背景下东北冷涡暴雨的诊断分析",
+        "title_en": "一次“大气河”背景下东北冷涡暴雨的诊断分析",
+        "year": 2018,
+        "journal": "高原气象",
+        "DOI": ""
+      },
+      {
+        "title_cn": "Chanchu 台风（0601）精细结构中的熵流特征分析",
+        "title_en": "Chanchu 台风（0601）精细结构中的熵流特征分析",
+        "year": 2018,
+        "journal": "热带气象学报",
+        "DOI": ""
+      },
+      {
+        "title_cn": "《热带天气动力学》课程建设",
+        "title_en": "《热带天气动力学》课程建设",
+        "year": 2018,
+        "journal": "教育教学论坛",
+        "DOI": ""
+      },
+      {
+        "title_cn": "Chanchu台风(0601)流出层的低理查森数特征分析",
+        "title_en": "Chanchu台风(0601)流出层的低理查森数特征分析",
+        "year": 2017,
+        "journal": "大气科学",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/wangyongqing/zh_CN/index.htm"
+  }
+}

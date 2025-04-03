@@ -1,0 +1,62 @@
+{
+  "basic_info": {
+    "name": "王玉洁",
+    "admin_role": [
+      ""
+    ],
+    "title": [
+      "研究员"
+    ],
+    "mentor_qualification": [],
+    "honors": [
+      "全国气候与气候变化标准化技术委员会委员"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1971*",
+    "education": {
+      "undergrad": "1989-1993 南京气象学院 农业气象",
+      "master": "兰州大学 气象学",
+      "phd": "南京大学 大气科学"
+    },
+    "work_experience": [
+      "南京信息工程大学大气科学学院研究员"
+    ]
+  },
+  "likes": 71,
+  "academic": {
+    "research_fields": [
+      "气候变化",
+      "气候应用",
+      "气候科普",
+      "气象灾害风险管理"
+    ],
+    "publications": [
+      {
+        "title_cn": "过去一个世纪的气候和植被变化：以中国西北天山为例",
+        "title_en": "Past Century Climate and Vegetation Change: A Case Study in Tianshan, Northwest China",
+        "year": 2025,
+        "journal": "Theoretical and Natural Science",
+        "DOI": "10.54254/2753-8818/2024.19361"
+      },
+      {
+        "title_cn": "全球变暖和城市化引发2023年夏季京津冀城市群破纪录高温事件",
+        "title_en": "Global Warming and Urbanization Triggering the Record-Breaking Heat Event in Summer 2023 over Beijing-Tianjin-Hebei Urban Agglomeration, China",
+        "year": 2025,
+        "journal": "URBAN CLIMATE",
+        "DOI": "10.1016/j.uclim.2024.102271"
+      },
+      {
+        "title_cn": "城市化加剧了中国三大城市群的复合极端高温",
+        "title_en": "Urbanization Amplified Compound Hot Extremes over the Three Major Urban Agglomerations in China",
+        "year": 2024,
+        "journal": "GEOPHYSICAL RESEARCH LETTERS",
+        "DOI": "10.1029/2023gl106644"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/wangyujie/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/yujie-wang/60d9a9e16750f85de6991f26"
+  }
+}

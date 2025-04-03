@@ -1,0 +1,63 @@
+{
+  "basic_info": {
+    "name": "孙晓娟",
+    "title": [
+      "副教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1978",
+    "education": {
+      "undergrad": "1998-2002 南京气象学院 计算机及应用",
+      "master": "2004-2007 南京信息工程大学 系统分析与集成",
+      "phd": "2008-2013 南京信息工程大学 气象学"
+    },
+    "work_experience": [
+      "2002-至今 南京信息工程大学 副教授",
+      "2010-2011 美国乔治梅森大学 访问学者"
+    ]
+  },
+  "likes": 54,
+  "academic": {
+    "research_fields": [
+      "大气环流异常及短期气候预测",
+      "极端天气/气候事件",
+      "气候变化"
+    ],
+    "publications": [
+      {
+        "title_cn": "我国南方持续性冰冻雨雪事件气候特征及其与环流组合性异常的联系",
+        "title_en": "",
+        "year": 2022,
+        "journal": "大气科学学报",
+        "DOI": ""
+      },
+      {
+        "title_cn": "冬季北半球大气活动中心的环流指数及其应用",
+        "title_en": "",
+        "year": 2015,
+        "journal": "大气科学学报",
+        "DOI": ""
+      },
+      {
+        "title_cn": "NASA卫星观测及模式资料和WMO气象站点资料的可视化集成简介",
+        "title_en": "Development of a Web-based Visualization Platform for Climate Research Using Google Earth",
+        "year": 2012,
+        "journal": "Computers & Geosciences",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/sunxiaojuan/zh_CN/index.htm"
+  }
+}

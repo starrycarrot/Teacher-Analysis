@@ -1,0 +1,56 @@
+{
+  "basic_info": {
+    "name": "赵久伟",
+    "title": [
+      "副教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "NA",
+    "education": {
+      "undergrad": "",
+      "master": "",
+      "phd": "2014-2019 南京信息工程大学 气象学"
+    },
+    "work_experience": [
+      "2016-2018 美国夏威夷大学马诺分校 联合培养",
+      "2019-2021 浦项科学技术大学 博士后",
+      "2021-至今 南京信息工程大学 大气科学学院"
+    ]
+  },
+  "likes": 1210,
+  "academic": {
+    "research_fields": [
+      "台风气候动力学",
+      "高分辨率数值模拟"
+    ],
+    "publications": [
+      {
+        "title_cn": "全球变暖和年代际太平洋振荡对北太平洋热带气旋路径长期变化的相对贡献",
+        "title_en": "Untangling impacts of global warming and Interdecadal Pacific Oscillation on long-term variability of North Pacific tropical cyclone track density",
+        "year": 2020,
+        "journal": "Science Advances",
+        "DOI": "eaba6813"
+      },
+      {
+        "title_cn": "年代际太平洋振荡对西北太平洋热带气旋生成频数自1998年以来急剧减少的贡献",
+        "title_en": "Contribution of Interdecadal Pacific Oscillation to the recent abrupt decrease in tropical cyclone genesis frequency over the western North Pacific since 1998",
+        "year": 2018,
+        "journal": "Journal of Climate",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/zhaojiuwei/zh_CN/index.htm"
+  }
+}

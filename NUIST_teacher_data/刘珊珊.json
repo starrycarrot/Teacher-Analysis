@@ -1,0 +1,67 @@
+{
+  "basic_info": {
+    "name": "刘珊珊",
+    "title": [
+      "副教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      "双创博士",
+      "国家奖学金"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1993*",
+    "education": {
+      "undergrad": "2011-2015 中山大学 应用气象学专业",
+      "master": "2015-2020 中国科学院大气物理研究所 气象学专业",
+      "phd": "2015-2020 中国科学院大气物理研究所 气象学专业"
+    },
+    "work_experience": [
+      "2024.07-至今 南京信息工程大学 副教授",
+      "2020.07-2024.06 南京信息工程大学 讲师",
+      "2023.01-2023.12 日本海洋研究开发机构（JAMSTEC） 访问学者"
+    ]
+  },
+  "likes": 230,
+  "academic": {
+    "research_fields": [
+      "气候变化",
+      "古气候模拟",
+      "海气相互作用",
+      "陆面干湿变化",
+      "副热带高压动力学"
+    ],
+    "publications": [
+      {
+        "title_cn": "印度洋偶极子在末次间冰期期间受平均海洋气候学调制的变化",
+        "title_en": "Indian Ocean Dipole changes during the Last Interglacial modulated by the mean oceanic climatology",
+        "year": 2024,
+        "journal": "Geophysical Research Letters",
+        "DOI": "10.1029/2023GL106153"
+      },
+      {
+        "title_cn": "PMIP4模拟的末次间冰期干旱地区干旱变化",
+        "title_en": "The PMIP4 simulated dryland aridity changes during the Last Interglacial",
+        "year": 2023,
+        "journal": "Environmental Research Letters",
+        "DOI": "10.1088/1748-9326/acf725"
+      },
+      {
+        "title_cn": "过去 21 ka 中国干湿变化的瞬变模拟分析",
+        "title_en": "Time-varying responses of dryland aridity to external forcings over the last 21 ka",
+        "year": 2021,
+        "journal": "Quaternary Science Reviews",
+        "DOI": "10.1016/j.quascirev.2021.106989"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/liushanshan/zh_CN/index.htm"
+  }
+}

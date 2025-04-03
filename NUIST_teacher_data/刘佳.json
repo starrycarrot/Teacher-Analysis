@@ -1,0 +1,61 @@
+{
+  "basic_info": {
+    "name": "刘佳",
+    "title": [
+      "讲师"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      ""
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1983",
+    "education": {
+      "undergrad": "2001-2005 南京气象学院 大气科学",
+      "master": "2005-2008 南京信息工程大学 大气科学",
+      "phd": "2009-2013 南京信息工程大学 大气科学"
+    },
+    "work_experience": [
+      "2013.06至今 南京信息工程大学 讲师"
+    ]
+  },
+  "likes": 80,
+  "academic": {
+    "research_fields": [
+      "台风与中尺度数值模拟",
+      "不同尺度环流相互作用"
+    ],
+    "publications": [
+      {
+        "title_cn": "西北太平洋夏季和秋季热带气旋数量的比较",
+        "title_en": "The Comparison of the Tropical Cyclone Number Over the Western North Pacific Between Summer and Autumn",
+        "year": 2020,
+        "journal": "Front. Earth Sci.",
+        "DOI": "10.3389/feart.2020.597912"
+      },
+      {
+        "title_cn": "ENSO对海洋大陆MJO模式演变的影响",
+        "title_en": "Impact of ENSO on MJO Pattern Evolution over the Maritime Continent",
+        "year": 2020,
+        "journal": "J. Meteor. Res.",
+        "DOI": ""
+      },
+      {
+        "title_cn": "台风“麦莎”的强度对台风前部飑线发展过程影响的研究",
+        "title_en": "",
+        "year": 2013,
+        "journal": "大气科学",
+        "DOI": ""
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/liujia1/zh_CN/index.htm"
+  }
+}

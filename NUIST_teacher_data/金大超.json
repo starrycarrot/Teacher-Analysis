@@ -1,0 +1,68 @@
+{
+  "basic_info": {
+    "name": "金大超",
+    "title": [
+      "副教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      "江苏省优秀博士学位论文",
+      "江苏省优秀硕士学位论文",
+      "国家奖学金"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1985",
+    "education": {
+      "undergrad": "2003-2007 南京信息工程大学 应用气象学",
+      "master": "2007-2010 南京信息工程大学 气象学",
+      "phd": "2010-2014 南京信息工程大学 气象学"
+    },
+    "work_experience": [
+      "2014.06-2022.06 南京信息工程大学 讲师",
+      "2022.07-至今 南京信息工程大学 副教授",
+      "2014.04-2016.03 会津大学 博士后",
+      "2016.04-2016.06 会津大学 访问学者"
+    ]
+  },
+  "likes": 115,
+  "academic": {
+    "research_fields": [
+      "人工智能方法在短临预报及气候预测中的应用",
+      "中国夏季降水异常的时空变化规律及成因",
+      "极端气候事件",
+      "热带海气相互作用"
+    ],
+    "publications": [
+      {
+        "title_cn": "2022年夏季热带印度洋-太平洋海温异常对长江中下游高温异常的影响",
+        "title_en": "Impact of tropical Indian Ocean-Pacific sea surface temperature anomalies on the high temperature anomalies in the middle and lower reaches of the Yangtze River in summer 2022",
+        "year": 2024,
+        "journal": "大气科学学报",
+        "DOI": ""
+      },
+      {
+        "title_cn": "不同配置的跨赤道气流对印度洋-西海洋大陆区域气候可预测性的影响",
+        "title_en": "Different Configurations of Cross-Equatorial Flows over the Indian Ocean–Western Maritime Continent and Their Implications for Improving Regional Climate Predictability",
+        "year": 2024,
+        "journal": "J. Climate",
+        "DOI": "10.1175/JCLI-D-23-0231.1"
+      },
+      {
+        "title_cn": "热带大西洋海温异常对东亚夏季风的影响",
+        "title_en": "Influence of tropical Atlantic sea surface temperature anomalies on the East Asian summer monsoon",
+        "year": 2018,
+        "journal": "Q J R Meteorol Soc",
+        "DOI": "10.1002/qj.3296"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/jindachao/zh_CN/index.htm"
+  }
+}

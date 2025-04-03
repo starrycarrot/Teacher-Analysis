@@ -1,0 +1,82 @@
+{
+  "basic_info": {
+    "name": "沈菲菲",
+    "admin_role": [
+      "担任气象灾害预报预警与评估协同创新中心的资料同化与强对流天气的模拟团队科研秘书，资料同化与数值预报团队科研秘书"
+    ],
+    "title": [
+      "副教授"
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      "2020-2024年暴雨科技重大进展",
+      "优秀班主任",
+      "优秀班主任称号",
+      "南京科技学术年会优秀论文奖",
+      "校级本科毕业论文优秀指导教师",
+      "江苏省基础科学领域十大科技进展",
+      "江苏省气象学会气象科技成果奖",
+      "龙山书院优秀学业导师"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "",
+    "education": {
+      "undergrad": "",
+      "master": "2007-2010 南京信息工程大学 气象学",
+      "phd": "2010-2016 南京信息工程大学 气象学"
+    },
+    "work_experience": [
+      "2013-2016 美国俄克拉荷马大学 访问研究",
+      "2013-2016 美国俄克拉荷马大学 风暴分析与预测中心（CAPS） 雷达资料同化算法和同化系统的研发",
+      "2016-至今 南京信息工程大学 教学科研岗",
+      "2019-至今 美国国家大气研究中心 访问研究",
+      "2019-至今 美国国家大气研究中心（NCAR） 雷达资料的同化研究工作"
+    ]
+  },
+  "likes": 1239,
+  "academic": {
+    "research_fields": [
+      "卫星遥感观测资料同化",
+      "多普勒天气雷达资料同化",
+      "集合变分混合同化系统研发",
+      "风能、太阳能等可再生能源研究"
+    ],
+    "publications": [
+      {
+        "title_cn": "同化雷达反射率对“21.7”河南极端暴雨分析和预报的影响",
+        "title_en": "The Impacts of Assimilating Radar Reflectivity for the Analysis and Forecast of “21.7” Henan Extreme Rainstorm Within the Gridpoint Statistical Interpolation–Ensemble Kalman Filter System: Issues with Updating Model State Variables",
+        "year": 2025,
+        "journal": "Remote Sensing",
+        "DOI": "10.3390/rs17030501"
+      },
+      {
+        "title_cn": "同化“Z-RH”关系伪观测对强对流个例分析和预报的影响",
+        "title_en": "Impact of Assimilating Pseudo-Observations Derived from the “Z-RH” Relation on Analyses and Forecasts of a Strong Convection Case",
+        "year": 2025,
+        "journal": "Advances in Atmospheric Sciences",
+        "DOI": "10.1007/s00376-024-3215-x"
+      },
+      {
+        "title_cn": "基于双偏振雷达资料的水凝物和水汽反演方法",
+        "title_en": "Impact of assimilating pseudo-observations derived from the “Z-RH” relation on analyses and forecasts of a strong convection case",
+        "year": 2025,
+        "journal": "Advances in Atmospheric Sciences",
+        "DOI": "10.1007/s00376-024-3215"
+      },
+      {
+        "title_cn": "双偏振雷达资料EnKF直接同化方法",
+        "title_en": "Impacts of assimilating polarimetric radar KDP observations with an ensemble Kalman filter on analyses and predictions of a rainstorm associated with Typhoon Hato (2017)",
+        "year": 2025,
+        "journal": "Quarter. J. Royal Meteor. Soc.",
+        "DOI": "e4943"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/shenfeifei/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/feifei-shen/60d9a5da6750f85de6991970"
+  }
+}

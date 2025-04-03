@@ -1,0 +1,66 @@
+{
+  "basic_info": {
+    "name": "Luo Jingjia",
+    "admin_role": [],
+    "title": [
+      "教授"
+    ],
+    "mentor_qualification": [
+      "博导"
+    ],
+    "honors": [
+      "日本政府教育、科技、文化、体育部“青年科学家奖”",
+      "日本海洋开发机构“研究功绩奖”"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "",
+    "education": {
+      "undergrad": "",
+      "master": "1993-1996 南京气象学院 气象学",
+      "phd": "1997-2001 日本东京大学 地球行星科学系"
+    },
+    "work_experience": [
+      "1996-1997 南京气象学院 讲师",
+      "2001-2004 日本海洋科技开发机构 博士后",
+      "2004-2008 日本海洋科技开发机构 Research scientist",
+      "2008-2011 日本海洋科技开发机构 Senior Scientist",
+      "2011-2018 澳大利亚气象局 Senior Scientist",
+      "2018-现在 南京信息工程大学 教授"
+    ]
+  },
+  "likes": 744,
+  "academic": {
+    "research_fields": [
+      "全球气候模式",
+      "全球气候模式研发",
+      "气候动力学",
+      "气候变化机制",
+      "气候模型开发",
+      "气候预测与应用",
+      "气候预测理论和方法及应用",
+      "热带气候变率",
+      "热带气候年际-年代际变化"
+    ],
+    "publications": [
+      {
+        "title_cn": "大西洋多年代际振荡对东南印度洋Ningaloo Niño/Niña强度的年代际调制",
+        "title_en": "Interdecadal Modulation of Ningaloo Niño/Niña Strength in the Southeast Indian Ocean by the Atlantic Multidecadal Oscillation",
+        "year": 2025,
+        "journal": "Nature communications",
+        "DOI": "10.1038/s41467-025-57160-7"
+      },
+      {
+        "title_cn": "CMIP6模型中厄尔尼诺缓慢衰减的研究",
+        "title_en": "On the Slow Decay of El Niño in CMIP6 Models",
+        "year": 2025,
+        "journal": "Geophysical Research Letters",
+        "DOI": "10.1029/2024gl112518"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/luojingjia1/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/jing-jia-luo/53f44f8bdabfaedd74e12db2"
+  }
+}

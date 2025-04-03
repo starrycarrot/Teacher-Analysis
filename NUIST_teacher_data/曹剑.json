@@ -1,0 +1,85 @@
+{
+  "basic_info": {
+    "name": "曹剑",
+    "title": [
+      "教授"
+    ],
+    "admin_role": [
+      "南京信息工程大学地球系统模拟中心主任"
+    ],
+    "mentor_qualification": [
+      "硕导"
+    ],
+    "honors": [
+      "",
+      "南京信息工程大学首届“十大青年科技之星”"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1986",
+    "education": {
+      "undergrad": "2004-2008 南京信息工程大学 计算机科学与技术专业",
+      "master": "2008-2011 南京信息工程大学 气象学专业",
+      "phd": "2011-2015 南京信息工程大学 气象学专业"
+    },
+    "work_experience": [
+      "2015-2018 美国夏威夷大学国际太平洋研究中心 博士后",
+      "2018- 南京信息工程大学大气科学学院 教授"
+    ]
+  },
+  "likes": 135,
+  "academic": {
+    "research_fields": [
+      "全球季风系统响应",
+      "古气候形成机理",
+      "热带气旋活动",
+      "地球系统模式研发",
+      "全球季风动力学",
+      "未来气候变化预估",
+      "热带气旋",
+      "地球系统模式"
+    ],
+    "publications": [
+      {
+        "title_cn": "硫酸盐浓度和氧化还原状态控制四川盆地T-OAE湖泊黄铁矿形成和硫循环",
+        "title_en": "Sulfate Concentration and Redox State Control the Pyrite Formation and Sulfur Cycle in a T-OAE Lake, Sichuan Basin, China",
+        "year": 2025,
+        "journal": "CHEMICAL GEOLOGY",
+        "DOI": "10.1016/j.chemgeo.2025.122622"
+      },
+      {
+        "title_cn": "人为气溶胶主导了过去四十年来中国东南部蒸散量年代际变化",
+        "title_en": "Anthropogenic Aerosol Dominates the Decadal Change in Evapotranspiration over Southeastern China in the Past Four Decades",
+        "year": 2025,
+        "journal": "Remote Sensing",
+        "DOI": "10.3390/rs17030561"
+      },
+      {
+        "title_cn": "理解CMIP6模式中PDO对西北太平洋热带气旋频率影响的模式间差异",
+        "title_en": "Understanding the Inter-Model Spread of PDO’s Impact on Tropical Cyclone Frequency over the Western North Pacific in CMIP6 Models",
+        "year": 2024,
+        "journal": "Atmosphere",
+        "DOI": "10.3390/atmos15030276"
+      },
+      {
+        "title_cn": "1901-2014年南半球陆地季风湿润化",
+        "title_en": "Wettening of Southern Hemisphere land monsoon during 1901-2014",
+        "year": 2023,
+        "journal": "Journal of Climate",
+        "DOI": "10.1175/JCLI-D-23-0066.1"
+      },
+      {
+        "title_cn": "人为气溶胶和温室气体对全球尺度热带气旋生成潜势的反向和可比气候影响",
+        "title_en": "Reversed and comparable climate impacts from historical anthropogenic aerosol and GHG on global-scale tropical cyclone genesis potential",
+        "year": 2022,
+        "journal": "Environmental Research Letters",
+        "DOI": "10.1088/1748-9326/ac8b9a"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/caojian/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/jian-cao/54054fe6dabfae450f3a3dc7"
+  },
+  "work_experience": []
+}

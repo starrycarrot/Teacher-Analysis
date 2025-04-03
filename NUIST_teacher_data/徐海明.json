@@ -1,0 +1,71 @@
+{
+  "basic_info": {
+    "name": "徐海明",
+    "title": [
+      "教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "博导",
+      "硕导"
+    ],
+    "honors": [
+      "江苏省教学名师",
+      "江苏省优秀科技工作者",
+      "江苏省333高层次人才培养工程中青年科学技术带头人"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1964",
+    "education": {
+      "undergrad": "1981-1985 南京大学 气象学",
+      "master": "1985-1988 南京大学 大气科学",
+      "phd": "1996-1999 南京气象学院 大气科学"
+    },
+    "work_experience": [
+      "1988-1991 国家海洋局海洋环境预报中心 助理工程师",
+      "1991-1992 南京气象学院 气象系 助教",
+      "1992-1997 南京气象学院 气象系 讲师",
+      "1997-2002 南京气象学院 大气科学系 副教授",
+      "2002-2005 美国夏威夷大学 国际太平洋研究中心 博士后",
+      "2003-至今 南京信息工程大学 大气科学系 教授"
+    ]
+  },
+  "likes": 560,
+  "academic": {
+    "research_fields": [
+      "海气相互作用",
+      "区域气候变化",
+      "东亚季风变化",
+      "中国气候异常"
+    ],
+    "publications": [
+      {
+        "title_cn": "青藏高原-蒙古高原对东亚冬季气温的调制作用及其与西伯利亚高压天气演变的联系",
+        "title_en": "Modulation effects of the Tibetan-Mongolian Plateaus on East Asian winter air temperature associated with synoptic evolution of Siberian high",
+        "year": 2024,
+        "journal": "Climate Dynamics",
+        "DOI": "10.1007/s00382-024-07404-x"
+      },
+      {
+        "title_cn": "中国东北地区地表风速趋势逆转：气溶胶排放的影响",
+        "title_en": "The reversal of surface wind speed trend in Northeast China: Impact from aerosol emissions",
+        "year": 2024,
+        "journal": "Climate Dynamics",
+        "DOI": "10.1007/s00382-024-07544-0"
+      },
+      {
+        "title_cn": "NUIST-CFS1.0预报系统中海洋热浪的预测能力及其可预测性来源",
+        "title_en": "The forecast skills and predictability sources of marine heatwaves in the NUIST-CFS1.0 hindcasts",
+        "year": 2024,
+        "journal": "Advance in Atmospheric Sciences",
+        "DOI": "10.1007/s00376-023-3139-x"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/xuhaiming/zh_CN/index.htm"
+  }
+}

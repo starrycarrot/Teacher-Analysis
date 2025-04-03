@@ -1,0 +1,70 @@
+{
+  "basic_info": {
+    "name": "周洋",
+    "admin_role": [
+      "系副主任"
+    ],
+    "title": [
+      "副教授",
+      "讲师"
+    ],
+    "mentor_qualification": [
+      "博导",
+      "硕导"
+    ],
+    "honors": []
+  },
+  "bio_details": {
+    "birth_year": "1984",
+    "education": {
+      "undergrad": "2002-2006 南京信息工程大学 大气科学专业",
+      "master": "NA",
+      "phd": "2006-2011 南京大学 大气科学学院"
+    },
+    "work_experience": [
+      "2011-2017 南京大学 助理研究员",
+      "2011-2017 南京大学大气科学学院 助理研究员",
+      "2017-2022 南京信息工程大学 讲师",
+      "2017-至今 南京信息工程大学大气科学学院 讲师",
+      "2022-至今 南京信息工程大学 副教授"
+    ]
+  },
+  "likes": 321,
+  "academic": {
+    "research_fields": [
+      "大气外强迫对东亚次季节气候变率的影响",
+      "大气次季节变率",
+      "气候动力学",
+      "热带大气次季节变率对中高纬气候影响",
+      "陆面过程对大气季节内变化的影响及其机理",
+      "陆面过程对大气次季节变率的影响"
+    ],
+    "publications": [
+      {
+        "title_cn": "聚类异常环流及其对冬季中国东北地区最低2米气温预测的影响",
+        "title_en": "Clustering Anomalous Circulations and Their Implications on the Prediction of Minimum 2m Air Temperature over Northeastern China during Winter",
+        "year": 2024,
+        "journal": "Mon. Wea. Rev.",
+        "DOI": "10.1175/MWR-D-24-0014.1"
+      },
+      {
+        "title_cn": "利用准周期信号进行S2S业务预报的深度学习视角",
+        "title_en": "Taking Advantage of Quasi-Periodic Signals for S2S Operational Forecast from a Perspective of Deep Learning",
+        "year": 2023,
+        "journal": "Scientific Reports",
+        "DOI": "10.1038/s41598-023-31394-1"
+      },
+      {
+        "title_cn": "深度学习对中国东部夏季卫星表面土壤湿度的日时空连续性",
+        "title_en": "Deep Learning for Daily Spatiotemporally Continuity of Satellite Surface Soil Moisture over Eastern China in Summer",
+        "year": 2023,
+        "journal": "J. Hydrol.",
+        "DOI": "10.1016/j.jhydrol.2023.129308"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/zhouyang/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/yang-zhou/615446c06750f8727fa84748"
+  }
+}

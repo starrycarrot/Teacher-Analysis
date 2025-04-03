@@ -1,0 +1,46 @@
+{
+  "basic_info": {
+    "name": "LE VINH THANH",
+    "title": [
+      "教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      ""
+    ],
+    "honors": [
+      ""
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1984*",
+    "education": {
+      "undergrad": "2002-2007 Hanoi University of Civil Engineering 工学学士",
+      "master": "2010-2012 Sejong University 工程硕士",
+      "phd": "2012-2016 Lund University 哲学博士学位"
+    },
+    "work_experience": [
+      "2012-2016 Lund University",
+      "2018-2023 Sejong University",
+      "2023-至今 Nanjing University of Information Science and Technology"
+    ]
+  },
+  "likes": 10,
+  "academic": {
+    "research_fields": [
+      "North Atlantic Oscillation",
+      "Indian Ocean Dipole",
+      "El Niño-Southern Oscillation",
+      "global hydroclimate",
+      "ecosystems",
+      "stratospheric changes",
+      "troposphere"
+    ],
+    "publications": []
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/LEVINHTHANH/zh_CN/index.htm"
+  }
+}

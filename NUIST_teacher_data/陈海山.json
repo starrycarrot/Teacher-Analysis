@@ -1,0 +1,125 @@
+{
+  "basic_info": {
+    "name": "陈海山",
+    "admin_role": [
+      ""
+    ],
+    "title": [
+      "教授"
+    ],
+    "mentor_qualification": [
+      "博导"
+    ],
+    "honors": []
+  },
+  "bio_details": {
+    "birth_year": "1973*",
+    "education": {
+      "undergrad": "1991-1995 南京气象学院 天气动力学专业",
+      "master": "1995-1998 南京气象学院 天气动力学专业",
+      "phd": "1999-2002 南京气象学院 气象学专业"
+    },
+    "work_experience": [
+      "1998.07-2000.08 南京气象学院 助教",
+      "2000.09-2004.06 南京信息工程大学 讲师",
+      "2002.11-2005.03 南京信息工程大学 系主任助理",
+      "2004.07-2005.03 南京信息工程大学 副教授",
+      "2005.03-2005.08 南京信息工程大学 系副主任",
+      "2005.04-2007.03 美国佐治亚理工学院 博士后",
+      "2007.04-2011.10 南京信息工程大学 江苏省气象灾害重点实验室副主任",
+      "2007.07-至今 南京信息工程大学 教授",
+      "2007.10-至今 南京信息工程大学 博士生导师",
+      "2011.10-2014.09 南京信息工程大学 大气科学学院副院长",
+      "2011.11-2014.06 南京信息工程大学 气象灾害教育部重点实验室常务副主任",
+      "2012.01-2013.01 中国气象局国家气候中心 主任助理",
+      "2013.03-至今 中国气象局气候研究开放实验室 客座教授",
+      "2014.06-2023.02 气象灾害预报预警与评估协同创新中心 执行主任",
+      "2014.06-至今 气象灾害教育部重点实验室 主任",
+      "2014.09-2017.11 南京信息工程大学 大气科学学院常务副院长",
+      "2017.11-2022.08 南京信息工程大学 大气科学学院院长、气象与环境联合研究中心主任",
+      "2022.07-至今 南京信息工程大学 副校长"
+    ]
+  },
+  "likes": 1524,
+  "academic": {
+    "research_fields": [
+      "大气科学",
+      "气候建模",
+      "陆气相互作用",
+      "陆面模式评估、改进和发展",
+      "陆面水文、生态系统对气候变化的响应及陆气相互作用",
+      "陆面过程与区域气候模拟",
+      "陆面过程与气候数值模拟",
+      "陆面过程影响东亚季风、中国气候的观测和数值模拟"
+    ],
+    "publications": [
+      {
+        "title_cn": "中南半岛大陆西南季风中断和活跃阶段的季节内变化及物理特征",
+        "title_en": "Intraseasonal Variability and Physical Characteristics of the Break and Active Phases of the Mainland Indochina Southwest Monsoon",
+        "year": 2025,
+        "journal": "INTERNATIONAL JOURNAL OF CLIMATOLOGY",
+        "DOI": "10.1002/joc.8709"
+      },
+      {
+        "title_cn": "俄罗斯远东春季雪盖异常对中国东北初夏降水变化的影响",
+        "title_en": "Impact of Spring Snow Cover Anomaly over the Russian Far East on the Early Summer Precipitation Variability in Northeast China",
+        "year": 2025,
+        "journal": "JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES",
+        "DOI": "10.1029/2024jd042118"
+      },
+      {
+        "title_cn": "基于机器学习的中国夏季降水延伸期预报及土壤湿度的可能贡献",
+        "title_en": "Machine Learning-Based Prediction of Summer Extended-Range Precipitation and Possible Contribution",
+        "year": 2024,
+        "journal": "Gaoyuan qixiang",
+        "DOI": "10.7522/j.issn.1000-0534.2023.00025"
+      },
+      {
+        "title_cn": "中国夏季降水与前季节海表温度的非线性关系：统计证明",
+        "title_en": "nonlinear relationship between summer precipitation in China and the sea surface temperature in preceding seasons: A statistical demonstration",
+        "year": 2015,
+        "journal": "J.Geophys.Res.-Atmos.",
+        "DOI": "10.1002/2015JD024030"
+      },
+      {
+        "title_cn": "东非气候诊断与极端干湿事件相关的环流机制：基于RegCM4的研究",
+        "title_en": "Diagnosis of East African climate and the circulation mechanisms associated with extreme wet and dry events: A study based on RegCM4",
+        "year": 2015,
+        "journal": "Arab. J. Geosci.",
+        "DOI": "10.1007/s12517-015-1949-6"
+      },
+      {
+        "title_cn": "量化中国1月异常温度事件低频流上的天气尺度涡旋反馈",
+        "title_en": "Quantifying synoptic eddy feedback onto the low-frequency flow associated with anomalous temperature events in January over China",
+        "year": 2015,
+        "journal": "Int. J. Climatol",
+        "DOI": "10.1002/joc.4135"
+      },
+      {
+        "title_cn": "台风海葵（1211）倒槽引发的极端降水事件中冷空气影响分析",
+        "title_en": "Analysis of the cold air effect on an extreme precipitation event triggered by an inverted trough of Typhoon Haikui (1211)",
+        "year": 2015,
+        "journal": "J. Trop. Meteor.",
+        "DOI": ""
+      },
+      {
+        "title_cn": "青藏高原复杂地表上陆地表面-空气温度差异的高空间分辨率卫星观测反演",
+        "title_en": "Retrieval of the land surface-air temperature difference from high spatial resolution satellite observations over complex surfaces in the Tibetan Plateau",
+        "year": 2015,
+        "journal": "J.Geophys.Res.-Atmos.",
+        "DOI": "10.1002/2015JD023395"
+      },
+      {
+        "title_cn": "自1979年以来观测到的干旱生态区更强的增暖放大效应",
+        "title_en": "Stronger warming amplification effects over drier ecoregions observed since 1979",
+        "year": 2015,
+        "journal": "Environ. Res. Lett.",
+        "DOI": "10.1088/1748-/064012"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/chenhaishan/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/haishan-chen/54491420dabfae1e04143cba"
+  }
+}

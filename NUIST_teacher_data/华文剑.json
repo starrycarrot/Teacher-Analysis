@@ -1,0 +1,96 @@
+{
+  "basic_info": {
+    "name": "华文剑",
+    "admin_role": [
+      ""
+    ],
+    "title": [
+      "教授"
+    ],
+    "mentor_qualification": [
+      "博导"
+    ],
+    "honors": [
+      "南京信息工程大学“青年五四标兵”",
+      "南京信息工程大学优秀博士学位论文",
+      "南京信息工程大学优秀班主任",
+      "江苏大气科学基础研究成果奖一等奖",
+      "江苏省优秀博士学位论文",
+      "江苏省第六期“333高层次人才培养工程”中青年学术技术带头人",
+      "研究生国家奖学金",
+      "第十二届“清华大学–浪潮集团计算地球科学青年人才奖”"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1986*",
+    "education": {
+      "undergrad": "2004-2008 南京信息工程大学 大气科学",
+      "master": "",
+      "phd": "2008-2014 南京信息工程大学 气象学"
+    },
+    "work_experience": [
+      "2014-2019 南京信息工程大学 讲师",
+      "2014-2019 南京信息工程大学大气科学学院 讲师",
+      "2016-2017 University at Albany SUNY 博士后",
+      "2016-2017 University at Albany，SUNY 博士后",
+      "2017-2018 University at Albany SUNY Research Scientist",
+      "2017-2018 University at Albany，SUNY Research Scientist",
+      "2019-至今 南京信息工程大学 教授",
+      "2019-至今 南京信息工程大学大气科学学院 教授"
+    ]
+  },
+  "likes": 722,
+  "academic": {
+    "research_fields": [
+      "人类活动对气候系统的影响",
+      "土地利用/土地覆盖变化的气候效应",
+      "年代际气候变化",
+      "植被与气候相互作用",
+      "气候变化与人类活动",
+      "气候变率与变化",
+      "海陆气相互作用",
+      "陆面过程与气候数值模拟"
+    ],
+    "publications": [
+      {
+        "title_cn": "热带北大西洋变率调节中国东北火灾季节燃烧面积的变化",
+        "title_en": "Changes in Fire-Season Burned Area in Northeastern China Regulated by Tropical North Atlantic Variability",
+        "year": 2024,
+        "journal": "ENVIRONMENTAL RESEARCH LETTERS",
+        "DOI": "10.1088/1748-9326/ad95a4"
+      },
+      {
+        "title_cn": "北半球冬季与北大西洋涛动(NAO)相关的撒哈拉温度年际遥相关",
+        "title_en": "Interannual Teleconnections in the Sahara Temperatures Associated with the North Atlantic Oscillation (NAO) During Boreal Winter",
+        "year": 2024,
+        "journal": "CLIMATE DYNAMICS",
+        "DOI": "10.1007/s00382-023-06962-w"
+      },
+      {
+        "title_cn": "外强迫与内部变率对1950年来大西洋多年代际变化的影响",
+        "title_en": "Impacts of external forcing and internal variability on the North Atlantic multidecadal variations since 1950",
+        "year": 2024,
+        "journal": "Science China Earth Sciences",
+        "DOI": "10.1007/s11430-024-1378-y"
+      },
+      {
+        "title_cn": "CMIP6模型中森林砍伐对云量变化的重要非局地效应",
+        "title_en": "Important non-local effects of deforestation on cloud cover changes in CMIP6 models",
+        "year": 2023,
+        "journal": "Environmental Research Letters",
+        "DOI": "10.1088/1748-9326/acf232"
+      },
+      {
+        "title_cn": "1960年以来亚洲人为气溶胶对东亚中部夏季温度影响较小",
+        "title_en": "Little Influence of Asian Anthropogenic Aerosols on Summer Temperature in Central East Asia Since 1960",
+        "year": 2022,
+        "journal": "Geophysical Research Letters",
+        "DOI": "10.1029/2022gl097946"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/huawenjian/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/wenjian-hua/61013f5f9e795e5456592663"
+  }
+}

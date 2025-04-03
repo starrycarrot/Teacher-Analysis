@@ -1,0 +1,69 @@
+{
+  "basic_info": {
+    "name": "徐邦琪",
+    "title": [
+      "教授"
+    ],
+    "admin_role": [
+      ""
+    ],
+    "mentor_qualification": [
+      "博导"
+    ],
+    "honors": [
+      "江苏省特聘教授",
+      "十佳全国优秀青年气象科技工作者"
+    ]
+  },
+  "bio_details": {
+    "birth_year": "1977",
+    "education": {
+      "undergrad": "1995-1999 台湾师范大学 地球科学系",
+      "master": "1999-2001 台湾师范大学 地球科学研究所（大气科学专业）",
+      "phd": "2003-2008 台湾师范大学 地球科学研究所（大气科学专业）"
+    },
+    "work_experience": [
+      "2013-至今 南京信息工程大学 教授",
+      "2012-2012 美国夏威夷大学International Pacific Research Center（IPRC）助理研究员",
+      "2012-2012 日本气象研究所气候中心 访问研究员",
+      "2010-2012 美国夏威夷大学IPRC 博士后",
+      "2009-2010 美国夏威夷大学IPRC 访问博士后",
+      "2008-2008 台湾师范大学 博士后",
+      "2001-2008 台湾师范大学 助理研究员"
+    ]
+  },
+  "likes": 967,
+  "academic": {
+    "research_fields": [
+      "季节内振荡",
+      "尺度相互作用",
+      "次季节至季节预报"
+    ],
+    "publications": [
+      {
+        "title_cn": "南极夏季东印度洋年代际变化对马登-朱利安振荡的影响",
+        "title_en": "East Antarctic cooling induced by decadal changes in Madden-Julian oscillation during austral summer",
+        "year": 2021,
+        "journal": "Science Advances",
+        "DOI": "10.1126/sciadv.abf9903"
+      },
+      {
+        "title_cn": "未来东亚登陆热带气旋频率和破坏性的变化",
+        "title_en": "Future changes in the frequency and destructiveness of landfalling tropical cyclones over East Asia projected by high-resolution AGCMs",
+        "year": 2021,
+        "journal": "Earth's Future",
+        "DOI": "10.1029/2020EF001888"
+      },
+      {
+        "title_cn": "2018年东北亚创纪录热浪的形成和次季节可预报性中西部太平洋异常增强的MJO的作用",
+        "title_en": "Role of abnormally enhanced MJO over the Western Pacific in the formation and subseasonal predictability of the record-breaking Northeast Asian heatwave in the summer of 2018",
+        "year": 2020,
+        "journal": "Journal of Climate",
+        "DOI": "10.1175/JCLI-D-19-0337.1"
+      }
+    ]
+  },
+  "data_sources": {
+    "school_url": "https://faculty.nuist.edu.cn/xubangqi/zh_CN/index.htm"
+  }
+}
