@@ -1,11 +1,11 @@
 {
   "basic_info": {
     "name": "张文君",
-    "title": [
-      "教授"
-    ],
     "admin_role": [
       "南京信息工程大学十一届学术委员会委员"
+    ],
+    "title": [
+      "教授"
     ],
     "mentor_qualification": [
       "博导",
@@ -13,44 +13,68 @@
     ],
     "honors": [
       "国家杰出青年基金获得者",
+      "江苏省特聘教授",
       "江苏省重大人才工程B类特聘教授",
       "江苏省高校优秀科技创新团队带头人"
     ]
   },
   "bio_details": {
-    "birth_year": "",
+    "birth_year": "1981*",
     "education": {
-      "undergrad": "",
-      "master": "",
-      "phd": ""
+      "undergrad": "1999-2003 兰州大学 大气科学",
+      "master": "2003-2006 中国科学院大气物理研究所 气象学",
+      "phd": "2006-2009 中国科学院大气物理研究所 气象学"
     },
-    "work_experience": []
+    "work_experience": [
+      "2009-2013 南京信息工程大学大气科学学院 讲师",
+      "2010-2012 美国夏威夷大学气象系 博士后",
+      "2013-至今 南京信息工程大学大气科学学院 教授",
+      "2014-2014 英国雷丁大学气象系 高级访问学者",
+      "2015-2015 美国夏威夷大学气象系 高级访问学者"
+    ]
   },
   "likes": 667,
   "academic": {
     "research_fields": [
       "ENSO动力学",
+      "东亚气候变异及模拟",
+      "大尺度海-气相互作用动力学",
       "大尺度海气相互作用动力学",
-      "东亚气候变异及模拟"
+      "热带太平洋ElNino-SouthernOscillation（ENSO）动力学"
     ],
     "publications": [
       {
-        "title_cn": "热带太平洋和热带南大西洋同步的年代际气候变率",
-        "title_en": "Synchronous decadal climate variability in the tropical central Pacific and tropical South Atlantic",
-        "year": 2024,
-        "journal": "npj Climate and Atmospheric Science",
-        "DOI": "10.1038/s41612-024-00638-w"
+        "title_cn": "大西洋多年代际振荡对东南印度洋Ningaloo Niño/Niña强度的年代际调制",
+        "title_en": "Interdecadal Modulation of Ningaloo Niño/Niña Strength in the Southeast Indian Ocean by the Atlantic Multidecadal Oscillation",
+        "year": 2025,
+        "journal": "Nature communications",
+        "DOI": "10.1038/s41467-025-57160-7"
       },
       {
-        "title_cn": "量化冬季北太平洋涛动对后续ENSO的放大效应",
-        "title_en": "Quantifying the amplifying effect of the winter North Pacific Oscillation on the subsequent ENSO",
-        "year": 2024,
+        "title_cn": "理解南太平洋振荡与ENSO的关系",
+        "title_en": "Understanding the Relationship Between South Pacific Oscillation and ENSO",
+        "year": 2025,
+        "journal": "GEOPHYSICAL RESEARCH LETTERS",
+        "DOI": "10.1029/2024gl112781"
+      },
+      {
+        "title_cn": "重新审视ENSO/印度洋偶极子相位关系",
+        "title_en": "Revisiting ENSO/Indian Ocean Dipole phase relationships",
+        "year": 2017,
         "journal": "Geophysical Research Letters",
-        "DOI": "10.1029/2024GL111019"
+        "DOI": "10.1002/2016GL072308"
+      },
+      {
+        "title_cn": "El Niño对东亚季风和长江夏季洪水的影响",
+        "title_en": "Unraveling El Niño’s impact on the East Asian Monsoon and Yangtze River summer flooding",
+        "year": 2016,
+        "journal": "Geophysical Research Letters",
+        "DOI": "10.1002/2016GL071190"
       }
     ]
   },
   "data_sources": {
-    "school_url": "https://faculty.nuist.edu.cn/zhangwenjun/zh_CN/index.htm"
+    "school_url": "https://faculty.nuist.edu.cn/zhangwenjun/zh_CN/index.htm",
+    "aminer_url": "https://www.aminer.cn/profile/wenjun-zhang/615446bd6750f8727fa84744"
   }
 }
